@@ -12,3 +12,11 @@ node_modules/
 
 # Specific large files
 11_DATA_SCIENCE/11_DATA_SCIENCE/DataScience_basics.pdf
+
+# Ignore all .venv folders
+**/.venv/
+
+# Ignore typical Python virtual environment names
+**/venv/
+**/.virtualenv/
+**/env/
