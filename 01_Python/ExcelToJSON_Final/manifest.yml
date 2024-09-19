@@ -1,0 +1,6 @@
+applications:
+- name: excel-to-json
+  random-route: true
+  memory: 1024M
+  command: python App.py
+  timeout: 300

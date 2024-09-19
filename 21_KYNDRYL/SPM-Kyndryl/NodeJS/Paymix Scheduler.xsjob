@@ -1,0 +1,9 @@
+{
+	"description": "To run Paymix Job",
+	"action": "KYNDRYLSDI.DB::Synonym_0_PAYMIX_PIPELINE",
+	"schedules": [{
+		"description": "To run Paymix Job", 
+		"xscron": "* * * * 23 58 20",
+		"parameter": {} 
+	}]
+}

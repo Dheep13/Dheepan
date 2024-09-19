@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>List of Payees</title>
+</head>
+<body>
+    <h1>List of Payees</h1>
+    <ul>
+    {% for payee in payees %}
+        <li>{{ payee }}</li>
+    {% endfor %}
+    </ul>
+</body>
+</html>

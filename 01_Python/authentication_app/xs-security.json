@@ -1,0 +1,22 @@
+{
+    "xsappname": "simple_auth_app",
+    "tenant-mode": "dedicated",
+    "description": "A simple Flask app with XSUAA authentication",
+    "scopes": [
+      {
+        "name": "$XSAPPNAME.user",
+        "description": "Basic user scope"
+      }
+    ],
+    "attributes": [],
+    "role-templates": [
+      {
+        "name": "BasicUser",
+        "description": "Role for basic users",
+        "scope-references": [
+          "$XSAPPNAME.user"
+        ]
+      }
+    ]
+  }
+  

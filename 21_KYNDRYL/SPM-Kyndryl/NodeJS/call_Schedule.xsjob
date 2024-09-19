@@ -1,0 +1,9 @@
+{
+	"description": "Call the Schedule job",
+	"action": "call_Schedule.xsjs::callProc",
+	"schedules": [{
+		"description": "Perform call_Schedule.xsjs::callProc",
+		"xscron": "* * * * * * 2",
+		"parameter": {}
+	}]
+}
