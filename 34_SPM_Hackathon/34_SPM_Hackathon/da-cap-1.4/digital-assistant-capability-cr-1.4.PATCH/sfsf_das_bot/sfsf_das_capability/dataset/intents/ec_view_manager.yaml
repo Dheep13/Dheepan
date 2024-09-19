@@ -1,0 +1,17 @@
+description: ec_view_manager
+examples:
+    - who is the line mgr of [Alex](person)?
+    - Where do I look at the manager of hers?
+    - View [Leo](person)'s direct manager
+    - Try to have a look at their direct leader.
+    - Let me check my immediate manager.
+    - Let me check her immediate manager.
+    - "[Leo](person)'s direct mgr"
+    - "[Leo](person)'s direct manager"
+    - I'm trying to look up my own supervisor.
+    - I would like to see their team leader.
+    - I would like to see my team leader.
+    - I need to look at my own immediate superior.
+    - give me the name of my direct manager
+    - direct mgr
+    - Can you check my manager?

@@ -1,0 +1,145 @@
+Validation,Channel,NonWorkDate,
+,Pick from drop down,YYYY-MM-DD,Weekday formula for reference. Optional field
+OK,BSC,2024/01/01,Mon
+OK,BSC,2024/02/12,Mon
+OK,BSC,2024/02/13,Tue
+OK,BSC,2024/03/29,Fri
+OK,BSC,2024/04/10,Wed
+OK,BSC,2024/05/01,Wed
+OK,BSC,2024/05/22,Wed
+OK,BSC,2024/06/17,Mon
+OK,BSC,2024/08/09,Fri
+OK,BSC,2024/10/31,Thu
+OK,BSC,2024/12/25,Wed
+OK,Advertising,2024/01/01,Mon
+OK,Advertising,2024/02/12,Mon
+OK,Advertising,2024/02/13,Tue
+OK,Advertising,2024/03/29,Fri
+OK,Advertising,2024/04/10,Wed
+OK,Advertising,2024/05/01,Wed
+OK,Advertising,2024/05/22,Wed
+OK,Advertising,2024/06/17,Mon
+OK,Advertising,2024/08/09,Fri
+OK,Advertising,2024/10/31,Thu
+OK,Advertising,2024/12/25,Wed
+OK,Direct Sales,2024/01/01,Mon
+OK,Direct Sales,2024/02/12,Mon
+OK,Direct Sales,2024/02/13,Tue
+OK,Direct Sales,2024/03/29,Fri
+OK,Direct Sales,2024/04/10,Wed
+OK,Direct Sales,2024/05/01,Wed
+OK,Direct Sales,2024/05/22,Wed
+OK,Direct Sales,2024/06/17,Mon
+OK,Direct Sales,2024/08/09,Fri
+OK,Direct Sales,2024/10/31,Thu
+OK,Direct Sales,2024/12/25,Wed
+OK,Singtel TV Telesales,2024/01/01,Mon
+OK,Singtel TV Telesales,2024/02/12,Mon
+OK,Singtel TV Telesales,2024/02/13,Tue
+OK,Singtel TV Telesales,2024/03/29,Fri
+OK,Singtel TV Telesales,2024/04/10,Wed
+OK,Singtel TV Telesales,2024/05/01,Wed
+OK,Singtel TV Telesales,2024/05/22,Wed
+OK,Singtel TV Telesales,2024/06/17,Mon
+OK,Singtel TV Telesales,2024/08/09,Fri
+OK,Singtel TV Telesales,2024/10/31,Thu
+OK,Singtel TV Telesales,2024/12/25,Wed
+OK,Prepaid Internal,2024/01/01,Mon
+OK,Prepaid Internal,2024/02/12,Mon
+OK,Prepaid Internal,2024/02/13,Tue
+OK,Prepaid Internal,2024/03/29,Fri
+OK,Prepaid Internal,2024/04/10,Wed
+OK,Prepaid Internal,2024/05/01,Wed
+OK,Prepaid Internal,2024/05/22,Wed
+OK,Prepaid Internal,2024/06/17,Mon
+OK,Prepaid Internal,2024/08/09,Fri
+OK,Prepaid Internal,2024/10/31,Thu
+OK,Prepaid Internal,2024/12/25,Wed
+OK,Singtel Shop,2024/01/01,Mon
+OK,Singtel Shop,2024/02/12,Mon
+OK,Singtel Shop,2024/02/13,Tue
+OK,Singtel Shop,2024/03/29,Fri
+OK,Singtel Shop,2024/04/10,Wed
+OK,Singtel Shop,2024/05/01,Wed
+OK,Singtel Shop,2024/05/22,Wed
+OK,Singtel Shop,2024/06/17,Mon
+OK,Singtel Shop,2024/08/09,Fri
+OK,Singtel Shop,2024/10/31,Thu
+OK,Singtel Shop,2024/12/25,Wed
+OK,RCM,2024/01/01,Mon
+OK,RCM,2024/02/12,Mon
+OK,RCM,2024/02/13,Tue
+OK,RCM,2024/03/29,Fri
+OK,RCM,2024/04/10,Wed
+OK,RCM,2024/05/01,Wed
+OK,RCM,2024/05/22,Wed
+OK,RCM,2024/06/17,Mon
+OK,RCM,2024/08/09,Fri
+OK,RCM,2024/10/31,Thu
+OK,RCM,2024/12/25,Wed
+OK,Digital Sales - Telesales,2024/01/01,Mon
+OK,Digital Sales - Telesales,2024/02/12,Mon
+OK,Digital Sales - Telesales,2024/02/13,Tue
+OK,Digital Sales - Telesales,2024/03/29,Fri
+OK,Digital Sales - Telesales,2024/04/10,Wed
+OK,Digital Sales - Telesales,2024/05/01,Wed
+OK,Digital Sales - Telesales,2024/05/22,Wed
+OK,Digital Sales - Telesales,2024/06/17,Mon
+OK,Digital Sales - Telesales,2024/08/09,Fri
+OK,Digital Sales - Telesales,2024/10/31,Thu
+OK,Digital Sales - Telesales,2024/12/25,Wed
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,

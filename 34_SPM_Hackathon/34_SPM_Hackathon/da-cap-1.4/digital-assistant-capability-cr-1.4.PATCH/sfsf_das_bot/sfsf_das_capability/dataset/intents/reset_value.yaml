@@ -1,0 +1,25 @@
+examples:
+  - I want to reset value
+  - reset value
+  - reset_value
+  - no selection
+  - no_selection
+  - set the value to null
+  - update to default value
+  - Please reset the current selection
+  - I want to reset the current string value
+  - Please clear the value.
+  - Can you reset the current value?
+  - Reset the current selection to the default option
+  - I need to reset the current date to the system's default.
+  - Reset the current selection to null.
+  - Reset the current value to its original state
+  - Please reset the current value to its default setting?
+  - reset chosen name
+  - clear chosen name
+  - reset my chosen name
+  - reset preferred name
+  - reset my preferred name
+  - reset pronoun
+  - clear pronoun
+  - reset my pronoun

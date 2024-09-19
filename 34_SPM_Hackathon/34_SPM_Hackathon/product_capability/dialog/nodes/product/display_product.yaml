@@ -1,0 +1,11 @@
+title: Display Product
+type: node
+condition: "product_details.productID == 1"
+response:
+  messages:
+    - type: text
+      content: "Product Name is <? $product_details.productName ?>. 
+                Other details:
+                ProductID is : <? $product_details.responseBody ?>"
+finally:
+  behavior: wait

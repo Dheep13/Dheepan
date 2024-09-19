@@ -1,0 +1,16 @@
+action_groups:
+  - actions:
+      - type: message
+        scripting_type: spel
+        message:
+          type: text
+          content: "Welcome to ChatGPT!, How may I help you?"
+
+      - type: set-variables
+        scripting_type: handlebars
+        variables:
+          - name: continue_gpt
+            value: "yes"
+
+result: #here we are only selecting the required properties
+  continue_gpt: "yes"

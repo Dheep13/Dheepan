@@ -1,0 +1,14 @@
+﻿# Ignore files larger than 75MB
+# Ignore common development folders
+node_modules/
+*.log
+
+# Ignore specific large files and directories
+11_DATA_SCIENCE/
+35_RAG/**/*.dll
+35_RAG/**/*.lib
+35_RAG/**/*.csv
+39_DATASCIENCE/**/*.csv
+
+# Specific large files
+11_DATA_SCIENCE/11_DATA_SCIENCE/DataScience_basics.pdf

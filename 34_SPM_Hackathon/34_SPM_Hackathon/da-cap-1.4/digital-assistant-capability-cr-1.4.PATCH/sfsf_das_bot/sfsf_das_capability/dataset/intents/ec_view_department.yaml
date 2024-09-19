@@ -1,0 +1,17 @@
+description: ec_view_department
+examples:
+    - which department does [Leo](person) belong to?
+    - What department am I working in?
+    - View their department info
+    - View his department info
+    - Tell me my department
+    - Please find her dept
+    - "[Leo](person)'s department"
+    - I need to check my own dept
+    - How do I find my department info?
+    - Help me check my business department
+    - department name
+    - department info
+    - Can I have a look at her business branch?
+    - business department
+    - branch

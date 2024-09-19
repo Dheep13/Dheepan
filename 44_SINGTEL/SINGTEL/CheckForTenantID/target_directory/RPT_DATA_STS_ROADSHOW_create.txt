@@ -1,0 +1,3 @@
+CREATE PROCEDURE EXT.RPT_DATA_STS_ROADSHOW
+(
+IN in_RPTTYPE VARCHAR(75),   /* RESOLVE: Manual edits required: VARCHAR2 parameter(no length): user-configured length=75; adjust as needed */

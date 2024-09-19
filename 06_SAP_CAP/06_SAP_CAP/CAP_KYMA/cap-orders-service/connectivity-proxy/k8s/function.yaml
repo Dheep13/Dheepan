@@ -1,0 +1,41 @@
+apiVersion: serverless.kyma-project.io/v1alpha2
+kind: Function
+metadata:
+  name: cc-sample
+spec:
+  env:
+  - name: cc_url
+    value: http://localhost:3000/orders?OrderNo=123
+  runtime: nodejs16
+  source:
+    inline:
+      dependencies: "{ \n  \"name\": \"cc-sample\",\n  \"version\": \"1.0.0\",\n  \"dependencies\":
+        {\n    \"axios\": \"0.21.4\"\n  }\n}"
+      source: |
+        const axios = require("axios");
+
+        module.exports = {
+          main: async function (event, context) {
+            try {
+              const body = {
+                somedata: "1234",
+              };
+
+              var result = await axios.get(process.env.cc_url, {
+                headers: {
+                  "Content-Type": "application/json",
+                  "SAP-Connectivity-SCC-Location_ID": "",
+                },
+                proxy: {
+                  protocol: "http",
+                  host: "connectivity-proxy.kyma-system.svc.cluster.local",
+                  port: 20003,
+                },
+              });
+              return result.data;
+            } catch (error) {
+              console.log("an error occurred: ", error);
+              return "an error occurred...";
+            }
+          },
+        };

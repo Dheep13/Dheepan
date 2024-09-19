@@ -1,0 +1,14 @@
+fuzzy_matching: true
+values:
+  - value: "true"
+    synonyms:
+      - "true"
+      - "t"
+      - "y"
+      - "yes"
+  - value: "false"
+    synonyms:
+      - "false"
+      - "n"
+      - "f"
+      - "no"

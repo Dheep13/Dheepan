@@ -1,0 +1,12 @@
+schema_version: 1.3.0
+
+metadata:
+  display_name: Product Capability
+  namespace: namespace
+  name: product_capability
+  version: 1.0.0
+  description: Demo capability to fetch the product
+
+system_aliases:
+  NorthwindService:
+    destination: NORTHWIND

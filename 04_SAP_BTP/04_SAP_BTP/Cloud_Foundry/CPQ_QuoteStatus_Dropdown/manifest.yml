@@ -1,0 +1,6 @@
+applications:
+- name: quote-status-dash-new
+  random-route: true
+  memory: 1024M
+  command: python App.py
+  timeout: 600

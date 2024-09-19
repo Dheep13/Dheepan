@@ -1,0 +1,14 @@
+.RecastApp .RecastAppChat--slogan, .CaiApp .CaiAppChat--slogan {
+    padding: 0.2rem;
+    padding-bottom: 0.5rem;
+    font-size: 55px;
+    font-weight: bold;
+    text-align: center;
+    color: lightgrey;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    opacity: 1;
+    transition: opacity 0.3s, visibility 0.3s;
+}

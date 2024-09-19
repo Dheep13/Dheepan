@@ -1,0 +1,63 @@
+parameters:
+  - name: period
+  - name: displayflag
+  - name: payee
+
+action_groups:
+  - actions:
+
+      # - type: message
+      #   scripting_type: handlebars
+      #   message:
+      #     type: text
+      #     content: "Inside fetch_period_info dialog function" 
+
+      - type: dialog-function
+        name: commissions/lookup_period # we are calling the lookup function to get product details
+        parameters:
+          - name: period #passing product parameter
+            value: "<? period ?>"
+        result_variable: period_details #output of lookup function is captured 
+        
+      - type: dialog-function
+        name: commissions/lookup_payee # we are calling the lookup function to get payee details
+        parameters:
+          - name: payee #passing payee parameter
+            value: "<? payee ?>"
+        result_variable: fetch_payee_details #output of lookup function is captured here
+
+      # - type: message
+      #   scripting_type: handlebars
+      #   message:
+      #     type: text
+      #     content: Payee details have been fetched for {{ fetch_payee_details.positionSeq}} . 
+          
+      # - type: message
+      #   scripting_type: handlebars
+      #   message:
+      #     type: text
+      #     content: Period details have been fffetched for {{ period_details.periodName }} . The periodSeq is {{ period_details.periodSeq }} .
+
+
+
+      # - type: message
+      #   message:
+      #     type: buttons
+      #     content: 
+      #       title: "How can I help you today?"
+      #       buttons:
+      #         - type: postback
+      #           title: "Get Credit Invoice"
+      #           value: "Get Credit Invoice"
+      #         - type: postback
+      #           title: "Get All Invoices"
+      #           value: "Get All Invoices"
+result:
+#   # success: <? product_details.status == 200 ?>
+  periodName: <? period_details.periodName ?>
+  periodSeq: <? period_details.periodSeq ?>
+  payeeId: <? fetch_payee_details.payeeId ?>
+  positionSeq: <? fetch_payee_details.positionSeq ?>
+  displayflag: "200"
+  payee: <? payee ?>
+  

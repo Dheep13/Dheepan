@@ -1,0 +1,3 @@
+H	20240312 06:15:32	ODSMCASH_Dash_Registration	T
+Record Type	TransactionID	TransactionDate	CustID	CustIDType	ServNo	ProductType	VendorCode	DealerCode	SalesmanCode	Primary Dealer ID	SIM Type
+T	0

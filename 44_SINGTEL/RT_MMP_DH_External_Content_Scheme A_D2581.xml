@@ -1,0 +1,158 @@
+<serialized-container-impl>
+    <expression-object>
+        <map-key xmlns:xsi=http://www.w3.org/2001/XMLSchema-instance xsi:type=java:java.lang.String>
+			selectorUnitType
+		</map-key>
+<map-value xmlns:xsi=http://www.w3.org/2001/XMLSchema-instance xsi:type=quantity>
+<unit-type-seq>
+				1970324836974600
+			</unit-type-seq>
+<value>
+				0.000
+			</value>
+</map-value>
+</expression-object>
+<expression-object>
+<map-key xmlns:xsi=http://www.w3.org/2001/XMLSchema-instance xsi:type=java:java.lang.String>
+			resultUnitType
+		</map-key>
+<map-value xmlns:xsi=http://www.w3.org/2001/XMLSchema-instance xsi:type=currency>
+<unit-type-seq>
+				1970324836974601
+			</unit-type-seq>
+<value>
+				0.00
+			</value>
+</map-value>
+</expression-object>
+<expression-object>
+<map-key xmlns:xsi=http://www.w3.org/2001/XMLSchema-instance xsi:type=java:java.lang.String>
+			selectors
+		</map-key>
+<map-value xmlns:xsi=http://www.w3.org/2001/XMLSchema-instance xsi:type=java:java.util.ArrayList>
+<value-range start-inclusive=true end-inclusive=true open-started=true open-ended=false xsi:type=java:com.callidus.ratetable.ValueRange>
+<end xsi:type=quantity>
+<unit-type-seq>
+						1970324836974600
+					</unit-type-seq>
+<value>
+						700.000
+					</value>
+</end>
+<operator>
+<=
+				</operator>
+<start xsi:type=quantity>
+<unit-type-seq>
+						1970324836974600
+					</unit-type-seq>
+<value>
+						0.000
+					</value>
+</start>
+</value-range>
+<value-range start-inclusive=false end-inclusive=true open-started=false open-ended=false xsi:type=java:com.callidus.ratetable.ValueRange>
+<end xsi:type=quantity>
+<unit-type-seq>
+						1970324836974600
+					</unit-type-seq>
+<value>
+						1400.000
+					</value>
+</end>
+<operator>
+<=
+				</operator>
+<start xsi:type=quantity>
+<unit-type-seq>
+						1970324836974600
+					</unit-type-seq>
+<value>
+						700.000
+					</value>
+</start>
+</value-range>
+<value-range start-inclusive=false end-inclusive=true open-started=false open-ended=false xsi:type=java:com.callidus.ratetable.ValueRange>
+<end xsi:type=quantity>
+<unit-type-seq>
+						1970324836974600
+					</unit-type-seq>
+<value>
+						2400.000
+					</value>
+</end>
+<operator>
+<=
+				</operator>
+<start xsi:type=quantity>
+<unit-type-seq>
+						1970324836974600
+					</unit-type-seq>
+<value>
+						1400.000
+					</value>
+</start>
+</value-range>
+<value-range start-inclusive=false end-inclusive=true open-started=false open-ended=true xsi:type=java:com.callidus.ratetable.ValueRange>
+<end xsi:type=quantity>
+<unit-type-seq>
+						1970324836974600
+					</unit-type-seq>
+<value>
+						0.000
+					</value>
+</end>
+<operator>
+					>
+</operator>
+<start xsi:type=quantity>
+<unit-type-seq>
+						1970324836974600
+					</unit-type-seq>
+<value>
+						2400.000
+					</value>
+</start>
+</value-range>
+</map-value>
+</expression-object>
+<expression-object>
+<map-key xmlns:xsi=http://www.w3.org/2001/XMLSchema-instance xsi:type=java:java.lang.String>
+			results
+		</map-key>
+<map-value xmlns:xsi=http://www.w3.org/2001/XMLSchema-instance xsi:type=java:java.util.ArrayList>
+<currency xsi:type=currency>
+<unit-type-seq>
+					1970324836974601
+				</unit-type-seq>
+<value>
+					25.00
+				</value>
+</currency>
+<currency xsi:type=currency>
+<unit-type-seq>
+					1970324836974601
+				</unit-type-seq>
+<value>
+					27.00
+				</value>
+</currency>
+<currency xsi:type=currency>
+<unit-type-seq>
+					1970324836974601
+				</unit-type-seq>
+<value>
+					29.00
+				</value>
+</currency>
+<currency xsi:type=currency>
+<unit-type-seq>
+					1970324836974601
+				</unit-type-seq>
+<value>
+					35.00
+				</value>
+</currency>
+</map-value>
+</expression-object>
+</serialized-container-impl>

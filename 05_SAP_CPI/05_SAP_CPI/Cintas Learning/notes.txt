@@ -1,0 +1,4 @@
+https://blogs.sap.com/2021/06/07/using-script-collection-across-various-packages-in-sap-cpi/
+https://blogs.sap.com/2023/04/05/commissions-oauth2-authentication-in-cpi-flow/
+https://help.sap.com/doc/a56f52e1a58e4e2bac7f7adbf45b2e26/Cloud/en-US/index.html
+

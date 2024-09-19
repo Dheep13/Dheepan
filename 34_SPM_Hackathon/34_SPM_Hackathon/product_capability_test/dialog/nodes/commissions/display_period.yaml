@@ -1,0 +1,9 @@
+title: Display Period
+type: node
+condition: "true"
+response:
+  messages:
+    - type: text
+      content: "Period Name is <? $period_details.periodName ?>. PeriodSeq for <? $period_details.periodName ?> is <? $period_details.periodSeq ?>"
+finally:
+  behavior: wait

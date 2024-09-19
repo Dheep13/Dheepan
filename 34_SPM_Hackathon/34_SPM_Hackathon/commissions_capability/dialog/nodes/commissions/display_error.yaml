@@ -1,0 +1,9 @@
+title: Display Error
+type: node
+condition: "anything_else"
+response:
+  messages:
+    - type: text
+      content: "Error"
+finally:
+  behavior: wait

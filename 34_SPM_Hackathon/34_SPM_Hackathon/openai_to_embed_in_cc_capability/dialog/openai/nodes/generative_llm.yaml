@@ -1,0 +1,14 @@
+title: Generative LLM
+type: node
+condition: "true"
+
+
+dialog_functions:
+  - name: ibm_llm/generative_llm
+    result_variable: llm_result
+    parameters:
+      - name: input
+        value: <? input.text ?>
+
+finally:
+  behavior: skip

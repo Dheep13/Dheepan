@@ -1,0 +1,82 @@
+parameters:
+  - name: input
+action_groups:
+  - actions:
+      - type: api-request
+        method: POST
+        system_alias: OpenAIServices
+        path: "/completions"
+        headers:
+          Content-Type: "application/json"
+          Authorization: "Bearer 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"
+        body: 
+            '{
+              "model": "gpt-4",
+              "messages": [
+                {
+                  "role": "user",
+                  "content": "<? input ?>"
+                }
+              ]
+            }'
+        result_variable: api_result
+
+
+      # - type: set-variables
+      #   scripting_type: handlebars
+      #   variables:
+      #     - name: prepared_answer_unconfident
+      #       value: "{{ api_result.body.choices[0].message.content }}"
+
+
+      # - type: set-variables
+      #   scripting_type: handlebars
+      #   variables:
+      #     - name: prepared_answer_unconfident
+      #       value: >
+      #         {
+      #           "type": "list",
+      #           "content": {
+      #             "title": "",
+      #             "subtitle": "I'm not sure how to summarize the results for you. So please check out the list of topics I found for your question.",
+      #             "elements": [
+      #               {
+      #                 "title": "Result Summary",
+      #                 "description": "{{api_result.body.choices[0].message.content}}",
+      #                 "buttons": [
+      #                   {
+      #                     "title": "Learn More",
+      #                     "value": "https://help.sap.com",
+      #                     "type": "web_url"
+      #                   }
+      #                 ]
+      #               }
+      #             ]
+      #         }, 
+      #           "markdown": true
+      #         }
+      # - type: set-variables
+      #   scripting_type: handlebars
+      #   variables:
+      #     - name: prepared_answer_confident
+      #       value: >
+      #         {
+      #           "type": "buttons",
+      #           "content": {
+      #             "title": "Here's a summary of what I found for you: \n\n {{api_result.body.choices[0].message.content}}",
+      #             "buttons": [ 
+      #               {
+      #                 "type": "postback",
+      #                 "title": "Show search results",
+      #                 "value": "show search results"
+      #               }
+      #             ]
+      #         }
+      #         }
+
+# Assuming that GPT-4's response provides sufficient confidence in most cases,
+# and using a simplified approach to response handling.
+result:
+  prepared_answer: <? api_result.body.choices[0].message.content ?>
+  continue_gpt : 'yes'
+  input: ''

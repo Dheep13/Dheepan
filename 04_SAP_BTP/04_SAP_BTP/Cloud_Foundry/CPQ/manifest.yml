@@ -1,0 +1,5 @@
+applications:
+- name: quote-status-report
+  random-route: true
+  memory: 128M
+  command: python SampleCPQPlot.py

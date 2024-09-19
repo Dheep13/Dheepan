@@ -1,0 +1,1101 @@
+[
+  {
+    "timestamp": "2024-03-14T01:32:17.508Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "Executing: deploy"
+  },
+  {
+    "timestamp": "2024-03-14T01:32:17.556Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "API URL: https://joule-dev-team7-q1m7cbgh.eu12.sapdas-staging.cloud.sap"
+  },
+  {
+    "timestamp": "2024-03-14T01:32:17.558Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "request header",
+    "data": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "multipart/form-data; boundary=--------------------------340418463306549317092859",
+      "X-Requested-FeatureFlags": "[\"ff_compile_option_on_deploy\"]"
+    }
+  },
+  {
+    "requestHeaderSize": 2997,
+    "bearerTokenLenght": 2553,
+    "jwtToken": {
+      "origin": "sap.default",
+      "iss": "https://joule-dev-team7-q1m7cbgh.authentication.eu12.hana.ondemand.com/oauth/token",
+      "zdn": "joule-dev-team7-q1m7cbgh",
+      "grant_type": "password",
+      "oidcIssuer": "https://accounts.sap.com",
+      "xs_user_attributes": {},
+      "xs_system_attributes": {
+        "xs.rolecollections": [
+          "Subaccount Service Administrator",
+          "Destination Administrator",
+          "DAS",
+          "Subaccount Viewer",
+          "Cloud Connector Administrator",
+          "Subaccount Administrator",
+          "Connectivity and Destination Administrator"
+        ]
+      },
+      "scope": [
+        "das-application!b136973.das_release_admin",
+        "das-application!b136973.das_developer",
+        "openid",
+        "uaa.user"
+      ],
+      "auth_time": 1710339768,
+      "exp": 1710382968,
+      "iat": 1710339768
+    }
+  },
+  {
+    "timestamp": "2024-03-14T01:32:18.578Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "response header",
+    "data": {
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-security-policy": "frame-ancestors self https://*.tools.sap https://*.sap.corp https://*.sap.corp:* https://*.ondemand.com https://*.ondemand.com:* https://*.sapsf.com https://*.sapsf.eu https://*.sapsf.cn https://*.successfactors.com https://*.successfactors.eu https://*.sapdemocloud.com https://*.cloud.sap:* https://*.cloud.sap https://*.int.sap https://*.sap.com https://*.net.sap https://*.net.sap:* https://*.sapanalytics.cloud https://*.sapbydesign.com https://*.sapbydesign.com:* https://*.for.sap https://*.enter.sap https://*.only.sap:* https://*.only.sap https://*.services.sap https://*.dev.sap https://*.myhybris.cloud https://*.fgvms.com https://*.fieldglass.net https://*.fieldglass.eu https://*.ariba.com https://sap.plateau.com",
+      "content-type": "application/json",
+      "date": "Thu, 14 Mar 2024 01:33:30 GMT",
+      "expires": "0",
+      "pragma": "no-cache",
+      "vary": "Accept-Encoding",
+      "x-content-type-options": "nosniff",
+      "x-correlationid": "c9c216e5-8bbe-47e0-5172-12a20669615d",
+      "x-frame-options": "DENY",
+      "x-request-id": "c9c216e5-8bbe-47e0-5172-12a20669615d",
+      "x-requested-featureflags": "[\"ff_compile_option_on_deploy\"]",
+      "x-vcap-request-id": "c9c216e5-8bbe-47e0-5172-12a20669615d",
+      "x-xss-protection": "0",
+      "transfer-encoding": "chunked",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload;"
+    }
+  },
+  {
+    "timestamp": "2024-03-14T01:32:18.580Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "Job ID: ffb2a122-7415-4a22-827d-f89c7dd8dff1"
+  },
+  {
+    "timestamp": "2024-03-14T01:32:23.593Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "API URL: https://joule-dev-team7-q1m7cbgh.eu12.sapdas-staging.cloud.sap"
+  },
+  {
+    "timestamp": "2024-03-14T01:32:23.594Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "request header",
+    "data": {
+      "Accept": "application/json, text/plain, */*",
+      "X-Requested-FeatureFlags": "[\"ff_compile_option_on_deploy\"]"
+    }
+  },
+  {
+    "requestHeaderSize": 2915,
+    "bearerTokenLenght": 2553,
+    "jwtToken": {
+      "origin": "sap.default",
+      "iss": "https://joule-dev-team7-q1m7cbgh.authentication.eu12.hana.ondemand.com/oauth/token",
+      "zdn": "joule-dev-team7-q1m7cbgh",
+      "grant_type": "password",
+      "oidcIssuer": "https://accounts.sap.com",
+      "xs_user_attributes": {},
+      "xs_system_attributes": {
+        "xs.rolecollections": [
+          "Subaccount Service Administrator",
+          "Destination Administrator",
+          "DAS",
+          "Subaccount Viewer",
+          "Cloud Connector Administrator",
+          "Subaccount Administrator",
+          "Connectivity and Destination Administrator"
+        ]
+      },
+      "scope": [
+        "das-application!b136973.das_release_admin",
+        "das-application!b136973.das_developer",
+        "openid",
+        "uaa.user"
+      ],
+      "auth_time": 1710339768,
+      "exp": 1710382968,
+      "iat": 1710339768
+    }
+  },
+  {
+    "timestamp": "2024-03-14T01:32:24.147Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "response header",
+    "data": {
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-security-policy": "frame-ancestors self https://*.tools.sap https://*.sap.corp https://*.sap.corp:* https://*.ondemand.com https://*.ondemand.com:* https://*.sapsf.com https://*.sapsf.eu https://*.sapsf.cn https://*.successfactors.com https://*.successfactors.eu https://*.sapdemocloud.com https://*.cloud.sap:* https://*.cloud.sap https://*.int.sap https://*.sap.com https://*.net.sap https://*.net.sap:* https://*.sapanalytics.cloud https://*.sapbydesign.com https://*.sapbydesign.com:* https://*.for.sap https://*.enter.sap https://*.only.sap:* https://*.only.sap https://*.services.sap https://*.dev.sap https://*.myhybris.cloud https://*.fgvms.com https://*.fieldglass.net https://*.fieldglass.eu https://*.ariba.com https://sap.plateau.com",
+      "content-type": "application/json",
+      "date": "Thu, 14 Mar 2024 01:33:36 GMT",
+      "expires": "0",
+      "pragma": "no-cache",
+      "vary": "Accept-Encoding",
+      "x-content-type-options": "nosniff",
+      "x-correlationid": "f1a7229f-1826-4658-7c84-bdaa49a35b43",
+      "x-frame-options": "DENY",
+      "x-request-id": "f1a7229f-1826-4658-7c84-bdaa49a35b43",
+      "x-requested-featureflags": "[\"ff_compile_option_on_deploy\"]",
+      "x-vcap-request-id": "f1a7229f-1826-4658-7c84-bdaa49a35b43",
+      "x-xss-protection": "0",
+      "transfer-encoding": "chunked",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload;"
+    }
+  },
+  {
+    "timestamp": "2024-03-14T01:32:29.155Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "API URL: https://joule-dev-team7-q1m7cbgh.eu12.sapdas-staging.cloud.sap"
+  },
+  {
+    "timestamp": "2024-03-14T01:32:29.157Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "request header",
+    "data": {
+      "Accept": "application/json, text/plain, */*",
+      "X-Requested-FeatureFlags": "[\"ff_compile_option_on_deploy\"]"
+    }
+  },
+  {
+    "requestHeaderSize": 2915,
+    "bearerTokenLenght": 2553,
+    "jwtToken": {
+      "origin": "sap.default",
+      "iss": "https://joule-dev-team7-q1m7cbgh.authentication.eu12.hana.ondemand.com/oauth/token",
+      "zdn": "joule-dev-team7-q1m7cbgh",
+      "grant_type": "password",
+      "oidcIssuer": "https://accounts.sap.com",
+      "xs_user_attributes": {},
+      "xs_system_attributes": {
+        "xs.rolecollections": [
+          "Subaccount Service Administrator",
+          "Destination Administrator",
+          "DAS",
+          "Subaccount Viewer",
+          "Cloud Connector Administrator",
+          "Subaccount Administrator",
+          "Connectivity and Destination Administrator"
+        ]
+      },
+      "scope": [
+        "das-application!b136973.das_release_admin",
+        "das-application!b136973.das_developer",
+        "openid",
+        "uaa.user"
+      ],
+      "auth_time": 1710339768,
+      "exp": 1710382968,
+      "iat": 1710339768
+    }
+  },
+  {
+    "timestamp": "2024-03-14T01:32:29.729Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "response header",
+    "data": {
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-security-policy": "frame-ancestors self https://*.tools.sap https://*.sap.corp https://*.sap.corp:* https://*.ondemand.com https://*.ondemand.com:* https://*.sapsf.com https://*.sapsf.eu https://*.sapsf.cn https://*.successfactors.com https://*.successfactors.eu https://*.sapdemocloud.com https://*.cloud.sap:* https://*.cloud.sap https://*.int.sap https://*.sap.com https://*.net.sap https://*.net.sap:* https://*.sapanalytics.cloud https://*.sapbydesign.com https://*.sapbydesign.com:* https://*.for.sap https://*.enter.sap https://*.only.sap:* https://*.only.sap https://*.services.sap https://*.dev.sap https://*.myhybris.cloud https://*.fgvms.com https://*.fieldglass.net https://*.fieldglass.eu https://*.ariba.com https://sap.plateau.com",
+      "content-type": "application/json",
+      "date": "Thu, 14 Mar 2024 01:33:41 GMT",
+      "expires": "0",
+      "pragma": "no-cache",
+      "vary": "Accept-Encoding",
+      "x-content-type-options": "nosniff",
+      "x-correlationid": "6a22d8b5-73be-4ff9-731e-1cd4906174e3",
+      "x-frame-options": "DENY",
+      "x-request-id": "6a22d8b5-73be-4ff9-731e-1cd4906174e3",
+      "x-requested-featureflags": "[\"ff_compile_option_on_deploy\"]",
+      "x-vcap-request-id": "6a22d8b5-73be-4ff9-731e-1cd4906174e3",
+      "x-xss-protection": "0",
+      "transfer-encoding": "chunked",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload;"
+    }
+  },
+  {
+    "timestamp": "2024-03-14T01:32:34.750Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "API URL: https://joule-dev-team7-q1m7cbgh.eu12.sapdas-staging.cloud.sap"
+  },
+  {
+    "timestamp": "2024-03-14T01:32:34.751Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "request header",
+    "data": {
+      "Accept": "application/json, text/plain, */*",
+      "X-Requested-FeatureFlags": "[\"ff_compile_option_on_deploy\"]"
+    }
+  },
+  {
+    "requestHeaderSize": 2915,
+    "bearerTokenLenght": 2553,
+    "jwtToken": {
+      "origin": "sap.default",
+      "iss": "https://joule-dev-team7-q1m7cbgh.authentication.eu12.hana.ondemand.com/oauth/token",
+      "zdn": "joule-dev-team7-q1m7cbgh",
+      "grant_type": "password",
+      "oidcIssuer": "https://accounts.sap.com",
+      "xs_user_attributes": {},
+      "xs_system_attributes": {
+        "xs.rolecollections": [
+          "Subaccount Service Administrator",
+          "Destination Administrator",
+          "DAS",
+          "Subaccount Viewer",
+          "Cloud Connector Administrator",
+          "Subaccount Administrator",
+          "Connectivity and Destination Administrator"
+        ]
+      },
+      "scope": [
+        "das-application!b136973.das_release_admin",
+        "das-application!b136973.das_developer",
+        "openid",
+        "uaa.user"
+      ],
+      "auth_time": 1710339768,
+      "exp": 1710382968,
+      "iat": 1710339768
+    }
+  },
+  {
+    "timestamp": "2024-03-14T01:32:35.281Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "response header",
+    "data": {
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-security-policy": "frame-ancestors self https://*.tools.sap https://*.sap.corp https://*.sap.corp:* https://*.ondemand.com https://*.ondemand.com:* https://*.sapsf.com https://*.sapsf.eu https://*.sapsf.cn https://*.successfactors.com https://*.successfactors.eu https://*.sapdemocloud.com https://*.cloud.sap:* https://*.cloud.sap https://*.int.sap https://*.sap.com https://*.net.sap https://*.net.sap:* https://*.sapanalytics.cloud https://*.sapbydesign.com https://*.sapbydesign.com:* https://*.for.sap https://*.enter.sap https://*.only.sap:* https://*.only.sap https://*.services.sap https://*.dev.sap https://*.myhybris.cloud https://*.fgvms.com https://*.fieldglass.net https://*.fieldglass.eu https://*.ariba.com https://sap.plateau.com",
+      "content-type": "application/json",
+      "date": "Thu, 14 Mar 2024 01:33:47 GMT",
+      "expires": "0",
+      "pragma": "no-cache",
+      "vary": "Accept-Encoding",
+      "x-content-type-options": "nosniff",
+      "x-correlationid": "73b99155-17a2-40f5-4152-7adbd7b2b921",
+      "x-frame-options": "DENY",
+      "x-request-id": "73b99155-17a2-40f5-4152-7adbd7b2b921",
+      "x-requested-featureflags": "[\"ff_compile_option_on_deploy\"]",
+      "x-vcap-request-id": "73b99155-17a2-40f5-4152-7adbd7b2b921",
+      "x-xss-protection": "0",
+      "transfer-encoding": "chunked",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload;"
+    }
+  },
+  {
+    "timestamp": "2024-03-14T01:32:40.295Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "API URL: https://joule-dev-team7-q1m7cbgh.eu12.sapdas-staging.cloud.sap"
+  },
+  {
+    "timestamp": "2024-03-14T01:32:40.296Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "request header",
+    "data": {
+      "Accept": "application/json, text/plain, */*",
+      "X-Requested-FeatureFlags": "[\"ff_compile_option_on_deploy\"]"
+    }
+  },
+  {
+    "requestHeaderSize": 2915,
+    "bearerTokenLenght": 2553,
+    "jwtToken": {
+      "origin": "sap.default",
+      "iss": "https://joule-dev-team7-q1m7cbgh.authentication.eu12.hana.ondemand.com/oauth/token",
+      "zdn": "joule-dev-team7-q1m7cbgh",
+      "grant_type": "password",
+      "oidcIssuer": "https://accounts.sap.com",
+      "xs_user_attributes": {},
+      "xs_system_attributes": {
+        "xs.rolecollections": [
+          "Subaccount Service Administrator",
+          "Destination Administrator",
+          "DAS",
+          "Subaccount Viewer",
+          "Cloud Connector Administrator",
+          "Subaccount Administrator",
+          "Connectivity and Destination Administrator"
+        ]
+      },
+      "scope": [
+        "das-application!b136973.das_release_admin",
+        "das-application!b136973.das_developer",
+        "openid",
+        "uaa.user"
+      ],
+      "auth_time": 1710339768,
+      "exp": 1710382968,
+      "iat": 1710339768
+    }
+  },
+  {
+    "timestamp": "2024-03-14T01:32:40.827Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "response header",
+    "data": {
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-security-policy": "frame-ancestors self https://*.tools.sap https://*.sap.corp https://*.sap.corp:* https://*.ondemand.com https://*.ondemand.com:* https://*.sapsf.com https://*.sapsf.eu https://*.sapsf.cn https://*.successfactors.com https://*.successfactors.eu https://*.sapdemocloud.com https://*.cloud.sap:* https://*.cloud.sap https://*.int.sap https://*.sap.com https://*.net.sap https://*.net.sap:* https://*.sapanalytics.cloud https://*.sapbydesign.com https://*.sapbydesign.com:* https://*.for.sap https://*.enter.sap https://*.only.sap:* https://*.only.sap https://*.services.sap https://*.dev.sap https://*.myhybris.cloud https://*.fgvms.com https://*.fieldglass.net https://*.fieldglass.eu https://*.ariba.com https://sap.plateau.com",
+      "content-type": "application/json",
+      "date": "Thu, 14 Mar 2024 01:33:52 GMT",
+      "expires": "0",
+      "pragma": "no-cache",
+      "vary": "Accept-Encoding",
+      "x-content-type-options": "nosniff",
+      "x-correlationid": "f014a8c5-f781-4b9b-71a1-d7b651a2931c",
+      "x-frame-options": "DENY",
+      "x-request-id": "f014a8c5-f781-4b9b-71a1-d7b651a2931c",
+      "x-requested-featureflags": "[\"ff_compile_option_on_deploy\"]",
+      "x-vcap-request-id": "f014a8c5-f781-4b9b-71a1-d7b651a2931c",
+      "x-xss-protection": "0",
+      "transfer-encoding": "chunked",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload;"
+    }
+  },
+  {
+    "timestamp": "2024-03-14T01:32:45.844Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "API URL: https://joule-dev-team7-q1m7cbgh.eu12.sapdas-staging.cloud.sap"
+  },
+  {
+    "timestamp": "2024-03-14T01:32:45.845Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "request header",
+    "data": {
+      "Accept": "application/json, text/plain, */*",
+      "X-Requested-FeatureFlags": "[\"ff_compile_option_on_deploy\"]"
+    }
+  },
+  {
+    "requestHeaderSize": 2915,
+    "bearerTokenLenght": 2553,
+    "jwtToken": {
+      "origin": "sap.default",
+      "iss": "https://joule-dev-team7-q1m7cbgh.authentication.eu12.hana.ondemand.com/oauth/token",
+      "zdn": "joule-dev-team7-q1m7cbgh",
+      "grant_type": "password",
+      "oidcIssuer": "https://accounts.sap.com",
+      "xs_user_attributes": {},
+      "xs_system_attributes": {
+        "xs.rolecollections": [
+          "Subaccount Service Administrator",
+          "Destination Administrator",
+          "DAS",
+          "Subaccount Viewer",
+          "Cloud Connector Administrator",
+          "Subaccount Administrator",
+          "Connectivity and Destination Administrator"
+        ]
+      },
+      "scope": [
+        "das-application!b136973.das_release_admin",
+        "das-application!b136973.das_developer",
+        "openid",
+        "uaa.user"
+      ],
+      "auth_time": 1710339768,
+      "exp": 1710382968,
+      "iat": 1710339768
+    }
+  },
+  {
+    "timestamp": "2024-03-14T01:32:46.362Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "response header",
+    "data": {
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-security-policy": "frame-ancestors self https://*.tools.sap https://*.sap.corp https://*.sap.corp:* https://*.ondemand.com https://*.ondemand.com:* https://*.sapsf.com https://*.sapsf.eu https://*.sapsf.cn https://*.successfactors.com https://*.successfactors.eu https://*.sapdemocloud.com https://*.cloud.sap:* https://*.cloud.sap https://*.int.sap https://*.sap.com https://*.net.sap https://*.net.sap:* https://*.sapanalytics.cloud https://*.sapbydesign.com https://*.sapbydesign.com:* https://*.for.sap https://*.enter.sap https://*.only.sap:* https://*.only.sap https://*.services.sap https://*.dev.sap https://*.myhybris.cloud https://*.fgvms.com https://*.fieldglass.net https://*.fieldglass.eu https://*.ariba.com https://sap.plateau.com",
+      "content-type": "application/json",
+      "date": "Thu, 14 Mar 2024 01:33:58 GMT",
+      "expires": "0",
+      "pragma": "no-cache",
+      "vary": "Accept-Encoding",
+      "x-content-type-options": "nosniff",
+      "x-correlationid": "024d9cf2-e982-4c21-7840-fb308e2b077e",
+      "x-frame-options": "DENY",
+      "x-request-id": "024d9cf2-e982-4c21-7840-fb308e2b077e",
+      "x-requested-featureflags": "[\"ff_compile_option_on_deploy\"]",
+      "x-vcap-request-id": "024d9cf2-e982-4c21-7840-fb308e2b077e",
+      "x-xss-protection": "0",
+      "transfer-encoding": "chunked",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload;"
+    }
+  },
+  {
+    "timestamp": "2024-03-14T01:32:51.386Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "API URL: https://joule-dev-team7-q1m7cbgh.eu12.sapdas-staging.cloud.sap"
+  },
+  {
+    "timestamp": "2024-03-14T01:32:51.388Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "request header",
+    "data": {
+      "Accept": "application/json, text/plain, */*",
+      "X-Requested-FeatureFlags": "[\"ff_compile_option_on_deploy\"]"
+    }
+  },
+  {
+    "requestHeaderSize": 2915,
+    "bearerTokenLenght": 2553,
+    "jwtToken": {
+      "origin": "sap.default",
+      "iss": "https://joule-dev-team7-q1m7cbgh.authentication.eu12.hana.ondemand.com/oauth/token",
+      "zdn": "joule-dev-team7-q1m7cbgh",
+      "grant_type": "password",
+      "oidcIssuer": "https://accounts.sap.com",
+      "xs_user_attributes": {},
+      "xs_system_attributes": {
+        "xs.rolecollections": [
+          "Subaccount Service Administrator",
+          "Destination Administrator",
+          "DAS",
+          "Subaccount Viewer",
+          "Cloud Connector Administrator",
+          "Subaccount Administrator",
+          "Connectivity and Destination Administrator"
+        ]
+      },
+      "scope": [
+        "das-application!b136973.das_release_admin",
+        "das-application!b136973.das_developer",
+        "openid",
+        "uaa.user"
+      ],
+      "auth_time": 1710339768,
+      "exp": 1710382968,
+      "iat": 1710339768
+    }
+  },
+  {
+    "timestamp": "2024-03-14T01:32:51.933Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "response header",
+    "data": {
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-security-policy": "frame-ancestors self https://*.tools.sap https://*.sap.corp https://*.sap.corp:* https://*.ondemand.com https://*.ondemand.com:* https://*.sapsf.com https://*.sapsf.eu https://*.sapsf.cn https://*.successfactors.com https://*.successfactors.eu https://*.sapdemocloud.com https://*.cloud.sap:* https://*.cloud.sap https://*.int.sap https://*.sap.com https://*.net.sap https://*.net.sap:* https://*.sapanalytics.cloud https://*.sapbydesign.com https://*.sapbydesign.com:* https://*.for.sap https://*.enter.sap https://*.only.sap:* https://*.only.sap https://*.services.sap https://*.dev.sap https://*.myhybris.cloud https://*.fgvms.com https://*.fieldglass.net https://*.fieldglass.eu https://*.ariba.com https://sap.plateau.com",
+      "content-type": "application/json",
+      "date": "Thu, 14 Mar 2024 01:34:04 GMT",
+      "expires": "0",
+      "pragma": "no-cache",
+      "vary": "Accept-Encoding",
+      "x-content-type-options": "nosniff",
+      "x-correlationid": "18e125bc-a8ed-413d-52cf-02d6a320cda3",
+      "x-frame-options": "DENY",
+      "x-request-id": "18e125bc-a8ed-413d-52cf-02d6a320cda3",
+      "x-requested-featureflags": "[\"ff_compile_option_on_deploy\"]",
+      "x-vcap-request-id": "18e125bc-a8ed-413d-52cf-02d6a320cda3",
+      "x-xss-protection": "0",
+      "transfer-encoding": "chunked",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload;"
+    }
+  },
+  {
+    "timestamp": "2024-03-14T01:32:56.951Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "API URL: https://joule-dev-team7-q1m7cbgh.eu12.sapdas-staging.cloud.sap"
+  },
+  {
+    "timestamp": "2024-03-14T01:32:56.952Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "request header",
+    "data": {
+      "Accept": "application/json, text/plain, */*",
+      "X-Requested-FeatureFlags": "[\"ff_compile_option_on_deploy\"]"
+    }
+  },
+  {
+    "requestHeaderSize": 2915,
+    "bearerTokenLenght": 2553,
+    "jwtToken": {
+      "origin": "sap.default",
+      "iss": "https://joule-dev-team7-q1m7cbgh.authentication.eu12.hana.ondemand.com/oauth/token",
+      "zdn": "joule-dev-team7-q1m7cbgh",
+      "grant_type": "password",
+      "oidcIssuer": "https://accounts.sap.com",
+      "xs_user_attributes": {},
+      "xs_system_attributes": {
+        "xs.rolecollections": [
+          "Subaccount Service Administrator",
+          "Destination Administrator",
+          "DAS",
+          "Subaccount Viewer",
+          "Cloud Connector Administrator",
+          "Subaccount Administrator",
+          "Connectivity and Destination Administrator"
+        ]
+      },
+      "scope": [
+        "das-application!b136973.das_release_admin",
+        "das-application!b136973.das_developer",
+        "openid",
+        "uaa.user"
+      ],
+      "auth_time": 1710339768,
+      "exp": 1710382968,
+      "iat": 1710339768
+    }
+  },
+  {
+    "timestamp": "2024-03-14T01:32:57.496Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "response header",
+    "data": {
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-security-policy": "frame-ancestors self https://*.tools.sap https://*.sap.corp https://*.sap.corp:* https://*.ondemand.com https://*.ondemand.com:* https://*.sapsf.com https://*.sapsf.eu https://*.sapsf.cn https://*.successfactors.com https://*.successfactors.eu https://*.sapdemocloud.com https://*.cloud.sap:* https://*.cloud.sap https://*.int.sap https://*.sap.com https://*.net.sap https://*.net.sap:* https://*.sapanalytics.cloud https://*.sapbydesign.com https://*.sapbydesign.com:* https://*.for.sap https://*.enter.sap https://*.only.sap:* https://*.only.sap https://*.services.sap https://*.dev.sap https://*.myhybris.cloud https://*.fgvms.com https://*.fieldglass.net https://*.fieldglass.eu https://*.ariba.com https://sap.plateau.com",
+      "content-type": "application/json",
+      "date": "Thu, 14 Mar 2024 01:34:09 GMT",
+      "expires": "0",
+      "pragma": "no-cache",
+      "vary": "Accept-Encoding",
+      "x-content-type-options": "nosniff",
+      "x-correlationid": "0b739ad8-89dd-43d5-51e2-893ceff11666",
+      "x-frame-options": "DENY",
+      "x-request-id": "0b739ad8-89dd-43d5-51e2-893ceff11666",
+      "x-requested-featureflags": "[\"ff_compile_option_on_deploy\"]",
+      "x-vcap-request-id": "0b739ad8-89dd-43d5-51e2-893ceff11666",
+      "x-xss-protection": "0",
+      "transfer-encoding": "chunked",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload;"
+    }
+  },
+  {
+    "timestamp": "2024-03-14T01:33:02.508Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "API URL: https://joule-dev-team7-q1m7cbgh.eu12.sapdas-staging.cloud.sap"
+  },
+  {
+    "timestamp": "2024-03-14T01:33:02.509Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "request header",
+    "data": {
+      "Accept": "application/json, text/plain, */*",
+      "X-Requested-FeatureFlags": "[\"ff_compile_option_on_deploy\"]"
+    }
+  },
+  {
+    "requestHeaderSize": 2915,
+    "bearerTokenLenght": 2553,
+    "jwtToken": {
+      "origin": "sap.default",
+      "iss": "https://joule-dev-team7-q1m7cbgh.authentication.eu12.hana.ondemand.com/oauth/token",
+      "zdn": "joule-dev-team7-q1m7cbgh",
+      "grant_type": "password",
+      "oidcIssuer": "https://accounts.sap.com",
+      "xs_user_attributes": {},
+      "xs_system_attributes": {
+        "xs.rolecollections": [
+          "Subaccount Service Administrator",
+          "Destination Administrator",
+          "DAS",
+          "Subaccount Viewer",
+          "Cloud Connector Administrator",
+          "Subaccount Administrator",
+          "Connectivity and Destination Administrator"
+        ]
+      },
+      "scope": [
+        "das-application!b136973.das_release_admin",
+        "das-application!b136973.das_developer",
+        "openid",
+        "uaa.user"
+      ],
+      "auth_time": 1710339768,
+      "exp": 1710382968,
+      "iat": 1710339768
+    }
+  },
+  {
+    "timestamp": "2024-03-14T01:33:03.060Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "response header",
+    "data": {
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-security-policy": "frame-ancestors self https://*.tools.sap https://*.sap.corp https://*.sap.corp:* https://*.ondemand.com https://*.ondemand.com:* https://*.sapsf.com https://*.sapsf.eu https://*.sapsf.cn https://*.successfactors.com https://*.successfactors.eu https://*.sapdemocloud.com https://*.cloud.sap:* https://*.cloud.sap https://*.int.sap https://*.sap.com https://*.net.sap https://*.net.sap:* https://*.sapanalytics.cloud https://*.sapbydesign.com https://*.sapbydesign.com:* https://*.for.sap https://*.enter.sap https://*.only.sap:* https://*.only.sap https://*.services.sap https://*.dev.sap https://*.myhybris.cloud https://*.fgvms.com https://*.fieldglass.net https://*.fieldglass.eu https://*.ariba.com https://sap.plateau.com",
+      "content-type": "application/json",
+      "date": "Thu, 14 Mar 2024 01:34:15 GMT",
+      "expires": "0",
+      "pragma": "no-cache",
+      "vary": "Accept-Encoding",
+      "x-content-type-options": "nosniff",
+      "x-correlationid": "2d75402f-1a30-4fb7-5e98-7b656566a8c1",
+      "x-frame-options": "DENY",
+      "x-request-id": "2d75402f-1a30-4fb7-5e98-7b656566a8c1",
+      "x-requested-featureflags": "[\"ff_compile_option_on_deploy\"]",
+      "x-vcap-request-id": "2d75402f-1a30-4fb7-5e98-7b656566a8c1",
+      "x-xss-protection": "0",
+      "transfer-encoding": "chunked",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload;"
+    }
+  },
+  {
+    "timestamp": "2024-03-14T01:33:08.077Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "API URL: https://joule-dev-team7-q1m7cbgh.eu12.sapdas-staging.cloud.sap"
+  },
+  {
+    "timestamp": "2024-03-14T01:33:08.078Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "request header",
+    "data": {
+      "Accept": "application/json, text/plain, */*",
+      "X-Requested-FeatureFlags": "[\"ff_compile_option_on_deploy\"]"
+    }
+  },
+  {
+    "requestHeaderSize": 2915,
+    "bearerTokenLenght": 2553,
+    "jwtToken": {
+      "origin": "sap.default",
+      "iss": "https://joule-dev-team7-q1m7cbgh.authentication.eu12.hana.ondemand.com/oauth/token",
+      "zdn": "joule-dev-team7-q1m7cbgh",
+      "grant_type": "password",
+      "oidcIssuer": "https://accounts.sap.com",
+      "xs_user_attributes": {},
+      "xs_system_attributes": {
+        "xs.rolecollections": [
+          "Subaccount Service Administrator",
+          "Destination Administrator",
+          "DAS",
+          "Subaccount Viewer",
+          "Cloud Connector Administrator",
+          "Subaccount Administrator",
+          "Connectivity and Destination Administrator"
+        ]
+      },
+      "scope": [
+        "das-application!b136973.das_release_admin",
+        "das-application!b136973.das_developer",
+        "openid",
+        "uaa.user"
+      ],
+      "auth_time": 1710339768,
+      "exp": 1710382968,
+      "iat": 1710339768
+    }
+  },
+  {
+    "timestamp": "2024-03-14T01:33:08.623Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "response header",
+    "data": {
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-security-policy": "frame-ancestors self https://*.tools.sap https://*.sap.corp https://*.sap.corp:* https://*.ondemand.com https://*.ondemand.com:* https://*.sapsf.com https://*.sapsf.eu https://*.sapsf.cn https://*.successfactors.com https://*.successfactors.eu https://*.sapdemocloud.com https://*.cloud.sap:* https://*.cloud.sap https://*.int.sap https://*.sap.com https://*.net.sap https://*.net.sap:* https://*.sapanalytics.cloud https://*.sapbydesign.com https://*.sapbydesign.com:* https://*.for.sap https://*.enter.sap https://*.only.sap:* https://*.only.sap https://*.services.sap https://*.dev.sap https://*.myhybris.cloud https://*.fgvms.com https://*.fieldglass.net https://*.fieldglass.eu https://*.ariba.com https://sap.plateau.com",
+      "content-type": "application/json",
+      "date": "Thu, 14 Mar 2024 01:34:20 GMT",
+      "expires": "0",
+      "pragma": "no-cache",
+      "vary": "Accept-Encoding",
+      "x-content-type-options": "nosniff",
+      "x-correlationid": "71737c54-b188-4e3e-6041-52c80f6b2bde",
+      "x-frame-options": "DENY",
+      "x-request-id": "71737c54-b188-4e3e-6041-52c80f6b2bde",
+      "x-requested-featureflags": "[\"ff_compile_option_on_deploy\"]",
+      "x-vcap-request-id": "71737c54-b188-4e3e-6041-52c80f6b2bde",
+      "x-xss-protection": "0",
+      "transfer-encoding": "chunked",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload;"
+    }
+  },
+  {
+    "timestamp": "2024-03-14T01:33:13.638Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "API URL: https://joule-dev-team7-q1m7cbgh.eu12.sapdas-staging.cloud.sap"
+  },
+  {
+    "timestamp": "2024-03-14T01:33:13.639Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "request header",
+    "data": {
+      "Accept": "application/json, text/plain, */*",
+      "X-Requested-FeatureFlags": "[\"ff_compile_option_on_deploy\"]"
+    }
+  },
+  {
+    "requestHeaderSize": 2915,
+    "bearerTokenLenght": 2553,
+    "jwtToken": {
+      "origin": "sap.default",
+      "iss": "https://joule-dev-team7-q1m7cbgh.authentication.eu12.hana.ondemand.com/oauth/token",
+      "zdn": "joule-dev-team7-q1m7cbgh",
+      "grant_type": "password",
+      "oidcIssuer": "https://accounts.sap.com",
+      "xs_user_attributes": {},
+      "xs_system_attributes": {
+        "xs.rolecollections": [
+          "Subaccount Service Administrator",
+          "Destination Administrator",
+          "DAS",
+          "Subaccount Viewer",
+          "Cloud Connector Administrator",
+          "Subaccount Administrator",
+          "Connectivity and Destination Administrator"
+        ]
+      },
+      "scope": [
+        "das-application!b136973.das_release_admin",
+        "das-application!b136973.das_developer",
+        "openid",
+        "uaa.user"
+      ],
+      "auth_time": 1710339768,
+      "exp": 1710382968,
+      "iat": 1710339768
+    }
+  },
+  {
+    "timestamp": "2024-03-14T01:33:14.205Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "response header",
+    "data": {
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-security-policy": "frame-ancestors self https://*.tools.sap https://*.sap.corp https://*.sap.corp:* https://*.ondemand.com https://*.ondemand.com:* https://*.sapsf.com https://*.sapsf.eu https://*.sapsf.cn https://*.successfactors.com https://*.successfactors.eu https://*.sapdemocloud.com https://*.cloud.sap:* https://*.cloud.sap https://*.int.sap https://*.sap.com https://*.net.sap https://*.net.sap:* https://*.sapanalytics.cloud https://*.sapbydesign.com https://*.sapbydesign.com:* https://*.for.sap https://*.enter.sap https://*.only.sap:* https://*.only.sap https://*.services.sap https://*.dev.sap https://*.myhybris.cloud https://*.fgvms.com https://*.fieldglass.net https://*.fieldglass.eu https://*.ariba.com https://sap.plateau.com",
+      "content-type": "application/json",
+      "date": "Thu, 14 Mar 2024 01:34:26 GMT",
+      "expires": "0",
+      "pragma": "no-cache",
+      "vary": "Accept-Encoding",
+      "x-content-type-options": "nosniff",
+      "x-correlationid": "b46b1e29-de87-49fb-4265-742b47b34df0",
+      "x-frame-options": "DENY",
+      "x-request-id": "b46b1e29-de87-49fb-4265-742b47b34df0",
+      "x-requested-featureflags": "[\"ff_compile_option_on_deploy\"]",
+      "x-vcap-request-id": "b46b1e29-de87-49fb-4265-742b47b34df0",
+      "x-xss-protection": "0",
+      "transfer-encoding": "chunked",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload;"
+    }
+  },
+  {
+    "timestamp": "2024-03-14T01:33:19.222Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "API URL: https://joule-dev-team7-q1m7cbgh.eu12.sapdas-staging.cloud.sap"
+  },
+  {
+    "timestamp": "2024-03-14T01:33:19.223Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "request header",
+    "data": {
+      "Accept": "application/json, text/plain, */*",
+      "X-Requested-FeatureFlags": "[\"ff_compile_option_on_deploy\"]"
+    }
+  },
+  {
+    "requestHeaderSize": 2915,
+    "bearerTokenLenght": 2553,
+    "jwtToken": {
+      "origin": "sap.default",
+      "iss": "https://joule-dev-team7-q1m7cbgh.authentication.eu12.hana.ondemand.com/oauth/token",
+      "zdn": "joule-dev-team7-q1m7cbgh",
+      "grant_type": "password",
+      "oidcIssuer": "https://accounts.sap.com",
+      "xs_user_attributes": {},
+      "xs_system_attributes": {
+        "xs.rolecollections": [
+          "Subaccount Service Administrator",
+          "Destination Administrator",
+          "DAS",
+          "Subaccount Viewer",
+          "Cloud Connector Administrator",
+          "Subaccount Administrator",
+          "Connectivity and Destination Administrator"
+        ]
+      },
+      "scope": [
+        "das-application!b136973.das_release_admin",
+        "das-application!b136973.das_developer",
+        "openid",
+        "uaa.user"
+      ],
+      "auth_time": 1710339768,
+      "exp": 1710382968,
+      "iat": 1710339768
+    }
+  },
+  {
+    "timestamp": "2024-03-14T01:33:19.752Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "response header",
+    "data": {
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-security-policy": "frame-ancestors self https://*.tools.sap https://*.sap.corp https://*.sap.corp:* https://*.ondemand.com https://*.ondemand.com:* https://*.sapsf.com https://*.sapsf.eu https://*.sapsf.cn https://*.successfactors.com https://*.successfactors.eu https://*.sapdemocloud.com https://*.cloud.sap:* https://*.cloud.sap https://*.int.sap https://*.sap.com https://*.net.sap https://*.net.sap:* https://*.sapanalytics.cloud https://*.sapbydesign.com https://*.sapbydesign.com:* https://*.for.sap https://*.enter.sap https://*.only.sap:* https://*.only.sap https://*.services.sap https://*.dev.sap https://*.myhybris.cloud https://*.fgvms.com https://*.fieldglass.net https://*.fieldglass.eu https://*.ariba.com https://sap.plateau.com",
+      "content-type": "application/json",
+      "date": "Thu, 14 Mar 2024 01:34:31 GMT",
+      "expires": "0",
+      "pragma": "no-cache",
+      "vary": "Accept-Encoding",
+      "x-content-type-options": "nosniff",
+      "x-correlationid": "1a13271c-f40d-4f60-4e9d-4ca4c39b890a",
+      "x-frame-options": "DENY",
+      "x-request-id": "1a13271c-f40d-4f60-4e9d-4ca4c39b890a",
+      "x-requested-featureflags": "[\"ff_compile_option_on_deploy\"]",
+      "x-vcap-request-id": "1a13271c-f40d-4f60-4e9d-4ca4c39b890a",
+      "x-xss-protection": "0",
+      "transfer-encoding": "chunked",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload;"
+    }
+  },
+  {
+    "timestamp": "2024-03-14T01:33:24.765Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "API URL: https://joule-dev-team7-q1m7cbgh.eu12.sapdas-staging.cloud.sap"
+  },
+  {
+    "timestamp": "2024-03-14T01:33:24.766Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "request header",
+    "data": {
+      "Accept": "application/json, text/plain, */*",
+      "X-Requested-FeatureFlags": "[\"ff_compile_option_on_deploy\"]"
+    }
+  },
+  {
+    "requestHeaderSize": 2915,
+    "bearerTokenLenght": 2553,
+    "jwtToken": {
+      "origin": "sap.default",
+      "iss": "https://joule-dev-team7-q1m7cbgh.authentication.eu12.hana.ondemand.com/oauth/token",
+      "zdn": "joule-dev-team7-q1m7cbgh",
+      "grant_type": "password",
+      "oidcIssuer": "https://accounts.sap.com",
+      "xs_user_attributes": {},
+      "xs_system_attributes": {
+        "xs.rolecollections": [
+          "Subaccount Service Administrator",
+          "Destination Administrator",
+          "DAS",
+          "Subaccount Viewer",
+          "Cloud Connector Administrator",
+          "Subaccount Administrator",
+          "Connectivity and Destination Administrator"
+        ]
+      },
+      "scope": [
+        "das-application!b136973.das_release_admin",
+        "das-application!b136973.das_developer",
+        "openid",
+        "uaa.user"
+      ],
+      "auth_time": 1710339768,
+      "exp": 1710382968,
+      "iat": 1710339768
+    }
+  },
+  {
+    "timestamp": "2024-03-14T01:33:25.287Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "response header",
+    "data": {
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-security-policy": "frame-ancestors self https://*.tools.sap https://*.sap.corp https://*.sap.corp:* https://*.ondemand.com https://*.ondemand.com:* https://*.sapsf.com https://*.sapsf.eu https://*.sapsf.cn https://*.successfactors.com https://*.successfactors.eu https://*.sapdemocloud.com https://*.cloud.sap:* https://*.cloud.sap https://*.int.sap https://*.sap.com https://*.net.sap https://*.net.sap:* https://*.sapanalytics.cloud https://*.sapbydesign.com https://*.sapbydesign.com:* https://*.for.sap https://*.enter.sap https://*.only.sap:* https://*.only.sap https://*.services.sap https://*.dev.sap https://*.myhybris.cloud https://*.fgvms.com https://*.fieldglass.net https://*.fieldglass.eu https://*.ariba.com https://sap.plateau.com",
+      "content-type": "application/json",
+      "date": "Thu, 14 Mar 2024 01:34:37 GMT",
+      "expires": "0",
+      "pragma": "no-cache",
+      "vary": "Accept-Encoding",
+      "x-content-type-options": "nosniff",
+      "x-correlationid": "2b78ba5d-5277-4e8a-47fc-6cd85edbacdb",
+      "x-frame-options": "DENY",
+      "x-request-id": "2b78ba5d-5277-4e8a-47fc-6cd85edbacdb",
+      "x-requested-featureflags": "[\"ff_compile_option_on_deploy\"]",
+      "x-vcap-request-id": "2b78ba5d-5277-4e8a-47fc-6cd85edbacdb",
+      "x-xss-protection": "0",
+      "transfer-encoding": "chunked",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload;"
+    }
+  },
+  {
+    "timestamp": "2024-03-14T01:33:30.306Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "API URL: https://joule-dev-team7-q1m7cbgh.eu12.sapdas-staging.cloud.sap"
+  },
+  {
+    "timestamp": "2024-03-14T01:33:30.307Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "request header",
+    "data": {
+      "Accept": "application/json, text/plain, */*",
+      "X-Requested-FeatureFlags": "[\"ff_compile_option_on_deploy\"]"
+    }
+  },
+  {
+    "requestHeaderSize": 2915,
+    "bearerTokenLenght": 2553,
+    "jwtToken": {
+      "origin": "sap.default",
+      "iss": "https://joule-dev-team7-q1m7cbgh.authentication.eu12.hana.ondemand.com/oauth/token",
+      "zdn": "joule-dev-team7-q1m7cbgh",
+      "grant_type": "password",
+      "oidcIssuer": "https://accounts.sap.com",
+      "xs_user_attributes": {},
+      "xs_system_attributes": {
+        "xs.rolecollections": [
+          "Subaccount Service Administrator",
+          "Destination Administrator",
+          "DAS",
+          "Subaccount Viewer",
+          "Cloud Connector Administrator",
+          "Subaccount Administrator",
+          "Connectivity and Destination Administrator"
+        ]
+      },
+      "scope": [
+        "das-application!b136973.das_release_admin",
+        "das-application!b136973.das_developer",
+        "openid",
+        "uaa.user"
+      ],
+      "auth_time": 1710339768,
+      "exp": 1710382968,
+      "iat": 1710339768
+    }
+  },
+  {
+    "timestamp": "2024-03-14T01:33:30.815Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "response header",
+    "data": {
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-security-policy": "frame-ancestors self https://*.tools.sap https://*.sap.corp https://*.sap.corp:* https://*.ondemand.com https://*.ondemand.com:* https://*.sapsf.com https://*.sapsf.eu https://*.sapsf.cn https://*.successfactors.com https://*.successfactors.eu https://*.sapdemocloud.com https://*.cloud.sap:* https://*.cloud.sap https://*.int.sap https://*.sap.com https://*.net.sap https://*.net.sap:* https://*.sapanalytics.cloud https://*.sapbydesign.com https://*.sapbydesign.com:* https://*.for.sap https://*.enter.sap https://*.only.sap:* https://*.only.sap https://*.services.sap https://*.dev.sap https://*.myhybris.cloud https://*.fgvms.com https://*.fieldglass.net https://*.fieldglass.eu https://*.ariba.com https://sap.plateau.com",
+      "content-type": "application/json",
+      "date": "Thu, 14 Mar 2024 01:34:42 GMT",
+      "expires": "0",
+      "pragma": "no-cache",
+      "vary": "Accept-Encoding",
+      "x-content-type-options": "nosniff",
+      "x-correlationid": "d31b6acd-5bf9-46dc-66b9-9ced57811d02",
+      "x-frame-options": "DENY",
+      "x-request-id": "d31b6acd-5bf9-46dc-66b9-9ced57811d02",
+      "x-requested-featureflags": "[\"ff_compile_option_on_deploy\"]",
+      "x-vcap-request-id": "d31b6acd-5bf9-46dc-66b9-9ced57811d02",
+      "x-xss-protection": "0",
+      "transfer-encoding": "chunked",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload;"
+    }
+  },
+  {
+    "timestamp": "2024-03-14T01:33:35.832Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "API URL: https://joule-dev-team7-q1m7cbgh.eu12.sapdas-staging.cloud.sap"
+  },
+  {
+    "timestamp": "2024-03-14T01:33:35.833Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "request header",
+    "data": {
+      "Accept": "application/json, text/plain, */*",
+      "X-Requested-FeatureFlags": "[\"ff_compile_option_on_deploy\"]"
+    }
+  },
+  {
+    "requestHeaderSize": 2915,
+    "bearerTokenLenght": 2553,
+    "jwtToken": {
+      "origin": "sap.default",
+      "iss": "https://joule-dev-team7-q1m7cbgh.authentication.eu12.hana.ondemand.com/oauth/token",
+      "zdn": "joule-dev-team7-q1m7cbgh",
+      "grant_type": "password",
+      "oidcIssuer": "https://accounts.sap.com",
+      "xs_user_attributes": {},
+      "xs_system_attributes": {
+        "xs.rolecollections": [
+          "Subaccount Service Administrator",
+          "Destination Administrator",
+          "DAS",
+          "Subaccount Viewer",
+          "Cloud Connector Administrator",
+          "Subaccount Administrator",
+          "Connectivity and Destination Administrator"
+        ]
+      },
+      "scope": [
+        "das-application!b136973.das_release_admin",
+        "das-application!b136973.das_developer",
+        "openid",
+        "uaa.user"
+      ],
+      "auth_time": 1710339768,
+      "exp": 1710382968,
+      "iat": 1710339768
+    }
+  },
+  {
+    "timestamp": "2024-03-14T01:33:36.373Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "response header",
+    "data": {
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-security-policy": "frame-ancestors self https://*.tools.sap https://*.sap.corp https://*.sap.corp:* https://*.ondemand.com https://*.ondemand.com:* https://*.sapsf.com https://*.sapsf.eu https://*.sapsf.cn https://*.successfactors.com https://*.successfactors.eu https://*.sapdemocloud.com https://*.cloud.sap:* https://*.cloud.sap https://*.int.sap https://*.sap.com https://*.net.sap https://*.net.sap:* https://*.sapanalytics.cloud https://*.sapbydesign.com https://*.sapbydesign.com:* https://*.for.sap https://*.enter.sap https://*.only.sap:* https://*.only.sap https://*.services.sap https://*.dev.sap https://*.myhybris.cloud https://*.fgvms.com https://*.fieldglass.net https://*.fieldglass.eu https://*.ariba.com https://sap.plateau.com",
+      "content-type": "application/json",
+      "date": "Thu, 14 Mar 2024 01:34:48 GMT",
+      "expires": "0",
+      "pragma": "no-cache",
+      "vary": "Accept-Encoding",
+      "x-content-type-options": "nosniff",
+      "x-correlationid": "abc3007e-b3da-4d86-7778-47b6d9af6284",
+      "x-frame-options": "DENY",
+      "x-request-id": "abc3007e-b3da-4d86-7778-47b6d9af6284",
+      "x-requested-featureflags": "[\"ff_compile_option_on_deploy\"]",
+      "x-vcap-request-id": "abc3007e-b3da-4d86-7778-47b6d9af6284",
+      "x-xss-protection": "0",
+      "transfer-encoding": "chunked",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload;"
+    }
+  },
+  {
+    "timestamp": "2024-03-14T01:33:36.376Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "Executed: deploy"
+  }
+]

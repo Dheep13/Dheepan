@@ -1,0 +1,18 @@
+parameters:
+  - name: payeeId
+action_groups:
+  - actions:
+      - type: api-request
+        method: GET
+        system_alias: CommissionsService
+        path: "/api/v2/participants?$filter=payeeId eq <? payeeId ?>"
+        result_variable: payee_lookup_result #results of the response are held here
+
+      - type: set-variables
+        scripting_type: handlebars
+        variables:
+          - name: payeeSeq
+            value: "{{ payee_lookup_result.body.participants.payeeSeq }}"
+            
+result: #here we are only selecting the required properties
+  payee_details: <? payee_lookup_result.body.participants.payeeSeq ?>

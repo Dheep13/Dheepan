@@ -1,0 +1,33 @@
+title: Fetch Commissions Info
+type: node
+trigger_utterance: Show Commissions Info
+condition: "#commissions_intent"
+slot_filling:
+  slots:
+    - check_for: "@payees"
+      save_as:
+        variable: "payeeId"
+        value: "@payees"
+      not_present:
+        prompts:
+          - type: text
+            content: "Payee for which you would like to see the commissions for?"
+    # - check_for: "@periodnames"
+    #   save_as:
+    #     variable: "periodName"
+    #     value: "@periodnames"
+    #   not_present:
+    #     prompts:
+    #       - type: text
+    #         content: "Period for which you would like to see the commissions for?"
+
+dialog_functions:
+  - name: commissions/fetch_commissions_info
+    result_variable: commissions_details
+    parameters:
+      - name: payeeId
+        value: "$payeeId"
+      # - name: periodName
+      #   value: "$periodName"
+finally:
+  behavior: skip

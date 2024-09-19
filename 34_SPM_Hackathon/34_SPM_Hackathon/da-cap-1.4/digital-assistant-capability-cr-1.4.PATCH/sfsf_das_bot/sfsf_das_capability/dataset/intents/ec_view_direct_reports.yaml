@@ -1,0 +1,17 @@
+description: ec_view_direct_reports
+examples:
+    - Would like to view her people who report to her.
+    - who works for me?
+    - Who reports to me?
+    - Who is my direct report?
+    - who are the direct reports of [Alex](person)?
+    - Try to take a look at subordinates of mine.
+    - show me the name of my team members
+    - Search for her staff that report directly to her.
+    - Let me look at people that she directly supervises.
+    - I wish to see his staff who directly report to him.
+    - How can I check who directly reports to me?
+    - Help me look up subordinates reporting to me.
+    - Find team members who directly report to him.
+    - Display direct report of mine.
+    - Could you provide a list of [Leo](person)'s direct reports?

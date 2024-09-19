@@ -1,0 +1,17 @@
+description: ec_view_job_code
+examples:
+    - What's my job classification?
+    - What is [Jen](person)'s title?
+    - Show my job classification.
+    - Please find direct report [Leo](person)'s job code name.
+    - my direct report's job code
+    - Let me know [Jen](person)'s job code.
+    - "[Leo](person)'s job"
+    - I'd like to view title.
+    - I'd like to view job title.
+    - I'd like to view job data.
+    - I need check job code ID.
+    - How to look up the job code of my direct report?
+    - How do I view [Jen](person)'s job code name?
+    - Display [Jen](person)'s job data
+    - Can I have a look at my direct's job code.

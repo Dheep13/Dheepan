@@ -1,0 +1,234 @@
+[
+  {
+    "timestamp": "2024-02-19T08:12:59.736Z",
+    "command": "compile",
+    "level": "debug",
+    "message": "Executing: compile"
+  },
+  {
+    "timestamp": "2024-02-19T08:12:59.792Z",
+    "command": "compile",
+    "level": "debug",
+    "message": "API URL: https://joule-dev-team7-q1m7cbgh.eu12.sapdas-staging.cloud.sap"
+  },
+  {
+    "timestamp": "2024-02-19T08:12:59.794Z",
+    "command": "compile",
+    "level": "debug",
+    "message": "request header",
+    "data": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "multipart/form-data; boundary=--------------------------890785370905670893744491",
+      "X-Requested-FeatureFlags": "[\"ff_compile_option_on_deploy\"]"
+    }
+  },
+  {
+    "requestHeaderSize": 3001,
+    "bearerTokenLenght": 2553,
+    "jwtToken": {
+      "origin": "sap.default",
+      "iss": "https://joule-dev-team7-q1m7cbgh.authentication.eu12.hana.ondemand.com/oauth/token",
+      "zdn": "joule-dev-team7-q1m7cbgh",
+      "grant_type": "password",
+      "oidcIssuer": "https://accounts.sap.com",
+      "xs_user_attributes": {},
+      "xs_system_attributes": {
+        "xs.rolecollections": [
+          "Subaccount Service Administrator",
+          "Destination Administrator",
+          "DAS",
+          "Subaccount Viewer",
+          "Cloud Connector Administrator",
+          "Subaccount Administrator",
+          "Connectivity and Destination Administrator"
+        ]
+      },
+      "scope": [
+        "das-application!b136973.das_release_admin",
+        "das-application!b136973.das_developer",
+        "openid",
+        "uaa.user"
+      ],
+      "auth_time": 1708316473,
+      "exp": 1708359673,
+      "iat": 1708316473
+    }
+  },
+  {
+    "timestamp": "2024-02-19T08:13:00.757Z",
+    "command": "compile",
+    "level": "debug",
+    "message": "response header",
+    "data": {
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-security-policy": "frame-ancestors self https://*.tools.sap https://*.sap.corp https://*.sap.corp:* https://*.ondemand.com https://*.ondemand.com:* https://*.sapsf.com https://*.sapsf.eu https://*.sapsf.cn https://*.successfactors.com https://*.successfactors.eu https://*.sapdemocloud.com https://*.cloud.sap:* https://*.cloud.sap https://*.int.sap https://*.sap.com https://*.net.sap https://*.net.sap:* https://*.sapanalytics.cloud https://*.sapbydesign.com https://*.sapbydesign.com:* https://*.for.sap https://*.enter.sap https://*.only.sap:* https://*.only.sap https://*.services.sap https://*.dev.sap https://*.myhybris.cloud https://*.fgvms.com https://*.fieldglass.net https://*.fieldglass.eu https://*.ariba.com",
+      "content-type": "application/json",
+      "date": "Mon, 19 Feb 2024 08:13:29 GMT",
+      "expires": "0",
+      "pragma": "no-cache",
+      "vary": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers, Accept-Encoding",
+      "x-content-type-options": "nosniff",
+      "x-correlationid": "2cbaf41f-0577-415f-64b4-f2f71161ad1e",
+      "x-frame-options": "DENY",
+      "x-request-id": "2cbaf41f-0577-415f-64b4-f2f71161ad1e",
+      "x-requested-featureflags": "[\"ff_compile_option_on_deploy\"]",
+      "x-vcap-request-id": "2cbaf41f-0577-415f-64b4-f2f71161ad1e",
+      "x-xss-protection": "0",
+      "transfer-encoding": "chunked",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload;"
+    }
+  },
+  {
+    "timestamp": "2024-02-19T08:13:00.760Z",
+    "command": "compile",
+    "level": "debug",
+    "message": "Job ID: c38d2b65-7be8-4fc3-819c-799a3555a88b"
+  },
+  {
+    "timestamp": "2024-02-19T08:13:01.279Z",
+    "command": "compile",
+    "level": "debug",
+    "message": "API URL: https://joule-dev-team7-q1m7cbgh.eu12.sapdas-staging.cloud.sap"
+  },
+  {
+    "timestamp": "2024-02-19T08:13:01.288Z",
+    "command": "compile",
+    "level": "debug",
+    "message": "request header",
+    "data": {
+      "Accept": "application/json, text/plain, */*",
+      "X-Requested-FeatureFlags": "[\"ff_compile_option_on_deploy\"]"
+    }
+  },
+  {
+    "requestHeaderSize": 2919,
+    "bearerTokenLenght": 2553,
+    "jwtToken": {
+      "origin": "sap.default",
+      "iss": "https://joule-dev-team7-q1m7cbgh.authentication.eu12.hana.ondemand.com/oauth/token",
+      "zdn": "joule-dev-team7-q1m7cbgh",
+      "grant_type": "password",
+      "oidcIssuer": "https://accounts.sap.com",
+      "xs_user_attributes": {},
+      "xs_system_attributes": {
+        "xs.rolecollections": [
+          "Subaccount Service Administrator",
+          "Destination Administrator",
+          "DAS",
+          "Subaccount Viewer",
+          "Cloud Connector Administrator",
+          "Subaccount Administrator",
+          "Connectivity and Destination Administrator"
+        ]
+      },
+      "scope": [
+        "das-application!b136973.das_release_admin",
+        "das-application!b136973.das_developer",
+        "openid",
+        "uaa.user"
+      ],
+      "auth_time": 1708316473,
+      "exp": 1708359673,
+      "iat": 1708316473
+    }
+  },
+  {
+    "timestamp": "2024-02-19T08:13:01.509Z",
+    "command": "compile",
+    "level": "debug",
+    "message": "response header",
+    "data": {
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-security-policy": "frame-ancestors self https://*.tools.sap https://*.sap.corp https://*.sap.corp:* https://*.ondemand.com https://*.ondemand.com:* https://*.sapsf.com https://*.sapsf.eu https://*.sapsf.cn https://*.successfactors.com https://*.successfactors.eu https://*.sapdemocloud.com https://*.cloud.sap:* https://*.cloud.sap https://*.int.sap https://*.sap.com https://*.net.sap https://*.net.sap:* https://*.sapanalytics.cloud https://*.sapbydesign.com https://*.sapbydesign.com:* https://*.for.sap https://*.enter.sap https://*.only.sap:* https://*.only.sap https://*.services.sap https://*.dev.sap https://*.myhybris.cloud https://*.fgvms.com https://*.fieldglass.net https://*.fieldglass.eu https://*.ariba.com",
+      "content-type": "application/json",
+      "date": "Mon, 19 Feb 2024 08:13:29 GMT",
+      "expires": "0",
+      "pragma": "no-cache",
+      "vary": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers, Accept-Encoding",
+      "x-content-type-options": "nosniff",
+      "x-correlationid": "1922e97e-feb3-49a5-49f6-ede5ab6b0c18",
+      "x-frame-options": "DENY",
+      "x-request-id": "1922e97e-feb3-49a5-49f6-ede5ab6b0c18",
+      "x-requested-featureflags": "[\"ff_compile_option_on_deploy\"]",
+      "x-vcap-request-id": "1922e97e-feb3-49a5-49f6-ede5ab6b0c18",
+      "x-xss-protection": "0",
+      "transfer-encoding": "chunked",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload;"
+    }
+  },
+  {
+    "timestamp": "2024-02-19T08:13:01.512Z",
+    "command": "compile",
+    "level": "error",
+    "message": {
+      "code": "Compiler - 0190",
+      "message": "Digital assistant project contains validation errors (error code: Compiler - 0190, id: c4ac04ec-cbd8-47c2-8a02-16b65d0600cb)",
+      "log_id": "c4ac04ec-cbd8-47c2-8a02-16b65d0600cb"
+    },
+    "data": [
+      {
+        "message": "Malware Scan Started",
+        "level": "INFO",
+        "type": "STATUS",
+        "created_at": "2024-02-19 08:13:29"
+      },
+      {
+        "message": "Malware Scan Finished",
+        "level": "INFO",
+        "type": "STATUS",
+        "created_at": "2024-02-19 08:13:29"
+      },
+      {
+        "message": "Compilation Started",
+        "level": "INFO",
+        "type": "STATUS",
+        "created_at": "2024-02-19 08:13:30"
+      },
+      {
+        "message": "Validation Started",
+        "level": "INFO",
+        "type": "STATUS",
+        "created_at": "2024-02-19 08:13:30"
+      },
+      {
+        "message": "Validation Finished",
+        "level": "INFO",
+        "type": "STATUS",
+        "created_at": "2024-02-19 08:13:30"
+      },
+      {
+        "message": "Compilation Finished",
+        "level": "INFO",
+        "type": "STATUS",
+        "created_at": "2024-02-19 08:13:30"
+      },
+      {
+        "path": "bot/dialog/nodes/product/fetch_product.yaml",
+        "message": "Dialog function fetch_product_info referenced from dialog node product/fetch_product did not exist.",
+        "code": "Compiler - 0190 - Digital assistant project contains validation errors",
+        "level": "ERROR",
+        "type": "VALIDATION",
+        "created_at": "2024-02-19 08:13:30"
+      },
+      {
+        "message": "Dialog node sample_dialog_node not included during compilation because it was not defined in the dialog tree",
+        "level": "WARNING",
+        "type": "VALIDATION",
+        "created_at": "2024-02-19 08:13:30"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-02-19T08:13:01.534Z",
+    "command": "compile",
+    "level": "error",
+    "message": "error: compile failed (code: COMPILE_FAILED)",
+    "data": null,
+    "error": {
+      "message": "compile failed",
+      "name": "CliError",
+      "errorCode": "COMPILE_FAILED",
+      "stacktrace": "CliError: compile failed\n    at #compileAndDownload (file:///C:/Users/I520292/AppData/Roaming/npm/node_modules/sapdas-cli/dist/module/compile/compile.js:72:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async Compile.processingCapabilities (file:///C:/Users/I520292/AppData/Roaming/npm/node_modules/sapdas-cli/dist/module/compile/compile.js:79:25)\n    at async CompileCommand.run (file:///C:/Users/I520292/AppData/Roaming/npm/node_modules/sapdas-cli/dist/module/compile/compileCommand.js:18:9)\n    at async Command.<anonymous> (file:///C:/Users/I520292/AppData/Roaming/npm/node_modules/sapdas-cli/dist/module/compile/compileCommand.js:12:13)\n    at async Command.parseAsync (C:\\Users\\I520292\\AppData\\Roaming\\npm\\node_modules\\sapdas-cli\\node_modules\\commander\\lib\\command.js:936:5)\n    at async #executeCli (file:///C:/Users/I520292/AppData/Roaming/npm/node_modules/sapdas-cli/dist/module/base/cliExecution.js:213:13)\n    at async CliExecution.execute (file:///C:/Users/I520292/AppData/Roaming/npm/node_modules/sapdas-cli/dist/module/base/cliExecution.js:230:9)"
+    }
+  }
+]

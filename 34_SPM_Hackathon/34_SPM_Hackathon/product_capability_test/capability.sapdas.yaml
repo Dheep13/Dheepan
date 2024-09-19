@@ -1,0 +1,16 @@
+schema_version: 1.3.0
+
+metadata:
+  display_name: Commissions Capability
+  namespace: namespace
+  name: commissions_capability
+  version: 1.0.0
+  description: Demo capability to fetch the product
+
+system_aliases:
+  CommissionsService:
+    destination: Commissions
+  CommissionsWebHookService:
+    destination: CommissionsWebHook
+  OpenAIServices:
+    destination: OpenAI_GPT

@@ -1,0 +1,32 @@
+Gamification App for Commissions
+Lightweight Commissions App
+This will be a side by side extension to Commissions App.
+This will not be an in App extension.
+It will have a chatbot integrated or FAQs(demo using chatbot shown)
+We can estimate the commissions at the quotation stage. 
+Based on each person's role the view will be different.
+Cloud Connector for on-premise customers?
+
+
+SAP Graph wraps the APIs of existing products into a single harmonized API layer across 
+the existing source systems.
+
+CORS Issue(Cross-Origin Resource Sharing) - (cross-origin request) - this may have been resolved in the SAP Build app.
+
+For example a sales rep will see his commission's earnings, targets, estimates and other KPIs.
+The Sales Manager however should be able to see his subordinates earnings, targets, estimates etc, along with his own KPIs.
+
+
+Question is how are we going to calculate the Commissions? Using the pipepline API? The current one is slightly slow and also not accurate is what I heard.
+or are we going to deploy a ML algorithm which will predict the commissions based on commissions generated in the past(which may not be accurate)
+
+
+Another thing I'd like to point out here is we'd need to try and analyze the commissions data a lot more. Say someone like a data scientist to try and analyze
+if we can unearth hidden information in the commissions data which can provide some insights that may be used to increase the productivity and efficiency of the business.
+At this point in time I'm not exactly able to tell you what we are going to achieve out of it ,may be we can build a new ML model that can replace the modeller that we currently 
+have.
+
+We are only scratching the surface, however there is always some hidden information in the huge volumes of data which can prove to be a game changer. 
+Get more insights on why a certain product is doing relatively well, or why a certain agent is performing better than the others
+
+https://adapter-gateway.mps.kyma.cloud.sap/v1/applications/signingRequests/info?token=2Us-DJzy74_BZQIA87xrZBjlO4jjEIEJOLjYIMGf9-n60eZqEA3Dwao3dmQQ120eVlC8PmDRKMO4W_VpMaKp4Q==

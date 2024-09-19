@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2024-02-19T09:35:15.905Z",
+    "command": "compile",
+    "level": "debug",
+    "message": "Executing: compile"
+  },
+  {
+    "timestamp": "2024-02-19T09:35:15.910Z",
+    "command": "compile",
+    "level": "error",
+    "message": "error: invalid path - C:\\Users\\I520292\\OneDrive - SAP SE\\Visual Studio Code\\34_SPM_Hackathon\\product_capability\\product_capability does not exist (code: COMPILE_INVALID_SOURCE)",
+    "data": null,
+    "error": {
+      "message": "invalid path - C:\\Users\\I520292\\OneDrive - SAP SE\\Visual Studio Code\\34_SPM_Hackathon\\product_capability\\product_capability does not exist",
+      "name": "CliError",
+      "errorCode": "COMPILE_INVALID_SOURCE",
+      "stacktrace": "CliError: invalid path - C:\\Users\\I520292\\OneDrive - SAP SE\\Visual Studio Code\\34_SPM_Hackathon\\product_capability\\product_capability does not exist\n    at exist (file:///C:/Users/I520292/AppData/Roaming/npm/node_modules/sapdas-cli/dist/module/base/utils/utils.js:81:19)\n    at async SourceValidator.validateSourcePath (file:///C:/Users/I520292/AppData/Roaming/npm/node_modules/sapdas-cli/dist/module/base/validator/sourceValidator.js:52:9)\n    at async SourceValidator.sourceToConfig (file:///C:/Users/I520292/AppData/Roaming/npm/node_modules/sapdas-cli/dist/module/base/validator/sourceValidator.js:81:24)\n    at async Compile.compile (file:///C:/Users/I520292/AppData/Roaming/npm/node_modules/sapdas-cli/dist/module/compile/compile.js:84:24)\n    at async CompileCommand.run (file:///C:/Users/I520292/AppData/Roaming/npm/node_modules/sapdas-cli/dist/module/compile/compileCommand.js:18:9)\n    at async Command.<anonymous> (file:///C:/Users/I520292/AppData/Roaming/npm/node_modules/sapdas-cli/dist/module/compile/compileCommand.js:12:13)\n    at async Command.parseAsync (C:\\Users\\I520292\\AppData\\Roaming\\npm\\node_modules\\sapdas-cli\\node_modules\\commander\\lib\\command.js:936:5)\n    at async #executeCli (file:///C:/Users/I520292/AppData/Roaming/npm/node_modules/sapdas-cli/dist/module/base/cliExecution.js:213:13)\n    at async CliExecution.execute (file:///C:/Users/I520292/AppData/Roaming/npm/node_modules/sapdas-cli/dist/module/base/cliExecution.js:230:9)",
+      "causedBy": {
+        "message": "ENOENT: no such file or directory, access 'C:\\Users\\I520292\\OneDrive - SAP SE\\Visual Studio Code\\34_SPM_Hackathon\\product_capability\\product_capability'",
+        "name": "Error",
+        "stacktrace": "Error: ENOENT: no such file or directory, access 'C:\\Users\\I520292\\OneDrive - SAP SE\\Visual Studio Code\\34_SPM_Hackathon\\product_capability\\product_capability'"
+      }
+    }
+  }
+]

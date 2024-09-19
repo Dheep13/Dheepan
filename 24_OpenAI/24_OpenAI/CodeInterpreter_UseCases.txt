@@ -1,0 +1,45 @@
+
+1. Segment your customers in seconds:
+It takes a spreadsheet and then comes up with different segments of music markets - on its own. This used to take hours of a human coding in R or Matlab.
+
+2. Decompose seasonality simply via text:
+On its own, it figured out the exact seasonality in the price of bitcoin - in the blink of an eye.
+
+3. Linear regression by itself:
+Simply asking Code Interpreter to come up with "interesting hypotheses" results in a well-constructed automated linear regression. This used to be something you code via R or SAS after coming up with the hypothesis yourself.
+
+4. Easy Geo Charts:
+You can just upload location data and get a GIF of the thing visualized - in this case, lighthouses in the US twinkling. You used to have to connect this to expensive software like Tableau.
+
+5. Basic descriptive charts in seconds:
+Just asking for "some basic visualizations" can get you all your data exploration steps that used to take hours in seconds. You used to have to come up with the ideas yourself, even if the charts were easy to generate.
+
+6. Graph public data without input:
+It can fetch data from public databases like the IMF and visualize it for you without any work. 
+
+7. Automatic Radar Charts:
+It can generate hard-to-create charts by itself after analyzing a user's data. 
+
+8. Heatmaps With Ease:
+Upload a CSV of data and it can generate heatmaps with no guidance.
+
+9. Output the log chart automatically:
+Just ask ChatGPT to analyze a dataset and it'll figure out when a log transformation applies, and output it itself.
+
+10. Cohort chart with no effort:
+Just upload data and it will build your cohorts and chart it in seconds. 
+
+11. Choose your clustering algorithm and debug:
+At scale clustering into groups of 100 used to be a tedious process in Python. Code Interpreter does it all for you in seconds. And debugs its mistakes.
+
+12. Natural language querying to reduce stakeholder requests:
+Data scientists used to always get distracted with simple questions from stakeholders like "what's the average list price?" Now they can just do it in Code Interpreter.
+
+13. Plot mathematical functions:
+You used to have to go into a math tool to create a simple plot, and then define all the elements of the formula. Code Interpreter will make assumptions and do it without any guidance.
+
+14. Clean data:
+Code Interpreter will make intelligent decisions for you, like remove unnecessary columns.
+
+15. Do all of the above in one place in seconds:
+In the future, everyone will be a data analyst. Thanks to Code Interpreter.

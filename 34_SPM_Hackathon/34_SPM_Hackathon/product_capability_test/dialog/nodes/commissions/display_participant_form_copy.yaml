@@ -1,0 +1,69 @@
+type: node
+title: "pick date time"
+condition: "#participant_form"
+response:
+  messages:
+    - type: text
+      content: Please provide the participant details
+    - type: raw
+      content: >
+        {
+            "type": "ui5integrationCard",
+            "content": {
+                "manifest": {
+                    "_version": "1.17.0",
+                    "sap.card": {
+                        "type": "AdaptiveCard",
+                        "content": {
+                            "body": [
+                                {
+                                    "id": "effectiveStartDate",
+                                    "type": "Input.Date",
+                                    "label":"Date:",
+                                    "isRequired": false,
+                                    "errorMessage": "Please enter a date"
+                                },  
+                                {
+                                    "id": "payeeId",
+                                    "type": "Input.Text",
+                                    "label":"payeeId:",
+                                    "isRequired": true,
+                                    "errorMessage": "Please enter the payeeId"
+                                },
+                                {
+                                    "id": "lastName",
+                                    "type": "Input.Text",
+                                    "label":"lastName:",
+                                    "isRequired": true,
+                                    "errorMessage": "Please enter the lastName"
+                                }
+                            ],
+                            "type": "AdaptiveCard",
+                                "actions": [
+                                    {
+                                        "type": "Action.Submit",
+                                        "title": "Submit"
+                                    }
+                            ]
+                        }
+                    }
+                },
+                "submit_message":  "lastName {submitted_data.lastName}"
+            },
+            "markdown": false,
+            "delay": 0
+        }
+
+finally:
+#   behavior: wait
+#   target: commissions/stop_dialog
+  behavior: wait
+  jump_to:
+    node: commissions/create_participant_new
+    execution: responses
+# payeeId {submitted_data.payeeId} lastName {submitted_data.lastName}
+
+  # behavior: jump
+  # jump_to:
+  #   node: commissions/fetch_period
+  #   execution: eval-condition

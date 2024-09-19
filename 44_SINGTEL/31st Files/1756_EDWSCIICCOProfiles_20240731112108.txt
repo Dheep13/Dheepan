@@ -1,0 +1,2 @@
+H	20240801 11:21:05	EDW_SCII_CCOProfile		P
+StaffID	FullName	SurName	FirstName	CallingName	Email	ICON_ID	StartDate	EndDate	ContractEndDate	Gender	Race	Religion	Nationality	Language	HoursWork	EmployeeID	Status	Directorate	RC	Hotline	Site	Manager	TeamManager	TeamLeader	Team	Position	Position_EffectiveDate	JobGrade	JobGrade_EffectiveDate	EmployeeType	EffectiveDate	AgentID	AgentID_EffectiveDate	Agency	Agency_EffectiveDate

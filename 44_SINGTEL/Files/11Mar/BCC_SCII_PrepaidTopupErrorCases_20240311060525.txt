@@ -1,0 +1,3 @@
+H	20240311 06:05:25	PrepaidTopupErrorCases	T
+Record Type	Case Id	Dealer Code	Service Number	Prepaid Top Up Amount	Prepaid Top Up Date	Comments	Agent Name
+T	0

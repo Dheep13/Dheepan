@@ -1,0 +1,7 @@
+applications:
+- name: BuildAppCommissions
+  random-route: true
+  memory: 128M
+  command: python App.py
+  services:
+    - postgre

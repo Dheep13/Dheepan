@@ -1,0 +1,13 @@
+title: detailed results
+type: node
+condition: " $continue_gpt == 'yes' && #show_llm_search_results "
+
+dialog_functions:
+  - name: openai/generative_llm_show_results
+    result_variable: result
+    parameters:
+      - name: prepared_results
+        value: <? $llm_result.results ?>
+
+finally:
+  behavior: wait

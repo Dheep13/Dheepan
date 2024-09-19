@@ -1,0 +1,42 @@
+parameters:
+  # - name: effectiveEndDate
+  - name: effectiveStartDate
+  - name: payeeId
+  - name: lastName
+  # - name: genericDate1
+  # - name: genericAttribute1
+  # - name: submitted_data
+
+action_groups:
+  - actions:
+
+      - type: message
+        scripting_type: spel
+        message:
+          type: text
+          content: "Inside create_participant_info dialog function" 
+      
+      - type: api-request
+        method: POST
+        system_alias: CommissionsService
+        path: "/api/v2/participants"
+        headers:
+          Content-Type: application/json
+        body: '
+              {
+                  "effectiveEndDate": "2200-01-01",
+                  "businessUnits": [],
+                  "effectiveStartDate": "<? effectiveStartDate ?>",
+                  "payeeId": "<? payeeId ?>",
+                  "lastName": "<? lastName ?>"
+              }'
+        result_variable: participant_create_result #results of the response are held here
+
+      - type: set-variables
+        scripting_type: handlebars
+        variables:
+          - name: periodSeq
+            value: "{{ participant_create_result.body }}"
+
+result: #here we are only selecting the required properties
+  payeeSeq: <? lookup_result.body.participants[0].payeeSeq ?>

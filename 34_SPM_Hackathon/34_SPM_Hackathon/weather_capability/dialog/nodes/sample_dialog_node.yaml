@@ -1,0 +1,9 @@
+type: node
+title: Sample dialog node
+condition: '#weather'
+response:
+  messages:
+    - type: text
+      content: Here is the sample node
+finally:
+  behavior: wait

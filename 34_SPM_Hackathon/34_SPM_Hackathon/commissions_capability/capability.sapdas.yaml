@@ -1,0 +1,12 @@
+schema_version: 1.3.0
+
+metadata:
+  auto_correct: false
+  display_name: Commisions Capability
+  name: commissions_capability
+  version: 1.0.0
+  description: Demo capability to fetch the commissions information
+
+system_aliases:
+  CommissionsService:
+    destination: Commisssions

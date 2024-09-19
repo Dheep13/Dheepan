@@ -1,0 +1,80 @@
+fuzzy_matching: false
+values:
+  - value: MentoringRequest
+    synonyms:
+      - mentoring
+      - mentoring request
+      - mentor
+  - value: TalentPoolNominee
+    synonyms:
+      - talent nominee
+      - talent pool nominee
+  - value: TimeOff
+    synonyms:
+      - time off
+      - Timeoff
+      - Time Off
+      - leave
+  - value: SpotAward
+    synonyms:
+      - spot award
+      - SpotAward
+      - award
+  - value: Learning
+    synonyms:
+      - learning
+      - training
+  - value: PositionChange
+    synonyms:
+      - position Change
+      - change position
+  - value: BenefitEnrollmentGroup
+    synonyms:
+      - Benefit Enrollment Group
+  - value: BenefitEmployeeClaim
+    synonyms:
+      - Benefit Employee Claim
+  - value: NonRecurringPayment
+    synonyms:
+      - Non-Recurring Payment
+  - value: IncomeTaxDeclaration
+    synonyms:
+      - Income Tax Declaration
+  - value: TimeAccountPayout
+    synonyms:
+      - Time Account Payout
+  - value: Time Account Purchase
+    synonyms:
+      - Time Account Purchase
+  - value: TimeSheet
+    synonyms:
+      - Time Sheet
+  - value: EmployeeCentralWorkflow
+    synonyms:
+      - Employee Central Workflow
+      - employee date change
+      - Employee Change
+      - ec workflow
+      - EC workflow
+  - value: AssignmentOffer
+    synonyms:
+      - Assignment Offer
+  - value: AssignmentPublishing
+    synonyms:
+      - Assignment Publishing
+  - value: AssignmentApplication
+    synonyms:
+      - Assignment Application
+  - value: AcceptanceAssignmentOffer
+    synonyms:
+      - Acceptance of Assignment Offer
+  - value: JobOffer
+    synonyms:
+      - Job Offer
+  - value: JobRequisition
+    synonyms:
+      - Job Requisition
+  - value: Mentor
+  - value: TimeEvent
+    synonyms:
+      - Time Event

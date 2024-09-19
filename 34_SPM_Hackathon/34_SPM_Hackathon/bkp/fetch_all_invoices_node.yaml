@@ -1,0 +1,37 @@
+type: node
+title: fetch_all_invoices
+condition: "#all_invoice_intent"
+slot_filling:
+  slots:
+    - check_for: "@orderid"
+      save_as:
+        variable: orderid
+        value: "@orderid"
+      not_present:
+        prompts:
+          - type: text
+            content: "Please provide the orderid for which you would like to view the credit invoices for?"
+
+
+dialog_functions:
+  - name: commissions/fetch_all_invoices
+    result_variable: credit_invoice_details
+    parameters:
+      - name: payeeId
+        value: <? $payee_details.payeeId ?>
+      - name: positionSeq
+        value: <? $payee_details.positionSeq ?>
+      - name: periodSeq
+        value: <? $period_details.periodSeq ?>
+      - name: periodName
+        value: <? $period_details.periodName ?>
+      - name: orderid
+        value: "$orderid"
+
+
+finally:
+  behavior: wait
+  # behavior: jump
+  # jump_to:
+  #   node: commissions/display_results
+  #   execution: eval-condition

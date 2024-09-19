@@ -1,0 +1,9 @@
+type: node
+title: "Get Credit Invoice"
+condition: "#credit_invoice_intent"
+finally:
+  behavior: jump
+  jump_to:
+    node: get_credit_invoice/fetch_credit_invoice
+    execution: responses
+

@@ -1,0 +1,1000 @@
+Validation,EffectiveStartDate,EffectiveEndDate,Value,Team,Product,Title
+Validation formula. Copy this down to all rows before uploading the file. Only rows marked OK here will be uploaded,YYYY-MM-DD (First date of the month),YYYY-MM-DD (Last date of the month),"Number of registrations - No commas,  Number only",Select from drop down,Select from drop down,"Mandatory. Must be a valid Title, matching the values in Callidus"
+OK,2024-06-01,2024-06-30,487,STS - Singtel Shop Ang Mo Kio Hub,Prepaid GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,1064,STS - Singtel Shop Ang Mo Kio Hub,Mobile Add On,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,458,STS - Singtel Shop Ang Mo Kio Hub,SNBB Add On,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,24,STS - Singtel Shop Ang Mo Kio Hub,TV App,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,72,STS - Singtel Shop Ang Mo Kio Hub,TV Content,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,11151,STS - Singtel Shop Ang Mo Kio Hub,Prepaid Revenue,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,139147,STS - Singtel Shop Ang Mo Kio Hub,Accessories,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,605001,STS - Singtel Shop Ang Mo Kio Hub,Handset,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,122,STS - Singtel Shop Ang Mo Kio Hub,Combo RES GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,60,STS - Singtel Shop Ang Mo Kio Hub,Mobile Share RES GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,142,STS - Singtel Shop Ang Mo Kio Hub,SIM Only RES GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,66,STS - Singtel Shop Ang Mo Kio Hub,Combo CIS GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,25,STS - Singtel Shop Ang Mo Kio Hub,Mobile Share CIS GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,3,STS - Singtel Shop Ang Mo Kio Hub,SIM Only CIS GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,551,STS - Singtel Shop Ang Mo Kio Hub,Mobile RES Recon,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,124,STS - Singtel Shop Ang Mo Kio Hub,Mobile CIS Recon,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,98,STS - Singtel Shop Ang Mo Kio Hub,FTTH GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,65,STS - Singtel Shop Ang Mo Kio Hub,FTTH Recon,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,59,STS - Singtel Shop Ang Mo Kio Hub,TV GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,14,STS - Singtel Shop Ang Mo Kio Hub,MBB Integrated GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,487,STS - Singtel Shop Ang Mo Kio Hub,Prepaid GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,1064,STS - Singtel Shop Ang Mo Kio Hub,Mobile Add On,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,458,STS - Singtel Shop Ang Mo Kio Hub,SNBB Add On,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,24,STS - Singtel Shop Ang Mo Kio Hub,TV App,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,72,STS - Singtel Shop Ang Mo Kio Hub,TV Content,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,11151,STS - Singtel Shop Ang Mo Kio Hub,Prepaid Revenue,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,139147,STS - Singtel Shop Ang Mo Kio Hub,Accessories,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,605001,STS - Singtel Shop Ang Mo Kio Hub,Handset,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,122,STS - Singtel Shop Ang Mo Kio Hub,Combo RES GA,STS - Shop
+OK,2024-06-01,2024-06-30,60,STS - Singtel Shop Ang Mo Kio Hub,Mobile Share RES GA,STS - Shop
+OK,2024-06-01,2024-06-30,142,STS - Singtel Shop Ang Mo Kio Hub,SIM Only RES GA,STS - Shop
+OK,2024-06-01,2024-06-30,66,STS - Singtel Shop Ang Mo Kio Hub,Combo CIS GA,STS - Shop
+OK,2024-06-01,2024-06-30,25,STS - Singtel Shop Ang Mo Kio Hub,Mobile Share CIS GA,STS - Shop
+OK,2024-06-01,2024-06-30,3,STS - Singtel Shop Ang Mo Kio Hub,SIM Only CIS GA,STS - Shop
+OK,2024-06-01,2024-06-30,551,STS - Singtel Shop Ang Mo Kio Hub,Mobile RES Recon,STS - Shop
+OK,2024-06-01,2024-06-30,124,STS - Singtel Shop Ang Mo Kio Hub,Mobile CIS Recon,STS - Shop
+OK,2024-06-01,2024-06-30,98,STS - Singtel Shop Ang Mo Kio Hub,FTTH GA,STS - Shop
+OK,2024-06-01,2024-06-30,65,STS - Singtel Shop Ang Mo Kio Hub,FTTH Recon,STS - Shop
+OK,2024-06-01,2024-06-30,59,STS - Singtel Shop Ang Mo Kio Hub,TV GA,STS - Shop
+OK,2024-06-01,2024-06-30,14,STS - Singtel Shop Ang Mo Kio Hub,MBB Integrated GA,STS - Shop
+OK,2024-06-01,2024-06-30,487,STS - Singtel Shop Ang Mo Kio Hub,Prepaid GA,STS - Shop
+OK,2024-06-01,2024-06-30,1064,STS - Singtel Shop Ang Mo Kio Hub,Mobile Add On,STS - Shop
+OK,2024-06-01,2024-06-30,458,STS - Singtel Shop Ang Mo Kio Hub,SNBB Add On,STS - Shop
+OK,2024-06-01,2024-06-30,24,STS - Singtel Shop Ang Mo Kio Hub,TV App,STS - Shop
+OK,2024-06-01,2024-06-30,72,STS - Singtel Shop Ang Mo Kio Hub,TV Content,STS - Shop
+OK,2024-06-01,2024-06-30,11151,STS - Singtel Shop Ang Mo Kio Hub,Prepaid Revenue,STS - Shop
+OK,2024-06-01,2024-06-30,139147,STS - Singtel Shop Ang Mo Kio Hub,Accessories,STS - Shop
+OK,2024-06-01,2024-06-30,605001,STS - Singtel Shop Ang Mo Kio Hub,Handset,STS - Shop
+OK,2024-06-01,2024-06-30,11,STS - Singtel Shop Bugis Junction,Combo RES GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,5,STS - Singtel Shop Bugis Junction,Mobile Share RES GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,18,STS - Singtel Shop Bugis Junction,SIM Only RES GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,7,STS - Singtel Shop Bugis Junction,Combo CIS GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,3,STS - Singtel Shop Bugis Junction,Mobile Share CIS GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,1,STS - Singtel Shop Bugis Junction,SIM Only CIS GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,35,STS - Singtel Shop Bugis Junction,Mobile RES Recon,STS - Retail Exec
+OK,2024-06-01,2024-06-30,10,STS - Singtel Shop Bugis Junction,Mobile CIS Recon,STS - Retail Exec
+OK,2024-06-01,2024-06-30,9,STS - Singtel Shop Bugis Junction,FTTH GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,4,STS - Singtel Shop Bugis Junction,FTTH Recon,STS - Retail Exec
+OK,2024-06-01,2024-06-30,6,STS - Singtel Shop Bugis Junction,TV GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,2,STS - Singtel Shop Bugis Junction,MBB Integrated GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,57,STS - Singtel Shop Bugis Junction,Prepaid GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,83,STS - Singtel Shop Bugis Junction,Mobile Add On,STS - Retail Exec
+OK,2024-06-01,2024-06-30,41,STS - Singtel Shop Bugis Junction,SNBB Add On,STS - Retail Exec
+OK,2024-06-01,2024-06-30,4,STS - Singtel Shop Bugis Junction,TV App,STS - Retail Exec
+OK,2024-06-01,2024-06-30,8,STS - Singtel Shop Bugis Junction,TV Content,STS - Retail Exec
+OK,2024-06-01,2024-06-30,10619,STS - Singtel Shop Bugis Junction,Accessories,STS - Retail Exec
+OK,2024-06-01,2024-06-30,46170,STS - Singtel Shop Bugis Junction,Handset,STS - Retail Exec
+OK,2024-06-01,2024-06-30,139,STS - Singtel Shop Bugis Junction,Combo RES GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,58,STS - Singtel Shop Bugis Junction,Mobile Share RES GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,222,STS - Singtel Shop Bugis Junction,SIM Only RES GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,79,STS - Singtel Shop Bugis Junction,Combo CIS GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,30,STS - Singtel Shop Bugis Junction,Mobile Share CIS GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,3,STS - Singtel Shop Bugis Junction,SIM Only CIS GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,442,STS - Singtel Shop Bugis Junction,Mobile RES Recon,STS - Store Mgr
+OK,2024-06-01,2024-06-30,111,STS - Singtel Shop Bugis Junction,Mobile CIS Recon,STS - Store Mgr
+OK,2024-06-01,2024-06-30,115,STS - Singtel Shop Bugis Junction,FTTH GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,46,STS - Singtel Shop Bugis Junction,FTTH Recon,STS - Store Mgr
+OK,2024-06-01,2024-06-30,69,STS - Singtel Shop Bugis Junction,TV GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,14,STS - Singtel Shop Bugis Junction,MBB Integrated GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,731,STS - Singtel Shop Bugis Junction,Prepaid GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,1052,STS - Singtel Shop Bugis Junction,Mobile Add On,STS - Store Mgr
+OK,2024-06-01,2024-06-30,458,STS - Singtel Shop Bugis Junction,SNBB Add On,STS - Store Mgr
+OK,2024-06-01,2024-06-30,28,STS - Singtel Shop Bugis Junction,TV App,STS - Store Mgr
+OK,2024-06-01,2024-06-30,85,STS - Singtel Shop Bugis Junction,TV Content,STS - Store Mgr
+OK,2024-06-01,2024-06-30,16727,STS - Singtel Shop Bugis Junction,Prepaid Revenue,STS - Store Mgr
+OK,2024-06-01,2024-06-30,138042,STS - Singtel Shop Bugis Junction,Accessories,STS - Store Mgr
+OK,2024-06-01,2024-06-30,600195,STS - Singtel Shop Bugis Junction,Handset,STS - Store Mgr
+OK,2024-06-01,2024-06-30,139,STS - Singtel Shop Bugis Junction,Combo RES GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,58,STS - Singtel Shop Bugis Junction,Mobile Share RES GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,222,STS - Singtel Shop Bugis Junction,SIM Only RES GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,79,STS - Singtel Shop Bugis Junction,Combo CIS GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,30,STS - Singtel Shop Bugis Junction,Mobile Share CIS GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,3,STS - Singtel Shop Bugis Junction,SIM Only CIS GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,442,STS - Singtel Shop Bugis Junction,Mobile RES Recon,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,111,STS - Singtel Shop Bugis Junction,Mobile CIS Recon,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,115,STS - Singtel Shop Bugis Junction,FTTH GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,46,STS - Singtel Shop Bugis Junction,FTTH Recon,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,69,STS - Singtel Shop Bugis Junction,TV GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,14,STS - Singtel Shop Bugis Junction,MBB Integrated GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,731,STS - Singtel Shop Bugis Junction,Prepaid GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,1052,STS - Singtel Shop Bugis Junction,Mobile Add On,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,458,STS - Singtel Shop Bugis Junction,SNBB Add On,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,28,STS - Singtel Shop Bugis Junction,TV App,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,85,STS - Singtel Shop Bugis Junction,TV Content,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,16727,STS - Singtel Shop Bugis Junction,Prepaid Revenue,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,138042,STS - Singtel Shop Bugis Junction,Accessories,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,600195,STS - Singtel Shop Bugis Junction,Handset,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,139,STS - Singtel Shop Bugis Junction,Combo RES GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,58,STS - Singtel Shop Bugis Junction,Mobile Share RES GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,222,STS - Singtel Shop Bugis Junction,SIM Only RES GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,79,STS - Singtel Shop Bugis Junction,Combo CIS GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,30,STS - Singtel Shop Bugis Junction,Mobile Share CIS GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,3,STS - Singtel Shop Bugis Junction,SIM Only CIS GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,442,STS - Singtel Shop Bugis Junction,Mobile RES Recon,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,111,STS - Singtel Shop Bugis Junction,Mobile CIS Recon,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,115,STS - Singtel Shop Bugis Junction,FTTH GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,46,STS - Singtel Shop Bugis Junction,FTTH Recon,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,69,STS - Singtel Shop Bugis Junction,TV GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,14,STS - Singtel Shop Bugis Junction,MBB Integrated GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,731,STS - Singtel Shop Bugis Junction,Prepaid GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,1052,STS - Singtel Shop Bugis Junction,Mobile Add On,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,458,STS - Singtel Shop Bugis Junction,SNBB Add On,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,28,STS - Singtel Shop Bugis Junction,TV App,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,85,STS - Singtel Shop Bugis Junction,TV Content,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,16727,STS - Singtel Shop Bugis Junction,Prepaid Revenue,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,138042,STS - Singtel Shop Bugis Junction,Accessories,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,600195,STS - Singtel Shop Bugis Junction,Handset,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,139,STS - Singtel Shop Bugis Junction,Combo RES GA,STS - Shop
+OK,2024-06-01,2024-06-30,58,STS - Singtel Shop Bugis Junction,Mobile Share RES GA,STS - Shop
+OK,2024-06-01,2024-06-30,222,STS - Singtel Shop Bugis Junction,SIM Only RES GA,STS - Shop
+OK,2024-06-01,2024-06-30,79,STS - Singtel Shop Bugis Junction,Combo CIS GA,STS - Shop
+OK,2024-06-01,2024-06-30,30,STS - Singtel Shop Bugis Junction,Mobile Share CIS GA,STS - Shop
+OK,2024-06-01,2024-06-30,3,STS - Singtel Shop Bugis Junction,SIM Only CIS GA,STS - Shop
+OK,2024-06-01,2024-06-30,442,STS - Singtel Shop Bugis Junction,Mobile RES Recon,STS - Shop
+OK,2024-06-01,2024-06-30,111,STS - Singtel Shop Bugis Junction,Mobile CIS Recon,STS - Shop
+OK,2024-06-01,2024-06-30,115,STS - Singtel Shop Bugis Junction,FTTH GA,STS - Shop
+OK,2024-06-01,2024-06-30,46,STS - Singtel Shop Bugis Junction,FTTH Recon,STS - Shop
+OK,2024-06-01,2024-06-30,69,STS - Singtel Shop Bugis Junction,TV GA,STS - Shop
+OK,2024-06-01,2024-06-30,14,STS - Singtel Shop Bugis Junction,MBB Integrated GA,STS - Shop
+OK,2024-06-01,2024-06-30,731,STS - Singtel Shop Bugis Junction,Prepaid GA,STS - Shop
+OK,2024-06-01,2024-06-30,1052,STS - Singtel Shop Bugis Junction,Mobile Add On,STS - Shop
+OK,2024-06-01,2024-06-30,458,STS - Singtel Shop Bugis Junction,SNBB Add On,STS - Shop
+OK,2024-06-01,2024-06-30,28,STS - Singtel Shop Bugis Junction,TV App,STS - Shop
+OK,2024-06-01,2024-06-30,85,STS - Singtel Shop Bugis Junction,TV Content,STS - Shop
+OK,2024-06-01,2024-06-30,16727,STS - Singtel Shop Bugis Junction,Prepaid Revenue,STS - Shop
+OK,2024-06-01,2024-06-30,138042,STS - Singtel Shop Bugis Junction,Accessories,STS - Shop
+OK,2024-06-01,2024-06-30,600195,STS - Singtel Shop Bugis Junction,Handset,STS - Shop
+OK,2024-06-01,2024-06-30,15,STS - Singtel Shop Tampines Mall,Combo RES GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,6,STS - Singtel Shop Tampines Mall,Mobile Share RES GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,13,STS - Singtel Shop Tampines Mall,SIM Only RES GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,9,STS - Singtel Shop Tampines Mall,Combo CIS GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,4,STS - Singtel Shop Tampines Mall,Mobile Share CIS GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,1,STS - Singtel Shop Tampines Mall,SIM Only CIS GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,42,STS - Singtel Shop Tampines Mall,Mobile RES Recon,STS - Retail Exec
+OK,2024-06-01,2024-06-30,15,STS - Singtel Shop Tampines Mall,Mobile CIS Recon,STS - Retail Exec
+OK,2024-06-01,2024-06-30,12,STS - Singtel Shop Tampines Mall,FTTH GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,5,STS - Singtel Shop Tampines Mall,FTTH Recon,STS - Retail Exec
+OK,2024-06-01,2024-06-30,8,STS - Singtel Shop Tampines Mall,TV GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,2,STS - Singtel Shop Tampines Mall,MBB Integrated GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,33,STS - Singtel Shop Tampines Mall,Prepaid GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,96,STS - Singtel Shop Tampines Mall,Mobile Add On,STS - Retail Exec
+OK,2024-06-01,2024-06-30,53,STS - Singtel Shop Tampines Mall,SNBB Add On,STS - Retail Exec
+OK,2024-06-01,2024-06-30,5,STS - Singtel Shop Tampines Mall,TV App,STS - Retail Exec
+OK,2024-06-01,2024-06-30,10,STS - Singtel Shop Tampines Mall,TV Content,STS - Retail Exec
+OK,2024-06-01,2024-06-30,12853,STS - Singtel Shop Tampines Mall,Accessories,STS - Retail Exec
+OK,2024-06-01,2024-06-30,55884,STS - Singtel Shop Tampines Mall,Handset,STS - Retail Exec
+OK,2024-06-01,2024-06-30,226,STS - Singtel Shop Tampines Mall,Combo RES GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,90,STS - Singtel Shop Tampines Mall,Mobile Share RES GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,194,STS - Singtel Shop Tampines Mall,SIM Only RES GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,122,STS - Singtel Shop Tampines Mall,Combo CIS GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,59,STS - Singtel Shop Tampines Mall,Mobile Share CIS GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,4,STS - Singtel Shop Tampines Mall,SIM Only CIS GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,612,STS - Singtel Shop Tampines Mall,Mobile RES Recon,STS - Store Mgr
+OK,2024-06-01,2024-06-30,207,STS - Singtel Shop Tampines Mall,Mobile CIS Recon,STS - Store Mgr
+OK,2024-06-01,2024-06-30,177,STS - Singtel Shop Tampines Mall,FTTH GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,70,STS - Singtel Shop Tampines Mall,FTTH Recon,STS - Store Mgr
+OK,2024-06-01,2024-06-30,106,STS - Singtel Shop Tampines Mall,TV GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,19,STS - Singtel Shop Tampines Mall,MBB Integrated GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,487,STS - Singtel Shop Tampines Mall,Prepaid GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,1416,STS - Singtel Shop Tampines Mall,Mobile Add On,STS - Store Mgr
+OK,2024-06-01,2024-06-30,699,STS - Singtel Shop Tampines Mall,SNBB Add On,STS - Store Mgr
+OK,2024-06-01,2024-06-30,43,STS - Singtel Shop Tampines Mall,TV App,STS - Store Mgr
+OK,2024-06-01,2024-06-30,129,STS - Singtel Shop Tampines Mall,TV Content,STS - Store Mgr
+OK,2024-06-01,2024-06-30,11151,STS - Singtel Shop Tampines Mall,Prepaid Revenue,STS - Store Mgr
+OK,2024-06-01,2024-06-30,192790,STS - Singtel Shop Tampines Mall,Accessories,STS - Store Mgr
+OK,2024-06-01,2024-06-30,838236,STS - Singtel Shop Tampines Mall,Handset,STS - Store Mgr
+OK,2024-06-01,2024-06-30,226,STS - Singtel Shop Tampines Mall,Combo RES GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,90,STS - Singtel Shop Tampines Mall,Mobile Share RES GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,194,STS - Singtel Shop Tampines Mall,SIM Only RES GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,122,STS - Singtel Shop Tampines Mall,Combo CIS GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,59,STS - Singtel Shop Tampines Mall,Mobile Share CIS GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,4,STS - Singtel Shop Tampines Mall,SIM Only CIS GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,612,STS - Singtel Shop Tampines Mall,Mobile RES Recon,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,207,STS - Singtel Shop Tampines Mall,Mobile CIS Recon,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,177,STS - Singtel Shop Tampines Mall,FTTH GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,70,STS - Singtel Shop Tampines Mall,FTTH Recon,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,106,STS - Singtel Shop Tampines Mall,TV GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,19,STS - Singtel Shop Tampines Mall,MBB Integrated GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,487,STS - Singtel Shop Tampines Mall,Prepaid GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,1416,STS - Singtel Shop Tampines Mall,Mobile Add On,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,699,STS - Singtel Shop Tampines Mall,SNBB Add On,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,43,STS - Singtel Shop Tampines Mall,TV App,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,129,STS - Singtel Shop Tampines Mall,TV Content,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,11151,STS - Singtel Shop Tampines Mall,Prepaid Revenue,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,192790,STS - Singtel Shop Tampines Mall,Accessories,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,838236,STS - Singtel Shop Tampines Mall,Handset,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,226,STS - Singtel Shop Tampines Mall,Combo RES GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,90,STS - Singtel Shop Tampines Mall,Mobile Share RES GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,194,STS - Singtel Shop Tampines Mall,SIM Only RES GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,122,STS - Singtel Shop Tampines Mall,Combo CIS GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,59,STS - Singtel Shop Tampines Mall,Mobile Share CIS GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,4,STS - Singtel Shop Tampines Mall,SIM Only CIS GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,612,STS - Singtel Shop Tampines Mall,Mobile RES Recon,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,207,STS - Singtel Shop Tampines Mall,Mobile CIS Recon,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,177,STS - Singtel Shop Tampines Mall,FTTH GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,70,STS - Singtel Shop Tampines Mall,FTTH Recon,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,106,STS - Singtel Shop Tampines Mall,TV GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,19,STS - Singtel Shop Tampines Mall,MBB Integrated GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,487,STS - Singtel Shop Tampines Mall,Prepaid GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,1416,STS - Singtel Shop Tampines Mall,Mobile Add On,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,699,STS - Singtel Shop Tampines Mall,SNBB Add On,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,43,STS - Singtel Shop Tampines Mall,TV App,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,129,STS - Singtel Shop Tampines Mall,TV Content,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,11151,STS - Singtel Shop Tampines Mall,Prepaid Revenue,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,192790,STS - Singtel Shop Tampines Mall,Accessories,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,838236,STS - Singtel Shop Tampines Mall,Handset,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,226,STS - Singtel Shop Tampines Mall,Combo RES GA,STS - Shop
+OK,2024-06-01,2024-06-30,90,STS - Singtel Shop Tampines Mall,Mobile Share RES GA,STS - Shop
+OK,2024-06-01,2024-06-30,194,STS - Singtel Shop Tampines Mall,SIM Only RES GA,STS - Shop
+OK,2024-06-01,2024-06-30,122,STS - Singtel Shop Tampines Mall,Combo CIS GA,STS - Shop
+OK,2024-06-01,2024-06-30,59,STS - Singtel Shop Tampines Mall,Mobile Share CIS GA,STS - Shop
+OK,2024-06-01,2024-06-30,4,STS - Singtel Shop Tampines Mall,SIM Only CIS GA,STS - Shop
+OK,2024-06-01,2024-06-30,612,STS - Singtel Shop Tampines Mall,Mobile RES Recon,STS - Shop
+OK,2024-06-01,2024-06-30,207,STS - Singtel Shop Tampines Mall,Mobile CIS Recon,STS - Shop
+OK,2024-06-01,2024-06-30,177,STS - Singtel Shop Tampines Mall,FTTH GA,STS - Shop
+OK,2024-06-01,2024-06-30,70,STS - Singtel Shop Tampines Mall,FTTH Recon,STS - Shop
+OK,2024-06-01,2024-06-30,106,STS - Singtel Shop Tampines Mall,TV GA,STS - Shop
+OK,2024-06-01,2024-06-30,19,STS - Singtel Shop Tampines Mall,MBB Integrated GA,STS - Shop
+OK,2024-06-01,2024-06-30,487,STS - Singtel Shop Tampines Mall,Prepaid GA,STS - Shop
+OK,2024-06-01,2024-06-30,1416,STS - Singtel Shop Tampines Mall,Mobile Add On,STS - Shop
+OK,2024-06-01,2024-06-30,699,STS - Singtel Shop Tampines Mall,SNBB Add On,STS - Shop
+OK,2024-06-01,2024-06-30,43,STS - Singtel Shop Tampines Mall,TV App,STS - Shop
+OK,2024-06-01,2024-06-30,129,STS - Singtel Shop Tampines Mall,TV Content,STS - Shop
+OK,2024-06-01,2024-06-30,11151,STS - Singtel Shop Tampines Mall,Prepaid Revenue,STS - Shop
+OK,2024-06-01,2024-06-30,192790,STS - Singtel Shop Tampines Mall,Accessories,STS - Shop
+OK,2024-06-01,2024-06-30,838236,STS - Singtel Shop Tampines Mall,Handset,STS - Shop
+OK,2024-06-01,2024-06-30,9,STS - Singtel Shop Comcentre,Combo RES GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,4,STS - Singtel Shop Comcentre,Mobile Share RES GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,10,STS - Singtel Shop Comcentre,SIM Only RES GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,5,STS - Singtel Shop Comcentre,Combo CIS GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,3,STS - Singtel Shop Comcentre,Mobile Share CIS GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,1,STS - Singtel Shop Comcentre,SIM Only CIS GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,23,STS - Singtel Shop Comcentre,Mobile RES Recon,STS - Retail Exec
+OK,2024-06-01,2024-06-30,8,STS - Singtel Shop Comcentre,Mobile CIS Recon,STS - Retail Exec
+OK,2024-06-01,2024-06-30,8,STS - Singtel Shop Comcentre,FTTH GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,3,STS - Singtel Shop Comcentre,FTTH Recon,STS - Retail Exec
+OK,2024-06-01,2024-06-30,5,STS - Singtel Shop Comcentre,TV GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,1,STS - Singtel Shop Comcentre,MBB Integrated GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,26,STS - Singtel Shop Comcentre,Prepaid GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,57,STS - Singtel Shop Comcentre,Mobile Add On,STS - Retail Exec
+OK,2024-06-01,2024-06-30,32,STS - Singtel Shop Comcentre,SNBB Add On,STS - Retail Exec
+OK,2024-06-01,2024-06-30,4,STS - Singtel Shop Comcentre,TV App,STS - Retail Exec
+OK,2024-06-01,2024-06-30,6,STS - Singtel Shop Comcentre,TV Content,STS - Retail Exec
+OK,2024-06-01,2024-06-30,7345,STS - Singtel Shop Comcentre,Accessories,STS - Retail Exec
+OK,2024-06-01,2024-06-30,31937,STS - Singtel Shop Comcentre,Handset,STS - Retail Exec
+OK,2024-06-01,2024-06-30,226,STS - Singtel Shop Comcentre,Combo RES GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,95,STS - Singtel Shop Comcentre,Mobile Share RES GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,239,STS - Singtel Shop Comcentre,SIM Only RES GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,109,STS - Singtel Shop Comcentre,Combo CIS GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,52,STS - Singtel Shop Comcentre,Mobile Share CIS GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,4,STS - Singtel Shop Comcentre,SIM Only CIS GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,558,STS - Singtel Shop Comcentre,Mobile RES Recon,STS - Store Mgr
+OK,2024-06-01,2024-06-30,159,STS - Singtel Shop Comcentre,Mobile CIS Recon,STS - Store Mgr
+OK,2024-06-01,2024-06-30,177,STS - Singtel Shop Comcentre,FTTH GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,57,STS - Singtel Shop Comcentre,FTTH Recon,STS - Store Mgr
+OK,2024-06-01,2024-06-30,106,STS - Singtel Shop Comcentre,TV GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,19,STS - Singtel Shop Comcentre,MBB Integrated GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,627,STS - Singtel Shop Comcentre,Prepaid GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,1381,STS - Singtel Shop Comcentre,Mobile Add On,STS - Store Mgr
+OK,2024-06-01,2024-06-30,632,STS - Singtel Shop Comcentre,SNBB Add On,STS - Store Mgr
+OK,2024-06-01,2024-06-30,43,STS - Singtel Shop Comcentre,TV App,STS - Store Mgr
+OK,2024-06-01,2024-06-30,129,STS - Singtel Shop Comcentre,TV Content,STS - Store Mgr
+OK,2024-06-01,2024-06-30,14337,STS - Singtel Shop Comcentre,Prepaid Revenue,STS - Store Mgr
+OK,2024-06-01,2024-06-30,183622,STS - Singtel Shop Comcentre,Accessories,STS - Store Mgr
+OK,2024-06-01,2024-06-30,798378,STS - Singtel Shop Comcentre,Handset,STS - Store Mgr
+OK,2024-06-01,2024-06-30,226,STS - Singtel Shop Comcentre,Combo RES GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,95,STS - Singtel Shop Comcentre,Mobile Share RES GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,239,STS - Singtel Shop Comcentre,SIM Only RES GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,109,STS - Singtel Shop Comcentre,Combo CIS GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,52,STS - Singtel Shop Comcentre,Mobile Share CIS GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,4,STS - Singtel Shop Comcentre,SIM Only CIS GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,558,STS - Singtel Shop Comcentre,Mobile RES Recon,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,159,STS - Singtel Shop Comcentre,Mobile CIS Recon,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,177,STS - Singtel Shop Comcentre,FTTH GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,57,STS - Singtel Shop Comcentre,FTTH Recon,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,106,STS - Singtel Shop Comcentre,TV GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,19,STS - Singtel Shop Comcentre,MBB Integrated GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,627,STS - Singtel Shop Comcentre,Prepaid GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,1381,STS - Singtel Shop Comcentre,Mobile Add On,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,632,STS - Singtel Shop Comcentre,SNBB Add On,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,43,STS - Singtel Shop Comcentre,TV App,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,129,STS - Singtel Shop Comcentre,TV Content,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,14337,STS - Singtel Shop Comcentre,Prepaid Revenue,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,183622,STS - Singtel Shop Comcentre,Accessories,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,798378,STS - Singtel Shop Comcentre,Handset,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,226,STS - Singtel Shop Comcentre,Combo RES GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,95,STS - Singtel Shop Comcentre,Mobile Share RES GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,239,STS - Singtel Shop Comcentre,SIM Only RES GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,109,STS - Singtel Shop Comcentre,Combo CIS GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,52,STS - Singtel Shop Comcentre,Mobile Share CIS GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,4,STS - Singtel Shop Comcentre,SIM Only CIS GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,558,STS - Singtel Shop Comcentre,Mobile RES Recon,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,159,STS - Singtel Shop Comcentre,Mobile CIS Recon,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,177,STS - Singtel Shop Comcentre,FTTH GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,57,STS - Singtel Shop Comcentre,FTTH Recon,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,106,STS - Singtel Shop Comcentre,TV GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,19,STS - Singtel Shop Comcentre,MBB Integrated GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,627,STS - Singtel Shop Comcentre,Prepaid GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,1381,STS - Singtel Shop Comcentre,Mobile Add On,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,632,STS - Singtel Shop Comcentre,SNBB Add On,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,43,STS - Singtel Shop Comcentre,TV App,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,129,STS - Singtel Shop Comcentre,TV Content,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,14337,STS - Singtel Shop Comcentre,Prepaid Revenue,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,183622,STS - Singtel Shop Comcentre,Accessories,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,798378,STS - Singtel Shop Comcentre,Handset,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,226,STS - Singtel Shop Comcentre,Combo RES GA,STS - Shop
+OK,2024-06-01,2024-06-30,95,STS - Singtel Shop Comcentre,Mobile Share RES GA,STS - Shop
+OK,2024-06-01,2024-06-30,239,STS - Singtel Shop Comcentre,SIM Only RES GA,STS - Shop
+OK,2024-06-01,2024-06-30,109,STS - Singtel Shop Comcentre,Combo CIS GA,STS - Shop
+OK,2024-06-01,2024-06-30,52,STS - Singtel Shop Comcentre,Mobile Share CIS GA,STS - Shop
+OK,2024-06-01,2024-06-30,4,STS - Singtel Shop Comcentre,SIM Only CIS GA,STS - Shop
+OK,2024-06-01,2024-06-30,558,STS - Singtel Shop Comcentre,Mobile RES Recon,STS - Shop
+OK,2024-06-01,2024-06-30,159,STS - Singtel Shop Comcentre,Mobile CIS Recon,STS - Shop
+OK,2024-06-01,2024-06-30,177,STS - Singtel Shop Comcentre,FTTH GA,STS - Shop
+OK,2024-06-01,2024-06-30,57,STS - Singtel Shop Comcentre,FTTH Recon,STS - Shop
+OK,2024-06-01,2024-06-30,106,STS - Singtel Shop Comcentre,TV GA,STS - Shop
+OK,2024-06-01,2024-06-30,19,STS - Singtel Shop Comcentre,MBB Integrated GA,STS - Shop
+OK,2024-06-01,2024-06-30,627,STS - Singtel Shop Comcentre,Prepaid GA,STS - Shop
+OK,2024-06-01,2024-06-30,1381,STS - Singtel Shop Comcentre,Mobile Add On,STS - Shop
+OK,2024-06-01,2024-06-30,632,STS - Singtel Shop Comcentre,SNBB Add On,STS - Shop
+OK,2024-06-01,2024-06-30,43,STS - Singtel Shop Comcentre,TV App,STS - Shop
+OK,2024-06-01,2024-06-30,129,STS - Singtel Shop Comcentre,TV Content,STS - Shop
+OK,2024-06-01,2024-06-30,14337,STS - Singtel Shop Comcentre,Prepaid Revenue,STS - Shop
+OK,2024-06-01,2024-06-30,183622,STS - Singtel Shop Comcentre,Accessories,STS - Shop
+OK,2024-06-01,2024-06-30,798378,STS - Singtel Shop Comcentre,Handset,STS - Shop
+OK,2024-06-01,2024-06-30,16,STS - Singtel Shop Causeway Point,Combo RES GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,6,STS - Singtel Shop Causeway Point,Mobile Share RES GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,12,STS - Singtel Shop Causeway Point,SIM Only RES GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,12,STS - Singtel Shop Causeway Point,Combo CIS GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,3,STS - Singtel Shop Causeway Point,Mobile Share CIS GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,1,STS - Singtel Shop Causeway Point,SIM Only CIS GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,41,STS - Singtel Shop Causeway Point,Mobile RES Recon,STS - Retail Exec
+OK,2024-06-01,2024-06-30,12,STS - Singtel Shop Causeway Point,Mobile CIS Recon,STS - Retail Exec
+OK,2024-06-01,2024-06-30,12,STS - Singtel Shop Causeway Point,FTTH GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,5,STS - Singtel Shop Causeway Point,FTTH Recon,STS - Retail Exec
+OK,2024-06-01,2024-06-30,7,STS - Singtel Shop Causeway Point,TV GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,2,STS - Singtel Shop Causeway Point,MBB Integrated GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,38,STS - Singtel Shop Causeway Point,Prepaid GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,92,STS - Singtel Shop Causeway Point,Mobile Add On,STS - Retail Exec
+OK,2024-06-01,2024-06-30,49,STS - Singtel Shop Causeway Point,SNBB Add On,STS - Retail Exec
+OK,2024-06-01,2024-06-30,5,STS - Singtel Shop Causeway Point,TV App,STS - Retail Exec
+OK,2024-06-01,2024-06-30,9,STS - Singtel Shop Causeway Point,TV Content,STS - Retail Exec
+OK,2024-06-01,2024-06-30,12536,STS - Singtel Shop Causeway Point,Accessories,STS - Retail Exec
+OK,2024-06-01,2024-06-30,54506,STS - Singtel Shop Causeway Point,Handset,STS - Retail Exec
+OK,2024-06-01,2024-06-30,220,STS - Singtel Shop Causeway Point,Combo RES GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,79,STS - Singtel Shop Causeway Point,Mobile Share RES GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,160,STS - Singtel Shop Causeway Point,SIM Only RES GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,165,STS - Singtel Shop Causeway Point,Combo CIS GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,42,STS - Singtel Shop Causeway Point,Mobile Share CIS GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,3,STS - Singtel Shop Causeway Point,SIM Only CIS GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,551,STS - Singtel Shop Causeway Point,Mobile RES Recon,STS - Store Mgr
+OK,2024-06-01,2024-06-30,158,STS - Singtel Shop Causeway Point,Mobile CIS Recon,STS - Store Mgr
+OK,2024-06-01,2024-06-30,155,STS - Singtel Shop Causeway Point,FTTH GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,61,STS - Singtel Shop Causeway Point,FTTH Recon,STS - Store Mgr
+OK,2024-06-01,2024-06-30,93,STS - Singtel Shop Causeway Point,TV GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,19,STS - Singtel Shop Causeway Point,MBB Integrated GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,522,STS - Singtel Shop Causeway Point,Prepaid GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,1283,STS - Singtel Shop Causeway Point,Mobile Add On,STS - Store Mgr
+OK,2024-06-01,2024-06-30,595,STS - Singtel Shop Causeway Point,SNBB Add On,STS - Store Mgr
+OK,2024-06-01,2024-06-30,38,STS - Singtel Shop Causeway Point,TV App,STS - Store Mgr
+OK,2024-06-01,2024-06-30,113,STS - Singtel Shop Causeway Point,TV Content,STS - Store Mgr
+OK,2024-06-01,2024-06-30,11948,STS - Singtel Shop Causeway Point,Prepaid Revenue,STS - Store Mgr
+OK,2024-06-01,2024-06-30,175500,STS - Singtel Shop Causeway Point,Accessories,STS - Store Mgr
+OK,2024-06-01,2024-06-30,763060,STS - Singtel Shop Causeway Point,Handset,STS - Store Mgr
+OK,2024-06-01,2024-06-30,220,STS - Singtel Shop Causeway Point,Combo RES GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,79,STS - Singtel Shop Causeway Point,Mobile Share RES GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,160,STS - Singtel Shop Causeway Point,SIM Only RES GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,165,STS - Singtel Shop Causeway Point,Combo CIS GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,42,STS - Singtel Shop Causeway Point,Mobile Share CIS GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,3,STS - Singtel Shop Causeway Point,SIM Only CIS GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,551,STS - Singtel Shop Causeway Point,Mobile RES Recon,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,158,STS - Singtel Shop Causeway Point,Mobile CIS Recon,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,155,STS - Singtel Shop Causeway Point,FTTH GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,61,STS - Singtel Shop Causeway Point,FTTH Recon,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,93,STS - Singtel Shop Causeway Point,TV GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,19,STS - Singtel Shop Causeway Point,MBB Integrated GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,522,STS - Singtel Shop Causeway Point,Prepaid GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,1283,STS - Singtel Shop Causeway Point,Mobile Add On,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,595,STS - Singtel Shop Causeway Point,SNBB Add On,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,38,STS - Singtel Shop Causeway Point,TV App,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,113,STS - Singtel Shop Causeway Point,TV Content,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,11948,STS - Singtel Shop Causeway Point,Prepaid Revenue,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,175500,STS - Singtel Shop Causeway Point,Accessories,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,763060,STS - Singtel Shop Causeway Point,Handset,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,220,STS - Singtel Shop Causeway Point,Combo RES GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,79,STS - Singtel Shop Causeway Point,Mobile Share RES GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,160,STS - Singtel Shop Causeway Point,SIM Only RES GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,165,STS - Singtel Shop Causeway Point,Combo CIS GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,42,STS - Singtel Shop Causeway Point,Mobile Share CIS GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,3,STS - Singtel Shop Causeway Point,SIM Only CIS GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,551,STS - Singtel Shop Causeway Point,Mobile RES Recon,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,158,STS - Singtel Shop Causeway Point,Mobile CIS Recon,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,155,STS - Singtel Shop Causeway Point,FTTH GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,61,STS - Singtel Shop Causeway Point,FTTH Recon,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,93,STS - Singtel Shop Causeway Point,TV GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,19,STS - Singtel Shop Causeway Point,MBB Integrated GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,522,STS - Singtel Shop Causeway Point,Prepaid GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,1283,STS - Singtel Shop Causeway Point,Mobile Add On,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,595,STS - Singtel Shop Causeway Point,SNBB Add On,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,38,STS - Singtel Shop Causeway Point,TV App,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,113,STS - Singtel Shop Causeway Point,TV Content,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,11948,STS - Singtel Shop Causeway Point,Prepaid Revenue,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,175500,STS - Singtel Shop Causeway Point,Accessories,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,763060,STS - Singtel Shop Causeway Point,Handset,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,220,STS - Singtel Shop Causeway Point,Combo RES GA,STS - Shop
+OK,2024-06-01,2024-06-30,79,STS - Singtel Shop Causeway Point,Mobile Share RES GA,STS - Shop
+OK,2024-06-01,2024-06-30,160,STS - Singtel Shop Causeway Point,SIM Only RES GA,STS - Shop
+OK,2024-06-01,2024-06-30,165,STS - Singtel Shop Causeway Point,Combo CIS GA,STS - Shop
+OK,2024-06-01,2024-06-30,42,STS - Singtel Shop Causeway Point,Mobile Share CIS GA,STS - Shop
+OK,2024-06-01,2024-06-30,3,STS - Singtel Shop Causeway Point,SIM Only CIS GA,STS - Shop
+OK,2024-06-01,2024-06-30,551,STS - Singtel Shop Causeway Point,Mobile RES Recon,STS - Shop
+OK,2024-06-01,2024-06-30,158,STS - Singtel Shop Causeway Point,Mobile CIS Recon,STS - Shop
+OK,2024-06-01,2024-06-30,155,STS - Singtel Shop Causeway Point,FTTH GA,STS - Shop
+OK,2024-06-01,2024-06-30,61,STS - Singtel Shop Causeway Point,FTTH Recon,STS - Shop
+OK,2024-06-01,2024-06-30,93,STS - Singtel Shop Causeway Point,TV GA,STS - Shop
+OK,2024-06-01,2024-06-30,19,STS - Singtel Shop Causeway Point,MBB Integrated GA,STS - Shop
+OK,2024-06-01,2024-06-30,522,STS - Singtel Shop Causeway Point,Prepaid GA,STS - Shop
+OK,2024-06-01,2024-06-30,1283,STS - Singtel Shop Causeway Point,Mobile Add On,STS - Shop
+OK,2024-06-01,2024-06-30,595,STS - Singtel Shop Causeway Point,SNBB Add On,STS - Shop
+OK,2024-06-01,2024-06-30,38,STS - Singtel Shop Causeway Point,TV App,STS - Shop
+OK,2024-06-01,2024-06-30,113,STS - Singtel Shop Causeway Point,TV Content,STS - Shop
+OK,2024-06-01,2024-06-30,11948,STS - Singtel Shop Causeway Point,Prepaid Revenue,STS - Shop
+OK,2024-06-01,2024-06-30,175500,STS - Singtel Shop Causeway Point,Accessories,STS - Shop
+OK,2024-06-01,2024-06-30,763060,STS - Singtel Shop Causeway Point,Handset,STS - Shop
+OK,2024-06-01,2024-06-30,15,STS - Singtel Shop Jurong Point,Combo RES GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,6,STS - Singtel Shop Jurong Point,Mobile Share RES GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,13,STS - Singtel Shop Jurong Point,SIM Only RES GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,8,STS - Singtel Shop Jurong Point,Combo CIS GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,3,STS - Singtel Shop Jurong Point,Mobile Share CIS GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,1,STS - Singtel Shop Jurong Point,SIM Only CIS GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,41,STS - Singtel Shop Jurong Point,Mobile RES Recon,STS - Retail Exec
+OK,2024-06-01,2024-06-30,13,STS - Singtel Shop Jurong Point,Mobile CIS Recon,STS - Retail Exec
+OK,2024-06-01,2024-06-30,11,STS - Singtel Shop Jurong Point,FTTH GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,5,STS - Singtel Shop Jurong Point,FTTH Recon,STS - Retail Exec
+OK,2024-06-01,2024-06-30,7,STS - Singtel Shop Jurong Point,TV GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,2,STS - Singtel Shop Jurong Point,MBB Integrated GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,42,STS - Singtel Shop Jurong Point,Prepaid GA,STS - Retail Exec
+OK,2024-06-01,2024-06-30,92,STS - Singtel Shop Jurong Point,Mobile Add On,STS - Retail Exec
+OK,2024-06-01,2024-06-30,50,STS - Singtel Shop Jurong Point,SNBB Add On,STS - Retail Exec
+OK,2024-06-01,2024-06-30,5,STS - Singtel Shop Jurong Point,TV App,STS - Retail Exec
+OK,2024-06-01,2024-06-30,9,STS - Singtel Shop Jurong Point,TV Content,STS - Retail Exec
+OK,2024-06-01,2024-06-30,12047,STS - Singtel Shop Jurong Point,Accessories,STS - Retail Exec
+OK,2024-06-01,2024-06-30,52377,STS - Singtel Shop Jurong Point,Handset,STS - Retail Exec
+OK,2024-06-01,2024-06-30,226,STS - Singtel Shop Jurong Point,Combo RES GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,81,STS - Singtel Shop Jurong Point,Mobile Share RES GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,182,STS - Singtel Shop Jurong Point,SIM Only RES GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,119,STS - Singtel Shop Jurong Point,Combo CIS GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,40,STS - Singtel Shop Jurong Point,Mobile Share CIS GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,4,STS - Singtel Shop Jurong Point,SIM Only CIS GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,597,STS - Singtel Shop Jurong Point,Mobile RES Recon,STS - Store Mgr
+OK,2024-06-01,2024-06-30,170,STS - Singtel Shop Jurong Point,Mobile CIS Recon,STS - Store Mgr
+OK,2024-06-01,2024-06-30,164,STS - Singtel Shop Jurong Point,FTTH GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,70,STS - Singtel Shop Jurong Point,FTTH Recon,STS - Store Mgr
+OK,2024-06-01,2024-06-30,99,STS - Singtel Shop Jurong Point,TV GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,19,STS - Singtel Shop Jurong Point,MBB Integrated GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,627,STS - Singtel Shop Jurong Point,Prepaid GA,STS - Store Mgr
+OK,2024-06-01,2024-06-30,1350,STS - Singtel Shop Jurong Point,Mobile Add On,STS - Store Mgr
+OK,2024-06-01,2024-06-30,665,STS - Singtel Shop Jurong Point,SNBB Add On,STS - Store Mgr
+OK,2024-06-01,2024-06-30,41,STS - Singtel Shop Jurong Point,TV App,STS - Store Mgr
+OK,2024-06-01,2024-06-30,120,STS - Singtel Shop Jurong Point,TV Content,STS - Store Mgr
+OK,2024-06-01,2024-06-30,14337,STS - Singtel Shop Jurong Point,Prepaid Revenue,STS - Store Mgr
+OK,2024-06-01,2024-06-30,180695,STS - Singtel Shop Jurong Point,Accessories,STS - Store Mgr
+OK,2024-06-01,2024-06-30,785646,STS - Singtel Shop Jurong Point,Handset,STS - Store Mgr
+OK,2024-06-01,2024-06-30,226,STS - Singtel Shop Jurong Point,Combo RES GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,81,STS - Singtel Shop Jurong Point,Mobile Share RES GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,182,STS - Singtel Shop Jurong Point,SIM Only RES GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,119,STS - Singtel Shop Jurong Point,Combo CIS GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,40,STS - Singtel Shop Jurong Point,Mobile Share CIS GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,4,STS - Singtel Shop Jurong Point,SIM Only CIS GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,597,STS - Singtel Shop Jurong Point,Mobile RES Recon,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,170,STS - Singtel Shop Jurong Point,Mobile CIS Recon,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,164,STS - Singtel Shop Jurong Point,FTTH GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,70,STS - Singtel Shop Jurong Point,FTTH Recon,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,99,STS - Singtel Shop Jurong Point,TV GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,19,STS - Singtel Shop Jurong Point,MBB Integrated GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,627,STS - Singtel Shop Jurong Point,Prepaid GA,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,1350,STS - Singtel Shop Jurong Point,Mobile Add On,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,665,STS - Singtel Shop Jurong Point,SNBB Add On,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,41,STS - Singtel Shop Jurong Point,TV App,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,120,STS - Singtel Shop Jurong Point,TV Content,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,14337,STS - Singtel Shop Jurong Point,Prepaid Revenue,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,180695,STS - Singtel Shop Jurong Point,Accessories,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,785646,STS - Singtel Shop Jurong Point,Handset,STS - Assistant Manager
+OK,2024-06-01,2024-06-30,226,STS - Singtel Shop Jurong Point,Combo RES GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,81,STS - Singtel Shop Jurong Point,Mobile Share RES GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,182,STS - Singtel Shop Jurong Point,SIM Only RES GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,119,STS - Singtel Shop Jurong Point,Combo CIS GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,40,STS - Singtel Shop Jurong Point,Mobile Share CIS GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,4,STS - Singtel Shop Jurong Point,SIM Only CIS GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,597,STS - Singtel Shop Jurong Point,Mobile RES Recon,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,170,STS - Singtel Shop Jurong Point,Mobile CIS Recon,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,164,STS - Singtel Shop Jurong Point,FTTH GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,70,STS - Singtel Shop Jurong Point,FTTH Recon,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,99,STS - Singtel Shop Jurong Point,TV GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,19,STS - Singtel Shop Jurong Point,MBB Integrated GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,627,STS - Singtel Shop Jurong Point,Prepaid GA,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,1350,STS - Singtel Shop Jurong Point,Mobile Add On,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,665,STS - Singtel Shop Jurong Point,SNBB Add On,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,41,STS - Singtel Shop Jurong Point,TV App,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,120,STS - Singtel Shop Jurong Point,TV Content,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,14337,STS - Singtel Shop Jurong Point,Prepaid Revenue,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,180695,STS - Singtel Shop Jurong Point,Accessories,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,785646,STS - Singtel Shop Jurong Point,Handset,STS - Technical Mgr
+OK,2024-06-01,2024-06-30,226,STS - Singtel Shop Jurong Point,Combo RES GA,STS - Shop
+OK,2024-06-01,2024-06-30,81,STS - Singtel Shop Jurong Point,Mobile Share RES GA,STS - Shop
+OK,2024-06-01,2024-06-30,182,STS - Singtel Shop Jurong Point,SIM Only RES GA,STS - Shop
+OK,2024-06-01,2024-06-30,119,STS - Singtel Shop Jurong Point,Combo CIS GA,STS - Shop
+OK,2024-06-01,2024-06-30,40,STS - Singtel Shop Jurong Point,Mobile Share CIS GA,STS - Shop
+OK,2024-06-01,2024-06-30,4,STS - Singtel Shop Jurong Point,SIM Only CIS GA,STS - Shop
+OK,2024-06-01,2024-06-30,597,STS - Singtel Shop Jurong Point,Mobile RES Recon,STS - Shop
+OK,2024-06-01,2024-06-30,170,STS - Singtel Shop Jurong Point,Mobile CIS Recon,STS - Shop
+OK,2024-06-01,2024-06-30,164,STS - Singtel Shop Jurong Point,FTTH GA,STS - Shop
+OK,2024-06-01,2024-06-30,70,STS - Singtel Shop Jurong Point,FTTH Recon,STS - Shop
+OK,2024-06-01,2024-06-30,99,STS - Singtel Shop Jurong Point,TV GA,STS - Shop
+OK,2024-06-01,2024-06-30,19,STS - Singtel Shop Jurong Point,MBB Integrated GA,STS - Shop
+OK,2024-06-01,2024-06-30,627,STS - Singtel Shop Jurong Point,Prepaid GA,STS - Shop
+OK,2024-06-01,2024-06-30,1350,STS - Singtel Shop Jurong Point,Mobile Add On,STS - Shop
+OK,2024-06-01,2024-06-30,665,STS - Singtel Shop Jurong Point,SNBB Add On,STS - Shop
+OK,2024-06-01,2024-06-30,41,STS - Singtel Shop Jurong Point,TV App,STS - Shop
+OK,2024-06-01,2024-06-30,120,STS - Singtel Shop Jurong Point,TV Content,STS - Shop
+OK,2024-06-01,2024-06-30,14337,STS - Singtel Shop Jurong Point,Prepaid Revenue,STS - Shop
+OK,2024-06-01,2024-06-30,180695,STS - Singtel Shop Jurong Point,Accessories,STS - Shop
+OK,2024-06-01,2024-06-30,785646,STS - Singtel Shop Jurong Point,Handset,STS - Shop
+OK,2024-06-01,2024-06-30,348,STS - Cluster 1,Combo RES GA,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,155,STS - Cluster 1,Mobile Share RES GA,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,381,STS - Cluster 1,SIM Only RES GA,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,175,STS - Cluster 1,Combo CIS GA,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,77,STS - Cluster 1,Mobile Share CIS GA,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,7,STS - Cluster 1,SIM Only CIS GA,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,1109,STS - Cluster 1,Mobile RES Recon,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,283,STS - Cluster 1,Mobile CIS Recon,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,275,STS - Cluster 1,FTTH GA,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,122,STS - Cluster 1,FTTH Recon,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,165,STS - Cluster 1,TV GA,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,33,STS - Cluster 1,MBB Integrated GA,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,1114,STS - Cluster 1,Prepaid GA,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,2445,STS - Cluster 1,Mobile Add On,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,1090,STS - Cluster 1,SNBB Add On,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,67,STS - Cluster 1,TV App,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,201,STS - Cluster 1,TV Content,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,25488,STS - Cluster 1,Prepaid Revenue,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,322769,STS - Cluster 1,Accessories,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,1403379,STS - Cluster 1,Handset,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,452,STS - Cluster 2,Combo RES GA,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,171,STS - Cluster 2,Mobile Share RES GA,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,376,STS - Cluster 2,SIM Only RES GA,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,241,STS - Cluster 2,Combo CIS GA,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,99,STS - Cluster 2,Mobile Share CIS GA,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,8,STS - Cluster 2,SIM Only CIS GA,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,1209,STS - Cluster 2,Mobile RES Recon,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,377,STS - Cluster 2,Mobile CIS Recon,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,341,STS - Cluster 2,FTTH GA,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,140,STS - Cluster 2,FTTH Recon,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,205,STS - Cluster 2,TV GA,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,38,STS - Cluster 2,MBB Integrated GA,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,1114,STS - Cluster 2,Prepaid GA,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,2766,STS - Cluster 2,Mobile Add On,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,1364,STS - Cluster 2,SNBB Add On,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,84,STS - Cluster 2,TV App,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,249,STS - Cluster 2,TV Content,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,25488,STS - Cluster 2,Prepaid Revenue,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,373485,STS - Cluster 2,Accessories,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,1623882,STS - Cluster 2,Handset,STS - Cluster Mgr
+OK,2024-06-01,2024-06-30,1160,STS,Combo RES GA,STS - Ops Mgr
+OK,2024-06-01,2024-06-30,459,STS,Mobile Share RES GA,STS - Ops Mgr
+OK,2024-06-01,2024-06-30,1137,STS,SIM Only RES GA,STS - Ops Mgr
+OK,2024-06-01,2024-06-30,658,STS,Combo CIS GA,STS - Ops Mgr
+OK,2024-06-01,2024-06-30,244,STS,Mobile Share CIS GA,STS - Ops Mgr
+OK,2024-06-01,2024-06-30,17,STS,SIM Only CIS GA,STS - Ops Mgr
+OK,2024-06-01,2024-06-30,3302,STS,Mobile RES Recon,STS - Ops Mgr
+OK,2024-06-01,2024-06-30,921,STS,Mobile CIS Recon,STS - Ops Mgr
+OK,2024-06-01,2024-06-30,882,STS,FTTH GA,STS - Ops Mgr
+OK,2024-06-01,2024-06-30,366,STS,FTTH Recon,STS - Ops Mgr
+OK,2024-06-01,2024-06-30,530,STS,TV GA,STS - Ops Mgr
+OK,2024-06-01,2024-06-30,165,STS,MBB Integrated GA,STS - Ops Mgr
+OK,2024-06-01,2024-06-30,3477,STS,Prepaid GA,STS - Ops Mgr
+OK,2024-06-01,2024-06-30,7546,STS,Mobile Add On,STS - Ops Mgr
+OK,2024-06-01,2024-06-30,3478,STS,SNBB Add On,STS - Ops Mgr
+OK,2024-06-01,2024-06-30,209,STS,TV App,STS - Ops Mgr
+OK,2024-06-01,2024-06-30,643,STS,TV Content,STS - Ops Mgr
+OK,2024-06-01,2024-06-30,79649,STS,Prepaid Revenue,STS - Ops Mgr
+OK,2024-06-01,2024-06-30,1009797,STS,Accessories,STS - Ops Mgr
+OK,2024-06-01,2024-06-30,4390517,STS,Handset,STS - Ops Mgr
+OK,2024-06-01,2024-06-30,1160,STS,Combo RES GA,STS - Director
+OK,2024-06-01,2024-06-30,459,STS,Mobile Share RES GA,STS - Director
+OK,2024-06-01,2024-06-30,1137,STS,SIM Only RES GA,STS - Director
+OK,2024-06-01,2024-06-30,658,STS,Combo CIS GA,STS - Director
+OK,2024-06-01,2024-06-30,244,STS,Mobile Share CIS GA,STS - Director
+OK,2024-06-01,2024-06-30,17,STS,SIM Only CIS GA,STS - Director
+OK,2024-06-01,2024-06-30,3302,STS,Mobile RES Recon,STS - Director
+OK,2024-06-01,2024-06-30,921,STS,Mobile CIS Recon,STS - Director
+OK,2024-06-01,2024-06-30,882,STS,FTTH GA,STS - Director
+OK,2024-06-01,2024-06-30,366,STS,FTTH Recon,STS - Director
+OK,2024-06-01,2024-06-30,530,STS,TV GA,STS - Director
+OK,2024-06-01,2024-06-30,165,STS,MBB Integrated GA,STS - Director
+OK,2024-06-01,2024-06-30,3477,STS,Prepaid GA,STS - Director
+OK,2024-06-01,2024-06-30,7546,STS,Mobile Add On,STS - Director
+OK,2024-06-01,2024-06-30,3478,STS,SNBB Add On,STS - Director
+OK,2024-06-01,2024-06-30,209,STS,TV App,STS - Director
+OK,2024-06-01,2024-06-30,643,STS,TV Content,STS - Director
+OK,2024-06-01,2024-06-30,79649,STS,Prepaid Revenue,STS - Director
+OK,2024-06-01,2024-06-30,1009797,STS,Accessories,STS - Director
+OK,2024-06-01,2024-06-30,4390517,STS,Handset,STS - Director
+OK,2024-06-01,2024-06-30,300,Retail SERs,Combo RES GA,Retail SER - Senior Biz Mgr
+OK,2024-06-01,2024-06-30,335,Retail SERs,Mobile Share RES GA,Retail SER - Senior Biz Mgr
+OK,2024-06-01,2024-06-30,886,Retail SERs,SIM Only RES GA,Retail SER - Senior Biz Mgr
+OK,2024-06-01,2024-06-30,551,Retail SERs,Combo CIS GA,Retail SER - Senior Biz Mgr
+OK,2024-06-01,2024-06-30,294,Retail SERs,Mobile Share CIS GA,Retail SER - Senior Biz Mgr
+OK,2024-06-01,2024-06-30,34,Retail SERs,SIM Only CIS GA,Retail SER - Senior Biz Mgr
+OK,2024-06-01,2024-06-30,4155,Retail SERs,Mobile RES Recon,Retail SER - Senior Biz Mgr
+OK,2024-06-01,2024-06-30,1598,Retail SERs,Mobile CIS Recon,Retail SER - Senior Biz Mgr
+OK,2024-06-01,2024-06-30,800,Retail SERs,FTTH GA,Retail SER - Senior Biz Mgr
+OK,2024-06-01,2024-06-30,478,Retail SERs,FTTH Recon,Retail SER - Senior Biz Mgr
+OK,2024-06-01,2024-06-30,384,Retail SERs,TV GA,Retail SER - Senior Biz Mgr
+OK,2024-06-01,2024-06-30,707,Retail SERs,MBB Integrated GA,Retail SER - Senior Biz Mgr
+OK,2024-06-01,2024-06-30,2730,Retail SERs,Mobile Add On,Retail SER - Senior Biz Mgr
+OK,2024-06-01,2024-06-30,9162,Retail SERs,SNBB Add On,Retail SER - Senior Biz Mgr
+OK,2024-06-01,2024-06-30,237,Retail SERs,TV App,Retail SER - Senior Biz Mgr
+OK,2024-06-01,2024-06-30,736,Retail SERs,TV Content,Retail SER - Senior Biz Mgr
+OK,2024-06-01,2024-06-30,1622,Retail SERs,Prepaid GA,Retail SER - Senior Biz Mgr
+OK,2024-06-01,2024-06-30,86391,Retail SERs,Prepaid Revenue,Retail SER - Senior Biz Mgr
+OK,2024-06-01,2024-06-30,618841,Retail SERs,Accessories,Retail SER - Senior Biz Mgr
+OK,2024-06-01,2024-06-30,300,Retail SERs,Combo RES GA,Retail SER - Trade Marketing Mgr
+OK,2024-06-01,2024-06-30,335,Retail SERs,Mobile Share RES GA,Retail SER - Trade Marketing Mgr
+OK,2024-06-01,2024-06-30,886,Retail SERs,SIM Only RES GA,Retail SER - Trade Marketing Mgr
+OK,2024-06-01,2024-06-30,551,Retail SERs,Combo CIS GA,Retail SER - Trade Marketing Mgr
+OK,2024-06-01,2024-06-30,294,Retail SERs,Mobile Share CIS GA,Retail SER - Trade Marketing Mgr
+OK,2024-06-01,2024-06-30,34,Retail SERs,SIM Only CIS GA,Retail SER - Trade Marketing Mgr
+OK,2024-06-01,2024-06-30,4155,Retail SERs,Mobile RES Recon,Retail SER - Trade Marketing Mgr
+OK,2024-06-01,2024-06-30,1598,Retail SERs,Mobile CIS Recon,Retail SER - Trade Marketing Mgr
+OK,2024-06-01,2024-06-30,800,Retail SERs,FTTH GA,Retail SER - Trade Marketing Mgr
+OK,2024-06-01,2024-06-30,478,Retail SERs,FTTH Recon,Retail SER - Trade Marketing Mgr
+OK,2024-06-01,2024-06-30,384,Retail SERs,TV GA,Retail SER - Trade Marketing Mgr
+OK,2024-06-01,2024-06-30,707,Retail SERs,MBB Integrated GA,Retail SER - Trade Marketing Mgr
+OK,2024-06-01,2024-06-30,2730,Retail SERs,Mobile Add On,Retail SER - Trade Marketing Mgr
+OK,2024-06-01,2024-06-30,9162,Retail SERs,SNBB Add On,Retail SER - Trade Marketing Mgr
+OK,2024-06-01,2024-06-30,237,Retail SERs,TV App,Retail SER - Trade Marketing Mgr
+OK,2024-06-01,2024-06-30,736,Retail SERs,TV Content,Retail SER - Trade Marketing Mgr
+OK,2024-06-01,2024-06-30,1622,Retail SERs,Prepaid GA,Retail SER - Trade Marketing Mgr
+OK,2024-06-01,2024-06-30,86391,Retail SERs,Prepaid Revenue,Retail SER - Trade Marketing Mgr
+OK,2024-06-01,2024-06-30,618841,Retail SERs,Accessories,Retail SER - Trade Marketing Mgr
+OK,2024-06-01,2024-06-30,300,Retail SERs,Combo RES GA,Retail SER - Merchandise Manager
+OK,2024-06-01,2024-06-30,335,Retail SERs,Mobile Share RES GA,Retail SER - Merchandise Manager
+OK,2024-06-01,2024-06-30,886,Retail SERs,SIM Only RES GA,Retail SER - Merchandise Manager
+OK,2024-06-01,2024-06-30,551,Retail SERs,Combo CIS GA,Retail SER - Merchandise Manager
+OK,2024-06-01,2024-06-30,294,Retail SERs,Mobile Share CIS GA,Retail SER - Merchandise Manager
+OK,2024-06-01,2024-06-30,34,Retail SERs,SIM Only CIS GA,Retail SER - Merchandise Manager
+OK,2024-06-01,2024-06-30,4155,Retail SERs,Mobile RES Recon,Retail SER - Merchandise Manager
+OK,2024-06-01,2024-06-30,1598,Retail SERs,Mobile CIS Recon,Retail SER - Merchandise Manager
+OK,2024-06-01,2024-06-30,800,Retail SERs,FTTH GA,Retail SER - Merchandise Manager
+OK,2024-06-01,2024-06-30,478,Retail SERs,FTTH Recon,Retail SER - Merchandise Manager
+OK,2024-06-01,2024-06-30,384,Retail SERs,TV GA,Retail SER - Merchandise Manager
+OK,2024-06-01,2024-06-30,707,Retail SERs,MBB Integrated GA,Retail SER - Merchandise Manager
+OK,2024-06-01,2024-06-30,2730,Retail SERs,Mobile Add On,Retail SER - Merchandise Manager
+OK,2024-06-01,2024-06-30,9162,Retail SERs,SNBB Add On,Retail SER - Merchandise Manager
+OK,2024-06-01,2024-06-30,237,Retail SERs,TV App,Retail SER - Merchandise Manager
+OK,2024-06-01,2024-06-30,736,Retail SERs,TV Content,Retail SER - Merchandise Manager
+OK,2024-06-01,2024-06-30,1622,Retail SERs,Prepaid GA,Retail SER - Merchandise Manager
+OK,2024-06-01,2024-06-30,86391,Retail SERs,Prepaid Revenue,Retail SER - Merchandise Manager
+OK,2024-06-01,2024-06-30,618841,Retail SERs,Accessories,Retail SER - Merchandise Manager
+OK,2024-06-01,2024-06-30,40,3 Mobile,Combo RES GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,43,3 Mobile,Mobile Share RES GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,186,3 Mobile,SIM Only RES GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,87,3 Mobile,Combo CIS GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,44,3 Mobile,Mobile Share CIS GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,3,3 Mobile,SIM Only CIS GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,574,3 Mobile,Mobile RES Recon,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,245,3 Mobile,Mobile CIS Recon,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,126,3 Mobile,FTTH GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,39,3 Mobile,FTTH Recon,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,60,3 Mobile,TV GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,107,3 Mobile,MBB Integrated GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,402,3 Mobile,Mobile Add On,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,1214,3 Mobile,SNBB Add On,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,37,3 Mobile,TV App,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,95,3 Mobile,TV Content,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,171,3 Mobile,Prepaid GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,6046,3 Mobile,Prepaid Revenue,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,91019,3 Mobile,Accessories,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,53,Rigel,Combo RES GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,77,Rigel,Mobile Share RES GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,212,Rigel,SIM Only RES GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,89,Rigel,Combo CIS GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,54,Rigel,Mobile Share CIS GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,10,Rigel,SIM Only CIS GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,1070,Rigel,Mobile RES Recon,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,321,Rigel,Mobile CIS Recon,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,167,Rigel,FTTH GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,131,Rigel,FTTH Recon,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,80,Rigel,TV GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,130,Rigel,MBB Integrated GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,630,Rigel,Mobile Add On,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,2175,Rigel,SNBB Add On,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,50,Rigel,TV App,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,139,Rigel,TV Content,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,149,Rigel,Prepaid GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,22598,Rigel,Prepaid Revenue,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,142834,Rigel,Accessories,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,65,Trends,Combo RES GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,65,Trends,Mobile Share RES GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,149,Trends,SIM Only RES GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,104,Trends,Combo CIS GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,52,Trends,Mobile Share CIS GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,3,Trends,SIM Only CIS GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,722,Trends,Mobile RES Recon,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,267,Trends,Mobile CIS Recon,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,142,Trends,FTTH GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,106,Trends,FTTH Recon,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,68,Trends,TV GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,139,Trends,MBB Integrated GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,484,Trends,Mobile Add On,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,1730,Trends,SNBB Add On,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,42,Trends,TV App,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,211,Trends,TV Content,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,706,Trends,Prepaid GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,24917,Trends,Prepaid Revenue,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,109742,Trends,Accessories,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,86,Novel,Combo RES GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,103,Novel,Mobile Share RES GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,234,Novel,SIM Only RES GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,144,Novel,Combo CIS GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,83,Novel,Mobile Share CIS GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,11,Novel,SIM Only CIS GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,1346,Novel,Mobile RES Recon,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,457,Novel,Mobile CIS Recon,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,224,Novel,FTTH GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,166,Novel,FTTH Recon,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,108,Novel,TV GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,205,Novel,MBB Integrated GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,825,Novel,Mobile Add On,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,2836,Novel,SNBB Add On,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,66,Novel,TV App,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,190,Novel,TV Content,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,517,Novel,Prepaid GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,26604,Novel,Prepaid Revenue,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,187161,Novel,Accessories,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,56,ERA,Combo RES GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,47,ERA,Mobile Share RES GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,106,ERA,SIM Only RES GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,128,ERA,Combo CIS GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,61,ERA,Mobile Share CIS GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,6,ERA,SIM Only CIS GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,443,ERA,Mobile RES Recon,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,308,ERA,Mobile CIS Recon,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,141,ERA,FTTH GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,35,ERA,FTTH Recon,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,67,ERA,TV GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,125,ERA,MBB Integrated GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,389,ERA,Mobile Add On,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,1207,ERA,SNBB Add On,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,42,ERA,TV App,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,100,ERA,TV Content,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,79,ERA,Prepaid GA,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,6227,ERA,Prepaid Revenue,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,88084,ERA,Accessories,Retail SER - Biz Mgr
+OK,2024-06-01,2024-06-30,300,Retail SERs,Combo RES GA,Retail SER - Director
+OK,2024-06-01,2024-06-30,335,Retail SERs,Mobile Share RES GA,Retail SER - Director
+OK,2024-06-01,2024-06-30,886,Retail SERs,SIM Only RES GA,Retail SER - Director
+OK,2024-06-01,2024-06-30,551,Retail SERs,Combo CIS GA,Retail SER - Director
+OK,2024-06-01,2024-06-30,294,Retail SERs,Mobile Share CIS GA,Retail SER - Director
+OK,2024-06-01,2024-06-30,34,Retail SERs,SIM Only CIS GA,Retail SER - Director
+OK,2024-06-01,2024-06-30,4155,Retail SERs,Mobile RES Recon,Retail SER - Director
+OK,2024-06-01,2024-06-30,1598,Retail SERs,Mobile CIS Recon,Retail SER - Director
+OK,2024-06-01,2024-06-30,800,Retail SERs,FTTH GA,Retail SER - Director
+OK,2024-06-01,2024-06-30,478,Retail SERs,FTTH Recon,Retail SER - Director
+OK,2024-06-01,2024-06-30,384,Retail SERs,TV GA,Retail SER - Director
+OK,2024-06-01,2024-06-30,707,Retail SERs,MBB Integrated GA,Retail SER - Director
+OK,2024-06-01,2024-06-30,2730,Retail SERs,Mobile Add On,Retail SER - Director
+OK,2024-06-01,2024-06-30,9162,Retail SERs,SNBB Add On,Retail SER - Director
+OK,2024-06-01,2024-06-30,237,Retail SERs,TV App,Retail SER - Director
+OK,2024-06-01,2024-06-30,736,Retail SERs,TV Content,Retail SER - Director
+OK,2024-06-01,2024-06-30,1622,Retail SERs,Prepaid GA,Retail SER - Director
+OK,2024-06-01,2024-06-30,86391,Retail SERs,Prepaid Revenue,Retail SER - Director
+OK,2024-06-01,2024-06-30,618841,Retail SERs,Accessories,Retail SER - Director
+OK,2024-06-01,2024-06-30,5,DT_SGOB_Team,Combo RES GA,Digital Telesales - ATL
+OK,2024-06-01,2024-06-30,2,DT_SGOB_Team,Mobile Share RES GA,Digital Telesales - ATL
+OK,2024-06-01,2024-06-30,8,DT_SGOB_Team,SIM Only RES GA,Digital Telesales - ATL
+OK,2024-06-01,2024-06-30,5,DT_SGOB_Team,Combo CIS GA,Digital Telesales - ATL
+OK,2024-06-01,2024-06-30,2,DT_SGOB_Team,Mobile Share CIS GA,Digital Telesales - ATL
+OK,2024-06-01,2024-06-30,8,DT_SGOB_Team,SIM Only CIS GA,Digital Telesales - ATL
+OK,2024-06-01,2024-06-30,15,DT_SGOB_Team,Mobile RES Recon,Digital Telesales - ATL
+OK,2024-06-01,2024-06-30,15,DT_SGOB_Team,Mobile CIS Recon,Digital Telesales - ATL
+OK,2024-06-01,2024-06-30,50,DT_SGOB_Team,FTTH GA,Digital Telesales - ATL
+OK,2024-06-01,2024-06-30,24,DT_SGOB_Team,FTTH Recon,Digital Telesales - ATL
+OK,2024-06-01,2024-06-30,3,DT_SGOB_Team,TV GA,Digital Telesales - ATL
+OK,2024-06-01,2024-06-30,46,DT_SGOB_Team,MBB Integrated GA,Digital Telesales - ATL
+OK,2024-06-01,2024-06-30,50,DT_SGOB_Team,Mobile Add On,Digital Telesales - ATL
+OK,2024-06-01,2024-06-30,200,DT_SGOB_Team,SNBB Add On,Digital Telesales - ATL
+OK,2024-06-01,2024-06-30,44,DT_SGOB_Team,TV App,Digital Telesales - ATL
+OK,2024-06-01,2024-06-30,48,DT_SGOB_Team,TV Content,Digital Telesales - ATL
+OK,2024-06-01,2024-06-30,18363,DT_SGOB_Team,Accessories,Digital Telesales - ATL
+OK,2024-06-01,2024-06-30,5,DT_SGOB_Team,Combo RES GA,Digital Telesales - SE
+OK,2024-06-01,2024-06-30,2,DT_SGOB_Team,Mobile Share RES GA,Digital Telesales - SE
+OK,2024-06-01,2024-06-30,8,DT_SGOB_Team,SIM Only RES GA,Digital Telesales - SE
+OK,2024-06-01,2024-06-30,5,DT_SGOB_Team,Combo CIS GA,Digital Telesales - SE
+OK,2024-06-01,2024-06-30,2,DT_SGOB_Team,Mobile Share CIS GA,Digital Telesales - SE
+OK,2024-06-01,2024-06-30,8,DT_SGOB_Team,SIM Only CIS GA,Digital Telesales - SE
+OK,2024-06-01,2024-06-30,15,DT_SGOB_Team,Mobile RES Recon,Digital Telesales - SE
+OK,2024-06-01,2024-06-30,15,DT_SGOB_Team,Mobile CIS Recon,Digital Telesales - SE
+OK,2024-06-01,2024-06-30,50,DT_SGOB_Team,FTTH GA,Digital Telesales - SE
+OK,2024-06-01,2024-06-30,24,DT_SGOB_Team,FTTH Recon,Digital Telesales - SE
+OK,2024-06-01,2024-06-30,3,DT_SGOB_Team,TV GA,Digital Telesales - SE
+OK,2024-06-01,2024-06-30,46,DT_SGOB_Team,MBB Integrated GA,Digital Telesales - SE
+OK,2024-06-01,2024-06-30,50,DT_SGOB_Team,Mobile Add On,Digital Telesales - SE
+OK,2024-06-01,2024-06-30,200,DT_SGOB_Team,SNBB Add On,Digital Telesales - SE
+OK,2024-06-01,2024-06-30,44,DT_SGOB_Team,TV App,Digital Telesales - SE
+OK,2024-06-01,2024-06-30,48,DT_SGOB_Team,TV Content,Digital Telesales - SE
+OK,2024-06-01,2024-06-30,18363,DT_SGOB_Team,Accessories,Digital Telesales - SE
+OK,2024-06-01,2024-06-30,100,DT_SGOB_Online_Team,Combo RES GA,Digital Telesales - TL
+OK,2024-06-01,2024-06-30,150,DT_SGOB_Online_Team,Mobile Share RES GA,Digital Telesales - TL
+OK,2024-06-01,2024-06-30,39,DT_SGOB_Online_Team,SIM Only RES GA,Digital Telesales - TL
+OK,2024-06-01,2024-06-30,10,DT_SGOB_Online_Team,Combo CIS GA,Digital Telesales - TL
+OK,2024-06-01,2024-06-30,2,DT_SGOB_Online_Team,Mobile Share CIS GA,Digital Telesales - TL
+OK,2024-06-01,2024-06-30,13,DT_SGOB_Online_Team,SIM Only CIS GA,Digital Telesales - TL
+OK,2024-06-01,2024-06-30,1000,DT_SGOB_Online_Team,Mobile RES Recon,Digital Telesales - TL
+OK,2024-06-01,2024-06-30,442,DT_SGOB_Online_Team,Mobile CIS Recon,Digital Telesales - TL
+OK,2024-06-01,2024-06-30,707,DT_SGOB_Online_Team,FTTH GA,Digital Telesales - TL
+OK,2024-06-01,2024-06-30,784,DT_SGOB_Online_Team,FTTH Recon,Digital Telesales - TL
+OK,2024-06-01,2024-06-30,49,DT_SGOB_Online_Team,TV GA,Digital Telesales - TL
+OK,2024-06-01,2024-06-30,980,DT_SGOB_Online_Team,MBB Integrated GA,Digital Telesales - TL
+OK,2024-06-01,2024-06-30,230,DT_SGOB_Online_Team,Mobile Add On,Digital Telesales - TL
+OK,2024-06-01,2024-06-30,5000,DT_SGOB_Online_Team,SNBB Add On,Digital Telesales - TL
+OK,2024-06-01,2024-06-30,1000,DT_SGOB_Online_Team,TV App,Digital Telesales - TL
+OK,2024-06-01,2024-06-30,817,DT_SGOB_Online_Team,TV Content,Digital Telesales - TL
+OK,2024-06-01,2024-06-30,485828,DT_SGOB_Online_Team,Accessories,Digital Telesales - TL
+OK,2024-06-01,2024-06-30,100,DT_OB_Team,Combo RES GA,Digital Telesales - TL
+OK,2024-06-01,2024-06-30,150,DT_OB_Team,Mobile Share RES GA,Digital Telesales - TL
+OK,2024-06-01,2024-06-30,39,DT_OB_Team,SIM Only RES GA,Digital Telesales - TL
+OK,2024-06-01,2024-06-30,10,DT_OB_Team,Combo CIS GA,Digital Telesales - TL
+OK,2024-06-01,2024-06-30,2,DT_OB_Team,Mobile Share CIS GA,Digital Telesales - TL
+OK,2024-06-01,2024-06-30,13,DT_OB_Team,SIM Only CIS GA,Digital Telesales - TL
+OK,2024-06-01,2024-06-30,1000,DT_OB_Team,Mobile RES Recon,Digital Telesales - TL
+OK,2024-06-01,2024-06-30,442,DT_OB_Team,Mobile CIS Recon,Digital Telesales - TL
+OK,2024-06-01,2024-06-30,707,DT_OB_Team,FTTH GA,Digital Telesales - TL
+OK,2024-06-01,2024-06-30,784,DT_OB_Team,FTTH Recon,Digital Telesales - TL
+OK,2024-06-01,2024-06-30,49,DT_OB_Team,TV GA,Digital Telesales - TL
+OK,2024-06-01,2024-06-30,980,DT_OB_Team,MBB Integrated GA,Digital Telesales - TL
+OK,2024-06-01,2024-06-30,230,DT_OB_Team,Mobile Add On,Digital Telesales - TL
+OK,2024-06-01,2024-06-30,5000,DT_OB_Team,SNBB Add On,Digital Telesales - TL
+OK,2024-06-01,2024-06-30,1000,DT_OB_Team,TV App,Digital Telesales - TL
+OK,2024-06-01,2024-06-30,817,DT_OB_Team,TV Content,Digital Telesales - TL
+OK,2024-06-01,2024-06-30,485828,DT_OB_Team,Accessories,Digital Telesales - TL
+OK,2024-06-01,2024-06-30,100,DT_OB_Team,Combo RES GA,Digital Telesales - Sales Manager
+OK,2024-06-01,2024-06-30,150,DT_OB_Team,Mobile Share RES GA,Digital Telesales - Sales Manager
+OK,2024-06-01,2024-06-30,39,DT_OB_Team,SIM Only RES GA,Digital Telesales - Sales Manager
+OK,2024-06-01,2024-06-30,10,DT_OB_Team,Combo CIS GA,Digital Telesales - Sales Manager
+OK,2024-06-01,2024-06-30,2,DT_OB_Team,Mobile Share CIS GA,Digital Telesales - Sales Manager
+OK,2024-06-01,2024-06-30,13,DT_OB_Team,SIM Only CIS GA,Digital Telesales - Sales Manager
+OK,2024-06-01,2024-06-30,1000,DT_OB_Team,Mobile RES Recon,Digital Telesales - Sales Manager
+OK,2024-06-01,2024-06-30,442,DT_OB_Team,Mobile CIS Recon,Digital Telesales - Sales Manager
+OK,2024-06-01,2024-06-30,707,DT_OB_Team,FTTH GA,Digital Telesales - Sales Manager
+OK,2024-06-01,2024-06-30,784,DT_OB_Team,FTTH Recon,Digital Telesales - Sales Manager
+OK,2024-06-01,2024-06-30,49,DT_OB_Team,TV GA,Digital Telesales - Sales Manager
+OK,2024-06-01,2024-06-30,980,DT_OB_Team,MBB Integrated GA,Digital Telesales - Sales Manager
+OK,2024-06-01,2024-06-30,230,DT_OB_Team,Mobile Add On,Digital Telesales - Sales Manager
+OK,2024-06-01,2024-06-30,5000,DT_OB_Team,SNBB Add On,Digital Telesales - Sales Manager
+OK,2024-06-01,2024-06-30,1000,DT_OB_Team,TV App,Digital Telesales - Sales Manager
+OK,2024-06-01,2024-06-30,817,DT_OB_Team,TV Content,Digital Telesales - Sales Manager
+OK,2024-06-01,2024-06-30,485828,DT_OB_Team,Accessories,Digital Telesales - Sales Manager
+OK,2024-06-01,2024-06-30,100,DT_IB_Team,Combo RES GA,Digital Telesales - Sales Manager
+OK,2024-06-01,2024-06-30,150,DT_IB_Team,Mobile Share RES GA,Digital Telesales - Sales Manager
+OK,2024-06-01,2024-06-30,39,DT_IB_Team,SIM Only RES GA,Digital Telesales - Sales Manager
+OK,2024-06-01,2024-06-30,10,DT_IB_Team,Combo CIS GA,Digital Telesales - Sales Manager
+OK,2024-06-01,2024-06-30,2,DT_IB_Team,Mobile Share CIS GA,Digital Telesales - Sales Manager
+OK,2024-06-01,2024-06-30,13,DT_IB_Team,SIM Only CIS GA,Digital Telesales - Sales Manager
+OK,2024-06-01,2024-06-30,1000,DT_IB_Team,Mobile RES Recon,Digital Telesales - Sales Manager
+OK,2024-06-01,2024-06-30,442,DT_IB_Team,Mobile CIS Recon,Digital Telesales - Sales Manager
+OK,2024-06-01,2024-06-30,707,DT_IB_Team,FTTH GA,Digital Telesales - Sales Manager
+OK,2024-06-01,2024-06-30,784,DT_IB_Team,FTTH Recon,Digital Telesales - Sales Manager
+OK,2024-06-01,2024-06-30,49,DT_IB_Team,TV GA,Digital Telesales - Sales Manager
+OK,2024-06-01,2024-06-30,980,DT_IB_Team,MBB Integrated GA,Digital Telesales - Sales Manager
+OK,2024-06-01,2024-06-30,230,DT_IB_Team,Mobile Add On,Digital Telesales - Sales Manager
+OK,2024-06-01,2024-06-30,5000,DT_IB_Team,SNBB Add On,Digital Telesales - Sales Manager
+OK,2024-06-01,2024-06-30,1000,DT_IB_Team,TV App,Digital Telesales - Sales Manager
+OK,2024-06-01,2024-06-30,817,DT_IB_Team,TV Content,Digital Telesales - Sales Manager
+OK,2024-06-01,2024-06-30,485828,DT_IB_Team,Accessories,Digital Telesales - Sales Manager
+OK,2024-06-01,2024-06-30,100,DT_All_Team,Combo RES GA,Digital Telesales - Senior Sales Manager
+OK,2024-06-01,2024-06-30,150,DT_All_Team,Mobile Share RES GA,Digital Telesales - Senior Sales Manager
+OK,2024-06-01,2024-06-30,39,DT_All_Team,SIM Only RES GA,Digital Telesales - Senior Sales Manager
+OK,2024-06-01,2024-06-30,10,DT_All_Team,Combo CIS GA,Digital Telesales - Senior Sales Manager
+OK,2024-06-01,2024-06-30,2,DT_All_Team,Mobile Share CIS GA,Digital Telesales - Senior Sales Manager
+OK,2024-06-01,2024-06-30,13,DT_All_Team,SIM Only CIS GA,Digital Telesales - Senior Sales Manager
+OK,2024-06-01,2024-06-30,1000,DT_All_Team,Mobile RES Recon,Digital Telesales - Senior Sales Manager
+OK,2024-06-01,2024-06-30,442,DT_All_Team,Mobile CIS Recon,Digital Telesales - Senior Sales Manager
+OK,2024-06-01,2024-06-30,707,DT_All_Team,FTTH GA,Digital Telesales - Senior Sales Manager
+OK,2024-06-01,2024-06-30,784,DT_All_Team,FTTH Recon,Digital Telesales - Senior Sales Manager
+OK,2024-06-01,2024-06-30,49,DT_All_Team,TV GA,Digital Telesales - Senior Sales Manager
+OK,2024-06-01,2024-06-30,980,DT_All_Team,MBB Integrated GA,Digital Telesales - Senior Sales Manager
+OK,2024-06-01,2024-06-30,230,DT_All_Team,Mobile Add On,Digital Telesales - Senior Sales Manager
+OK,2024-06-01,2024-06-30,5000,DT_All_Team,SNBB Add On,Digital Telesales - Senior Sales Manager
+OK,2024-06-01,2024-06-30,1000,DT_All_Team,TV App,Digital Telesales - Senior Sales Manager
+OK,2024-06-01,2024-06-30,817,DT_All_Team,TV Content,Digital Telesales - Senior Sales Manager
+OK,2024-06-01,2024-06-30,485828,DT_All_Team,Accessories,Digital Telesales - Senior Sales Manager
+OK,2024-06-01,2024-06-30,50,DT_Sudong,Combo RES GA,Digital Telesales - Sudong Manager
+OK,2024-06-01,2024-06-30,40,DT_Sudong,Mobile Share RES GA,Digital Telesales - Sudong Manager
+OK,2024-06-01,2024-06-30,100,DT_Sudong,SIM Only RES GA,Digital Telesales - Sudong Manager
+OK,2024-06-01,2024-06-30,1,DT_Sudong,Combo CIS GA,Digital Telesales - Sudong Manager
+OK,2024-06-01,2024-06-30,2,DT_Sudong,Mobile Share CIS GA,Digital Telesales - Sudong Manager
+OK,2024-06-01,2024-06-30,3,DT_Sudong,SIM Only CIS GA,Digital Telesales - Sudong Manager
+OK,2024-06-01,2024-06-30,2000,DT_Sudong,Mobile RES Recon,Digital Telesales - Sudong Manager
+OK,2024-06-01,2024-06-30,466,DT_Sudong,Mobile CIS Recon,Digital Telesales - Sudong Manager
+OK,2024-06-01,2024-06-30,278,DT_Sudong,FTTH GA,Digital Telesales - Sudong Manager
+OK,2024-06-01,2024-06-30,1194,DT_Sudong,FTTH Recon,Digital Telesales - Sudong Manager
+OK,2024-06-01,2024-06-30,64,DT_Sudong,TV GA,Digital Telesales - Sudong Manager
+OK,2024-06-01,2024-06-30,1116,DT_Sudong,MBB Integrated GA,Digital Telesales - Sudong Manager
+OK,2024-06-01,2024-06-30,500,DT_Sudong,Mobile Add On,Digital Telesales - Sudong Manager
+OK,2024-06-01,2024-06-30,5000,DT_Sudong,SNBB Add On,Digital Telesales - Sudong Manager
+OK,2024-06-01,2024-06-30,694,DT_Sudong,TV App,Digital Telesales - Sudong Manager
+OK,2024-06-01,2024-06-30,731,DT_Sudong,TV Content,Digital Telesales - Sudong Manager
+OK,2024-06-01,2024-06-30,127090,DT_Sudong,Accessories,Digital Telesales - Sudong Manager
+OK,2024-06-01,2024-06-30,50,DT_Sudong_Team1,Combo RES GA,Digital Telesales - Sudong TL
+OK,2024-06-01,2024-06-30,10,DT_Sudong_Team1,Mobile Share RES GA,Digital Telesales - Sudong TL
+OK,2024-06-01,2024-06-30,91,DT_Sudong_Team1,SIM Only RES GA,Digital Telesales - Sudong TL
+OK,2024-06-01,2024-06-30,1,DT_Sudong_Team1,Combo CIS GA,Digital Telesales - Sudong TL
+OK,2024-06-01,2024-06-30,1,DT_Sudong_Team1,Mobile Share CIS GA,Digital Telesales - Sudong TL
+OK,2024-06-01,2024-06-30,1,DT_Sudong_Team1,SIM Only CIS GA,Digital Telesales - Sudong TL
+OK,2024-06-01,2024-06-30,2000,DT_Sudong_Team1,Mobile RES Recon,Digital Telesales - Sudong TL
+OK,2024-06-01,2024-06-30,176,DT_Sudong_Team1,Mobile CIS Recon,Digital Telesales - Sudong TL
+OK,2024-06-01,2024-06-30,226,DT_Sudong_Team1,FTTH GA,Digital Telesales - Sudong TL
+OK,2024-06-01,2024-06-30,1007,DT_Sudong_Team1,FTTH Recon,Digital Telesales - Sudong TL
+OK,2024-06-01,2024-06-30,53,DT_Sudong_Team1,TV GA,Digital Telesales - Sudong TL
+OK,2024-06-01,2024-06-30,925,DT_Sudong_Team1,MBB Integrated GA,Digital Telesales - Sudong TL
+OK,2024-06-01,2024-06-30,220,DT_Sudong_Team1,Mobile Add On,Digital Telesales - Sudong TL
+OK,2024-06-01,2024-06-30,4500,DT_Sudong_Team1,SNBB Add On,Digital Telesales - Sudong TL
+OK,2024-06-01,2024-06-30,500,DT_Sudong_Team1,TV App,Digital Telesales - Sudong TL
+OK,2024-06-01,2024-06-30,612,DT_Sudong_Team1,TV Content,Digital Telesales - Sudong TL
+OK,2024-06-01,2024-06-30,111347,DT_Sudong_Team1,Accessories,Digital Telesales - Sudong TL
+OK,2024-06-01,2024-06-30,50,DT_Sudong_Team2,Combo RES GA,Digital Telesales - Sudong TL
+OK,2024-06-01,2024-06-30,10,DT_Sudong_Team2,Mobile Share RES GA,Digital Telesales - Sudong TL
+OK,2024-06-01,2024-06-30,91,DT_Sudong_Team2,SIM Only RES GA,Digital Telesales - Sudong TL
+OK,2024-06-01,2024-06-30,1,DT_Sudong_Team2,Combo CIS GA,Digital Telesales - Sudong TL
+OK,2024-06-01,2024-06-30,1,DT_Sudong_Team2,Mobile Share CIS GA,Digital Telesales - Sudong TL
+OK,2024-06-01,2024-06-30,1,DT_Sudong_Team2,SIM Only CIS GA,Digital Telesales - Sudong TL
+OK,2024-06-01,2024-06-30,2000,DT_Sudong_Team2,Mobile RES Recon,Digital Telesales - Sudong TL
+OK,2024-06-01,2024-06-30,176,DT_Sudong_Team2,Mobile CIS Recon,Digital Telesales - Sudong TL
+OK,2024-06-01,2024-06-30,226,DT_Sudong_Team2,FTTH GA,Digital Telesales - Sudong TL
+OK,2024-06-01,2024-06-30,1007,DT_Sudong_Team2,FTTH Recon,Digital Telesales - Sudong TL
+OK,2024-06-01,2024-06-30,53,DT_Sudong_Team2,TV GA,Digital Telesales - Sudong TL
+OK,2024-06-01,2024-06-30,925,DT_Sudong_Team2,MBB Integrated GA,Digital Telesales - Sudong TL
+OK,2024-06-01,2024-06-30,220,DT_Sudong_Team2,Mobile Add On,Digital Telesales - Sudong TL
+OK,2024-06-01,2024-06-30,4500,DT_Sudong_Team2,SNBB Add On,Digital Telesales - Sudong TL
+OK,2024-06-01,2024-06-30,500,DT_Sudong_Team2,TV App,Digital Telesales - Sudong TL
+OK,2024-06-01,2024-06-30,612,DT_Sudong_Team2,TV Content,Digital Telesales - Sudong TL
+OK,2024-06-01,2024-06-30,111347,DT_Sudong_Team2,Accessories,Digital Telesales - Sudong TL
+OK,2024-06-01,2024-06-30,2,DT_Sudong_Team1,Combo RES GA,Digital Telesales - Sudong SE
+OK,2024-06-01,2024-06-30,2,DT_Sudong_Team1,Mobile Share RES GA,Digital Telesales - Sudong SE
+OK,2024-06-01,2024-06-30,4,DT_Sudong_Team1,SIM Only RES GA,Digital Telesales - Sudong SE
+OK,2024-06-01,2024-06-30,1,DT_Sudong_Team1,Combo CIS GA,Digital Telesales - Sudong SE
+OK,2024-06-01,2024-06-30,1,DT_Sudong_Team1,Mobile Share CIS GA,Digital Telesales - Sudong SE
+OK,2024-06-01,2024-06-30,1,DT_Sudong_Team1,SIM Only CIS GA,Digital Telesales - Sudong SE
+OK,2024-06-01,2024-06-30,26,DT_Sudong_Team1,Mobile RES Recon,Digital Telesales - Sudong SE
+OK,2024-06-01,2024-06-30,20,DT_Sudong_Team1,Mobile CIS Recon,Digital Telesales - Sudong SE
+OK,2024-06-01,2024-06-30,6,DT_Sudong_Team1,FTTH GA,Digital Telesales - Sudong SE
+OK,2024-06-01,2024-06-30,24,DT_Sudong_Team1,FTTH Recon,Digital Telesales - Sudong SE
+OK,2024-06-01,2024-06-30,1,DT_Sudong_Team1,TV GA,Digital Telesales - Sudong SE
+OK,2024-06-01,2024-06-30,28,DT_Sudong_Team1,MBB Integrated GA,Digital Telesales - Sudong SE
+OK,2024-06-01,2024-06-30,36,DT_Sudong_Team1,Mobile Add On,Digital Telesales - Sudong SE
+OK,2024-06-01,2024-06-30,90,DT_Sudong_Team1,SNBB Add On,Digital Telesales - Sudong SE
+OK,2024-06-01,2024-06-30,10,DT_Sudong_Team1,TV App,Digital Telesales - Sudong SE
+OK,2024-06-01,2024-06-30,16,DT_Sudong_Team1,TV Content,Digital Telesales - Sudong SE
+OK,2024-06-01,2024-06-30,2584,DT_Sudong_Team1,Accessories,Digital Telesales - Sudong SE
+OK,2024-06-01,2024-06-30,2,DT_Sudong_Team2,Combo RES GA,Digital Telesales - Sudong SE
+OK,2024-06-01,2024-06-30,2,DT_Sudong_Team2,Mobile Share RES GA,Digital Telesales - Sudong SE
+OK,2024-06-01,2024-06-30,4,DT_Sudong_Team2,SIM Only RES GA,Digital Telesales - Sudong SE
+OK,2024-06-01,2024-06-30,1,DT_Sudong_Team2,Combo CIS GA,Digital Telesales - Sudong SE
+OK,2024-06-01,2024-06-30,1,DT_Sudong_Team2,Mobile Share CIS GA,Digital Telesales - Sudong SE
+OK,2024-06-01,2024-06-30,1,DT_Sudong_Team2,SIM Only CIS GA,Digital Telesales - Sudong SE
+OK,2024-06-01,2024-06-30,26,DT_Sudong_Team2,Mobile RES Recon,Digital Telesales - Sudong SE
+OK,2024-06-01,2024-06-30,20,DT_Sudong_Team2,Mobile CIS Recon,Digital Telesales - Sudong SE
+OK,2024-06-01,2024-06-30,6,DT_Sudong_Team2,FTTH GA,Digital Telesales - Sudong SE
+OK,2024-06-01,2024-06-30,24,DT_Sudong_Team2,FTTH Recon,Digital Telesales - Sudong SE
+OK,2024-06-01,2024-06-30,1,DT_Sudong_Team2,TV GA,Digital Telesales - Sudong SE
+OK,2024-06-01,2024-06-30,28,DT_Sudong_Team2,MBB Integrated GA,Digital Telesales - Sudong SE
+OK,2024-06-01,2024-06-30,36,DT_Sudong_Team2,Mobile Add On,Digital Telesales - Sudong SE
+OK,2024-06-01,2024-06-30,90,DT_Sudong_Team2,SNBB Add On,Digital Telesales - Sudong SE
+OK,2024-06-01,2024-06-30,10,DT_Sudong_Team2,TV App,Digital Telesales - Sudong SE
+OK,2024-06-01,2024-06-30,16,DT_Sudong_Team2,TV Content,Digital Telesales - Sudong SE
+OK,2024-06-01,2024-06-30,2584,DT_Sudong_Team2,Accessories,Digital Telesales - Sudong SE

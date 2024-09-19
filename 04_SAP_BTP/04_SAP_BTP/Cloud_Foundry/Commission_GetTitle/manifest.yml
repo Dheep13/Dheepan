@@ -1,0 +1,5 @@
+applications:
+- name: get-title
+  random-route: true
+  memory: 128M
+  command: python GetTitle.py

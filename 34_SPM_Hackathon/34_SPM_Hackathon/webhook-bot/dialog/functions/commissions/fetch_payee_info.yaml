@@ -1,0 +1,42 @@
+parameters:
+  - name: payee
+ 
+action_groups:
+  - actions:
+
+      - type: message
+        scripting_type: handlebars
+        message:
+          type: text
+          content: "Inside fetch_payee_info"
+      - type: api-request
+
+        method: GET
+        system_alias: Commissions
+        path: "/api/v2/positions?$filter=(name%20eq%20<? payee ?>)"
+        result_variable: lookup_result #results of the response are held here
+
+      - type: message
+        scripting_type: handlebars
+        message:
+          type: text
+          content: "Positionseq is : {{ lookup_result.body }}"
+
+      - type: set-variables
+        scripting_type: handlebars
+        variables:
+          - name: position_details
+            value: "{{ lookup_result.body }}"
+
+      - type: message
+        scripting_type: handlebars
+        message:
+          type: text
+          content: "Positionseq is {{ lookup_result.body.positions[0].ruleElementOwnerSeq }}"
+
+result: #here we are only selecting the required properties
+  success: "true"
+  # payee_details: <? lookup_result.body ?>
+  positionSeq: <? lookup_result.body.positions[0].ruleElementOwnerSeq ?>
+  positionName: <? lookup_result.body.positions[0].name ?>
+  # payee_details_2: <? lookup_result.body.participants?>

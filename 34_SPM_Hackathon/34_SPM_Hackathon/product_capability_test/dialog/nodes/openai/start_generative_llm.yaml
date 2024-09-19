@@ -1,0 +1,16 @@
+title: Start Node
+type: node
+condition: "#start_openai"
+response:
+  context:
+   - variable: "continue_gpt"
+     value: "yes"
+
+  messages: []
+
+finally:
+  # behavior: skip
+  behavior: jump
+  jump_to:
+    node: openai/generative_llm
+    execution: eval-condition

@@ -1,0 +1,20 @@
+{
+    "xsappname": "my_estimator_app",
+    "tenant-mode": "dedicated",
+    "scopes": [
+      {
+        "name": "$XSAPPNAME.user",
+        "description": "basic user scope"
+      }
+    ],
+    "role-templates": [
+      {
+        "name": "UserRole",
+        "description": "User role",
+        "scope-references": [
+          "$XSAPPNAME.user"
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,11 @@
+title: Display Commissions
+type: node
+condition: ""
+response:
+  messages:
+    - type: text
+      # result_variable: commissions_value
+      # content: "The Commission Value is <? $product_details.productName ?>. Other detail <? $product_details.responseBody ?>"
+      content: "The Commission Value is "
+finally:
+  behavior: wait

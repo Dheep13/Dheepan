@@ -1,0 +1,24 @@
+{
+  "name": "@xweb/cypress",
+  "version": "0.0.0",
+  "scripts": {
+    "cypress-open": "cypress open",
+    "cypress-run": "cypress run",
+    "start:localStatic": "npm run cypress-open -- --env profile=localStatic tags=\"@local\" --browser chrome",
+    "start": "npm run start:dev",
+    "test:dev": "npm run cypress-run -- --env profile=dev tags=\"@local\" --browser chrome",
+    "test:da": "npm run cypress-run -- --env profile=da tags=\"@qacand\" --browser chrome",
+    "test": "npm run cypress-run -- --env profile=qacand-STEDASI02 --browser chrome",
+    "start:dev": "npm run cypress-open -- --env profile=qacand-STEDASI02 --browser chrome"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^15.1.4",
+    "@cypress/webpack-preprocessor": "^5.17.0",
+    "@xweb/cypress-common": "^2.0.0",
+    "@xweb/cypress-utils": "^1.0.0-rc.41",
+    "cypress": "^12.16.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.5",
+    "webpack": "^5.75.0"
+  }
+}

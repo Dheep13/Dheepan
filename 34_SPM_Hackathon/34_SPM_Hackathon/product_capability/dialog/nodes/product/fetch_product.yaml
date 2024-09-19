@@ -1,0 +1,22 @@
+title: Fetch Product
+type: node
+trigger_utterance: Show the Product
+condition: "#product_intent"
+slot_filling:
+  slots:
+    - check_for: "@product"
+      save_as:
+        variable: "product_id"
+        value: "@product"
+      not_present:
+        prompts:
+          - type: text
+            content: "For which product would you like to see the details?"
+dialog_functions:
+  - name: product/fetch_product_info
+    result_variable: product_details
+    parameters:
+      - name: product
+        value: "$product_id"
+finally:
+  behavior: skip

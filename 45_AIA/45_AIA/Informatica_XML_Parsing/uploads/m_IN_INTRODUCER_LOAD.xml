@@ -1,0 +1,66 @@
+<MAPPING DESCRIPTION="" ISVALID="YES" NAME="m_IN_INTRODUCER_LOAD" OBJECTVERSION="1" VERSIONNUMBER="1">
+        <TRANSFORMATION DESCRIPTION="" NAME="EXP_TRIM_SPACE" OBJECTVERSION="1" REUSABLE="NO" TYPE="Expression" VERSIONNUMBER="1">
+            <TRANSFORMFIELD DATATYPE="string" DEFAULTVALUE="" DESCRIPTION="" NAME="introducer_name" PICTURETEXT="" PORTTYPE="INPUT" PRECISION="100" SCALE="0" />
+            <TRANSFORMFIELD DATATYPE="string" DEFAULTVALUE="ERROR('transformation error')" DESCRIPTION="" EXPRESSION="rtrim(ltrim(introducer_name))" EXPRESSIONTYPE="GENERAL" NAME="o_introducer_name" PICTURETEXT="" PORTTYPE="OUTPUT" PRECISION="100" SCALE="0" />
+            <TRANSFORMFIELD DATATYPE="string" DEFAULTVALUE="" DESCRIPTION="" NAME="introducer_id" PICTURETEXT="" PORTTYPE="INPUT" PRECISION="50" SCALE="0" />
+            <TRANSFORMFIELD DATATYPE="string" DEFAULTVALUE="ERROR('transformation error')" DESCRIPTION="" EXPRESSION="rtrim(ltrim(introducer_id))" EXPRESSIONTYPE="GENERAL" NAME="o_introducer_id" PICTURETEXT="" PORTTYPE="OUTPUT" PRECISION="50" SCALE="0" />
+            <TRANSFORMFIELD DATATYPE="string" DEFAULTVALUE="" DESCRIPTION="" NAME="introducer_code" PICTURETEXT="" PORTTYPE="INPUT" PRECISION="10" SCALE="0" />
+            <TRANSFORMFIELD DATATYPE="string" DEFAULTVALUE="ERROR('transformation error')" DESCRIPTION="" EXPRESSION="rtrim(ltrim(introducer_code))" EXPRESSIONTYPE="GENERAL" NAME="o_introducer_code" PICTURETEXT="" PORTTYPE="OUTPUT" PRECISION="10" SCALE="0" />
+            <TRANSFORMFIELD DATATYPE="string" DEFAULTVALUE="" DESCRIPTION="" NAME="introducer_agent_code" PICTURETEXT="" PORTTYPE="INPUT" PRECISION="10" SCALE="0" />
+            <TRANSFORMFIELD DATATYPE="string" DEFAULTVALUE="ERROR('transformation error')" DESCRIPTION="" EXPRESSION="'SGT'||rtrim(ltrim(introducer_agent_code))" EXPRESSIONTYPE="GENERAL" NAME="o_introducer_agent_code" PICTURETEXT="" PORTTYPE="OUTPUT" PRECISION="10" SCALE="0" />
+            <TRANSFORMFIELD DATATYPE="string" DEFAULTVALUE="" DESCRIPTION="" NAME="valid_flag" PICTURETEXT="" PORTTYPE="INPUT" PRECISION="5" SCALE="0" />
+            <TRANSFORMFIELD DATATYPE="string" DEFAULTVALUE="ERROR('transformation error')" DESCRIPTION="" EXPRESSION="rtrim(ltrim(valid_flag))" EXPRESSIONTYPE="GENERAL" NAME="o_valid_flag" PICTURETEXT="" PORTTYPE="OUTPUT" PRECISION="5" SCALE="0" />
+            <TABLEATTRIBUTE NAME="Tracing Level" VALUE="Normal" />
+        </TRANSFORMATION>
+        <TRANSFORMATION DESCRIPTION="" NAME="SQ_tblIntroducer" OBJECTVERSION="1" REUSABLE="NO" TYPE="Source Qualifier" VERSIONNUMBER="1">
+            <TRANSFORMFIELD DATATYPE="string" DEFAULTVALUE="" DESCRIPTION="" NAME="introducer_name" PICTURETEXT="" PORTTYPE="INPUT/OUTPUT" PRECISION="100" SCALE="0" />
+            <TRANSFORMFIELD DATATYPE="string" DEFAULTVALUE="" DESCRIPTION="" NAME="introducer_id" PICTURETEXT="" PORTTYPE="INPUT/OUTPUT" PRECISION="50" SCALE="0" />
+            <TRANSFORMFIELD DATATYPE="string" DEFAULTVALUE="" DESCRIPTION="" NAME="introducer_code" PICTURETEXT="" PORTTYPE="INPUT/OUTPUT" PRECISION="10" SCALE="0" />
+            <TRANSFORMFIELD DATATYPE="string" DEFAULTVALUE="" DESCRIPTION="" NAME="introducer_agent_code" PICTURETEXT="" PORTTYPE="INPUT/OUTPUT" PRECISION="10" SCALE="0" />
+            <TRANSFORMFIELD DATATYPE="string" DEFAULTVALUE="" DESCRIPTION="" NAME="valid_flag" PICTURETEXT="" PORTTYPE="INPUT/OUTPUT" PRECISION="5" SCALE="0" />
+            <TRANSFORMFIELD DATATYPE="decimal" DEFAULTVALUE="" DESCRIPTION="" NAME="introducer_fee_basic_pct" PICTURETEXT="" PORTTYPE="INPUT/OUTPUT" PRECISION="28" SCALE="2" />
+            <TRANSFORMFIELD DATATYPE="decimal" DEFAULTVALUE="" DESCRIPTION="" NAME="introducer_fee_renewal_pct" PICTURETEXT="" PORTTYPE="INPUT/OUTPUT" PRECISION="28" SCALE="2" />
+            <TRANSFORMFIELD DATATYPE="decimal" DEFAULTVALUE="" DESCRIPTION="" NAME="introducer_fee_special_pct" PICTURETEXT="" PORTTYPE="INPUT/OUTPUT" PRECISION="28" SCALE="2" />
+            <TABLEATTRIBUTE NAME="Sql Query" VALUE="" />
+            <TABLEATTRIBUTE NAME="User Defined Join" VALUE="" />
+            <TABLEATTRIBUTE NAME="Source Filter" VALUE="" />
+            <TABLEATTRIBUTE NAME="Number Of Sorted Ports" VALUE="0" />
+            <TABLEATTRIBUTE NAME="Tracing Level" VALUE="Normal" />
+            <TABLEATTRIBUTE NAME="Select Distinct" VALUE="NO" />
+            <TABLEATTRIBUTE NAME="Is Partitionable" VALUE="NO" />
+            <TABLEATTRIBUTE NAME="Pre SQL" VALUE="" />
+            <TABLEATTRIBUTE NAME="Post SQL" VALUE="" />
+            <TABLEATTRIBUTE NAME="Output is deterministic" VALUE="NO" />
+            <TABLEATTRIBUTE NAME="Output is repeatable" VALUE="Never" />
+        </TRANSFORMATION>
+        <INSTANCE DESCRIPTION="" NAME="tblIntroducer" TRANSFORMATION_NAME="tblIntroducer" TRANSFORMATION_TYPE="Target Definition" TYPE="TARGET" />
+        <INSTANCE DESCRIPTION="" NAME="EXP_TRIM_SPACE" REUSABLE="NO" TRANSFORMATION_NAME="EXP_TRIM_SPACE" TRANSFORMATION_TYPE="Expression" TYPE="TRANSFORMATION" />
+        <INSTANCE DBDNAME="Sybase" DESCRIPTION="" NAME="tblIntroducer" TRANSFORMATION_NAME="tblIntroducer" TRANSFORMATION_TYPE="Source Definition" TYPE="SOURCE" />
+        <INSTANCE DESCRIPTION="" NAME="SQ_tblIntroducer" REUSABLE="NO" TRANSFORMATION_NAME="SQ_tblIntroducer" TRANSFORMATION_TYPE="Source Qualifier" TYPE="TRANSFORMATION">
+            <ASSOCIATED_SOURCE_INSTANCE NAME="tblIntroducer" />
+        </INSTANCE>
+        <CONNECTOR FROMFIELD="introducer_fee_basic_pct" FROMINSTANCE="SQ_tblIntroducer" FROMINSTANCETYPE="Source Qualifier" TOFIELD="introducer_fee_basic_pct" TOINSTANCE="tblIntroducer" TOINSTANCETYPE="Target Definition" />
+        <CONNECTOR FROMFIELD="introducer_fee_renewal_pct" FROMINSTANCE="SQ_tblIntroducer" FROMINSTANCETYPE="Source Qualifier" TOFIELD="introducer_fee_renewal_pct" TOINSTANCE="tblIntroducer" TOINSTANCETYPE="Target Definition" />
+        <CONNECTOR FROMFIELD="introducer_fee_special_pct" FROMINSTANCE="SQ_tblIntroducer" FROMINSTANCETYPE="Source Qualifier" TOFIELD="introducer_fee_special_pct" TOINSTANCE="tblIntroducer" TOINSTANCETYPE="Target Definition" />
+        <CONNECTOR FROMFIELD="o_introducer_name" FROMINSTANCE="EXP_TRIM_SPACE" FROMINSTANCETYPE="Expression" TOFIELD="introducer_name" TOINSTANCE="tblIntroducer" TOINSTANCETYPE="Target Definition" />
+        <CONNECTOR FROMFIELD="o_introducer_id" FROMINSTANCE="EXP_TRIM_SPACE" FROMINSTANCETYPE="Expression" TOFIELD="introducer_id" TOINSTANCE="tblIntroducer" TOINSTANCETYPE="Target Definition" />
+        <CONNECTOR FROMFIELD="o_introducer_code" FROMINSTANCE="EXP_TRIM_SPACE" FROMINSTANCETYPE="Expression" TOFIELD="introducer_code" TOINSTANCE="tblIntroducer" TOINSTANCETYPE="Target Definition" />
+        <CONNECTOR FROMFIELD="o_introducer_agent_code" FROMINSTANCE="EXP_TRIM_SPACE" FROMINSTANCETYPE="Expression" TOFIELD="introducer_agent_code" TOINSTANCE="tblIntroducer" TOINSTANCETYPE="Target Definition" />
+        <CONNECTOR FROMFIELD="o_valid_flag" FROMINSTANCE="EXP_TRIM_SPACE" FROMINSTANCETYPE="Expression" TOFIELD="valid_flag" TOINSTANCE="tblIntroducer" TOINSTANCETYPE="Target Definition" />
+        <CONNECTOR FROMFIELD="introducer_name" FROMINSTANCE="SQ_tblIntroducer" FROMINSTANCETYPE="Source Qualifier" TOFIELD="introducer_name" TOINSTANCE="EXP_TRIM_SPACE" TOINSTANCETYPE="Expression" />
+        <CONNECTOR FROMFIELD="introducer_id" FROMINSTANCE="SQ_tblIntroducer" FROMINSTANCETYPE="Source Qualifier" TOFIELD="introducer_id" TOINSTANCE="EXP_TRIM_SPACE" TOINSTANCETYPE="Expression" />
+        <CONNECTOR FROMFIELD="introducer_code" FROMINSTANCE="SQ_tblIntroducer" FROMINSTANCETYPE="Source Qualifier" TOFIELD="introducer_code" TOINSTANCE="EXP_TRIM_SPACE" TOINSTANCETYPE="Expression" />
+        <CONNECTOR FROMFIELD="introducer_agent_code" FROMINSTANCE="SQ_tblIntroducer" FROMINSTANCETYPE="Source Qualifier" TOFIELD="introducer_agent_code" TOINSTANCE="EXP_TRIM_SPACE" TOINSTANCETYPE="Expression" />
+        <CONNECTOR FROMFIELD="valid_flag" FROMINSTANCE="SQ_tblIntroducer" FROMINSTANCETYPE="Source Qualifier" TOFIELD="valid_flag" TOINSTANCE="EXP_TRIM_SPACE" TOINSTANCETYPE="Expression" />
+        <CONNECTOR FROMFIELD="introducer_name" FROMINSTANCE="tblIntroducer" FROMINSTANCETYPE="Source Definition" TOFIELD="introducer_name" TOINSTANCE="SQ_tblIntroducer" TOINSTANCETYPE="Source Qualifier" />
+        <CONNECTOR FROMFIELD="introducer_id" FROMINSTANCE="tblIntroducer" FROMINSTANCETYPE="Source Definition" TOFIELD="introducer_id" TOINSTANCE="SQ_tblIntroducer" TOINSTANCETYPE="Source Qualifier" />
+        <CONNECTOR FROMFIELD="introducer_code" FROMINSTANCE="tblIntroducer" FROMINSTANCETYPE="Source Definition" TOFIELD="introducer_code" TOINSTANCE="SQ_tblIntroducer" TOINSTANCETYPE="Source Qualifier" />
+        <CONNECTOR FROMFIELD="introducer_agent_code" FROMINSTANCE="tblIntroducer" FROMINSTANCETYPE="Source Definition" TOFIELD="introducer_agent_code" TOINSTANCE="SQ_tblIntroducer" TOINSTANCETYPE="Source Qualifier" />
+        <CONNECTOR FROMFIELD="valid_flag" FROMINSTANCE="tblIntroducer" FROMINSTANCETYPE="Source Definition" TOFIELD="valid_flag" TOINSTANCE="SQ_tblIntroducer" TOINSTANCETYPE="Source Qualifier" />
+        <CONNECTOR FROMFIELD="introducer_fee_basic_pct" FROMINSTANCE="tblIntroducer" FROMINSTANCETYPE="Source Definition" TOFIELD="introducer_fee_basic_pct" TOINSTANCE="SQ_tblIntroducer" TOINSTANCETYPE="Source Qualifier" />
+        <CONNECTOR FROMFIELD="introducer_fee_renewal_pct" FROMINSTANCE="tblIntroducer" FROMINSTANCETYPE="Source Definition" TOFIELD="introducer_fee_renewal_pct" TOINSTANCE="SQ_tblIntroducer" TOINSTANCETYPE="Source Qualifier" />
+        <CONNECTOR FROMFIELD="introducer_fee_special_pct" FROMINSTANCE="tblIntroducer" FROMINSTANCETYPE="Source Definition" TOFIELD="introducer_fee_special_pct" TOINSTANCE="SQ_tblIntroducer" TOINSTANCETYPE="Source Qualifier" />
+        <TARGETLOADORDER ORDER="1" TARGETINSTANCE="tblIntroducer" />
+        <ERPINFO />
+    </MAPPING>
+    

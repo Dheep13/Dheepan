@@ -1,0 +1,3 @@
+CREATE PROCEDURE EXT.RPT_POST_DSDETAIL
+(
+IN p_rpttype VARCHAR(75),   /* RESOLVE: Manual edits required: VARCHAR2 parameter(no length): user-configured length=75; adjust as needed */

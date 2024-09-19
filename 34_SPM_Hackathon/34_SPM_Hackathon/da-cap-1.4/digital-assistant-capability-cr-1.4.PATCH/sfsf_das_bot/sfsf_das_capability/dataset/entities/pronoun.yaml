@@ -1,0 +1,19 @@
+fuzzy_matching: false
+values:
+  - value: FirstPersonPronoun
+    synonyms:
+      - mine
+      - my
+      - our
+      - ours
+  - value: SecondPersonPronoun
+    synonyms:
+      - your
+      - yours 
+  - value: ThirdPersonPronoun
+    synonyms:
+      - her
+      - hers
+      - his
+      - their
+      - theirs

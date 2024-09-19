@@ -1,0 +1,25 @@
+fuzzy_matching: true
+values:
+  - value: Walldorf
+  - value: Wiesloch
+  - value: Bangalore
+  - value: Palo Alto
+  - value: Paris
+  - value: Munich
+  - value: Beijing
+  - value: Berlin
+  - value: Cairo
+  - value: Delhi
+  - value: Tokyo
+  - value: Shanghai
+  - value: São Paulo
+  - value: Osaka
+  - value: New York
+    synonyms:
+      - New York City
+      - NY
+      - the big apple
+  - value: Mumbai
+  - value: Dhaka
+  - value: Mexico City
+  - value: London

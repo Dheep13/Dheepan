@@ -1,0 +1,5 @@
+schema_version: 1.0.0
+name: my_first_assistant
+capabilities:
+- type: local
+  folder: ./my_first_capability

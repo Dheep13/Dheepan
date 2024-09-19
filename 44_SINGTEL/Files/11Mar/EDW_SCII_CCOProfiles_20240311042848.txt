@@ -1,0 +1,4 @@
+H	20240312 04:28:45	EDW_SCII_CCOProfile		P
+StaffID	FullName	SurName	FirstName	CallingName	Email	ICON_ID	StartDate	EndDate	ContractEndDate	Gender	Race	Religion	Nationality	Language	HoursWork	EmployeeID	Status	Directorate	RC	Hotline	Site	Manager	TeamManager	TeamLeader	Team	Position	Position_EffectiveDate	JobGrade	JobGrade_EffectiveDate	EmployeeType	EffectiveDate	AgentID	AgentID_EffectiveDate	Agency	Agency_EffectiveDate
+48959	Paremesswari DO T Ramaputra	DO T Ramaputra	Paremesswari		paremesswari.tramaputra@singtel.com	P4011231	15/01/2024	10/03/2024		F	Indian	Others	Singaporean	English	42		Resigned	Client Success	TGCM0900	MOMCC	SIN	MOMCC_SIN_Newbie Team OM	bbd46291-f2e5-4d66-9bb9-d21b7f52746f	Eric Tan Kiea Hee	MOMCC_SIN_Newbie Team	CCO CALL TAKER	15/01/2024	CCO	15/01/2024	Contract	15/01/2024			Achieve	15/01/2024
+T	000001

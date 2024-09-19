@@ -1,0 +1,5 @@
+schema_version: 1.0.0
+name: webhook_bot
+capabilities:
+  - type: local
+    folder: ./webhook-bot

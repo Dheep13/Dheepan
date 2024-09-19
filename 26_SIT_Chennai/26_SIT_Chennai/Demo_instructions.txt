@@ -1,0 +1,82 @@
+cockpit
+https://cockpit.hanatrial.ondemand.com/trial/#/globalaccount/649a3072-89dd-4ab8-8cd4-473858c65e25/accountModel&//?section=SubaccountsSection&view=TilesView
+
+
+/webhook
+
+/{position}/"{period}"
+
+
+Deploy app
+
+cf login
+cf push BuildAppCommissions
+
+set schema
+
+url place holder - isstatic to false
+position
+period
+
+________________________________________________________________________________________________
+
+SAP Build Sandbox
+https://build-sb1-applicationdevelopment.lcnc.cfapps.eu10.hana.ondemand.com/lobby
+
+
+
+Title
+Container
+DropDown
+DropDown
+Button
+text box
+
+
+--------------------------------------
+image:
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnXM7V9_3Vz4mZIMBz-MH7SQxdFSmte0w0fA&usqp=CAU
+
+Variables
+AV_PeriodList (List, Object)
+AV_PositionList (List, Object)
+
+Add new properties - label, value
+Add Initial Values
+AG00019, SM921P
+January 2020
+
+--------------------------
+App variables
+PeriodListDropDown -text
+PositionListDropDown - text
+
+set initial values  
+---------------------------
+data variable
+DV_Commissions
+
+----------------------------
+Binding:
+
+Position : Option List -> App Variables ->AV_PositionList
+
+Period : Option List -> App Variables ->AV_PeriodList
+
+
+Button :
+
+Get Record and  Set data Variable
+
+Get Record
+Position --> another component's property(dropdownfield)
+Period --> another component's property(dropdownfield)
+
+Set data Variable
+Data Vairable name will be set by default
+Data - output value of another node - Get Record
+
+
+Title (output)
+IF(!IS_EMPTY(data.DV_Commissions.value) , "$"+data.DV_Commissions.value, "")
+___________________________________________________________________________________________________

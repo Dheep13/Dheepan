@@ -1,0 +1,127 @@
+title: Restart Flow
+type: node
+condition: '#more_info'
+
+response:
+  messages:
+    - type: ui5integrationCard
+      delay: 0
+      content: >
+             {
+                "_version": "1.14.0",
+                "sap.card": {
+                  "type": "Analytical",
+                  "header": {
+                    "data": {
+                      "json": {
+                        "unit": "K",
+                        "state": "Error",
+                        "trend": "Down",
+                        "number": "65.34",
+                        "target": {
+                          "unit": "K",
+                          "number": 100
+                        },
+                        "details": "Q1, 2018",
+                        "deviation": {
+                          "number": 34.7
+                        }
+                      }
+                    },
+                    "type": "Numeric",
+                    "title": "Project Cloud Transformation",
+                    "details": "{details}",
+                    "subTitle": "Revenue",
+                    "mainIndicator": {
+                      "unit": "{unit}",
+                      "state": "{state}",
+                      "trend": "{trend}",
+                      "number": "{number}"
+                    },
+                    "sideIndicators": [
+                      {
+                        "unit": "{target/unit}",
+                        "title": "Target",
+                        "number": "{target/number}"
+                      },
+                      {
+                        "unit": "%",
+                        "title": "Deviation",
+                        "number": "{deviation/number}"
+                      }
+                    ],
+                    "unitOfMeasurement": "EUR"
+                  },
+                  "content": {
+                    "data": {
+                      "json": {
+                        "list": [
+                          {
+                            "Cost": 325000,
+                            "Week": "CW20",
+                            "Cost1": 237200.74,
+                            "Cost2": 87799.26,
+                            "Cost3": 187799.26,
+                            "Budget": 294000,
+                            "Target": 600000,
+                            "Revenue": 659000.14
+                          }
+                        ],
+                        "legend": {
+                          "visible": true,
+                          "position": "Bottom",
+                          "alignment": "TopLeft"
+                        },
+                        "measures": {
+                          "costLabel": "Costs",
+                          "revenueLabel": "Revenue"
+                        },
+                        "dimensions": {
+                          "weekLabel": "Weeks"
+                        }
+                      },
+                      "path": "/list"
+                    },
+                    "title": {
+                      "text": "Line chart",
+                      "visible": true,
+                      "alignment": "Left"
+                    },
+                    "legend": {
+                      "visible": "{legend/visible}",
+                      "position": "{legend/position}",
+                      "alignment": "{legend/alignment}"
+                    },
+
+                    "plotArea": {
+                      "dataLabel": {
+                        "visible": true
+                      },
+                      "valueAxisText": {
+                        "visible": false
+                      },
+                      "categoryAxisText": {
+                        "visible": false
+                      }
+                    },
+                    "chartType": "Line",
+                    "measureAxis": "valueAxis",
+                    "dimensionAxis": "categoryAxis"
+                  }
+                }
+              }
+finally:
+  behavior: wait
+  # behavior: jump
+  # jump_to:
+  #   node: commissions/fetch_credit_invoice_node
+  #   execution: responses
+
+# finally:
+#   behavior: jump
+#   jump_to:
+#     node: sales_performance/ask_for_award
+#     execution: responses
+# title: Display LLM results
+# type: node
+# condition: "true"

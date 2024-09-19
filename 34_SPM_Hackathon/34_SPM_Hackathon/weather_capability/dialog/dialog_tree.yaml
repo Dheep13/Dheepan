@@ -1,0 +1,3 @@
+- weather/fetch_weather:
+  - weather/display_weather: []
+  - weather/display_error: []

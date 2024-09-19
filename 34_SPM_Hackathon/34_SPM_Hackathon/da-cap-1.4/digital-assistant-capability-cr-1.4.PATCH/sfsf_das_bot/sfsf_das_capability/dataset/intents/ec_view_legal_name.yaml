@@ -1,0 +1,17 @@
+description: ec_view_legal_name
+examples:
+    - Would like to know my first name.
+    - What's my surname?
+    - View name
+    - See [Jen](person)'s name
+    - my direct's legal name
+    - my direct report [Leo](person)'s legal name
+    - Let me see [Jen](person)'s surname.
+    - Let me know [Jen](person)'s last name.
+    - Let me know [Jen](person)'s first name.
+    - I'd like to view legal name.
+    - I want to find my direct report [Leo](person)'s first name.
+    - I wanna get direct report's middle name.
+    - I wanna get direct report's first name.
+    - How do I view [Jen](person)'s lawful name?
+    - Help me know about [Jen](person)'s real name.

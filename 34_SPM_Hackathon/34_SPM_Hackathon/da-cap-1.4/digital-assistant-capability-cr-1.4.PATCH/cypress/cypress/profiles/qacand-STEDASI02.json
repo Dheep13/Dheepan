@@ -1,0 +1,14 @@
+{
+  "baseUrl": "https://qacand.hcm.ondemand.com",
+  "env": {
+    "companyId": "STEDASIT02",
+    "company": "STEDASIT02",
+    "defaultUser": "IT0001",
+    "identities": {
+      "IT0001": {
+        "username": "IT0001",
+        "userid": "IT0001"
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+description: ec_view_peers
+examples:
+    - Who are [Jen](person)'s coworkers?
+    - Tell me my peer colleagues.
+    - Show my compeers.
+    - peer colleague
+    - my direct's peers
+    - my direct report [Leo](person)'s peers
+    - Let me see my coworkers.
+    - "[Jen](person)'s peers"
+    - I wanna get info about direct report's peers.
+    - How do I view [Jen](person)'s compeers?
+    - Do you know my direct report [Leo](person)'s co-workers?
+    - Do I have 7 peers?
+    - Display [Jen](person)'s peers.
+    - co-worker
+    - coworker

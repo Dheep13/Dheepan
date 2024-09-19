@@ -1,0 +1,24 @@
+title: Restart Flow
+type: node
+condition: '#stop'
+
+# response:
+#   messages:
+#     - type: buttons
+#       content: 
+#         title: "Thank you for using SPM Digital Assistant. Bye !"
+        # buttons:
+        #   - type: postback
+        #     title: "End"
+        #     value: "End"
+        #   - type: postback
+        #     title: "Get All Invoices"
+        #     value: "Get All Invoices"
+response:
+
+  messages:
+    - type: text
+      content: "Thank you for using SPM Digital Assistant. Bye !"
+
+finally:
+  behavior: wait

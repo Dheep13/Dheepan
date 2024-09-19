@@ -1,0 +1,52 @@
+parameters:
+  - name: payeeId
+  - name: positionSeq
+  - name: periodSeq
+  - name: periodName
+
+action_groups:
+  - actions:
+
+      - type: message
+        scripting_type: handlebars
+        message:
+          type: text
+          content: "Inside fetch Credit Invoice"
+
+      - type: dialog-function
+        name: commissions/lookup_credit_invoices # we are calling the lookup function to get product details
+        parameters:
+          - name: periodseq #passing product parameter
+            value: "<? periodSeq ?>"
+          - name: positionseq #passing product parameter
+            value: "<? positionSeq ?>"
+        result_variable: credit_info #output of lookup function is captured here
+        
+      - type: message
+        scripting_type: handlebars
+        message:
+          type: text
+          content: "{{ credit_info.invoice }}"
+
+      - type: message
+        scripting_type: handlebars
+        message:
+          type: text
+          content: "Inside fetch_credit_invoices"
+
+      - type: message
+        message:
+          type: buttons
+          content: 
+            title: "Is there anything else I can assist you with?"
+            buttons:
+              - type: postback
+                title: "Yes"
+                value: "More information"
+              - type: postback
+                title: "No"
+                value: "Done"
+result:
+#   # success: <? product_details.status == 200 ?>
+  invoice: <? credit_info.invoice ?>
+  displayflag: "100"

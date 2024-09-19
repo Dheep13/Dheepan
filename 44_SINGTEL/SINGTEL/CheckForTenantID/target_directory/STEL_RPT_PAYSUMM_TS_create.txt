@@ -1,0 +1,3 @@
+CREATE PROCEDURE EXT.STEL_RPT_PAYSUMM_TS
+(
+IN in_rpttype VARCHAR(75),   /* RESOLVE: Manual edits required: VARCHAR2 parameter(no length): user-configured length=75; adjust as needed */

@@ -1,0 +1,5 @@
+schema_version: 1.3.0
+name : product_capability
+capabilities:
+  - type: local
+    folder: ./product_capability

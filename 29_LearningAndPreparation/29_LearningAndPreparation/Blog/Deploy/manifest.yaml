@@ -1,0 +1,18 @@
+applications:
+- name: my-estimator-app
+  memory: 1024M
+  instances: 1
+  random-route: true
+  path: .
+  buildpacks:
+    - python_buildpack
+  services:
+    - my-xsuaa-service
+
+---
+
+services:
+- name: my-xsuaa-service
+  plan: application
+  tags:
+    - xsuaa

@@ -1,0 +1,35 @@
+title: Fetch PayeeId
+type: node
+trigger_utterance: Enter the PayeeId
+condition: "#payee_intent"
+slot_filling:
+  slots:
+    - check_for: "@payee"
+      save_as:
+        variable: payee
+        value: "@payee"
+      not_present:
+        prompts:
+          - type: text
+            content: "For which payee would you like to see the details for?"
+dialog_functions:
+  - name: commissions/fetch_payee_info
+    result_variable: payee_details
+    parameters:
+      - name: payee
+        value: "$payee"
+      
+response:
+  context:
+   - variable: "positionSeq"
+     value: "<? $payee_details.positionSeq ?>"
+  messages:
+   - type: text
+     content: "Position Sequence is : <? $payee_details.positionSeq ?> "
+
+finally:
+  behavior: wait
+  # jump_to:
+  #   node: commissions/fetch_period
+  #   execution: eval-condition
+

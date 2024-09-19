@@ -1,0 +1,139 @@
+  
+  --when .gitignore not working
+  git add [uncommitted changes you want to keep] && git commit
+  git rm -r --cached .
+  git add .
+  git commit -m "fixed untracked files"
+
+--undo commit and add .
+git reset HEAD~
+git restore --staged .
+
+
+--remove remote
+git remote -v
+git remote rm Deepan_Code 
+
+--initializing and adding a new origin(repo) for a new folder in vscode
+create new repository without readme.md
+git init
+git remote add origin https://github.com/Dheep13/VSCODE_BKP.git
+https://github.com/Dheep13/Dheep13.github.io
+git remote set-url origin https://github.com/Dheep13/VSCODE_BKP.git
+git remote -v
+git branch -M main
+git branch -m master main # use this only if the branch is master instead of main
+git fetch #Fetch Remote Changes: In the terminal, run the following command to fetch the latest changes from the remote repository:
+git merge origin/main #: Next, merge the remote changes into your local branch. If you're on the "main" branch, use the following command:
+git merge origin/main --allow-unrelated-histories #"fatal: refusing to merge unrelated histories" occurs when Git tries to merge two branches with unrelated commit histories. This situation often happens when you have initialized a new repository on GitHub and already have an existing local repository.To resolve this, you can use the --allow-unrelated-histories flag with the merge command. Here's what you can do:
+git add .  # This stages all changes in the current directory and its subdirectories
+git commit -m "Initial commit"  # This commits the staged changes with a commit message
+git push -u origin main  # This pushes the committed changes to the remote repository named "origin" and sets the default branch as "main"
+git push --set-upstream origin main #To push the current branch and set the remote as upstream, use git push --set-upstream origin main #To have this happen automatically for branches without a tracking upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+--steps to merge when local repo is behind on commits when compared to remote repo using git fetch and merge
+git clone https://github.tools.sap/I352821/SPM-Kyndryl.git
+git branch
+git remote
+git remote -v
+--below will show how far away the HEAD-> main (local repo) is from tje origin/main(remote repo)
+git log --oneline --all --graph
+--below will show how many commits the HEAD-> main (local repo) is from the origin/main(remote repo)
+git branch -vv
+git fetch or git fetch origin or git fetch origin branch <branchname>
+git branch -vv
+git merge origin/main
+git log --oneline --all --graph
+
+--steps to merge when local repo is behind on commits when compared to remote repo using git pull
+git clone https://github.tools.sap/I352821/SPM-Kyndryl.git
+git branch
+git remote
+git remote -v
+--below will show how far away the HEAD-> main (local repo) is from tje origin/main(remote repo)
+git log --oneline --all --graph
+--below will show how many commits the HEAD-> main (local repo) is from the origin/main(remote repo)
+git branch -vv
+git pull
+git branch -vv
+git log --oneline --all --graph
+
+
+--steps to merge when local repo is behind on commits when compared to remote repo using git pull rebase and push the origin/main in remote
+git clone https://github.tools.sap/I352821/SPM-Kyndryl.git
+git branch
+git remote
+git remote -v
+--below will show how far away the HEAD-> main (local repo) is from tje origin/main(remote repo)
+git log --oneline --all --graph
+--below will show how many commits the HEAD-> main (local repo) is from the origin/main(remote repo)
+git branch -vv
+git pull --rebase
+git branch -vv
+git log --oneline --all --graph
+git push origin main
+git branch -vv
+git log --oneline --all --graph
+
+
+--steps to push new code to repo
+git add --all or git add .
+git commit -m "desciption of change"
+git push
+
+
+---push folder wise
+---go to the desired folder and check the remote repository
+git remote -v
+--go back one folder up and run the below folder name
+git add 21_KYNDRYL/
+---if you get error: '06_SAP_CAP/' does not have a commit checked out, then 
+cd 06_SAP_CAP
+ls -la | grep .git
+rm -rf .git
+--then proceed with below steps
+git commit -m "Adding 21_KYNDRYL folder"
+git push origin [YOUR_BRANCH_NAME]
+
+---branch name will be the branch name you are checked out to
+git branch
+--if you want to undo git add
+git reset <file-path>
+*******************************************************
+
+
+Yes, you can definitely add 11_DATA_SCIENCE/UNZIP_FOR_NOTEBOOKS_FINAL/05-Seaborn/application_record.csv to .gitignore to prevent it from being staged or pushed to the main branch in the future.
+
+Here's how to do it:
+
+Edit the .gitignore File:
+Open the .gitignore file in the root directory of your Git repository in a text editor. If the file doesn't exist, you can create one.
+
+Add the Path to .gitignore:
+At the end of the .gitignore file, add the following line:
+
+bash
+Copy code
+11_DATA_SCIENCE/UNZIP_FOR_NOTEBOOKS_FINAL/05-Seaborn/application_record.csv
+Save and close the file.
+
+Untrack the File from Git:
+Since the file was previously tracked by Git, you'll need to remove it from the Git index (without deleting the file itself). Use the following command:
+
+bash
+Copy code
+git rm --cached 11_DATA_SCIENCE/UNZIP_FOR_NOTEBOOKS_FINAL/05-Seaborn/application_record.csv
+Commit the Changes:
+Commit the updated .gitignore and the removal of the file from the Git index:
+
+bash
+Copy code
+git add .gitignore
+git commit -m "Ignore application_record.csv"
+Push the Changes:
+If you're ready, you can push the changes to your remote repository:
+
+bash
+Copy code
+git push origin main
+After these steps, the application_record.csv file won't be tracked by Git anymore, and any future changes to it won't be staged or committed. If other contributors clone or pull from the repository, they won't get this file, but the file will remain in your local directory.

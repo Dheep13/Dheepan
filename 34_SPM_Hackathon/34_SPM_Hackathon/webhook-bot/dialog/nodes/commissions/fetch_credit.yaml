@@ -1,0 +1,26 @@
+title: Get Credit Invoice
+type: node
+condition: "$positionSeq != null && $periodSeq != null"
+
+slot_filling:
+  slots:
+    - check_for: "1234"
+      save_as:
+        variable: "user_payee"
+        value: "@payee"
+      not_present:
+        prompts:
+          - type: text
+            content: "Which payee should I look up for you?"
+    
+dialog_functions:
+  - name: commissions/fetch_credit_invoices
+    result_variable: payee_result
+    parameters:
+      - name: periodSeq
+        value: $periodSeq
+      - name: positionSeq
+        value: $positionSeq
+
+finally:
+  behavior: wait

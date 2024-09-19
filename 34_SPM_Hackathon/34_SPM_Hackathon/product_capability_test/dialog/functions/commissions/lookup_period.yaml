@@ -1,0 +1,23 @@
+parameters:
+  - name: period
+ 
+action_groups:
+  - actions:
+      - type: api-request
+        method: POST
+        system_alias: CommissionsWebHookService
+        path: "/GetPeriodSeq"
+        headers:
+          Content-Type: application/json
+        body: '{"conversation": {"skill": "some_skill", "memory": {"name": "<? period ?>"}}}'
+        result_variable: period_lookup_result #results of the response are held here
+
+      - type: set-variables
+        scripting_type: handlebars
+        variables:
+          - name: periodSeq
+            value: "{{ period_lookup_result.body }}"
+
+result: #here we are only selecting the required properties
+  periodSeq: <? period_lookup_result.body.replies[0].content ?>
+  periodName: <? period ?>

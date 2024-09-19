@@ -1,0 +1,12 @@
+schema_version: 1.0.0
+
+metadata:
+  namespace: namespace
+  name: my_first_capability
+  version: 1.0.0
+  display_name: my_first_capability
+  description: My first capability
+
+system_aliases:
+  SystemAliasName:
+    destination: someDestination

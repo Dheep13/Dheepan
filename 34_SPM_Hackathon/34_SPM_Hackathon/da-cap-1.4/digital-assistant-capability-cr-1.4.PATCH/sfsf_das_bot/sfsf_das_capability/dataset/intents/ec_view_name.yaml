@@ -1,0 +1,17 @@
+description: ec_view_name
+examples:
+    - What name does [Leo](person) prefer to be called?
+    - What does [Jen](person) like to be called?
+    - View chosen name
+    - Show my name in use.
+    - name-in-use
+    - my direct's chosen name
+    - My chosen name
+    - Let me see my display name.
+    - I need to look at direct report [Leo](person)'s name-in-use.
+    - How to look up the chosen name of my direct report?
+    - How can I take a look at direct report [Leo](person)'s name in use?
+    - Help me know about [Jen](person)'s chosen first name.
+    - Do you know my direct report's name of use?
+    - Display [Jen](person)'s preferred name.
+    - chosen first name

@@ -1,0 +1,4 @@
+applications:
+- name: dbw-catfacts
+  memory: 128M
+  command: python chatbot-webhook.py

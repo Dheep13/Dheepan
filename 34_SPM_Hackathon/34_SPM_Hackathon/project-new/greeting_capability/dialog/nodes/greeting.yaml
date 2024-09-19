@@ -1,0 +1,9 @@
+type: node
+title: Greeting
+condition: '#greet_intent'
+response:
+  messages:
+    - type: text
+      content: Good Morning, you have a fabulous day!
+finally:
+  behavior: wait

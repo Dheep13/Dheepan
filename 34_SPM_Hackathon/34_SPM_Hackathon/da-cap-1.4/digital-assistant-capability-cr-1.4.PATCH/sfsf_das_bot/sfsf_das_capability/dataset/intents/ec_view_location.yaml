@@ -1,0 +1,17 @@
+description: ec_view_location
+examples:
+    - Where is [Clarence Kumar](person) located?
+    - Where does [Andreas Finndahl](person) work?
+    - Where does [Alex](person) go to work?
+    - what is my office location
+    - View my direct report [Leo](person)'s office location
+    - Please help me find their corporate address
+    - Please find the place they work in
+    - Let me see her office location
+    - I need to check my company location
+    - How do I find her office location?
+    - How can I find my work address?
+    - Do you know the place I work in?
+    - company location
+    - Can you help me check my office location?
+    - business location

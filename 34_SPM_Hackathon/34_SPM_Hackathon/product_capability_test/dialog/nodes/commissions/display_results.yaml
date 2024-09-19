@@ -1,0 +1,51 @@
+title: Display Results
+type: node
+condition: " $period_details.displayflag == '200' "
+
+# $period_details.displayflag == '200' || displayflag == 200 || displayflag == '200' || $displayflag == 200 || $displayflag == '200'
+#  $displayflag != null ||  $period_details.displayflag != null
+#  messages:
+#    - type: text
+#      content: "Below are the details"
+
+# dialog_functions:
+#   - name: commissions/show_results
+#     result_variable: final
+#     parameters:
+#       - name: payeeId
+#         value: <? $payee_details.payeeId ?>
+#       - name: positionSeq
+#         value: <? $payee_details.positionSeq ?>
+#       - name: periodSeq
+#         value: <? $period_details.periodSeq ?>
+#       - name: periodName
+#         value: <? $period_details.periodName ?>
+response:
+  messages:
+    - type: buttons
+      content: 
+        title: "How can I help you today?"
+        buttons:
+          - type: postback
+            title: "Get Credit Invoice"
+            value: "Get Credit Invoice"
+          - type: postback
+            title: "Get All Invoices"
+            value: "Get All Invoices"
+          - type: postback
+            title: "Get Payments"
+            value: "Get Payments"
+          - type: postback
+            title: "Get Rate"
+            value: "Get Rate"
+          - type: postback
+            title: "Participant Form"
+            value: "Participant Form"
+          - type: postback
+            title: "ChatGPT"
+            value: "Who are you?"
+
+finally:
+  behavior: wait
+
+

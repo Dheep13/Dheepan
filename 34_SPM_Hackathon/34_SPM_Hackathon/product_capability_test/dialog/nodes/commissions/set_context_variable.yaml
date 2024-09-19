@@ -1,0 +1,11 @@
+title: Set Context Variable
+type: node
+condition: "$period_details.displayflag == 200"
+response:
+  context:
+    - variable: "displayflag"
+      value: <$ ?period_details.displayflag ?>
+  
+finally:
+  behavior: wait
+

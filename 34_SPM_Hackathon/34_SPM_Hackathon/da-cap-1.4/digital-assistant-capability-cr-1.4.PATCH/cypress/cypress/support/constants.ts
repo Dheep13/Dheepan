@@ -1,0 +1,9 @@
+export const DUMMY_TEXT =
+  "Tincidunt sodales tellus consectetuer molestie. Congue est et morbi dis. Urna convallis nibh elit diam parturient, vestibulum venenatis, adipiscing venenatis et per, iaculis netus morbi tempor aliquam pulvinar Nascetur nam scelerisque viverra integer odio porttitor ut egestas magnis nonummy arcu fringilla rhoncus tellus rutrum curabitur. Magna. Vulputate montes aptent conubia Et dignissim ac. Erat aptent rhoncus nulla eu ligula pulvinar ligula ut nisl et urna massa sociis Orci non, donec curabitur porta eu aenean. In taciti facilisi hendrerit imperdiet penatibus aliquam turpis venenatis nibh bibendum. Integer congue nec ornare. Sociis. Arcu hac. Amet turpis volutpat consectetuer sit sapien pretium. Habitant ornare cubilia. Luctus. Habitant amet, consequat torquent tellus scelerisque senectus arcu Arcu. Vivamus. Aptent imperdiet odio, duis venenatis. Varius urna venenatis ut orci etiam, consectetuer lacinia ligula imperdiet. Lacinia eleifend mus condimentum feugiat nec iaculis sociosqu. Nullam sed in sapien mattis etiam pretium tincidunt id. Metus orci arcu rutrum pellentesque Sagittis sapien platea tristique. Posuere, metus enim amet sociosqu class eget ad, urna semper pede blandit est dis tincidunt phasellus convallis nonummy lacus proin imperdiet. Fames enim eget viverra ultrices sapien pulvinar penatibus at integer tempus conubia, nonummy nam elit enim pede leo magna posuere posuere Consequat eget nulla netus.";
+export const FALLBACK_MSG = {
+  PERMISSION: "Oops, you don't have permission to perform this action",
+  API: "Oops, something went wrong. I can't provide you with service now. Please try again later.",
+  CANCEL: "Well, let's try something else.",
+  RETRY: "Please try again.",
+  NO_RECORD: "Oops, there is no related record. Please try something else.",
+};

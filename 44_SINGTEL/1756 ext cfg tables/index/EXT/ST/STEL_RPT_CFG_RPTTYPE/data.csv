@@ -1,0 +1,60 @@
+"PTXN",,"STEL_RPT_DATA_PTXN1",,,,,"CREDIT",,,,,,"1.0000000000",,,,
+"PTXN",,"STEL_RPT_DATA_PTXN2",,,,,"CREDIT",,,,,,,,,,
+"PTXN",,"STEL_RPT_DATA_PTXN3",,,,,"STEL_CUSTOMTXN",,,,,,,,,,
+"TSINDPAYSUMM_M2",,"STEL_RPT_TS_INDPAYSUM_M2",,,"CS_INCENTIVE","m.name='I_Telesales_Team_M2_Payout'",,,,,,"m.name","1.0000000000","R",,,"month"
+"TSINDPAYSUMM_ADJ",,"STEL_RPT_TS_INDPAYSUM_ADJ",,,"VW_AGGREGATEDCREDIT","m.name='DC_Payment Adjustment'",,,,,,"m.name\, m.genericattribute3","6.0000000000","R",,,"month"
+"TSINDPAYSUMM_PROD",,"STEL_RPT_TS_INDPAYSUM_PROD",,,"VW_AGGREGATEDCREDIT","m.name in ('ICR_STVTelesales Comission_Points'\,'ICR_STVTelesales Comission_ARPU')",,,,,,"m.genericattribute6","7.0000000000","R",,,"month"
+"EXTPMTDETAIL_DELCEASE",,"STEL_RPT_DATA_EXTPAYDETAILS_DL",,"t.name='External Vendors'",,,"CREDIT","ct.credittypeid is null and st.genericboolean1=1 and st.comments like 'Ceased%'","CREDITTYPEID",,,,"2.0000000000",,,"1","quarter"
+"EXTPMTDETAIL_VP",,"STEL_RPT_DATA_EXTPAYDETAILS_VP",,"t.name='Virtual Partner'",,,"CREDIT","ct.credittypeid in ('Payment Adjustment'\,'Top Up Revenue'\,'Top up Revenue Adjustment')","CREDITTYPEID",,,,"1.0000000000","T","07-External Payment Detail\,03_Requisition Memo","1","month"
+"MREMITSUMMARY","call stel_rpt_post_mremitsummary(?\,?\,?);","STEL_RPT_DATA_MREMITSUMMARY","upper(t.name) like '%MREMIT%'","1=1",,,,,,,,,"2.0000000000","R","01-MRemit - Payment Summary - Admin",,
+"PGSUMMARY","call rpt_pick_go_paysummry(?\, ?\, ?); ",,,,,,,,,,,,,,"11-Pick & Go - Payment Summary Report\, 12-Pick & Go - Requisition Memo",,
+"PGDETAIL","call rpt_pick_go_paydetail(?\, ?\, ?); ",,,,,,,,,,,,,,"10-Pick & Go - Payment Detail Report",,
+"DSPAYSUMMARY","call STEL_PRC_DSPAYSUMADMIN(?\, ?\, ?); ","STEL_RPT_DSPAYSUMADMIN",,,,,,,,,,,"2.0000000000",,"15-Direct Sales - Payment Summary - Admin",,"month"
+"IPINDPAYSUMMARY","call STEL_INTPRE_INDSUMMARY(?\, ?\, ?); ","STEL_RPT_IP_INDPAYSUMMARY",,,,,,,,,,,,,"04_IP_Individual Payment Summary",,"month"
+"IPPAYSUMMARYWEBI","call STEL_RPT_PAYDETLWEBI(?\, ?\, ?); ","STEL_RPT_PAYDETLWEBI",,,,,,,,,,,,,"Prepaid Payment Detail Report-ADMIN",,"month"
+"TELECON_COVERNOTE","call STEL_PRC_MMPCOVERNOTE(?\,?\,?); ",,,,,,,,,,,,,"R","55-MMP-TelecontinentSales-Cover Note",,"month"
+"EXTPMTSUMMARY","call rpt_post_extpmtsummary(?\, ?\,?); ","STEL_RPT_DATA_EXTPAYSUMMARY",,,"CS_MEASUREMENT","m.name in ('PM_Payment Adjustment_Fixed Line VAS_DEL'\,'PM_Payment Adjustment_Fixed Line VAS_HDL'\,'PM_CSE_MMP_DEL Fixed Line VAS_DEL'\,'PM_CSE_MMP_DEL Fixed Line VAS_HDL'\,'PM_MMP_DEL Fixed Line VAS_HDL'\,'PM_MMP_DEL Fixed Line VAS_DEL'\,'PM_SIM_De-Registration'\,'PM_mCash_Comm'\,'PM_Dealer_mioVoice_Comission'\,'PM_Dealer_PSTN_DEL Comission'\,'PM_Payment Adjustment') and m.value<>0","CREDIT",,,,,"m.name","5.0000000000","R","03-External Vendor Payment Summary\,09-mCash - Dereg Cover Note\,14-Cover Note",,"quarter"
+"PSUMMARY","call rpt_post_extpmtsummary(?\, ?\,?); ","STEL_RPT_DATA_PSUMMARY",,,"CS_MEASUREMENT","m.name='SM_Advt_Total Team Leader/Director Revenue' and m.value<>0",,,,,,,,,,,
+"ADVPMTDETAIL","call STEL_QTR_REVENUEDETAILS(?\, ?\, ?); ","STEL_RPT_DATA_ADVPAYDETAILS",,,,,"CREDIT","ct.credittypeid in ('Advt Revenue'\,'Advt Revenue Adj'\,'Advt Revenue_ICR')","CREDITTYPEID",,,,"1.0000000000","T","08-Advertising Revenue Detail Report Admin","1",
+"REQMEMO","call STEL_MONTHLY_REQMEMO( ?\, ?\, ?) ; ",,,,,,,,,,,,"6.0000000000",,"03_Requisition Memo",,
+"EXTPMTSUMMARY_MIDMONTH","call rpt_post_extpmtsummary_midmon(?\, ?\,?); ","STEL_RPT_EXTPAYSUMMARY_MIDMON",,,"CS_DEPOSIT","m.name in ('D_Virtual_Partner_Comm_midmonth')","CREDIT",,,,,"m.name","2.0000000000","R","04-External Vendor Payment Summary Midmonth\,09-Pick & Go cover note\,14-Cover Note",,
+"EXT_PREPAIDPAYSUM","call STEL_EXTPREPAIDPAYSUMM(?\, ?\,?); ","STEL_RPT_EXTPREPAIDPAYSUMM",,,,,,,,,,,"1.0000000000",,"24-External Prepaid - Payment Summary Report\,14-Cover Note",,"month"
+"EXTREQMEMO","call rpt_extprepd_reqmemo(?\, ?\,?); ","stel_rpt_extprepd_reqmemo",,,,,,,,,,,"1.0000000000",,"02-External Prepaid -  Requisition Memo",,"month"
+"COVERNOTE","call rpt_post_covernote(?\, ?\,?); ",,,,,,,,,,,,"1.0000000000",,"09-Pick & Go cover note\,14-Cover Note",,
+"DSDETAIL","call rpt_post_dsdetail(?\, ?\,?); ","STEL_RPT_DSTRANADMIN",,,,,"CREDIT","ct.credittypeid in ('Submitted Order Points'\,'Submitted Order Points TVGA')","CREDITTYPEID",,,,"2.0000000000","R","14-Direct Sales - Transaction Detail Report","1","month"
+"TSINDPAYSUMM_M1","call rpt_post_tsindpaysummary(?\, ?\,?); ","STEL_RPT_TS_INDPAYSUM_M1",,,"CS_INCENTIVE","m.name='I_Telesales_Indv_M1_Payout'",,,,,,"m.name","5.0000000000",,,,"month"
+"TSPAYSUMM","call rpt_post_tspaysummary(?\, ?\,?); ","STEL_RPT_TS_PAYSUMM",,,"CS_MEASUREMENT","m.name=''",,,,,,"m.name","1.0000000000",,,,"month"
+"EXTPMTSUMMARY_VP","call rpt_post_extpmtsummary_VP(?\, ?\,?); ","STEL_RPT_DATA_EXTPAYSUMMARY_VP",,,"CS_DEPOSIT","m.name in ('D_Virtual_Partner_Comm'\,'D_mCash Adjustment'\,'D_Dereg Adjustment'\,'D_Virtual_Partner Adjustment')","CREDIT",,,,,"m.name","2.0000000000","R","03-External Vendor Payment Summary\,09-Pick & Go cover note",,"month"
+"EXTPMTDETAIL","call rpt_post_extpmtdetail(?\, ?\,?); ","STEL_RPT_DATA_EXTPAYDETAILS",,,,,"CREDIT","((ct.credittypeid in ('DEL'\,'SIM Deregistration'\,'mCash'\,'Payment Adjustment') ) or (c.name in  ( 'ICR_MMP_Products_Commission'\,'DC_MMP_Products_Commission' ) and c.genericattribute2='DEL Closed' )) and st.productid<>'Virtual Partner'","CREDITTYPEID",,,,"3.0000000000","T","07-External Payment Detail\,03_Requisition Memo","1","quarter"
+"MMPFTTHDTL","call STEL_PRC_FTTHPAYDETAIL(?\,?\,?) ; ",,,,,,,,,,,,,,"28-MMP - FTTH&SPICE Payment Detail Report",,
+"TELESALESINDSUMMARY","call stel_rpt_indpaysumm_ts(?\, ?\, ?); ",,,,,,,,,,,,,,"25-TeleSales - Individual Payment Summary",,
+"TELESALESPAYSUMMARY","call stel_rpt_paysumm_ts(?\, ?\, ?); ",,,,,,,,,,,,,,"26-TeleSales-Payment Summary Report",,
+"IPPAYSUMMARY","call STEL_INTPRE_PAYSUMMARY(?\, ?\, ?); ","STEL_RPT_PRPAYSUMMARY",,,,,,,,,,,,,"13_IP_Payment Summary Admin",,
+"SCICOMTRANSDET","call STEL_PRC_SCICOMTRADMIN(?\, ?\, ?); ",,,,,,,,,,,,,,"19-SCICOM - Transaction Detail Report - Admin_Payee",,
+"MMPPAYSUM","call STEL_PRC_FTTHREQMEMO(?\, ?\, ?); ",,,,,,,,,,,,,,"29-MMP - FTTH_SPICE_Payment Summary Report",,
+"MMPMIOPAYSUM","call STEL_PRC_FTTHREQMEMO(?\, ?\, ?); ",,,,,,,,,,,,,,"30-MMP - MioTV Payment Summary Report",,
+"MMPMIOREQMEMO","call STEL_PRC_FTTHREQMEMO(?\, ?\, ?); ",,,,,,,,,,,,,,"31-MMP - MioTV Requisition Memo Report",,
+"MMPMIOPAYDET","call STEL_PRC_MIOTVPAYDETAIL(?\, ?\, ?); ",,,,,,,,,,,,,,"39-MMP - MioTV Payment Detail Report",,
+"MMPSPICEREQMEMO","call STEL_PRC_FTTHREQMEMO(?\, ?\, ?); ",,,,,,,,,,,,,,"33-MMP - FTTH_SPICE_Requisition Memo Report",,
+"ADVPAYSUMM","call STEL_RPT_PAYMENT_SUMM(?\, ?\, ?); ",,,,,,,,,,,,,,"06-Advertising - Payment Summary Report",,
+"ADVINDPAYREP","call RPT_ADVT_IND_PS(?\, ?\, ?); ",,,,,,,,,,,,,,"05-Advertising - Individual Payment Summary Report",,
+"EXTPAYSUMMIDMON","call RPT_POST_EXTPMTSUMMARY(?\, ?\, ?); ",,,,,,,,,,,,,,"04-External Vendor Payment Summary Midmonth",,
+"DSINDPAYSUMM","call STEL_DS_INDSUMMARY(?\, ?\, ?); ","STEL_RPT_DSINDPAYSUMMARY",,,,,,,,,,,,,"19-Direct Sales  - Individual Payment Summary Report",,
+"DTODPAYDET","call RPT_d2d_paymentdet(?\, ?\, ?); ",,,,,,,,,,,,,,"21-D2D - Payment Details Report",,
+"SCIINDPAYSUM","call stel_prc_scicomindpay(?\,?\,?); ",,,,,,,,,,,,,,"20-SCICOM - Individual Payment Summary Report",,
+"SCITRAN","call stel_prc_scicomtradmin(?\,?\,?); ",,,,,,,,,,,,,,,,
+"SCIPAYSUM","call rpt_scicom_paysumm(?\,?\,?); ",,,,,,,,,,,,,,"20-SCICOM - Payment Summary Report",,
+"EPTRANADMIN","call stel_prc_EPTRANADMIN(?\, ?\, ?); ",,,,,,,,,,,,,,"16-External Prepaid - Transaction Detail Report - Admin",,
+"MMPCOVERNOTE","call stel_prc_mmpcovernote(?\, ?\, ?); ",,,,,,,,,,,,,,"21-MMP - Cover Note_FTTH\,14-Cover Note-Fixed Line VAS.rpt\,14-Cover Note-Fixed Line VAS\, 88-MMP - Cover Note_MioTV",,
+"EXTPPCOVERNOTE","call stel_prc_extppcovernote(?\, ?\, ?); ",,,,,,,,,,,,,,"22-External Prepaid - Cover Note.rpt",,
+"INTSALES_COVERNOTE","call STEL_PRC_MMPCOVERNOTE(?\,?\,?); ","STEL_RPT_MMPCOVERNOTE",,,,,,,,,,,,,"51-MMP-IntegratedSales-Cover Note",,"month"
+"INTSALES_PAYDETAIL","call STEL_PRC_INTSLPAYDETAIL(?\,?\,?); ","STEL_RPT_MMP_INTSPAYDET",,,,,,,,,,,,,"52-MMP-IntegratedSales-Payment Detail Report",,"month"
+"INTSALES_REQMEMO","call STEL_PRC_INTESALES_REQMEMO(?\,?\,?); ",,,,,,,,,,,,,,"53-MMP-IntegratedSales-Payment Summary Report\,54-MMP-IntegratedSales-Requisition Memo Report",,"month"
+"D2DPAYSUMMARY","call rpt_d2d_paymentsumm (?\, ?\,?); ","STEL_RPT_d2d_paymentsumm",,,,,,,,,,,"1.0000000000",,"22-D2D - Payment Summary Report",,
+"D2DTRANSDETAILS","call RPT_d2d_TRANSACTIONDET (?\, ?\,?); ","STEL_RPT_d2d_TRANSACTIONDET",,,,,,,,,,,"1.0000000000",,"23-D2D - Transaction Detail Report",,
+"ROADSHOW","call rpt_data_sts_roadshow(?\, ?\, ?); ",,,,,,,,,,,,,,,,
+"TELECON_PAYDETAIL","call STEL_PRC_TELECONPAYDETAIL(?\,?\,?); ",,,,,,,,,,,,,"R","56-MMP-TelecontinentSales-Payment Detail Report",,"month"
+"TELECON_REQMEMO","call STEL_PRC_TELECON_REQMEMO(?\,?\,?); ",,,,,,,,,,,,,"R","57-MMP-TelecontinentSales-Payment Summary Report\,58-MMP-TelecontinentSales-Requisition Memo Report",,"month"
+"EXTPREPAIDRETAILERPMT","call rpt_post_extppretailerpmt(?\, ?\, ?); ",,,,,"m.name in ('SM_External Prepaid_Incentive_Retailers_Payout')",,,,,,"m.name","1.0000000000",,"17-External Prepaid - Retailer Report",,"month"
+"EXTPRETAILERREQMEMO","call rpt_retailers_reqmemo(?\, ?\, ?); ","STEL_RPT_RETAILERS_REQMEMO",,,,,,,,,,,,,"35-Retailers -  Requisition Memo",,"quarter"
+"TSDETAIL","call rpt_post_tsdetail(?\, ?\,?); ","STEL_RPT_TS_TRANSACTIONDET",,,,,"CREDIT","c.name in ('DC_Telesales_BCC_Submitted_Order_Credit_InternalSalesman_Points' \, 'DC_Telesales_BCC_Submitted_Order_Credit_InternalSalesman_ARPU' \, 'DCR_INTERNAL_TVReconHandlingFee_Points') and IFNULL( c.genericattribute7\,'0') <> 'Dealer' AND ct.credittypeid in ('Telesales Comm' \, 'Telesales Comm ARPU' \, 'TVReconHandlingFee - Internal')","CREDITTYPEID",,,,"1.0000000000","T","27-TeleSales - Transactional Detail Report","1","month"

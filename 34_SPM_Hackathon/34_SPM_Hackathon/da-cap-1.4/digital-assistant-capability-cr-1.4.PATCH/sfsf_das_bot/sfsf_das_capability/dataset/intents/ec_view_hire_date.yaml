@@ -1,0 +1,17 @@
+description: ec_view_hire_date
+examples:
+    - When did [Sherlock](person) join the company?
+    - let me check my employment start date
+    - How long have I been working at SAP?
+    - Can I have a look at my team members' first date employed?
+    - I need check [Sherlock](person)'s starting day.
+    - when did I join this organization?
+    - When did my team start at this company?
+    - I'd like to know the join dates of team members.
+    - show me my hire date
+    - I wanna know the first day of my employees at this company.
+    - How to look up the first day of my direct reports in this company?
+    - How long have my direct reports worked here?
+    - I need to look at direct reports' first date of the job.
+    - how long am I with SAP?
+    - What was the start date of my employment at SAP

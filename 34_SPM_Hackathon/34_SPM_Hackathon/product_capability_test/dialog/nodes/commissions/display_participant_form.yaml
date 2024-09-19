@@ -1,0 +1,56 @@
+type: node
+title: Show Card - Capture Information
+condition: "#participant_form"
+response:
+  messages:
+    - type: raw
+      content: >
+        {
+          "type": "ui5integrationCard",
+          "delay": 0,
+          "content": {
+            "_version": "1.17.0",
+            "sap.card": {
+              "type": "AdaptiveCard",
+              "header": {
+                "icon": { "src": "sap-icon://form" },
+                "title": "New Participant Form",
+                "subTitle": "Enter Participant details"
+              },
+              "content": {
+                "body": [
+                  { "text": "Effective End Date", "type": "TextBlock" },
+                  { "id": "effectiveEndDate", "type": "Input.Date", "placeholder": "YYYY-MM-DD" },
+                  { "text": "Effective Start Date", "type": "TextBlock" },
+                  { "id": "effectiveStartDate", "type": "Input.Date", "placeholder": "YYYY-MM-DD" },
+                  { "text": "Payee ID", "type": "TextBlock" },
+                  { "id": "payeeId", "type": "Input.Text", "placeholder": "Enter Payee ID" },
+                  { "text": "Last Name", "type": "TextBlock" },
+                  { "id": "lastName", "type": "Input.Text", "placeholder": "Enter Last Name" },
+                  { "text": "Generic Date 1", "type": "TextBlock" },
+                  { "id": "genericDate1", "type": "Input.Date", "placeholder": "YYYY-MM-DD" },
+                  { "text": "Generic Attribute 1", "type": "TextBlock" },
+                  { "id": "genericAttribute1", "type": "Input.Text", "placeholder": "Enter Attribute" }
+                ],
+                "actions": [{ "type": "Action.Submit", "title": "Submit" }],
+                "type": "AdaptiveCard",
+                "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+                "version": "1.0"
+              }
+            }
+          },
+          "markdown": false
+        }
+  context:
+      - variable: feedback_content
+        value: $action-submit.json
+
+finally:
+  # behavior: jump
+  # target: commissions/stop_dialog
+  behavior: wait
+  # jump_to:
+  #   node: commissions/create_participant
+  #   execution: wait
+
+    

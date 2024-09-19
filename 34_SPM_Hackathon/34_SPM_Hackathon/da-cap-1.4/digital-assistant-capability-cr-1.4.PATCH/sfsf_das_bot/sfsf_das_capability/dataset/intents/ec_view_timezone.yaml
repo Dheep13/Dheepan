@@ -1,0 +1,17 @@
+description: ec_view_timezone
+examples:
+    - zone
+    - What timezone is [Jen](person) in?
+    - What time is it in [Leo](person)'s country?
+    - What is [Jen](person)'s time zone?
+    - Try to know the time zone of direct report [Leo](person).
+    - my direct report's time zone
+    - my direct report [Leo](person)'s time zone
+    - local time zone
+    - Let me know [Jen](person)'s timezone.
+    - How to look up the timezone of my direct report?
+    - Help me know about [Jen](person)'s local time zone.
+    - Do you know my direct report's local time?
+    - Display [Jen](person)'s local time.
+    - Can you show my standard time?
+    - Can I have a look at my direct's local time?

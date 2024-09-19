@@ -1,0 +1,10 @@
+title: Display Error
+type: node
+condition: "anything_else"
+response:
+
+  messages:
+    - type: text
+      content: "Payee Name is <? $payee_deails.payeeId ?>. PayeeSeq is <? $payee_deails.payeeId ?> {{ payee_deails.payeeId}}"
+finally:
+  behavior: wait

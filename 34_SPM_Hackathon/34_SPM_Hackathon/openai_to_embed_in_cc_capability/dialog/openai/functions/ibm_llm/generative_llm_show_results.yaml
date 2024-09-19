@@ -1,0 +1,9 @@
+parameters:
+  - name: prepared_results
+action_groups:
+  - actions:
+      - type: message
+        scripting_type: handlebars
+        message:
+          type: text
+          content: "{{ prepared_results }}"

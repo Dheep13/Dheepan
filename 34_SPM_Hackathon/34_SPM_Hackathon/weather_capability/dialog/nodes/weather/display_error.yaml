@@ -1,0 +1,9 @@
+title: Display Error
+type: node
+condition: "anything_else"
+response:
+  messages:
+    - type: text
+      content: An error occurred when fetching the weather information
+finally:
+  behavior: wait

@@ -1,0 +1,57 @@
+type: node
+title: "pick date time"
+condition: "true"
+response:
+  messages:
+    - type: text
+      content: Please select the meeting date and time.
+    - type: raw
+      content: >
+        {
+            "type": "ui5integrationCard",
+            "content": {
+                "manifest": {
+                    "_version": "1.17.0",
+                    "sap.card": {
+                        "type": "AdaptiveCard",
+                        "content": {
+                            "body": [
+                                {
+                                    "id": "date",
+                                    "type": "Input.Date",
+                                    "label":"Date:",
+                                    "isRequired": false,
+                                    "errorMessage": "Please enter a date"
+                                },  
+                                {
+                                    "id": "startTime",
+                                    "type": "Input.Time",
+                                    "label":"From:",
+                                    "isRequired": false,
+                                    "errorMessage": "Please enter the from"
+                                },
+                                {
+                                    "id": "endTime",
+                                    "type": "Input.Time",
+                                    "label":"To:",
+                                    "isRequired": false,
+                                    "errorMessage": "Please enter the to"
+                                }
+                            ],
+                            "type": "AdaptiveCard",
+                                "actions": [
+                                    {
+                                        "type": "Action.Submit",
+                                        "title": "Submit"
+                                    }
+                            ]
+                        }
+                    }
+                },
+                "submit_message": "{submitted_data.date} {submitted_data.startTime}-{submitted_data.endTime}"
+            },
+            "markdown": false,
+            "delay": 0
+        }
+finally:
+  behavior: wait

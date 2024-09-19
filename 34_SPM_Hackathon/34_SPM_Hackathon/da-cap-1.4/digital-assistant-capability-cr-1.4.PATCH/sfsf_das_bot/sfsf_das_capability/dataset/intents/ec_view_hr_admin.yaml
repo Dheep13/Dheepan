@@ -1,0 +1,14 @@
+# description: this is the place for some description
+examples:
+  - view HR Admin
+  - show HR Admin
+  - show my HR admin
+  - What is my HR admin
+  - view [Alex](person)'s HR Admin
+  - view [Sara Gallo](person)'s HR Admin
+  - I want to view HR Admin of [Janet](person)
+  - show HR contact
+  - view HR contact
+  - I want to view my HR contact.
+  - show [Leo](person)'s HR contact.
+  - view my direct report Leo's HR contact.

@@ -1,0 +1,46 @@
+global:
+  domain: c173af2.kyma.ondemand.com
+  imagePullSecret:
+    name: container-registry
+srv:
+  bindings:
+    db:
+      fromSecret: bookshop-db
+    auth:
+      serviceInstanceName: xsuaa
+  image:
+    repository: deepan13/bookshop-srv
+    tag: latest
+  resources:
+    limits:
+      ephemeral-storage: 1G
+      memory: 500M
+    requests:
+      ephemeral-storage: 1G
+      cpu: 30000m
+      memory: 500M
+  health_check:
+    liveness:
+      path: /
+    readiness:
+      path: /
+hana_deployer:
+  image:
+    repository: deepan13/bookshop-hana-deployer
+    tag: latest
+  bindings:
+    hana:
+      fromSecret: bookshop-db
+  resources:
+    limits:
+      cpu: 30000m
+      memory: 1G
+    requests:
+      cpu: 30000m
+      memory: 1G
+xsuaa:
+  serviceOfferingName: xsuaa
+  servicePlanName: application
+  parameters:
+    xsappname: bookshop
+  config: xs-security.json

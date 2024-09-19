@@ -1,0 +1,267 @@
+Validation	Team	Title	StartDate	EndDate	Band	Min 	Max	Rate
+	Must match Team in Callidus Exactly	Must match title in Callidus Exactly	Month Start Date YYYY-MM-DD	Month End Date YYYY-MM-DD	Pick from drop down	Enter number without commas and % sign	Enter number without commas and % sign	Enter number without commas and % sign
+OK	Events	DirectSales - Sales Executive	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	Events	DirectSales - Sales Executive	2023-10-01	2024-06-30	BAND 4	89	88	-5
+OK	Events	DirectSales - Sales Executive	2023-10-01	2024-06-30	BAND 3	89	90	0
+OK	Events	DirectSales - Sales Executive	2023-10-01	2024-06-30	BAND 2	91	93	5
+OK	Events	DirectSales - Sales Executive	2023-10-01	2024-06-30	BAND 1	94	100	10
+OK	Events	DirectSales - Team Lead	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	Events	DirectSales - Team Lead	2023-10-01	2024-06-30	BAND 4	89	88	-5
+OK	Events	DirectSales - Team Lead	2023-10-01	2024-06-30	BAND 3	89	90	0
+OK	Events	DirectSales - Team Lead	2023-10-01	2024-06-30	BAND 2	91	93	5
+OK	Events	DirectSales - Team Lead	2023-10-01	2024-06-30	BAND 1	94	100	10
+OK	Events	DirectSales - Manager	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	Events	DirectSales - Manager	2023-10-01	2024-06-30	BAND 4	89	88	-5
+OK	Events	DirectSales - Manager	2023-10-01	2024-06-30	BAND 3	89	90	0
+OK	Events	DirectSales - Manager	2023-10-01	2024-06-30	BAND 2	91	93	5
+OK	Events	DirectSales - Manager	2023-10-01	2024-06-30	BAND 1	94	100	10
+OK	Events	DirectSales - Account Manager	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	Events	DirectSales - Account Manager	2023-10-01	2024-06-30	BAND 4	89	88	-5
+OK	Events	DirectSales - Account Manager	2023-10-01	2024-06-30	BAND 3	89	90	0
+OK	Events	DirectSales - Account Manager	2023-10-01	2024-06-30	BAND 2	91	93	5
+OK	Events	DirectSales - Account Manager	2023-10-01	2024-06-30	BAND 1	94	100	10
+OK	Outdoor	DirectSales - Account Manager	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	Outdoor	DirectSales - Account Manager	2023-10-01	2024-06-30	BAND 4	89	88	-5
+OK	Outdoor	DirectSales - Account Manager	2023-10-01	2024-06-30	BAND 3	89	90	0
+OK	Outdoor	DirectSales - Account Manager	2023-10-01	2024-06-30	BAND 2	91	93	5
+OK	Outdoor	DirectSales - Account Manager	2023-10-01	2024-06-30	BAND 1	94	100	10
+OK	DT_SGOB_Team	Digital Telesales - SE	2023-10-01	2024-06-30	BAND 5	0	84	-10
+OK	DT_SGOB_Team	Digital Telesales - SE	2023-10-01	2024-06-30	BAND 4	85	85	-5
+OK	DT_SGOB_Team	Digital Telesales - SE	2023-10-01	2024-06-30	BAND 3	86	87	0
+OK	DT_SGOB_Team	Digital Telesales - SE	2023-10-01	2024-06-30	BAND 2	88	90	5
+OK	DT_SGOB_Team	Digital Telesales - SE	2023-10-01	2024-06-30	BAND 1	91	100	10
+OK	DT_SGOB_Team	Digital Telesales - ATL	2023-10-01	2024-06-30	BAND 5	0	84	-10
+OK	DT_SGOB_Team	Digital Telesales - ATL	2023-10-01	2024-06-30	BAND 4	85	85	-5
+OK	DT_SGOB_Team	Digital Telesales - ATL	2023-10-01	2024-06-30	BAND 3	86	87	0
+OK	DT_SGOB_Team	Digital Telesales - ATL	2023-10-01	2024-06-30	BAND 2	88	90	5
+OK	DT_SGOB_Team	Digital Telesales - ATL	2023-10-01	2024-06-30	BAND 1	91	100	10
+OK	DT_SGOB_Online_Team	Digital Telesales - TL	2023-10-01	2024-06-30	BAND 5	0	84	-10
+OK	DT_SGOB_Online_Team	Digital Telesales - TL	2023-10-01	2024-06-30	BAND 4	85	85	-5
+OK	DT_SGOB_Online_Team	Digital Telesales - TL	2023-10-01	2024-06-30	BAND 3	86	87	0
+OK	DT_SGOB_Online_Team	Digital Telesales - TL	2023-10-01	2024-06-30	BAND 2	88	90	5
+OK	DT_SGOB_Online_Team	Digital Telesales - TL	2023-10-01	2024-06-30	BAND 1	91	100	10
+OK	DT_OB_Team	Digital Telesales - TL	2023-10-01	2024-06-30	BAND 5	0	84	-10
+OK	DT_OB_Team	Digital Telesales - TL	2023-10-01	2024-06-30	BAND 4	85	85	-5
+OK	DT_OB_Team	Digital Telesales - TL	2023-10-01	2024-06-30	BAND 3	86	87	0
+OK	DT_OB_Team	Digital Telesales - TL	2023-10-01	2024-06-30	BAND 2	88	90	5
+OK	DT_OB_Team	Digital Telesales - TL	2023-10-01	2024-06-30	BAND 1	91	100	10
+OK	DT_IB_Team	Digital Telesales - Sales Manager	2023-10-01	2024-06-30	BAND 5	0	84	-10
+OK	DT_IB_Team	Digital Telesales - Sales Manager	2023-10-01	2024-06-30	BAND 4	85	85	-5
+OK	DT_IB_Team	Digital Telesales - Sales Manager	2023-10-01	2024-06-30	BAND 3	86	87	0
+OK	DT_IB_Team	Digital Telesales - Sales Manager	2023-10-01	2024-06-30	BAND 2	88	90	5
+OK	DT_IB_Team	Digital Telesales - Sales Manager	2023-10-01	2024-06-30	BAND 1	91	100	10
+OK	DT_OB_Team	Digital Telesales - Sales Manager	2023-10-01	2024-06-30	BAND 5	0	84	-10
+OK	DT_OB_Team	Digital Telesales - Sales Manager	2023-10-01	2024-06-30	BAND 4	85	85	-5
+OK	DT_OB_Team	Digital Telesales - Sales Manager	2023-10-01	2024-06-30	BAND 3	86	87	0
+OK	DT_OB_Team	Digital Telesales - Sales Manager	2023-10-01	2024-06-30	BAND 2	88	90	5
+OK	DT_OB_Team	Digital Telesales - Sales Manager	2023-10-01	2024-06-30	BAND 1	91	100	10
+OK	DT_All_Team	Digital Telesales - Senior Sales Manager	2023-10-01	2024-06-30	BAND 5	0	84	-10
+OK	DT_All_Team	Digital Telesales - Senior Sales Manager	2023-10-01	2024-06-30	BAND 4	85	85	-5
+OK	DT_All_Team	Digital Telesales - Senior Sales Manager	2023-10-01	2024-06-30	BAND 3	86	87	0
+OK	DT_All_Team	Digital Telesales - Senior Sales Manager	2023-10-01	2024-06-30	BAND 2	88	90	5
+OK	DT_All_Team	Digital Telesales - Senior Sales Manager	2023-10-01	2024-06-30	BAND 1	91	100	10
+OK	DT_Sudong	Digital Telesales - Sudong Manager	2023-10-01	2024-06-30	BAND 5	0	84	-10
+OK	DT_Sudong	Digital Telesales - Sudong Manager	2023-10-01	2024-06-30	BAND 4	85	85	-5
+OK	DT_Sudong	Digital Telesales - Sudong Manager	2023-10-01	2024-06-30	BAND 3	86	87	0
+OK	DT_Sudong	Digital Telesales - Sudong Manager	2023-10-01	2024-06-30	BAND 2	88	90	5
+OK	DT_Sudong	Digital Telesales - Sudong Manager	2023-10-01	2024-06-30	BAND 1	91	100	10
+OK	DT_Sudong_Team1	Digital Telesales - Sudong TL	2023-10-01	2024-06-30	BAND 5	0	84	-10
+OK	DT_Sudong_Team1	Digital Telesales - Sudong TL	2023-10-01	2024-06-30	BAND 4	85	85	-5
+OK	DT_Sudong_Team1	Digital Telesales - Sudong TL	2023-10-01	2024-06-30	BAND 3	86	87	0
+OK	DT_Sudong_Team1	Digital Telesales - Sudong TL	2023-10-01	2024-06-30	BAND 2	88	90	5
+OK	DT_Sudong_Team1	Digital Telesales - Sudong TL	2023-10-01	2024-06-30	BAND 1	91	100	10
+OK	DT_Sudong_Team1	Digital Telesales - Sudong SE	2023-10-01	2024-06-30	BAND 5	0	84	-10
+OK	DT_Sudong_Team1	Digital Telesales - Sudong SE	2023-10-01	2024-06-30	BAND 4	85	85	-5
+OK	DT_Sudong_Team1	Digital Telesales - Sudong SE	2023-10-01	2024-06-30	BAND 3	86	87	0
+OK	DT_Sudong_Team1	Digital Telesales - Sudong SE	2023-10-01	2024-06-30	BAND 2	88	90	5
+OK	DT_Sudong_Team1	Digital Telesales - Sudong SE	2023-10-01	2024-06-30	BAND 1	91	100	10
+OK	DT_Sudong_Team2	Digital Telesales - Sudong TL	2023-10-01	2024-06-30	BAND 5	0	84	-10
+OK	DT_Sudong_Team2	Digital Telesales - Sudong TL	2023-10-01	2024-06-30	BAND 4	85	85	-5
+OK	DT_Sudong_Team2	Digital Telesales - Sudong TL	2023-10-01	2024-06-30	BAND 3	86	87	0
+OK	DT_Sudong_Team2	Digital Telesales - Sudong TL	2023-10-01	2024-06-30	BAND 2	88	90	5
+OK	DT_Sudong_Team2	Digital Telesales - Sudong TL	2023-10-01	2024-06-30	BAND 1	91	100	10
+OK	DT_Sudong_Team2	Digital Telesales - Sudong SE	2023-10-01	2024-06-30	BAND 5	0	84	-10
+OK	DT_Sudong_Team2	Digital Telesales - Sudong SE	2023-10-01	2024-06-30	BAND 4	85	85	-5
+OK	DT_Sudong_Team2	Digital Telesales - Sudong SE	2023-10-01	2024-06-30	BAND 3	86	87	0
+OK	DT_Sudong_Team2	Digital Telesales - Sudong SE	2023-10-01	2024-06-30	BAND 2	88	90	5
+OK	DT_Sudong_Team2	Digital Telesales - Sudong SE	2023-10-01	2024-06-30	BAND 1	91	100	10
+OK	DT_Sudong	Digital Telesales - Sudong SE	2023-10-01	2024-06-30	BAND 5	0	84	-10
+OK	DT_Sudong	Digital Telesales - Sudong SE	2023-10-01	2024-06-30	BAND 4	85	85	-5
+OK	DT_Sudong	Digital Telesales - Sudong SE	2023-10-01	2024-06-30	BAND 3	86	87	0
+OK	DT_Sudong	Digital Telesales - Sudong SE	2023-10-01	2024-06-30	BAND 2	88	90	5
+OK	DT_Sudong	Digital Telesales - Sudong SE	2023-10-01	2024-06-30	BAND 1	91	100	10
+OK	Rigel	Retail SER - Biz Mgr	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	Rigel	Retail SER - Biz Mgr	2023-10-01	2024-06-30	BAND 4	89	89	-5
+OK	Rigel	Retail SER - Biz Mgr	2023-10-01	2024-06-30	BAND 3	90	90	0
+OK	Rigel	Retail SER - Biz Mgr	2023-10-01	2024-06-30	BAND 2	91	91	5
+OK	Rigel	Retail SER - Biz Mgr	2023-10-01	2024-06-30	BAND 1	92	100	10
+OK	3 Mobile	Retail SER - Biz Mgr	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	3 Mobile	Retail SER - Biz Mgr	2023-10-01	2024-06-30	BAND 4	89	89	-5
+OK	3 Mobile	Retail SER - Biz Mgr	2023-10-01	2024-06-30	BAND 3	90	90	0
+OK	3 Mobile	Retail SER - Biz Mgr	2023-10-01	2024-06-30	BAND 2	91	91	5
+OK	3 Mobile	Retail SER - Biz Mgr	2023-10-01	2024-06-30	BAND 1	92	100	10
+OK	Novel	Retail SER - Biz Mgr	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	Novel	Retail SER - Biz Mgr	2023-10-01	2024-06-30	BAND 4	89	89	-5
+OK	Novel	Retail SER - Biz Mgr	2023-10-01	2024-06-30	BAND 3	90	90	0
+OK	Novel	Retail SER - Biz Mgr	2023-10-01	2024-06-30	BAND 2	91	91	5
+OK	Novel	Retail SER - Biz Mgr	2023-10-01	2024-06-30	BAND 1	92	100	10
+OK	Trends	Retail SER - Biz Mgr	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	Trends	Retail SER - Biz Mgr	2023-10-01	2024-06-30	BAND 4	89	89	-5
+OK	Trends	Retail SER - Biz Mgr	2023-10-01	2024-06-30	BAND 3	90	90	0
+OK	Trends	Retail SER - Biz Mgr	2023-10-01	2024-06-30	BAND 2	91	91	5
+OK	Trends	Retail SER - Biz Mgr	2023-10-01	2024-06-30	BAND 1	92	100	10
+OK	ERA	Retail SER - Biz Mgr	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	ERA	Retail SER - Biz Mgr	2023-10-01	2024-06-30	BAND 4	89	89	-5
+OK	ERA	Retail SER - Biz Mgr	2023-10-01	2024-06-30	BAND 3	90	90	0
+OK	ERA	Retail SER - Biz Mgr	2023-10-01	2024-06-30	BAND 2	91	91	5
+OK	ERA	Retail SER - Biz Mgr	2023-10-01	2024-06-30	BAND 1	92	100	10
+OK	Retail SERs	Retail SER - Trade Marketing Mgr	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	Retail SERs	Retail SER - Trade Marketing Mgr	2023-10-01	2024-06-30	BAND 4	89	89	-5
+OK	Retail SERs	Retail SER - Trade Marketing Mgr	2023-10-01	2024-06-30	BAND 3	90	90	0
+OK	Retail SERs	Retail SER - Trade Marketing Mgr	2023-10-01	2024-06-30	BAND 2	91	91	5
+OK	Retail SERs	Retail SER - Trade Marketing Mgr	2023-10-01	2024-06-30	BAND 1	92	100	10
+OK	Retail SERs	Retail SER - Merchandise Manager	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	Retail SERs	Retail SER - Merchandise Manager	2023-10-01	2024-06-30	BAND 4	89	89	-5
+OK	Retail SERs	Retail SER - Merchandise Manager	2023-10-01	2024-06-30	BAND 3	90	90	0
+OK	Retail SERs	Retail SER - Merchandise Manager	2023-10-01	2024-06-30	BAND 2	91	91	5
+OK	Retail SERs	Retail SER - Merchandise Manager	2023-10-01	2024-06-30	BAND 1	92	100	10
+OK	Retail SERs	Retail SER - Senior Biz Mgr	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	Retail SERs	Retail SER - Senior Biz Mgr	2023-10-01	2024-06-30	BAND 4	89	89	-5
+OK	Retail SERs	Retail SER - Senior Biz Mgr	2023-10-01	2024-06-30	BAND 3	90	90	0
+OK	Retail SERs	Retail SER - Senior Biz Mgr	2023-10-01	2024-06-30	BAND 2	91	91	5
+OK	Retail SERs	Retail SER - Senior Biz Mgr	2023-10-01	2024-06-30	BAND 1	92	100	10
+OK	STS - Singtel Shop Bugis Junction	STS - Retail Exec	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	STS - Singtel Shop Bugis Junction	STS - Retail Exec	2023-10-01	2024-06-30	BAND 4	89	89	-5
+OK	STS - Singtel Shop Bugis Junction	STS - Retail Exec	2023-10-01	2024-06-30	BAND 3	90	90	0
+OK	STS - Singtel Shop Bugis Junction	STS - Retail Exec	2023-10-01	2024-06-30	BAND 2	91	92	5
+OK	STS - Singtel Shop Bugis Junction	STS - Retail Exec	2023-10-01	2024-06-30	BAND 1	93	100	10
+OK	STS - Singtel Shop Bugis Junction	STS - Assistant Manager	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	STS - Singtel Shop Bugis Junction	STS - Assistant Manager	2023-10-01	2024-06-30	BAND 4	89	89	-5
+OK	STS - Singtel Shop Bugis Junction	STS - Assistant Manager	2023-10-01	2024-06-30	BAND 3	90	90	0
+OK	STS - Singtel Shop Bugis Junction	STS - Assistant Manager	2023-10-01	2024-06-30	BAND 2	91	92	5
+OK	STS - Singtel Shop Bugis Junction	STS - Assistant Manager	2023-10-01	2024-06-30	BAND 1	93	100	10
+OK	STS - Singtel Shop Bugis Junction	STS - Technical Mgr	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	STS - Singtel Shop Bugis Junction	STS - Technical Mgr	2023-10-01	2024-06-30	BAND 4	89	89	-5
+OK	STS - Singtel Shop Bugis Junction	STS - Technical Mgr	2023-10-01	2024-06-30	BAND 3	90	90	0
+OK	STS - Singtel Shop Bugis Junction	STS - Technical Mgr	2023-10-01	2024-06-30	BAND 2	91	92	5
+OK	STS - Singtel Shop Bugis Junction	STS - Technical Mgr	2023-10-01	2024-06-30	BAND 1	93	100	10
+OK	STS - Singtel Shop Bugis Junction	STS - Store Mgr	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	STS - Singtel Shop Bugis Junction	STS - Store Mgr	2023-10-01	2024-06-30	BAND 4	89	89	-5
+OK	STS - Singtel Shop Bugis Junction	STS - Store Mgr	2023-10-01	2024-06-30	BAND 3	90	90	0
+OK	STS - Singtel Shop Bugis Junction	STS - Store Mgr	2023-10-01	2024-06-30	BAND 2	91	92	5
+OK	STS - Singtel Shop Bugis Junction	STS - Store Mgr	2023-10-01	2024-06-30	BAND 1	93	100	10
+OK	STS - Singtel Shop Causeway Point	STS - Retail Exec	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	STS - Singtel Shop Causeway Point	STS - Retail Exec	2023-10-01	2024-06-30	BAND 4	89	89	-5
+OK	STS - Singtel Shop Causeway Point	STS - Retail Exec	2023-10-01	2024-06-30	BAND 3	90	90	0
+OK	STS - Singtel Shop Causeway Point	STS - Retail Exec	2023-10-01	2024-06-30	BAND 2	91	92	5
+OK	STS - Singtel Shop Causeway Point	STS - Retail Exec	2023-10-01	2024-06-30	BAND 1	93	100	10
+OK	STS - Singtel Shop Causeway Point	STS - Assistant Manager	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	STS - Singtel Shop Causeway Point	STS - Assistant Manager	2023-10-01	2024-06-30	BAND 4	89	89	-5
+OK	STS - Singtel Shop Causeway Point	STS - Assistant Manager	2023-10-01	2024-06-30	BAND 3	90	90	0
+OK	STS - Singtel Shop Causeway Point	STS - Assistant Manager	2023-10-01	2024-06-30	BAND 2	91	92	5
+OK	STS - Singtel Shop Causeway Point	STS - Assistant Manager	2023-10-01	2024-06-30	BAND 1	93	100	10
+OK	STS - Singtel Shop Causeway Point	STS - Technical Mgr	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	STS - Singtel Shop Causeway Point	STS - Technical Mgr	2023-10-01	2024-06-30	BAND 4	89	89	-5
+OK	STS - Singtel Shop Causeway Point	STS - Technical Mgr	2023-10-01	2024-06-30	BAND 3	90	90	0
+OK	STS - Singtel Shop Causeway Point	STS - Technical Mgr	2023-10-01	2024-06-30	BAND 2	91	92	5
+OK	STS - Singtel Shop Causeway Point	STS - Technical Mgr	2023-10-01	2024-06-30	BAND 1	93	100	10
+OK	STS - Singtel Shop Causeway Point	STS - Store Mgr	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	STS - Singtel Shop Causeway Point	STS - Store Mgr	2023-10-01	2024-06-30	BAND 4	89	89	-5
+OK	STS - Singtel Shop Causeway Point	STS - Store Mgr	2023-10-01	2024-06-30	BAND 3	90	90	0
+OK	STS - Singtel Shop Causeway Point	STS - Store Mgr	2023-10-01	2024-06-30	BAND 2	91	92	5
+OK	STS - Singtel Shop Causeway Point	STS - Store Mgr	2023-10-01	2024-06-30	BAND 1	93	100	10
+OK	STS - Singtel Shop Comcentre	STS - Retail Exec	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	STS - Singtel Shop Comcentre	STS - Retail Exec	2023-10-01	2024-06-30	BAND 4	89	89	-5
+OK	STS - Singtel Shop Comcentre	STS - Retail Exec	2023-10-01	2024-06-30	BAND 3	90	90	0
+OK	STS - Singtel Shop Comcentre	STS - Retail Exec	2023-10-01	2024-06-30	BAND 2	91	92	5
+OK	STS - Singtel Shop Comcentre	STS - Retail Exec	2023-10-01	2024-06-30	BAND 1	93	100	10
+OK	STS - Singtel Shop Comcentre	STS - Assistant Manager	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	STS - Singtel Shop Comcentre	STS - Assistant Manager	2023-10-01	2024-06-30	BAND 4	89	89	-5
+OK	STS - Singtel Shop Comcentre	STS - Assistant Manager	2023-10-01	2024-06-30	BAND 3	90	90	0
+OK	STS - Singtel Shop Comcentre	STS - Assistant Manager	2023-10-01	2024-06-30	BAND 2	91	92	5
+OK	STS - Singtel Shop Comcentre	STS - Assistant Manager	2023-10-01	2024-06-30	BAND 1	93	100	10
+OK	STS - Singtel Shop Comcentre	STS - Technical Mgr	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	STS - Singtel Shop Comcentre	STS - Technical Mgr	2023-10-01	2024-06-30	BAND 4	89	89	-5
+OK	STS - Singtel Shop Comcentre	STS - Technical Mgr	2023-10-01	2024-06-30	BAND 3	90	90	0
+OK	STS - Singtel Shop Comcentre	STS - Technical Mgr	2023-10-01	2024-06-30	BAND 2	91	92	5
+OK	STS - Singtel Shop Comcentre	STS - Technical Mgr	2023-10-01	2024-06-30	BAND 1	93	100	10
+OK	STS - Singtel Shop Comcentre	STS - Store Mgr	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	STS - Singtel Shop Comcentre	STS - Store Mgr	2023-10-01	2024-06-30	BAND 4	89	89	-5
+OK	STS - Singtel Shop Comcentre	STS - Store Mgr	2023-10-01	2024-06-30	BAND 3	90	90	0
+OK	STS - Singtel Shop Comcentre	STS - Store Mgr	2023-10-01	2024-06-30	BAND 2	91	92	5
+OK	STS - Singtel Shop Comcentre	STS - Store Mgr	2023-10-01	2024-06-30	BAND 1	93	100	10
+OK	STS - Singtel Shop Jurong Point	STS - Retail Exec	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	STS - Singtel Shop Jurong Point	STS - Retail Exec	2023-10-01	2024-06-30	BAND 4	89	89	-5
+OK	STS - Singtel Shop Jurong Point	STS - Retail Exec	2023-10-01	2024-06-30	BAND 3	90	90	0
+OK	STS - Singtel Shop Jurong Point	STS - Retail Exec	2023-10-01	2024-06-30	BAND 2	91	92	5
+OK	STS - Singtel Shop Jurong Point	STS - Retail Exec	2023-10-01	2024-06-30	BAND 1	93	100	10
+OK	STS - Singtel Shop Jurong Point	STS - Assistant Manager	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	STS - Singtel Shop Jurong Point	STS - Assistant Manager	2023-10-01	2024-06-30	BAND 4	89	89	-5
+OK	STS - Singtel Shop Jurong Point	STS - Assistant Manager	2023-10-01	2024-06-30	BAND 3	90	90	0
+OK	STS - Singtel Shop Jurong Point	STS - Assistant Manager	2023-10-01	2024-06-30	BAND 2	91	92	5
+OK	STS - Singtel Shop Jurong Point	STS - Assistant Manager	2023-10-01	2024-06-30	BAND 1	93	100	10
+OK	STS - Singtel Shop Jurong Point	STS - Technical Mgr	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	STS - Singtel Shop Jurong Point	STS - Technical Mgr	2023-10-01	2024-06-30	BAND 4	89	89	-5
+OK	STS - Singtel Shop Jurong Point	STS - Technical Mgr	2023-10-01	2024-06-30	BAND 3	90	90	0
+OK	STS - Singtel Shop Jurong Point	STS - Technical Mgr	2023-10-01	2024-06-30	BAND 2	91	92	5
+OK	STS - Singtel Shop Jurong Point	STS - Technical Mgr	2023-10-01	2024-06-30	BAND 1	93	100	10
+OK	STS - Singtel Shop Jurong Point	STS - Store Mgr	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	STS - Singtel Shop Jurong Point	STS - Store Mgr	2023-10-01	2024-06-30	BAND 4	89	89	-5
+OK	STS - Singtel Shop Jurong Point	STS - Store Mgr	2023-10-01	2024-06-30	BAND 3	90	90	0
+OK	STS - Singtel Shop Jurong Point	STS - Store Mgr	2023-10-01	2024-06-30	BAND 2	91	92	5
+OK	STS - Singtel Shop Jurong Point	STS - Store Mgr	2023-10-01	2024-06-30	BAND 1	93	100	10
+OK	STS - Singtel Shop Tampines Mall	STS - Retail Exec	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	STS - Singtel Shop Tampines Mall	STS - Retail Exec	2023-10-01	2024-06-30	BAND 4	89	89	-5
+OK	STS - Singtel Shop Tampines Mall	STS - Retail Exec	2023-10-01	2024-06-30	BAND 3	90	90	0
+OK	STS - Singtel Shop Tampines Mall	STS - Retail Exec	2023-10-01	2024-06-30	BAND 2	91	92	5
+OK	STS - Singtel Shop Tampines Mall	STS - Retail Exec	2023-10-01	2024-06-30	BAND 1	93	100	10
+OK	STS - Singtel Shop Tampines Mall	STS - Assistant Manager	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	STS - Singtel Shop Tampines Mall	STS - Assistant Manager	2023-10-01	2024-06-30	BAND 4	89	89	-5
+OK	STS - Singtel Shop Tampines Mall	STS - Assistant Manager	2023-10-01	2024-06-30	BAND 3	90	90	0
+OK	STS - Singtel Shop Tampines Mall	STS - Assistant Manager	2023-10-01	2024-06-30	BAND 2	91	92	5
+OK	STS - Singtel Shop Tampines Mall	STS - Assistant Manager	2023-10-01	2024-06-30	BAND 1	93	100	10
+OK	STS - Singtel Shop Tampines Mall	STS - Technical Mgr	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	STS - Singtel Shop Tampines Mall	STS - Technical Mgr	2023-10-01	2024-06-30	BAND 4	89	89	-5
+OK	STS - Singtel Shop Tampines Mall	STS - Technical Mgr	2023-10-01	2024-06-30	BAND 3	90	90	0
+OK	STS - Singtel Shop Tampines Mall	STS - Technical Mgr	2023-10-01	2024-06-30	BAND 2	91	92	5
+OK	STS - Singtel Shop Tampines Mall	STS - Technical Mgr	2023-10-01	2024-06-30	BAND 1	93	100	10
+OK	STS - Singtel Shop Tampines Mall	STS - Store Mgr	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	STS - Singtel Shop Tampines Mall	STS - Store Mgr	2023-10-01	2024-06-30	BAND 4	89	89	-5
+OK	STS - Singtel Shop Tampines Mall	STS - Store Mgr	2023-10-01	2024-06-30	BAND 3	90	90	0
+OK	STS - Singtel Shop Tampines Mall	STS - Store Mgr	2023-10-01	2024-06-30	BAND 2	91	92	5
+OK	STS - Singtel Shop Tampines Mall	STS - Store Mgr	2023-10-01	2024-06-30	BAND 1	93	100	10
+OK	STS - Singtel Shop Ang Mo Kio Hub	STS - Retail Exec	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	STS - Singtel Shop Ang Mo Kio Hub	STS - Retail Exec	2023-10-01	2024-06-30	BAND 4	89	89	-5
+OK	STS - Singtel Shop Ang Mo Kio Hub	STS - Retail Exec	2023-10-01	2024-06-30	BAND 3	90	90	0
+OK	STS - Singtel Shop Ang Mo Kio Hub	STS - Retail Exec	2023-10-01	2024-06-30	BAND 2	91	92	5
+OK	STS - Singtel Shop Ang Mo Kio Hub	STS - Retail Exec	2023-10-01	2024-06-30	BAND 1	93	100	10
+OK	STS - Singtel Shop Ang Mo Kio Hub	STS - Assistant Manager	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	STS - Singtel Shop Ang Mo Kio Hub	STS - Assistant Manager	2023-10-01	2024-06-30	BAND 4	89	89	-5
+OK	STS - Singtel Shop Ang Mo Kio Hub	STS - Assistant Manager	2023-10-01	2024-06-30	BAND 3	90	90	0
+OK	STS - Singtel Shop Ang Mo Kio Hub	STS - Assistant Manager	2023-10-01	2024-06-30	BAND 2	91	92	5
+OK	STS - Singtel Shop Ang Mo Kio Hub	STS - Assistant Manager	2023-10-01	2024-06-30	BAND 1	93	100	10
+OK	STS - Singtel Shop Ang Mo Kio Hub	STS - Technical Mgr	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	STS - Singtel Shop Ang Mo Kio Hub	STS - Technical Mgr	2023-10-01	2024-06-30	BAND 4	89	89	-5
+OK	STS - Singtel Shop Ang Mo Kio Hub	STS - Technical Mgr	2023-10-01	2024-06-30	BAND 3	90	90	0
+OK	STS - Singtel Shop Ang Mo Kio Hub	STS - Technical Mgr	2023-10-01	2024-06-30	BAND 2	91	92	5
+OK	STS - Singtel Shop Ang Mo Kio Hub	STS - Technical Mgr	2023-10-01	2024-06-30	BAND 1	93	100	10
+OK	STS - Singtel Shop Ang Mo Kio Hub	STS - Store Mgr	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	STS - Singtel Shop Ang Mo Kio Hub	STS - Store Mgr	2023-10-01	2024-06-30	BAND 4	89	89	-5
+OK	STS - Singtel Shop Ang Mo Kio Hub	STS - Store Mgr	2023-10-01	2024-06-30	BAND 3	90	90	0
+OK	STS - Singtel Shop Ang Mo Kio Hub	STS - Store Mgr	2023-10-01	2024-06-30	BAND 2	91	92	5
+OK	STS - Singtel Shop Ang Mo Kio Hub	STS - Store Mgr	2023-10-01	2024-06-30	BAND 1	93	100	10
+OK	STS - Cluster 1	STS - Cluster Mgr	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	STS - Cluster 1	STS - Cluster Mgr	2023-10-01	2024-06-30	BAND 4	89	89	-5
+OK	STS - Cluster 1	STS - Cluster Mgr	2023-10-01	2024-06-30	BAND 3	90	90	0
+OK	STS - Cluster 1	STS - Cluster Mgr	2023-10-01	2024-06-30	BAND 2	91	92	5
+OK	STS - Cluster 1	STS - Cluster Mgr	2023-10-01	2024-06-30	BAND 1	93	100	10
+OK	STS - Cluster 2	STS - Cluster Mgr	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	STS - Cluster 2	STS - Cluster Mgr	2023-10-01	2024-06-30	BAND 4	89	89	-5
+OK	STS - Cluster 2	STS - Cluster Mgr	2023-10-01	2024-06-30	BAND 3	90	90	0
+OK	STS - Cluster 2	STS - Cluster Mgr	2023-10-01	2024-06-30	BAND 2	91	92	5
+OK	STS - Cluster 2	STS - Cluster Mgr	2023-10-01	2024-06-30	BAND 1	93	100	10
+OK	STS	STS - Ops Mgr	2023-10-01	2024-06-30	BAND 5	0	88	-10
+OK	STS	STS - Ops Mgr	2023-10-01	2024-06-30	BAND 4	89	89	-5
+OK	STS	STS - Ops Mgr	2023-10-01	2024-06-30	BAND 3	90	90	0
+OK	STS	STS - Ops Mgr	2023-10-01	2024-06-30	BAND 2	91	92	5
+OK	STS	STS - Ops Mgr	2023-10-01	2024-06-30	BAND 1	93	100	10

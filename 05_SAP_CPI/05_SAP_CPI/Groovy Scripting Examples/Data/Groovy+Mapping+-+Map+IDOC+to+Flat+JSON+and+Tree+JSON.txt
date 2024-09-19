@@ -1,0 +1,3 @@
+Using IntelliJ:
+1) Map ORDERS IDOC to TREE/NESTED Json
+2) Map ORDERS IDOC to Flat Json

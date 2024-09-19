@@ -1,0 +1,15 @@
+parameters:
+  - name: user
+action_groups:
+- condition: "true"
+  actions:
+    - type: api-request
+      method: GET
+      system_alias: SFSF
+      path: "/rest/ecosystem/digitalassistant/v1/myUserInfo"
+      result_variable: get_user_info_response
+result:
+  user_info_success: <? get_user_info_response.status_code == 200 ?>
+  user_uuid: <? get_user_info_response.body.assignmentUUID ?>
+  user_id: <? get_user_info_response.body.userId ?>
+  company_id: <? get_user_info_response.body.companyId ?>

@@ -1,0 +1,42 @@
+/*
+ * This file was extracted from 'C:/HANAMigrations/AIASG/OracleObjects/ext_DDL.sql' 
+ * at 05-Jun-2024 11:41:22 with the 'extract_offline' command of SAP Advanced SQL Migration v.3.5.3 (64791)
+ * User config setting for 'extract_offline' (id=132) was '0'.
+ */
+
+
+CREATE OR REPLACE  PACKAGE AIASEXT.PK_RPT_RYO_FA 
+  /*
+this pakage is created for RYO report.
+************************************************
+Version     Create By       Create Date   Change
+************************************************
+1           Callidus        20180523   Initial
+*/
+AS
+  STR_CYCLEDATE_FILE_NAME CONSTANT VARCHAR2(10) := 'GLOBAL';
+ -- STR_CYCLEDATE_KEY       CONSTANT VARCHAR2(20) := 'OPER_CYCLE_DATE';
+  STR_CYCLEDATE_KEY       CONSTANT VARCHAR2(20) := 'REPORT_CYCLE_DATE';
+  STR_DATE_FORMAT         CONSTANT VARCHAR2(50) := 'yyyymmdd';
+  STR_DATE_FORMAT_TYPE    CONSTANT VARCHAR2(50) := 'yyyy-mm-dd';
+  STR_CALENDAR_TYPE       CONSTANT VARCHAR2(10) := 'month';
+  STR_CALENDARNAME        CONSTANT VARCHAR2(50) := 'AIA Singapore Calendar';
+  STR_GL_CTR_MES_NAME_ANL CONSTANT VARCHAR2(20) := 'ANNUAL_SG';
+  STR_GL_CTR_MES_NAME_MTH CONSTANT VARCHAR2(20) := 'MONTHLY_SG';
+  STR_AGENCY_SHORT_NAME   CONSTANT VARCHAR2(5)  := 'AFA';
+  STR_TITLE_NAME_DICT     CONSTANT VARCHAR2(10) := 'DISTRICT';
+  DT_REMOVEDATE           CONSTANT DATE         := TO_DATE('22000101', 'yyyymmdd');
+
+  procedure Log(inText varchar2);
+
+  PROCEDURE REP_RUN_RYO_FA_ALL(P_STR_CYCLEDATE IN VARCHAR2);
+  PROCEDURE REP_RUN_RYO_FA_GI_SINGLE (P_STR_CYCLEDATE IN VARCHAR2 );
+  PROCEDURE REP_RUN_RYO_FA_GI_REGULAR (P_STR_CYCLEDATE IN VARCHAR2 );
+  PROCEDURE REP_RUN_RYO_FA_GI_Vitality (P_STR_CYCLEDATE IN VARCHAR2 );
+  PROCEDURE REP_RUN_RYO_FA_CS (P_STR_CYCLEDATE IN VARCHAR2 );
+  PROCEDURE REP_RUN_RYO_FA_LIFE (P_STR_CYCLEDATE IN VARCHAR2 );
+  PROCEDURE REP_RUN_RYO_FA_PA (P_STR_CYCLEDATE IN VARCHAR2 );
+  --version 2
+  PROCEDURE RUN_REPORT_ALL;
+END PK_RPT_RYO_FA;
+ 

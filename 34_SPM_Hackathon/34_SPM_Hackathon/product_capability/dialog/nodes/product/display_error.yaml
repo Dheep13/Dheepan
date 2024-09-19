@@ -1,0 +1,18 @@
+title: Display Error
+type: node
+condition: "anything_else"
+response:
+  messages:
+    - type: text
+      content: "Product Name is <? $product_details.productName ?>. 
+                Other details:
+                productName: <? $product_details.productName ?>
+                productID: <? $product_details.productID ?>
+                category: <? $product_details.CategoryID ?>
+                ReorderLevel: <? $product_details.ReorderLevel ?>
+                UnitsInStock: <? $product_details.UnitsInStock ?>
+                UnitPrice: <? $product_details.UnitPrice ?>
+                QuantityPerUnit: <? $product_details.QuantityPerUnit ?>
+                UnitsOnOrder: <? $product_details.UnitsOnOrder ?>"
+finally:
+  behavior: wait

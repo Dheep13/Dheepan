@@ -1,0 +1,23 @@
+parameters:
+  - name: positionseq
+  - name: periodseq
+ 
+action_groups:
+  - actions:
+      - type: api-request
+        method: POST
+        system_alias: CommissionsWebHookService
+        path: "/GetCreditedInvoices"
+        headers:
+          Content-Type: application/json
+        body: '{"conversation": {"skill": "some_skill", "memory": {"positionseq": "<?positionseq?>", "periodseq": "<?periodseq?>"}}}'
+        result_variable: lookup_result #results of the response are held here
+
+      - type: set-variables
+        scripting_type: handlebars
+        variables:
+          - name: invoice_content
+            value: "{{ lookup_result.body.replies[0].content }}"
+
+result: #here we are only selecting the required properties
+  invoice: <? invoice_content ?>

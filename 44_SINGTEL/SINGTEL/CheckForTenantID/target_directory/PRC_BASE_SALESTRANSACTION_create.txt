@@ -1,0 +1,3 @@
+CREATE PROCEDURE EXT.PRC_BASE_SALESTRANSACTION
+(
+--IN vperiodseq cs_period.periodseq%TYPE,   /* RESOLVE: Identifier not found: Table/Column 'cs_period.periodseq' not found (for %TYPE declaration) */

@@ -1,0 +1,3 @@
+H	20240227 06:13:37	SubmittedSmartHomeOffer	T
+Record Type	Order Action ID	Order Enter Date	Component ID	Salesman Code	Dealer Code	Vendor Code	Customer ID	Service No	Order Type	Order ID	Primary Dealer ID	Creator User	Creator Dealer
+T	0

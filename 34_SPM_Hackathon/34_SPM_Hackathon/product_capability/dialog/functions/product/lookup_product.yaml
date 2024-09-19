@@ -1,0 +1,40 @@
+parameters:
+  - name: product
+action_groups:
+  - actions:
+      - type: api-request
+        method: GET
+        system_alias: NorthwindService
+        path: "/Products(<? product ?>)?$format=json"
+        result_variable: lookup_result #results of the response are held here
+      - type: set-variables
+        scripting_type: handlebars
+        variables:
+          - name: productName
+            value: "{{ lookup_result.body.d.ProductName }}"
+          - name: category
+            value: "{{ lookup_result.body.d.CategoryID }}"
+          - name : response_body
+            value: "{{ lookup_result.body }}"
+          - name: ReorderLevel
+            value: "{{ lookup_result.body.d.ReorderLevel }}"
+          - name : UnitsInStock
+            value: "{{ lookup_result.body.d.UnitsInStock }}"
+          - name : UnitPrice
+            value: "{{ lookup_result.body.d.UnitPrice }}"
+          - name : QuantityPerUnit
+            value: "{{ lookup_result.body.d.QuantityPerUnit }}"
+          - name : UnitsOnOrder
+            value: "{{ lookup_result.body.d.UnitsOnOrder }}"
+
+result: #here we are only selecting the required properties
+  # success: <? lookup_result.body.d.status == 200 ?>
+  responseBody: <? lookup_result.body.d ?>
+  productID: <? lookup_result.body.d.ProductID ?>
+  productName: <? lookup_result.body.d.ProductName ?>
+  category: <? lookup_result.body.d.CategoryID ?>
+  ReorderLevel: <? lookup_result.body.d.ReorderLevel ?>
+  UnitsInStock : <? lookup_result.body.d.UnitsInStock ?>
+  UnitPrice : <? lookup_result.body.d.UnitPrice ?>
+  QuantityPerUnit : <? lookup_result.body.d.QuantityPerUnit ?>
+  UnitsOnOrder : <? lookup_result.body.d.UnitsOnOrder ?>

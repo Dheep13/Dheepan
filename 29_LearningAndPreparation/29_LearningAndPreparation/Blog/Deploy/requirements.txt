@@ -1,0 +1,10 @@
+flask
+NumPy
+pandas
+scikit-learn
+joblib
+Pyarrow
+cfenv
+sap
+sap_xssec
+AppEnv

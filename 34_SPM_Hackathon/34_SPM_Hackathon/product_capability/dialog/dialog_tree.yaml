@@ -1,0 +1,3 @@
+- product/fetch_product:
+  - product/display_product: []
+  - product/display_error: []

@@ -1,0 +1,22 @@
+general:
+    groupID: com.sap.das
+    cfAuthenticationUrl: https://sapdas-sfsf-compile.authentication.eu10.hana.ondemand.com
+    cfApiUrl: https://sapdas-sfsf-compile.eu10.sapdas.cloud.sap
+    gitSshKeyCredentialsId: 'SSH_github'
+    gitHttpsCredentialsId: 'ml-jenkins-serviceuser'
+    artifactoryRepoUrl: https://int.repositories.cloud.sap/artifactory/das-sfsf-beta
+    npm_registry: 'https://int.repositories.cloud.sap/artifactory/api/npm/build-releases-npm'
+    vaultHost: vault.ml.only.sap
+    vaultSecretEngine: DAS
+    vaultSecretPath: 'prod/eu/SFSF_Beta/eu10_prod_compilation_tenant'
+    sapPiperDownloadCredentialsId: 'd9e23346-ab04-4c23-add9-409af338fdab'
+    verbose: true
+steps:
+    mailSendNotification:
+      notificationRecipients: distribution list
+    writeInflux:
+      influxServer: jenkins
+setupPipelineEnvironment:
+    storeGithubStatistics: true
+    githubApiUrl: https://github.tools.sap/api/v3
+    gitHttpsUrl: https://github.tools.sap/${githubOrg}/${githubRepo}.git

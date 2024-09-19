@@ -1,0 +1,6 @@
+{
+    "ibm": {
+      "url": "https://api.au-syd.speech-to-text.watson.cloud.ibm.com/instances/cb821394-19b1-46f0-bb7d-721db18c9ec8",
+      "port": 0
+    }
+  }

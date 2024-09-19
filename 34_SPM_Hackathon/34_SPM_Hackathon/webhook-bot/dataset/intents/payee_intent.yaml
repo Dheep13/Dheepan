@@ -1,0 +1,6 @@
+description: Payee Intents
+examples:
+  - Details about the payee [SM921P](payee)?
+  - Details about the payee [I352401](payee)?
+  - Fetch Payee Info [I352401](payee)?
+  - Fetch Payee [SM921P](payee)?

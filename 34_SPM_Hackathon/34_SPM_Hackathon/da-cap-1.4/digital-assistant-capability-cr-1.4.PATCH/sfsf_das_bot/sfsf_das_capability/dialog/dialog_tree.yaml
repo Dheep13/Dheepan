@@ -1,0 +1,120 @@
+- common/cancel: []
+- ect/workprofile/wp_entry:
+  - ect/workprofile/wp_clean_up: []
+  - ect/workprofile/wp_entry_dispatcher: []
+  - ect/workprofile/wp_entry_target: []
+  - ect/workprofile/wp_person_get_list: []
+  - ect/workprofile/wp_dr_select: []
+  - ect/workprofile/wp_person_display: 
+    - ect/workprofile/wp_person_select_parse_name: []
+  - ect/workprofile/wp_handle_workflow: 
+    - ect/workprofile/wp_result_parse: []
+    - ect/workprofile/wp_result_display: []
+- ect/snack/snack_entry:
+  - ect/snack/snack_entry_dispatcher: []
+  - ect/snack/snack_entry_templates: []
+  - ect/snack/snack_entry_current: []
+  - ect/snack/snack_entry_target:
+    - ect/snack/snack_person_entry: []
+    - ect/snack/snack_dr_entry: []
+    - ect/snack/snack_dr_list:
+      - ect/snack/snack_dr_parse_name:
+        - ect/snack/snack_dr_targetid: []
+    - ect/snack/snack_essmss_select: []
+    - ect/snack/snack_err_ess_person: []
+    - ect/snack/snack_template_list:
+      - ect/snack/snack_template_options:
+        - ect/snack/snack_template_code_init:
+          - ect/snack/snack_template_validate: []
+  - ect/snack/snack_template_get:
+    - ect/snack/snack_info_update:
+      - ect/snack/snack_slot_init:
+        - ect/snack/snack_slot_show:
+          - ect/snack/snack_show_date_picker: []
+          - ect/snack/snack_field_reset: []
+          - ect/snack/snack_field_validation:
+            - ect/snack/snack_field_succeed:
+              - ect/snack/snack_field_next: []
+              - ect/snack/snack_field_onchange_trigger: 
+                - ect/snack/snack_field_onchange_result:
+                  - ect/snack/snack_field_onchange_warning: []
+            - ect/snack/snack_field_failed: []
+          - ect/snack/snack_emp_field_validation:
+            - ect/snack/snack_emp_field_init:
+              - ect/snack/snack_emp_field_result: []
+          - ect/snack/snack_valuehelp_validate_entry:
+            - ect/snack/snack_valuehelp_validation:
+              - ect/snack/snack_valuehelp_init:
+                - ect/snack/snack_valuehelp_result: []
+        - ect/snack/snack_change_submit:
+          - ect/snack/snack_change_result:
+            - ect/snack/snack_change_confirm_w:
+              - ect/snack/snack_change_confirm_w_result: []
+    - ect/snack/snack_info_view: []
+    - ect/snack/snack_workflow_entry:
+      - ect/snack/snack_workflow_approval:
+          - ect/snack/snack_workflow_confirm:
+            - ect/snack/snack_workflow_result: []
+- ecp/paystatement/view_pay_entry:
+  - ecp/paystatement/view_pay_init:
+    - ecp/paystatement/view_pay_show: []
+- cpm/feedback/give/give_feedback_entry:
+    - cpm/feedback/give/give_feedback_cleanup: []
+    - cpm/feedback/give/person_select_entry: []
+    - cpm/feedback/give/person_select_display: []
+    - cpm/feedback/give/person_select_parse: []
+    - cpm/feedback/give/permission_check: []
+    - cpm/feedback/give/ask_for_topic:
+      - cpm/feedback/give/validate_topic: []
+    - cpm/feedback/give/ask_for_question:
+      - cpm/feedback/give/validate_question: []
+    - cpm/feedback/give/ask_for_answer:
+      - cpm/feedback/give/validate_answer:
+        - cpm/feedback/give/update_answer:
+          - cpm/feedback/give/reset_answer: []
+    - cpm/feedback/give/confirm_feedback:
+      - cpm/feedback/give/save_feedback:
+        - cpm/feedback/give/save_feedback_result: []
+      - cpm/feedback/give/abort_feedback: []
+- cpm/feedback/request/request_feedback_entry:
+    - cpm/feedback/request/person_select_entry: []
+    - cpm/feedback/request/person_select_display: []
+    - cpm/feedback/request/person_select_parse: []
+    - cpm/feedback/request/permission_check: []
+    - cpm/feedback/request/ask_for_topic: 
+      - cpm/feedback/request/validate_topic: []
+    - cpm/feedback/request/ask_for_question_change:
+      - cpm/feedback/request/ask_for_question_flow: []
+    - cpm/feedback/request/ask_for_question_new:
+      - cpm/feedback/request/validate_new_question: []
+    - cpm/feedback/request/ask_for_further_change:
+      - cpm/feedback/request/ask_for_further_flow: []
+    - cpm/feedback/request/save_request:
+      - cpm/feedback/request/save_request_result: []
+- time/cico/cico_entry:
+  - time/cico/cico_cleannup: []
+  - time/cico/cico_options_entry:
+    - time/cico/cico_options_display: []
+  - time/cico/cico_options_parse:
+    - time/cico/cico_result_display: []
+- ect/worker/view/view_worker_entry:
+  - ect/worker/view/view_worker_clean_up: []
+  - ect/worker/view/view_worker_target: []
+  - ect/worker/view/view_worker_person_display: []
+- approval/ap_entry:
+  - approval/ap_entry_dispatcher: []
+  - approval/ap_approvals_get: 
+    - approval/ap_categories_select: []
+    - approval/ap_card_get_from_category:
+      - approval/ap_card_workflow: []
+      - approval/ap_card_display: []
+    - approval/ap_card_select_action: 
+      - approval/ap_action_validate: []
+      - approval/ap_action_process: []
+      - approval/ap_action_commit: []
+      - approval/ap_action_commit_result: []
+      - approval/ap_action_next_card: []
+
+- ect/usecase/view_job_data: []
+- ect/usecase/view_location: []
+- ect/usecase/view_pronouns: []

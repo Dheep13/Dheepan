@@ -1,0 +1,5 @@
+fuzzy_matching: true
+values:
+  - value: comment
+    synonyms:
+      - comments

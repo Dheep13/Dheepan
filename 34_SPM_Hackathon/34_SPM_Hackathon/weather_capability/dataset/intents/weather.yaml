@@ -1,0 +1,31 @@
+description: my top deals
+examples:
+  - What will the weather be like next week?
+  - How is the weather
+  - How is the weather going to be next month
+  - How is the weather in [Walldorf](city)?
+  - "How is the weather in [Walldorf](city), [Germany](country)?"
+  - How will be the weather next week?
+  - weather forecast
+  - What is outside like today?
+  - What is the temperature in [Walldorf](city)?
+  - "What is the temperature in [Walldorf](city), [Germany](country)?"
+  - How is it outside?
+  - What‘s the weather like?
+  - What's the weather like in [Walldorf](city)?
+  - What's the weather like next week?
+  - What’s the weather like today?
+  - What's the weather like tomorrow?
+  - What is the weather next week
+  - what is the weather situation
+  - What is the temperature in [Shanghai](city)?
+  - "What is the temperature in [Shanghai](city), [China](country)?"
+  - What is the weather in [Berlin](city)?
+  - What's the weather in [London](city)
+  - what's the weather like in [London](city)
+  - What's the weather like in [Beijing](city) tomorrow?
+  - What's the weather like in [New York](city)?
+  - weather forecast for [Munich](city)
+  - weather forecast for [Munich](city) tomorrow
+  - What is the temperature in [Beijing](city)?
+  - "What is the temperature in [Beijing](city), [China](country)?"

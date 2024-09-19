@@ -1,0 +1,5 @@
+Flask
+requests
+hdbcli
+flask_cors
+beautifulsoup4

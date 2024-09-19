@@ -1,0 +1,75 @@
+parameters:
+  - name: payeeId
+  - name: positionSeq
+  - name: periodSeq
+  - name: periodName
+
+action_groups:
+  - actions:
+      - type: dialog-function
+        name: commissions/lookup_rate # we are calling the lookup function to get product details
+        parameters:
+          - name: periodseq #passing product parameter
+            value: "<? periodSeq ?>"
+          - name: positionseq #passing product parameter
+            value: "<? positionSeq ?>"
+        result_variable: rate_info #output of lookup function is captured here
+
+      # - type: message
+      #   scripting_type: spel
+      #   message:
+      #     type: text
+      #     content: <? $rate_info ?>
+
+      - type: message
+        message:
+          type: card
+          content:
+            title: Rate Details
+            subtitle: Rate details for <? payeeId ?>
+            imageUrl: "https://i.ibb.co/6b6Tqb6/282887-Cash-Compensation-R-blue.png"
+            # imageUrl: 'sap-icon://product'
+            description:
+              value: >-
+                
+              markdown: false
+              linesInDetailView: 7
+            status: Current
+            statusState: success
+            hideHeaderInDetailView: false
+            sections:
+              - title: Current Rate
+                attributes:
+                  - label: Details
+                    value: >-
+                           <? rate_info.content ?>
+   
+      # - type: message
+      #   scripting_type: handlebars
+      #   message:
+      #     type: text
+      #     content: <? rate_info.title ?>
+
+      # - type: message
+      #   scripting_type: handlebars
+      #   message:
+      #     type: text
+      #     content: "Inside rate_info"
+
+
+      - type: message
+        message:
+          type: buttons
+          content: 
+            title: "Is there anything else I can assist you with?"
+            buttons:
+              - type: postback
+                title: "Yes"
+                value: "More information"
+              - type: postback
+                title: "No"
+                value: "Done"
+result:
+#   # success: <? product_details.status == 200 ?>
+  # payvalue: <? rate_info.payvalue ?>
+  displayflag: "100"

@@ -1,0 +1,16 @@
+Processing file type: BCC-SCII-ClosedFixedVoiceStandaloneOrders
+
+--- BCC-SCII-ClosedFixedVoiceStandaloneOrders - CS_STAGESALESTRANSACTION ---
+BATCHNAME                     STAGEPROCESSDATE              STAGEPROCESSFLAG              COUNT(1)                      
+------------------------------------------------------------------------------------------------------------------------
+STEL_TXSTA_PRD.FRA.UC.INT_202412-SEP-24                     3                             172                           
+
+
+
+
+
+--- BCC-SCII-ClosedFixedVoiceStandaloneOrders - CS_STAGETRANSACTIONASSIGN ---
+BATCHNAME                     STAGEPROCESSDATE              STAGEPROCESSFLAG              COUNT(1)                      
+------------------------------------------------------------------------------------------------------------------------
+STEL_TXSTA_PRD.FRA.UC.INT_202412-SEP-24                     3                             516                           
+Processing completed.

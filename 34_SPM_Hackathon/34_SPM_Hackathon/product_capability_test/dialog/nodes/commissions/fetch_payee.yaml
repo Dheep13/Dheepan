@@ -1,0 +1,43 @@
+title: SFIM
+type: node
+trigger_utterance: Success Factors Incentive Management
+condition: "#payee_intent"
+slot_filling:
+  slots:
+    - check_for: "@period"
+      save_as:
+        variable: period
+        value: "@period"
+      not_present:
+        prompts:
+          - type: text
+            content: "Hi <? $transient.user.first_name ?> , your uuid is <? $transient.user.uuid ?>. Welcome to the SAP Incentive Management Digital Assistant. Please enter the period for which you would like to see the details?"
+# dialog_functions:
+#   - name: commissions/fetch_payee_info
+#     result_variable: payee_details
+#     parameters:
+#       - name: payee
+#         value: "$payee"
+
+dialog_functions:
+  - name: commissions/fetch_period_info
+    result_variable: period_details
+    parameters:
+      - name: period
+        value: "$period"
+      - name: payee
+        value: <? $transient.user.uuid ?>
+      - name: displayflag
+        value: <? "200" ?>
+
+finally:
+  behavior : skip
+  # behavior: jump
+  # jump_to:
+  #   node: commissions/fetch_period
+  #   execution: eval-condition
+
+
+# fetch_payee(node)(skip)--> fetch_period_info(func)-->lookup period(func)
+#                                                   -->lookup_payee(func)
+#   display_results(node)(wait)

@@ -1,0 +1,22 @@
+parameters:
+  - name: payee
+action_groups:
+  - actions:
+
+      - type: dialog-function
+        name: commissions/lookup_payee # we are calling the lookup function to get payee details
+        parameters:
+          - name: payee #passing product parameter
+            value: "<? payee ?>"
+        result_variable: fetch_payee_details #output of lookup function is captured here
+
+      - type: message
+        scripting_type: handlebars
+        message:
+          type: text
+          content: Payee details have been fetched for {{ fetch_payee_details.payeeId }} . The positionSeq is {{ fetch_payee_details.positionSeq }} .
+result:
+
+  payeeId: <? fetch_payee_details.payeeId ?>
+  positionSeq: <? fetch_payee_details.positionSeq ?>
+  

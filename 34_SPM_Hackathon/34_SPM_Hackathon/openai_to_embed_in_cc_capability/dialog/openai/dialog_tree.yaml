@@ -1,0 +1,181 @@
+- generative_llm: 
+  - display_llm_result: 
+    - generative_llm_show_results: []
+- thank_you: []
+
+
+
+
+
+# 1. generative_llm --- just calls a dialog_function called generative_llm and finally is skip
+
+# title: Generative LLM
+# type: node
+# condition: "true"
+
+# dialog_functions:
+#   - name: ibm_llm/generative_llm
+#     result_variable: llm_result
+#     parameters:
+#       - name: input
+#         value: <? input.text ?>
+
+# finally:
+#   behavior: skip
+
+# 2. In generative_llm dialog_function we are making api resquest and setting the variables based on response.
+
+# parameters:
+#   - name: input
+# action_groups:
+#   - actions:
+#       - type: api-request
+#         method: POST
+#         system_alias: Generative_LLM
+#         path: "/query"
+#         body: 
+#          {   
+#             "query": "text:<? input ?>" 
+#           }
+#         result_variable: api_result
+#       - type: set-variables
+#         scripting_type: handlebars
+#         variables:
+#           - name: prepared_answer_unconfident
+#             value: >
+#               {
+#                 "type": "list",
+#                 "content": {
+#                   "title": "",
+#                   "subtitle": "I'm not sure how to summarize the results for you. So please check out the list of topics I found for your question. With **Open Topic** the help topic in SAP Help Portal opens in a new tab:",
+#                   "elements": [ 
+#                     {{#eachJoin api_result.body.results}}
+#                     {{#if this.link }}
+#                        {
+#                        "title": "{{this.title}}",
+#                        "description": "{{this.text.[0]}}",
+#                        "buttons": [
+#                         {
+#                           "title": "Open Topic",
+#                           "value": "{{this.link}}",
+#                           "type": "web_url"
+#                         }
+#                        ]
+#                       } 
+#                     {{/if}}
+#                     {{/eachJoin}} 
+#                   ]
+#                }, 
+#                 "markdown": true
+#               }
+#       - type: set-variables
+#         scripting_type: handlebars
+#         variables:
+#           - name: prepared_answer_confident
+#             value: >
+#               {
+#                 "type": "buttons",
+#                 "content": {
+#                   "title": "Here's a summary of what I have found for you: \n \n {{api_result.body.results.[0].text[0]}} \n \n Do you want to get more detailed information? Check out the search results with links to further information on SAP Help Portal.",
+#                   "buttons": [ 
+#                        {
+#                        "type": "postback",
+#                        "title": "Show search results", 
+#                        "value": "show search results"
+#                       },
+#                       {
+#                       "type": "web_url",
+#                       "title": "Open Create Sales Orders - Automatic Extraction App",
+#                       "value": "https://xjd-100.wdf.sap.corp/ui?help-useABAPHelpTexts=false&edithelp=true&help-enableTextBasedRecognition=false&help-product=SAP_S4HANA_CLOUD&help-version=2302.501&help-showShortDescription=false&help-buttonLocation=head&help-showWhatsNew=true&sap-language=EN&help-noHelpMode=carousel&help-useGlobalHelp=true&help-carouselOrientation=vertical#SalesOrderRequest-autoExtract"
+#                       }
+#                   ]
+#                }
+#               }
+#       - type: set-variables
+#         scripting_type: handlebars
+#         variables:
+#           - name: search_results_prepared_answer
+#             value: >
+#               {
+#                 "type": "list",
+#                 "content": {
+#                   "title": "Your search results",
+#                   "imageUrl": "sap-icon://activate",
+#                   "subtitle": "Here's the full list of what I found for you. Check it out. With Open Topic the help topic in SAP Help Portal opens in a new tab:",
+#                   "elements": [ 
+#                     {{#eachJoin api_result.body.results}}
+#                     {{#if this.url }}
+#                        {
+#                        "title": "{{this.title}}",
+#                        "description": "{{this.text.[0]}}",
+#                        "buttons": [
+#                         {
+#                           "title": "Open Topic",
+#                           "value": "{{this.url}}",
+#                           "type": "web_url"
+#                         }
+#                        ]
+#                       } 
+#                     {{/if}}
+#                     {{/eachJoin}} 
+#                   ]
+#                }
+#               }
+
+
+# result:
+#  results: "<? api_result.body.retrievalDetails.document_retrieval_strategy == 'llm' ? search_results_prepared_answer : null ?>"
+#  prepared_answer: "<? api_result.body.retrievalDetails.document_retrieval_strategy == 'llm' ? prepared_answer_confident : prepared_answer_unconfident ?>"
+
+# 3. Next the  display_llm_result node is executed. Here another dialog function show_llm_result is called.  The behaviour is wait
+
+# title: Display LLM results
+# type: node
+# condition: "true"
+
+# dialog_functions:
+#   - name: ibm_llm/show_llm_result
+#     result_variable: final
+#     parameters:
+#       - name: prepared_answer
+#         value: <? $llm_result.prepared_answer ?>
+#       - name: results
+#         value: <? $llm_result.results ?>
+   
+# finally:
+#   behavior: wait
+
+# 4. The dialog function show_llm_result just displays the result on the screen 
+
+# parameters:
+#   - name: prepared_answer
+#   - name: results
+# action_groups:
+#   - actions:
+#       - type: message
+#         message: <? prepared_answer ?>
+    
+#  5. Next Comes the generative_llm_show_results: [] node. calls another dialog_function generative_llm_show_results. This one is also wait
+
+#  title: Generative LLM show detailed results
+# type: node
+# condition: '#show_llm_search_results'
+
+# dialog_functions:
+#   - name: ibm_llm/generative_llm_show_results
+#     result_variable: result
+#     parameters:
+#       - name: prepared_results
+#         value: <? $llm_result.results ?>
+
+# finally:
+#   behavior: wait
+
+# 6.generative_llm_show_results dialog function just returns the prepared results
+
+# parameters:
+#   - name: prepared_results
+# action_groups:
+#   - actions:
+#       - type: message
+#         message: <? prepared_results ?>

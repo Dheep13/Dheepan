@@ -1,0 +1,28 @@
+type: node
+title: Create Participant
+condition: "true" # This condition might need to be adjusted based on your platform's way of handling transitions.
+dialog_functions:
+  - name: commissions/create_participant_fn
+    result_variable: create_participant
+    parameters:
+    - name: effectiveEndDate
+      value: 
+    - name: effectiveStartDate
+      value: $..body[?(@.id == "effectiveStartDate")]
+    - name: payeeId
+      value: $..body[?(@.id == "payeeId")]
+    - name: lastName
+      value: $..body[?(@.id == "lastName")]
+    - name: genericDate1
+      value: $..body[?(@.id == "genericDate1")]
+    - name: genericAttribute1
+      value: $..body[?(@.id == "genericAttribute1")]
+    - name : submitted_data
+      value: $feedback_content
+
+finally:
+  behavior: wait
+  # behavior: jump
+  # jump_to:
+  #   node: commissions/stop_dialog
+  #   execution: responses 

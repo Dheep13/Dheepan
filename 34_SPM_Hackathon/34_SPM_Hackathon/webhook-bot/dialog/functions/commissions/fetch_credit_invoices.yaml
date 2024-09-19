@@ -1,0 +1,29 @@
+parameters:
+  - name: positionSeq
+  - name: periodSeq
+action_groups:
+  - actions:
+
+      - type: message
+        scripting_type: handlebars
+        message:
+          type: text
+          content: "Inside the fetch_credit_invoices"
+
+      - type: dialog-function
+        name: commissions/lookup_credit_invoices # we are calling the lookup function to get product details
+        parameters:
+          - name: periodseq #passing product parameter
+            value: "2533274790396152"
+          - name: positionseq #passing product parameter
+            value: "4785074604087153"
+        result_variable: credit_info #output of lookup function is captured here
+
+      - type: message
+        scripting_type: handlebars
+        message:
+          type: text
+          content: "{{ credit_info }}"
+result:
+  # success: <? product_details.status == 200 ?>
+  credit_details: <? credit_info?>

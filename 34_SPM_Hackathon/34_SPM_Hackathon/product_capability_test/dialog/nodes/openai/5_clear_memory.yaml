@@ -1,0 +1,45 @@
+type: node
+title: clean memory
+condition: " $continue_gpt == 'yes' "
+response:
+  context:
+    - variable: input
+      value: null
+    # - variable: sender_user_uuid
+    #   value: <? $initial_context.user_uuid ?>
+    # - variable: subject_user_uuid
+    #   value: null
+    # - variable: assignment_result
+    #   value: null
+    # - variable: person_list
+    #   value: null
+    # - variable: default_question
+    #   value: null
+    # - variable: topic
+    #   value: null
+    # - variable: question
+    #   value: null
+    # - variable: answer
+    #   value: null
+    # - variable: question_size
+    #   value: null
+    # - variable: feedback_content
+    #   value: null
+    # - variable: perm_check_result
+    #   value: null
+    # - variable: user_name
+    #   value: null
+    # - variable: user_asked_to_exit
+    #   value: null
+    # - variable: change_confirmed
+    #   value: null
+    # - variable: update_result
+    #   value: null
+    # - variable: save_result
+    #   value: null
+  messages: []
+finally:
+  behavior: jump
+  jump_to:
+    node: openai/2_generative_llm
+    execution: eval-condition

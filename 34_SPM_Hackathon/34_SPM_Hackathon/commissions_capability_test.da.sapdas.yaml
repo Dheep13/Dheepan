@@ -1,0 +1,5 @@
+schema_version: 1.0.0
+name: commissions_capability
+capabilities:
+  - type: local
+    folder: ./product_capability_test

@@ -1,0 +1,39 @@
+title: Create PayeeId
+type: node
+# trigger_utterance: Show the PayeeId
+condition: "#participant_details"
+# slot_filling:
+#   slots:
+#     - check_for: "@payeeId"
+#       save_as:
+#         variable: payeeId
+#         value: "@payeeId"
+
+#     - check_for: "@lastName"
+#       save_as:
+#         variable: lastName
+#         value: "@lastName"
+
+#     - check_for: "@effectiveStartDate"
+#       save_as:
+#         variable: effectiveStartDate
+#         value: "@effectiveStartDate"
+
+#       not_present:
+#         prompts:
+#           - type: text
+#             content: "Hi, Please enter the payee details"
+
+dialog_functions:
+  - name: commissions/create_participant_fn
+    result_variable: payee_details
+    parameters:
+      - name: payeeId
+        value: "$payee"
+      - name: lastName
+        value: "$lastName"
+      - name: effectiveStartDate
+        value: "$effectiveStartDate"
+
+finally:
+  behavior : wait

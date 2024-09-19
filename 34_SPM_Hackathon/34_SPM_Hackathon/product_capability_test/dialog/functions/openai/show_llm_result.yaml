@@ -1,0 +1,11 @@
+parameters:
+  - name: prepared_answer
+  - name: results
+action_groups:
+  - actions:
+      - type: message
+        scripting_type: spel
+        message:
+          type: text
+          content: <? prepared_answer ?>
+

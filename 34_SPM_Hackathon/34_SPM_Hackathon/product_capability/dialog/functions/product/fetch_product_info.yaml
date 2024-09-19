@@ -1,0 +1,39 @@
+parameters:
+  - name: product
+action_groups:
+  - actions:
+      # - type: set-variables # not using this type becuase it's not needed for our case
+      #   scripting_type: spel
+      #   variables:
+      #     - name: product
+      #       value: 1
+      - type: dialog-function
+        name: product/lookup_product # we are calling the lookup function to get product details
+        parameters:
+          - name: product #passing product parameter
+            value: "<? product ?>"
+        result_variable: product_details #output of lookup function is captured here
+      # - type: api-request # this one not required for our case
+      #   method: GET
+      #   system_alias: WeatherService
+      #   path: /wx/forecast/daily/3day?placeid=<? weather_location.placeid ?>&units=<? unit ?>&language=en-US&format=json&apiKey=<? api_key ?>
+      #   path: /Products(? unit ?>)
+      #   result_variable: weather_result
+      - type: message
+        scripting_type: handlebars
+        message:
+          type: text
+          content: Product details have been fetched for {{product_details.productID}}. Product Name:{{product_details.productName}}
+result:
+  # success: <? product_details.status == 200 ?>
+  # city: <? weather_location.city ?>
+  productName: <? product_details.productName ?>
+  productBody: <? product_details.responseBody ?>
+  productID: <? product_details.productID ?>
+  category: <? product_details.CategoryID ?>
+  ReorderLevel: <? product_details.ReorderLevel ?>
+  UnitsInStock: <? product_details.UnitsInStock ?>
+  UnitPrice: <? product_details.UnitPrice ?>
+  QuantityPerUnit: <? product_details.QuantityPerUnit ?>
+  UnitsOnOrder: <? product_details.UnitsOnOrder ?>
+  

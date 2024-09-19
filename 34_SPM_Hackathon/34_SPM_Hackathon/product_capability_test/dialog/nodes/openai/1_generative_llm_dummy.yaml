@@ -1,0 +1,10 @@
+title: Generative LLM
+type: node
+condition: " #start_openai "
+
+dialog_functions:
+  - name: openai/generative_llm_dummy_fn
+    result_variable: continue_gpt
+
+finally:
+  behavior: skip

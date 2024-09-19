@@ -1,0 +1,7 @@
+description: my commissions
+examples:
+  # - effectiveStartDate ["2017-01-01"](effectiveStartDate) payeeId["S1234"](payeeId) lastName["Scholes"](lastName)
+  # - effectiveStartDate ["2023-01-01"](effectiveStartDate) payeeId["ABC123"](payeeId) lastName["Deepan"](lastName)
+  # - effectiveStartDate ["2020-01-01"](effectiveStartDate) payeeId["3434"](payeeId) lastName["Ronaldo"](lastName)
+  # - effectiveStartDate ["2015-01-01"](effectiveStartDate) payeeId["11111"](payeeId) lastName["Zidane"](lastName)
+  - lastName Scholes

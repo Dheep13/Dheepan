@@ -1,0 +1,32 @@
+const mongoose = require('mongoose');
+
+//mongoose.connect returns a promise
+mongoose.connect('mongodb+srv://Deepan:nS2*B3gk_D4PGTX@cluster0.n49lg.mongodb.net/vidlyDB')
+    .then(() => console.log('Connected to Mongoose DB..'))
+    .catch(err => console.log('Connected to Mongoose DB..' , err) );
+
+
+const courseSchema = new mongoose.Schema({
+    name : String,
+    author : String,
+    tags : [String],
+    date : {type: Date, default: Date.now},
+    ispublished : Boolean
+
+    }
+);
+
+//now create the class 
+
+const Course = mongoose.model('Course', courseSchema)
+
+async function updateCourse(id){
+
+const course = await Course.findById(id);
+if (!course) return console.log('Course not found!!')
+course.ispublished =true
+course.author = 'New Author'
+const result = await course.save()
+console.log(result)
+}
+updateCourse('629fff40c4612434b89f775b');

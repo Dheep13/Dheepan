@@ -1,0 +1,24 @@
+type: node
+title: fetch_credit_invoices
+condition: "#credit_invoice_intent"
+
+dialog_functions:
+  - name: commissions/fetch_credit_invoices
+    result_variable: credit_invoice_details
+    parameters:
+      - name: payeeId
+        value: <? $period_details.payeeId ?>
+      - name: positionSeq
+        value: <? $period_details.positionSeq ?>
+      - name: periodSeq
+        value: <? $period_details.periodSeq ?>
+      - name: periodName
+        value: <? $period_details.periodName ?>
+
+
+finally:
+  behavior: wait
+  # behavior: jump
+  # jump_to:
+  #   node: commissions/stop_dialog
+  #   execution: responses

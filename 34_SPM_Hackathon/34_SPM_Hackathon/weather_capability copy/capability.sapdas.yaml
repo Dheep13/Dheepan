@@ -1,0 +1,13 @@
+schema_version: 1.0.0
+
+metadata:
+  display_name: Weather Capability
+  namespace: com.sap.das.dev
+  name: weather_capability
+  version: 1.0.0
+  description: >- 
+   Demo capability to fetch the weather
+
+system_aliases:
+  WeatherService:
+    destination: https://services.odata.org/V2/Northwind/Northwind.svc/

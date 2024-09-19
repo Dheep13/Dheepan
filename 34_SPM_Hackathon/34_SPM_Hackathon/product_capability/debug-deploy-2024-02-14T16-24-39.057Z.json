@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2024-02-14T16:24:39.058Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "Executing: deploy"
+  },
+  {
+    "timestamp": "2024-02-14T16:24:39.062Z",
+    "command": "deploy",
+    "level": "error",
+    "message": "error: invalid path - C:\\Users\\I520292\\OneDrive - SAP SE\\Visual Studio Code\\34_SPM_Hackathon\\weather_capability\\weather_capability.da.sapdas.yaml does not exist (code: DEPLOY_INVALID_SOURCE)",
+    "data": null,
+    "error": {
+      "message": "invalid path - C:\\Users\\I520292\\OneDrive - SAP SE\\Visual Studio Code\\34_SPM_Hackathon\\weather_capability\\weather_capability.da.sapdas.yaml does not exist",
+      "name": "CliError",
+      "errorCode": "DEPLOY_INVALID_SOURCE",
+      "stacktrace": "CliError: invalid path - C:\\Users\\I520292\\OneDrive - SAP SE\\Visual Studio Code\\34_SPM_Hackathon\\weather_capability\\weather_capability.da.sapdas.yaml does not exist\n    at exist (file:///C:/Users/I520292/AppData/Roaming/npm/node_modules/sapdas-cli/dist/module/base/utils/utils.js:81:19)\n    at async SourceValidator.validateSourcePath (file:///C:/Users/I520292/AppData/Roaming/npm/node_modules/sapdas-cli/dist/module/base/validator/sourceValidator.js:52:9)\n    at async SourceValidator.sourceToConfig (file:///C:/Users/I520292/AppData/Roaming/npm/node_modules/sapdas-cli/dist/module/base/validator/sourceValidator.js:81:24)\n    at async Deploy.deploy (file:///C:/Users/I520292/AppData/Roaming/npm/node_modules/sapdas-cli/dist/module/deploy/deploy.js:42:24)\n    at async DeployCommand.run (file:///C:/Users/I520292/AppData/Roaming/npm/node_modules/sapdas-cli/dist/module/deploy/deployCommand.js:24:9)\n    at async Command.<anonymous> (file:///C:/Users/I520292/AppData/Roaming/npm/node_modules/sapdas-cli/dist/module/deploy/deployCommand.js:18:13)\n    at async Command.parseAsync (C:\\Users\\I520292\\AppData\\Roaming\\npm\\node_modules\\sapdas-cli\\node_modules\\commander\\lib\\command.js:936:5)\n    at async #executeCli (file:///C:/Users/I520292/AppData/Roaming/npm/node_modules/sapdas-cli/dist/module/base/cliExecution.js:213:13)\n    at async CliExecution.execute (file:///C:/Users/I520292/AppData/Roaming/npm/node_modules/sapdas-cli/dist/module/base/cliExecution.js:230:9)",
+      "causedBy": {
+        "message": "ENOENT: no such file or directory, access 'C:\\Users\\I520292\\OneDrive - SAP SE\\Visual Studio Code\\34_SPM_Hackathon\\weather_capability\\weather_capability.da.sapdas.yaml'",
+        "name": "Error",
+        "stacktrace": "Error: ENOENT: no such file or directory, access 'C:\\Users\\I520292\\OneDrive - SAP SE\\Visual Studio Code\\34_SPM_Hackathon\\weather_capability\\weather_capability.da.sapdas.yaml'"
+      }
+    }
+  }
+]

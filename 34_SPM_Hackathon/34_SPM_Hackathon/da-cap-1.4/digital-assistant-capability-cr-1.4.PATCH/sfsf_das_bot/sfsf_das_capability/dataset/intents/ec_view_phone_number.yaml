@@ -1,0 +1,17 @@
+description: ec_view_phone_number
+examples:
+    - View business phone number
+    - Tell me my cell number.
+    - mobile number
+    - "[Jen](person)'s landline"
+    - "[Jen](person)'s home phone number"
+    - I'd like to view my business telephone number.
+    - I'd like to view cell phone number.
+    - home phone
+    - Help me know about direct report [Jen](person)'s cell number.
+    - Display my direct report [Jen](person)'s cell.
+    - cellular number
+    - cell phone
+    - cell
+    - Can you show my cell phone number?
+    - business phone

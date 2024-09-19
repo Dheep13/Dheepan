@@ -1,0 +1,29 @@
+title: Fetch Period
+type: node
+condition: "true"
+slot_filling:
+  slots:
+    - check_for: "@period"
+      save_as:
+        variable: period
+        value: "@period"
+      not_present:
+        prompts:
+          - type: text
+            content: "For which period would you like to see the details?"
+
+dialog_functions:
+  - name: commissions/fetch_period_info
+    result_variable: period_details
+    parameters:
+      - name: period
+        value: "$period"
+      - name: displayflag
+        value: <? "200" ?>
+
+finally:
+  # behavior: wait
+  behavior: jump
+  jump_to:
+    node: commissions/display_results
+    execution: eval-condition

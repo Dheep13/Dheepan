@@ -1,0 +1,22 @@
+title: Fetch Product Details
+type: node
+trigger_utterance: Show me commission details
+condition: "#product_details"
+slot_filling:
+  slots:
+    - check_for: "@product_id"
+      save_as:
+        variable: "product_id"
+        value: "@product_id"
+      not_present:
+        prompts:
+          - type: text
+            content: "Please provide the product ID for which you want the details."
+dialog_functions:
+  - name: northwind/fetch_product_info
+    result_variable: product_details
+    parameters:
+      - name: product_id
+        value: "$product_id"
+finally:
+  behavior: skip

@@ -1,0 +1,4 @@
+Flask
+requests
+hdbcli
+flask_cors

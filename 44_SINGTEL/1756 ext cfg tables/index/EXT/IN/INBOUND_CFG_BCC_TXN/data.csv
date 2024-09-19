@@ -1,0 +1,51 @@
+"BCCSCIICancellationOrders","BCC-SCII-CancellationOrders","Mobile Submitted","Submitted","N","Y","N","N",1
+"BCCSCIICancellationOrders","BCC-SCII-CancellationOrders","Mobile Submitted","Cancelled","N","N","Y","N",-1
+"BCCSCIIClosedMobileOrders","BCC-VAS-Cease","Mobile Closed","Ceased","N","Y","N","N",1
+"BCCSCIIClosedMobileOrders","BCC-VAS-Cease","Mobile Closed","Ceased","N","Y","Y","N",-1
+"ODSMobile","BCC-Main-Cease","Mobile Closed","Ceased","N","Y","N","Y",1
+"ODSMobile","BCC-Main-Cease","Mobile Closed","Ceased","N","Y","Y","Y",-1
+"BCCSCIISubmittedMobileOrders","BCC-VAS-Cease","Mobile Submitted","Ceased","N","Y","N","N",1
+"BCCSCIISubmittedMobileOrders","BCC-VAS-Cease","Mobile Submitted","Ceased","N","Y","Y","N",-1
+"ODSMobileCommission","BCC-Main-Cease","Mobile Submitted","Ceased","N","Y","N","Y",1
+"ODSMobileCommission","BCC-Main-Cease","Mobile Submitted","Ceased","N","Y","Y","Y",-1
+"BCCSCIIClosedFixedVoiceStandaloneOrders","BCC-VAS-Cease","DEL Closed","Ceased","N","Y","N","N",1
+"ClosedFixedVoiceStandaloneOrders","BCC-VAS-Cease","DEL Submitted","Ceased","N","Y","Y","N",-1
+"ODSDELClosed","BCC-Main-Cease","DEL Submitted","Ceased","N","Y","N","Y",1
+"ODSDELClosed","BCC-Main-Cease","DEL Submitted","Ceased","N","Y","Y","Y",-1
+"ODSDELSubmit","BCC-VAS-Cease","DEL Submitted","Ceased","N","Y","N","N",1
+"ODSDELSubmit","BCC-VAS-Cease","DEL Submitted","Ceased","N","Y","Y","N",-1
+"ODSDELSubmit","BCC-Main-Cease","DEL Submitted","Ceased","N","Y","N","Y",1
+"ODSDELSubmit","BCC-Main-Cease","DEL Submitted","Ceased","N","Y","Y","Y",-1
+"BCCSCIIClosedBroadBandOrders","BCC-VAS-Cease","BroadBand Closed","Ceased","N","Y","N","N",1
+"BCCSCIIClosedBroadBandOrders","BCC-VAS-Cease","BroadBand Closed","Ceased","N","Y","Y","N",-1
+"BCCSCIIClosedBroadBandOrders","BCC-Main-Cease","BroadBand Closed","Ceased","N","Y","N","Y",1
+"BCCSCIIClosedBroadBandOrders","BCC-Main-Cease","BroadBand Closed","Ceased","N","Y","Y","Y",-1
+"BCCSCIISubmittedBroadBandOrders","BCC-VAS-Cease","BroadBand Submitted","Ceased","N","Y","N","N",1
+"BCCSCIISubmittedBroadBandOrders","BCC-VAS-Cease","BroadBand Submitted","Ceased","N","Y","Y","N",-1
+"BCCSCIISubmittedBroadBandOrders","BCC-Main-Cease","BroadBand Submitted","Ceased","N","Y","N","Y",1
+"BCCSCIISubmittedBroadBandOrders","BCC-Main-Cease","BroadBand Submitted","Ceased","N","Y","Y","Y",-1
+"ODSSalesOrders","BCC-VAS-Cease","MTPOS Sales Order","Ceased","N","Y","N","N",1
+"ODSSalesOrders","BCC-VAS-Cease","MTPOS Sales Order","Ceased","N","Y","Y","N",-1
+"ODSSalesOrders","BCC-Main-Cease","MTPOS Sales Order","Ceased","N","Y","N","Y",1
+"ODSSalesOrders","BCC-Main-Cease","MTPOS Sales Order","Ceased","N","Y","Y","Y",-1
+"BCCSCIISubmittedTVOrders","BCC-VAS-Cease","TV Submitted","Ceased","N","Y","N","N",1
+"BCCSCIISubmittedTVOrders","BCC-VAS-Cease","TV Submitted","Ceased","N","Y","Y","N",-1
+"BCC_SCII_SubmittedTVOrders","BCC-Main-Cease","TV Submitted","Ceased","N","Y","N","Y",1
+"BCC_SCII_SubmittedTVOrders","BCC-Main-Cease","TV Submitted","Ceased","N","Y","Y","Y",-1
+"BCCSCIIClosedTVOrders","BCC-VAS-Cease","TV Closed","Ceased","N","Y","N","N",1
+"BCCSCIIClosedTVOrders","BCC-VAS-Cease","TV Closed","Ceased","N","Y","Y","N",-1
+"BCCSCIIClosedTVOrders","BCC-Main-Cease","TV Closed","Ceased","N","Y","N","Y",1
+"BCCSCIIClosedTVOrders","BCC-Main-Cease","TV Closed","Ceased","N","Y","Y","Y",-1
+"BCCSCIICancellationOrders","BCC-SCII-CancellationOrders","TV Closed",,"N","N","Y","N",-1
+"BCCSCIICancellationOrders","BCC-SCII-CancellationOrders","TV Closed",,"N","Y","N","N",1
+"BCCSCIICancellationOrders","BCC-SCII-CancellationOrders","Mobile Closed",,"N","N","Y","N",-1
+"BCCSCIICancellationOrders","BCC-SCII-CancellationOrders","Mobile Closed",,"N","Y","N","N",1
+"BCCSCIICancellationOrders","BCC-SCII-CancellationOrders","TV Submitted",,"N","N","Y","N",-1
+"BCCSCIICancellationOrders","BCC-SCII-CancellationOrders","TV Submitted",,"N","Y","N","N",1
+"BCCSCIICancellationOrders","BCC-SCII-CancellationOrders","Broadband Closed",,"N","N","Y","N",-1
+"BCCSCIICancellationOrders","BCC-SCII-CancellationOrders","Broadband Closed",,"N","Y","N","N",1
+"BCCSCIICancellationOrders","BCC-SCII-CancellationOrders","Broadband Submitted",,"N","N","Y","N",-1
+"BCCSCIICancellationOrders","BCC-SCII-CancellationOrders","Broadband Submitted",,"N","Y","N","N",1
+"BCCSCIICancellationOrders","BCC-SCII-CancellationOrders","DEL Closed",,"N","Y","N","N",1
+"BCCSCIICancellationOrders","BCC-SCII-CancellationOrders","DEL Closed",,"N","N","Y","N",-1
+"BCCSCIIClosedFixedVoiceStandaloneOrders","BCC-VAS-Cease","DEL Closed","Ceased","Y","N","Y","N",-1

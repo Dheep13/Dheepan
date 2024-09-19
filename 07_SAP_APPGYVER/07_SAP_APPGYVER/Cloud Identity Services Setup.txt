@@ -1,0 +1,20 @@
+Create Cloud Identity Services in SAP BTP Cockpit
+Sign in to the administration console for SAP Cloud Identity Services.
+Under Applications and Resources, choose the Tenant Settings tile.
+At the top of the page, you can view the administrative and license relevant information of the tenant.
+
+Under Single Sign-On, choose the SAML 2.0 Configuration list item.
+The SAML 2.0 Configuration page that opens displays the name of the identity provider, its endpoints, and its signing certificate.
+Optional: To download the identity provider's metadata, press the Download Metadata File button.
+Optional: To change the name of the identity provider, choose the Name field, select the name from the dropdown list, and save your changes.
+
+
+***************************************************************************
+Above is no longer supported
+
+
+SAML is no longer supported for Build Apps
+Use OpenID Connect
+For your subaccount go to entitlements - Configure entitlements - Enable  Cloud Identity Services
+Go to Trust Configuration - Establish trust --> and then you should   see an entry under  Custom Identity Provider for Applications
+Notice that the protocol is OpenID Conncect

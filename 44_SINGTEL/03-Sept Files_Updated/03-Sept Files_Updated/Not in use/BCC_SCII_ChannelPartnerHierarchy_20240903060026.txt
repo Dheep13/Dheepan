@@ -1,0 +1,3 @@
+H	20240903 06:00:26	ChannelPartnerHierarchy	T
+Record Type	CP Code	Child CP Code
+T	0

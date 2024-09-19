@@ -1,0 +1,13 @@
+
+
+SPM will write a procedure which will lookup the Service order transactions in SPM---Deepan : Lookup using Service Order?(is service order in inboud the orderid )? is there a particular evevntype I should look for?
+to  find respective partners (SSR & FST’s) related to the service order --- Deepan : Does this refer to all positions assigned to the transaction? if so is there any filter I will need to use like some specific title?
+and sum the outstanding balance value grouped by customer and partners ---Deepan : where can I find the outstanding balance in transaction?
+for 30, 60 and 90 days window.---Deepan : what is the date we are referring to here? 30,60,90 days between two different date fields ?
+
+
+
+What is the purpose of the Balance Value in inbound feed? Is it to validate if the calculated balance and inbound balance is the same? 
+
+SPM can reload the AR Balance files if needed. SPM to maintain the history of AR Balance sent to SPM --Deepan : can we also
+have the name of the file as one of the fields in the inbound so these to requirements can be handled?

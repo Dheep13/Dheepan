@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "speech-to-text": "^2.9.1"
+  }
+}

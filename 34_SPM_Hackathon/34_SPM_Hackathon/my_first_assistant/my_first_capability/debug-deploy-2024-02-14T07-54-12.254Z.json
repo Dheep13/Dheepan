@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2024-02-14T07:54:12.255Z",
+    "command": "deploy",
+    "level": "debug",
+    "message": "Executing: deploy"
+  },
+  {
+    "timestamp": "2024-02-14T07:54:12.259Z",
+    "command": "deploy",
+    "level": "error",
+    "message": "error: invalid source - C:\\Users\\I520292\\OneDrive - SAP SE\\Visual Studio Code\\34_SPM_Hackathon\\my_first_assistant\\my_first_capability\\capability.sapdas.yaml should end with da.sapdas.yaml (code: DEPLOY_INVALID_SOURCE)",
+    "data": null,
+    "error": {
+      "message": "invalid source - C:\\Users\\I520292\\OneDrive - SAP SE\\Visual Studio Code\\34_SPM_Hackathon\\my_first_assistant\\my_first_capability\\capability.sapdas.yaml should end with da.sapdas.yaml",
+      "name": "CliError",
+      "errorCode": "DEPLOY_INVALID_SOURCE",
+      "stacktrace": "CliError: invalid source - C:\\Users\\I520292\\OneDrive - SAP SE\\Visual Studio Code\\34_SPM_Hackathon\\my_first_assistant\\my_first_capability\\capability.sapdas.yaml should end with da.sapdas.yaml\n    at SourceValidator.isValidConfigFileOrThrow (file:///C:/Users/I520292/AppData/Roaming/npm/node_modules/sapdas-cli/dist/module/base/validator/sourceValidator.js:18:15)\n    at SourceValidator.validateSourcePath (file:///C:/Users/I520292/AppData/Roaming/npm/node_modules/sapdas-cli/dist/module/base/validator/sourceValidator.js:55:25)\n    at async SourceValidator.sourceToConfig (file:///C:/Users/I520292/AppData/Roaming/npm/node_modules/sapdas-cli/dist/module/base/validator/sourceValidator.js:81:24)\n    at async Deploy.deploy (file:///C:/Users/I520292/AppData/Roaming/npm/node_modules/sapdas-cli/dist/module/deploy/deploy.js:42:24)\n    at async DeployCommand.run (file:///C:/Users/I520292/AppData/Roaming/npm/node_modules/sapdas-cli/dist/module/deploy/deployCommand.js:24:9)\n    at async Command.<anonymous> (file:///C:/Users/I520292/AppData/Roaming/npm/node_modules/sapdas-cli/dist/module/deploy/deployCommand.js:18:13)\n    at async Command.parseAsync (C:\\Users\\I520292\\AppData\\Roaming\\npm\\node_modules\\sapdas-cli\\node_modules\\commander\\lib\\command.js:936:5)\n    at async #executeCli (file:///C:/Users/I520292/AppData/Roaming/npm/node_modules/sapdas-cli/dist/module/base/cliExecution.js:213:13)\n    at async CliExecution.execute (file:///C:/Users/I520292/AppData/Roaming/npm/node_modules/sapdas-cli/dist/module/base/cliExecution.js:230:9)"
+    }
+  }
+]

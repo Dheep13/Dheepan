@@ -1,0 +1,9 @@
+type: node
+title: Sample dialog node
+condition: '#sample_intent'
+response:
+  messages:
+   - type: text
+     content: "You asked if your Digital Assistant is: @status"
+finally:
+  behavior: wait

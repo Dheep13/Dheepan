@@ -1,0 +1,19 @@
+title: Display LLM results
+type: node
+condition: "$continue_gpt == 'yes'"
+
+dialog_functions:
+  - name: openai/show_llm_result
+    result_variable: final
+    parameters:
+      - name: prepared_answer
+        value: <? $llm_result.prepared_answer ?>
+      - name: results
+        value: <? $llm_result.results ?>
+   
+finally:
+  # behavior: wait
+  behavior: jump
+  jump_to:
+    node: openai/5_clear_memory
+    execution: eval-condition

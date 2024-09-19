@@ -1,0 +1,27 @@
+parameters:
+  - name: positionseq
+  - name: periodseq
+ 
+action_groups:
+  - actions:
+      - type: api-request
+        method: POST
+        system_alias: CommissionsWebHookService
+        path: "/paymentTotal"
+        headers:
+          Content-Type: application/json
+        body: '{"conversation": {"skill": "some_skill", "memory": {"positionseq": "<?positionseq?>", "periodseq": "<?periodseq?>"}}}'
+        result_variable: lookup_result #results of the response are held here
+
+      - type: set-variables
+        scripting_type: handlebars
+        variables:
+          - name: payment_content
+            value: "{{ lookup_result.body.replies[0].content }}"
+
+result: #here we are only selecting the required properties
+  content: <? lookup_result.body.replies[0].content ?>
+  imageUrl: <? lookup_result.body.replies[0].content.imageUrl ?>
+  subtitle: <? lookup_result.body.replies[0].content.subtitle ?>
+  title: <? lookup_result.body.replies[0].content.title ?>
+  # type: <? lookup_result.body.replies[0].type ?>

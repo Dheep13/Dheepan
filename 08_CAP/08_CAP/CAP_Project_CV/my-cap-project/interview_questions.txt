@@ -1,0 +1,29 @@
+cds init project-name
+
+
+The package.json file has the metadata of your SAP Cloud Application Programming
+Model project (Node.js environment), while the .cdsrc.json file has static settings
+for your project.
+
+
+When an SAP Cloud Application Programming Model project is built, the SAP
+Cloud Application Programming Model framework creates database artifacts, or
+the persistence model (tables, columns, indexes, views, etc.), by interpreting the
+domain model. If a service is defined by reusing the domain model, then the
+domain model will also result in OData artifacts (entity sets, properties, associations, etc.), as shown in Figure 3.9.
+
+
+--associations
+entity PurchaseOrder {
+  key ID: UUID;
+  // ...
+  supplier: Association to Supplier;
+}
+
+entity Supplier {
+  key ID: UUID;
+  // ...
+}
+
+
+--aspects

@@ -1,0 +1,72 @@
+"ODS-Mobile","PR","New","*","*","Mobile","*","M","*","*","*","*","*","Mobile New",
+"ODS-Mobile","CH","Change","Change Main Plan","1","Mobile","*","M","*","*","*","*","*","Mobile Recon",
+"ODS-Mobile","CH","Change","Change Main Plan","*","Mobile","*","M","*","*","*","*","*","Mobile Change Plan",
+"ODS-Mobile","CH","Change","CI Only","*","Mobile","*","M","*","*","*","*","*","Mobile PureCI only",
+"ODS-Mobile","CH","Change","CI with plan change","0","Mobile","*","*","*","*","*","*","*","Mobile CI with Plan Change",
+"ODS-Mobile","PR","New","*","*","Mobile","*","S","*","*","*","*","*","Mobile VAS New",
+"ODS-Mobile","CH","Change","*","*","Mobile","AC","S","*","*","*","*","*","Mobile VAS Add",
+"ODS-Mobile","CH","Change","*","*","Mobile","C","S","*","*","*","*","*","VAS Cease in 30 days",
+"ODS-Mobile","CE","Cease","*","*","Mobile","C","M","*","*","*","*","*","Main Plan Cease in 30 days",
+"ODS-Mobile","CH","Change","CI with plan change","1","Mobile","*","M","*","*","*","*","*","Mobile Recon",
+"ODS-MobileCommission","PR","New","*","*","Mobile","*","M","*","*","*","*","*","Mobile New",
+"ODS-MobileCommission","CH","Change","Change Main Plan","1","Mobile","*","M","*","*","*","*","*","Mobile Recon",
+"ODS-MobileCommission","CH","Change","Change Main Plan","*","Mobile","*","M","*","*","*","*","*","Mobile Change Plan",
+"ODS-MobileCommission","CH","Change","CI Only","*","Mobile","*","M","*","*","*","*","*","Mobile PureCI only",
+"ODS-MobileCommission","CH","Change","CI with plan change","0","Mobile","*","*","*","*","*","*","*","Mobile CI with Plan Change",
+"ODS-MobileCommission","PR","New","*","*","Mobile","*","S","*","*","*","*","*","Mobile VAS New",
+"ODS-MobileCommission","CH","Change","*","*","Mobile","AC","S","*","*","*","*","*","Mobile VAS Add",
+"ODS-MobileCommission","CH","Change","*","*","Mobile","C","S","*","*","*","*","*","VAS Cease in 30 days",
+"ODS-MobileCommission","CE","Cease","*","*","Mobile","C","M","*","*","*","*","*","Main Plan Cease in 30 days",
+"ODS-MobileCommission","CH","Change","CI with plan change","1","Mobile","*","M","*","*","*","*","*","Mobile Recon",
+"BCC-SCII-SubmittedTVOrders","CE","Cease","*","*","*","C","S","*","*","*","*","*","Main Plan Cease in 30 days",
+"BCC-SCII-SubmittedTVOrders","PR","New","*","*","*","*","M","N","*","*","*","*","TV New subscription (Main)","GF1: Previous Data Indicator"
+"BCC-SCII-SubmittedTVOrders","PR","New","*","*","*","*","M","N","*","*","*","*","TV New subscription (Main) ONLY FTA","GF1: Previous Data Indicator"
+"BCC-SCII-SubmittedTVOrders","CH","Change","Change Main Plan","1","*","*","*","N","*","*","*","*","TV  Recon (Main)","GF1: Previous Data Indicator"
+"BCC-SCII-SubmittedTVOrders","CH","Change","Change Main Plan","0","*","*","M","N","*","*","*","*","TV Change main plan within the same month. ","GF1: Previous Data Indicator"
+"BCC-SCII-SubmittedTVOrders","CH","Change","Change Main Plan","0","*","*","M","P","*","*","*","*","TV Change main plan within the same month. ","GF1: Previous Data Indicator"
+"BCC-SCII-SubmittedTVOrders","PR","New","*","*","*","*","S","N","*","*","*","*","New  VAS subscription  with New Main Plan","GF1: Previous Data Indicator"
+"BCC-SCII-SubmittedTVOrders","CH","Change","*","*","*","AC","S","N","*","*","*","*","New  VAS subscription with Existing Line","GF1: Previous Data Indicator"
+"BCC-SCII-SubmittedTVOrders","CH","Change","*","*","*","C","S","N","*","*","*","*","VAS Cease in 30 days","GF1: Previous Data Indicator"
+"BCC-SCII-SubmittedTVOrders","CE","Cease","*","*","*","C","M","*","*","*","*","*","Main Plan Cease in 30 days",
+"BCC-SCII-ClosedTVOrders","PR","New","*","*","*","*","M","N","*","*","*","*","TV New subscription (Main)","GF1: Previous Data Indicator"
+"BCC-SCII-ClosedTVOrders","PR","New","*","*","*","*","M","N","*","*","*","*","TV New subscription (Main) ONLY FTA","GF1: Previous Data Indicator"
+"BCC-SCII-ClosedTVOrders","CH","Change","Change Main Plan","1","*","*","*","N","*","*","*","*","TV  Recon (Main)","GF1: Previous Data Indicator"
+"BCC-SCII-ClosedTVOrders","CH","Change","Change Main Plan","0","*","*","M","N","*","*","*","*","TV Change main plan within the same month. ","GF1: Previous Data Indicator"
+"BCC-SCII-ClosedTVOrders","CH","Change","Change Main Plan","0","*","*","M","P","*","*","*","*","TV Change main plan within the same month. ","GF1: Previous Data Indicator"
+"BCC-SCII-ClosedTVOrders","PR","New","*","*","*","*","S","N","*","*","*","*","New  VAS subscription  with New Main Plan","GF1: Previous Data Indicator"
+"BCC-SCII-ClosedTVOrders","CH","Change","*","*","*","AC","S","N","*","*","*","*","New  VAS subscription with Existing Line","GF1: Previous Data Indicator"
+"BCC-SCII-ClosedTVOrders","CH","Change","*","*","*","C","S","N","*","*","*","*","VAS Cease in 30 days","GF1: Previous Data Indicator"
+"BCC-SCII-ClosedTVOrders","CE","Cease","*","*","*","C","M","*","*","*","*","*","Main Plan Cease in 30 days",
+"ODS-SNBB-VAS","PR","New","*","*","*","*","M","*","*","*","*","*","SNBB New subscription (Main)",
+"ODS-SNBB-VAS","CH","Change","Change Main Plan","1","*","*","M","*","*","*","*","*","SNBB Recon (Main)",
+"ODS-SNBB-VAS","CH","Change","Change Main Plan","0","*","*","M","*","*","*","*","*","Change plan within the same month",
+"ODS-SNBB-VAS","PR","New","*","*","*","*","S","*","*","*","*","*","New  VAS subscription  with New Main Plan",
+"ODS-SNBB-VAS","CH","Change","*","*","*","AC","S","*","*","*","*","*","New  VAS subscription with Existing Line",
+"ODS-SNBB-VAS","CH","Change","*","*","*","C","S","*","*","*","*","*","VAS Cease in 30 days",
+"ODS-SNBB-VAS","CE","Cease","*","*","*","C","M","*","*","*","*","*","Main Plan Cease in 30 days",
+"BCC-SCII-SubmittedBroadBandOrders","PR","New","*","*","*","*","M","*","*","*","*","*","SNBB New subscription (Main)",
+"BCC-SCII-SubmittedBroadBandOrders","CH","Change","Change Main Plan","1","*","*","M","*","*","*","*","*","SNBB Recon (Main)",
+"BCC-SCII-SubmittedBroadBandOrders","CH","Change","Change Main Plan","0","*","*","M","*","*","*","*","*","Change plan within the same month",
+"BCC-SCII-SubmittedBroadBandOrders","PR","New","*","*","*","*","S","*","*","*","*","*","New  VAS subscription  with New Main Plan",
+"BCC-SCII-SubmittedBroadBandOrders","CH","Change","*","*","*","AC","S","*","*","*","*","*","New  VAS subscription with Existing Line",
+"BCC-SCII-SubmittedBroadBandOrders","CH","Change","*","*","*","C","S","*","*","*","*","*","VAS Cease in 30 days",
+"BCC-SCII-SubmittedBroadBandOrders","CE","Cease","*","*","*","C","M","*","*","*","*","*","Main Plan Cease in 30 days",
+"BCC-SCII-ClosedFixedVoiceStandaloneOrders","PR","New","*","*","*","*","M","*","*","*","*","*","DEL New",
+"BCC-SCII-ClosedFixedVoiceStandaloneOrders","CH","Change","Change Main Plan","1","*","*","M","*","*","*","*","*","DEL Recon",
+"BCC-SCII-ClosedFixedVoiceStandaloneOrders","CH","Change","Change Main Plan","*","*","*","M","*","*","*","*","*","DEL Change Plan",
+"BCC-SCII-ClosedFixedVoiceStandaloneOrders","PR","New","*","*","*","*","S","*","*","*","*","*","DEL VAS New",
+"BCC-SCII-ClosedFixedVoiceStandaloneOrders","CH","Change","*","*","*","AC","S","*","*","*","*","*","DEL VAS Add",
+"BCC-SCII-ClosedFixedVoiceStandaloneOrders","CH","Change","*","*","*","C","S","*","*","*","*","*","VAS Cease in 30 days",
+"BCC-SCII-ClosedFixedVoiceStandaloneOrders","CE","Cease","*","*","*","C","M","*","*","*","*","*","Main Plan Cease in 30 days",
+"BCC-SCII-ClosedFixedVoiceStandaloneOrders","CH","Change","*","1","*","*","M","*","*","*","*","*","DEL Recon",
+"BCC-SCII-ClosedFixedVoiceStandaloneOrders","CE","Cease","*","*","*","C","S","*","*","*","*","*","Main Plan Cease in 30 days",
+"BCC-SCII-ClosedBroadBandOrders","PR","New","*","*","*","*","M","*","*","*","*","*","SNBB New subscription (Main)",
+"BCC-SCII-ClosedBroadBandOrders","CH","Change","Change Main Plan","1","*","*","M","*","*","*","*","*","SNBB Recon (Main)",
+"BCC-SCII-ClosedBroadBandOrders","CH","Change","Change Main Plan","0","*","*","M","*","*","*","*","*","Change plan within the same month",
+"BCC-SCII-ClosedBroadBandOrders","PR","New","*","*","*","*","S","*","*","*","*","*","New  VAS subscription  with New Main Plan",
+"BCC-SCII-ClosedBroadBandOrders","CH","Change","*","*","*","AC","S","*","*","*","*","*","New  VAS subscription with Existing Line",
+"BCC-SCII-ClosedBroadBandOrders","CH","Change","*","*","*","C","S","*","*","*","*","*","VAS Cease in 30 days",
+"BCC-SCII-ClosedBroadBandOrders","CE","Cease","*","*","*","C","M","*","*","*","*","*","Main Plan Cease in 30 days",
+"BCC-SCII-ClosedBroadBandOrders","CE","Cease","*","*","*","C","S","*","*","*","*","*","Main Plan Cease in 30 days",
+"BCC-SCII-SubmittedBroadBandOrders","CE","Cease","*","*","*","C","S","*","*","*","*","*","Main Plan Cease in 30 days",
+"BCC-SCII-ClosedTVOrders","CE","Cease","*","*","*","C","S","*","*","*","*","*","Main Plan Cease in 30 days",

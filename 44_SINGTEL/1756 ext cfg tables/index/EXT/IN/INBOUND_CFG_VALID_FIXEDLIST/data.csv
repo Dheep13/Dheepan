@@ -1,0 +1,12 @@
+"OK","OK",
+"BOOL","1",
+"BOOL","0",
+"FixedValue-Internal-CEAdjustment","OK","String"
+"import_fv_advt_target","OK","String"
+"import_payee_advt","OK","String"
+"import_advt_title","Advt-SAM","String"
+"import_advt_title","Advt-TL","String"
+"import_advt_title","Advt-Director","String"
+"mRemitPayeeException","OnePass",
+"mRemitPayeeException","SKPortal",
+"mRemitPayeeException","ONEAPP",

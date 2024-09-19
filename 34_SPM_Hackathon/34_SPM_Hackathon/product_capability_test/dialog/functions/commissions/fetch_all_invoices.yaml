@@ -1,0 +1,48 @@
+parameters:
+  - name: payeeId
+  - name: positionSeq
+  - name: periodSeq
+  - name: periodName
+  - name: orderid
+
+action_groups:
+  - actions:
+      - type: dialog-function
+        name: commissions/lookup_all_invoices # we are calling the lookup function to get product details
+        parameters:
+          - name: periodseq #passing product parameter
+            value: "<? periodSeq ?>"
+          - name: positionseq #passing product parameter
+            value: "<? positionSeq ?>"
+          - name: orderid #passing product parameter
+            value: "<? orderid ?>"           
+        result_variable: all_credit_info #output of lookup function is captured here
+        
+      - type: message
+        scripting_type: spel
+        message:
+          type: text
+          content: <? all_credit_info.invoices ?>
+
+      - type: message
+        scripting_type: handlebars
+        message:
+          type: text
+          content: "Insie fetch_all_invoices"
+
+      - type: message
+        message:
+          type: buttons
+          content: 
+            title: "Is there anything else I can assist you with?"
+            buttons:
+              - type: postback
+                title: "Yes"
+                value: "More information"
+              - type: postback
+                title: "No"
+                value: "Done"
+result:
+#   # success: <? product_details.status == 200 ?>
+  invoice: <? all_credit_info.invoices ?>
+  displayflag: "100"

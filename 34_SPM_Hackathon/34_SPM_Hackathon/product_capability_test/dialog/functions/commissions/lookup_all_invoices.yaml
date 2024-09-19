@@ -1,0 +1,24 @@
+parameters:
+  - name: positionseq
+  - name: periodseq
+  - name: orderid
+ 
+action_groups:
+  - actions:
+      - type: api-request
+        method: POST
+        system_alias: CommissionsWebHookService
+        path: "/AllInvoices"
+        headers:
+          Content-Type: application/json
+        body: '{"conversation": {"skill": "some_skill", "memory": {"positionseq": "<?positionseq?>", "orderid": "<?orderid?>"}}}'
+        result_variable: lookup_all_invoices #results of the response are held here
+
+      - type: set-variables
+        scripting_type: handlebars
+        variables:
+          - name: invoices_content
+            value: "{{ lookup_all_invoices.body.replies[0].content }}"
+
+result: #here we are only selecting the required properties
+  invoices: <? lookup_all_invoices.body.replies[0].content ?>

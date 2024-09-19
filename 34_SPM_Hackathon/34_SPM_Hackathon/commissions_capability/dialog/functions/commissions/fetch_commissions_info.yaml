@@ -1,0 +1,46 @@
+parameters:
+  - name: payeeId
+  # - name: periodName
+
+action_groups:
+  - actions:
+      - type: dialog-function
+        name: commissions/lookup_payee # we are calling the lookup function to get payee details
+        parameters:
+          - name: payeeId #passing payeeid parameter
+            value: "<? payeeId ?>"
+        result_variable: payee_details #output of lookup function is captured here
+
+      - type: message
+        scripting_type: handlebars
+        message:
+          type: text
+          content: Payee details have been fetched for "<? payeeId ?>". PayeeSeq is :{{payee_details.PayeeSeq}}
+
+      # - type: dialog-function
+      #   name: commissions/lookup_period # we are calling the lookup function to get payee details
+      #   parameters:
+      #     - name: periodName #passing payeeid parameter
+      #       value: "<? periodName ?>"
+      #   result_variable: period_details #output of lookup function is captured here
+
+      # - type: message
+      #   scripting_type: handlebars
+      #   message:
+      #     type: text
+      #     content: Period details have been fetched for "<? periodName ?>". PeriodSeq is :{{period_details.periodSeq}} . Now fetching commissions info.....
+
+      # - type: message
+      #   scripting_type: api-request
+      #   method: GET
+      #   system_alias: CommissionsService
+      #   path: "/api/v2/payments?$filter=(payee eq {{payee_details.PayeeSeq}} and period eq {{period_details.periodSeq}})"
+      #   result_variable: commissions_details #results of the response are held here
+
+
+result:
+  payeeSeq: <? payee_details.payeeSeq ?>
+#   periodSeq: <? period_details.periodSeq ?>
+#   periodName: <? periodName ?>
+#   payeeId: <? payeeId ?>
+  # commissions_value: <? commissions_result.body.payments.value.value ?>

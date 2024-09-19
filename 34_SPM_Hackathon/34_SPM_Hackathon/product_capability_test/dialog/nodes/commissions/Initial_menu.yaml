@@ -1,0 +1,31 @@
+title: Initial Menu
+type: node
+condition: '#more_info'
+
+response:
+  messages:
+    - type: buttons
+      content: 
+        title: "Hi <? $transient.user.first_name ?>, I'm SPM Digital Assistant!! What can I do for you today?"
+        buttons:
+          - type: postback
+            title: "Get Credit Invoice"
+            value: "Get Credit Invoice"
+          - type: postback
+            title: "Get All Invoices"
+            value: "Get All Invoices"
+finally:
+  behavior: wait
+  # behavior: jump
+  # jump_to:
+  #   node: commissions/fetch_credit_invoice_node
+  #   execution: responses
+
+# finally:
+#   behavior: jump
+#   jump_to:
+#     node: sales_performance/ask_for_award
+#     execution: responses
+# title: Display LLM results
+# type: node
+# condition: "true"

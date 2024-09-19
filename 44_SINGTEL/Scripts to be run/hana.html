@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL Validation Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+        }
+        pre {
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            border-left: 3px solid #2c3e50;
+            color: #666;
+            page-break-inside: avoid;
+            font-family: monospace;
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 1.6em;
+            max-width: 100%;
+            overflow: auto;
+            padding: 1em 1.5em;
+            display: block;
+            word-wrap: break-word;
+        }
+        ol {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>SQL Validation Document for HANA</h1>
+
+    <h2>Intermediate Table Count Validation</h2>
+    <ol>
+        <li>This is to validate the intermediate table count</li>
+        <li>The counts will automatically be captured when the file is uploaded to XDL</li>
+        <li>Run the below SQL to just verify if the counts are captured:</li>
+    </ol>
+    <pre><code>select * from ext.inbound_count_check;</code></pre>
+
+    <h2>Stage Count Validation</h2>
+    <ol start="4">
+        <li>Run the below SQL after the V&T is complete. This is to validate the stage count.</li>
+        <li>Replace <code>:v_file_name</code> with the actual filename</li>
+        <li>Replace <code>:v_file_date</code> with the actual filedate</li>
+    </ol>
+    <pre><code>INSERT INTO ext.inbound_count_check
+select pl.batchname,v_file_date, st.name||'_'||mt.name, me.value
+from cs_pipelinerun pl,
+cs_stagesummary ss, cs_stagetype st,
+cs_metricelement me,cs_metrictype mt
+where 1=1
+and upper(pl.batchname) = :v_file_name
+and pl.starttime>= :v_file_date
+and ss.pipelinerunseq=pl.pipelinerunseq
+and ss.stagetypeseq=st.stagetypeseq
+and st.name in ('Validate','Transfer')
+and me.metricsummaryseq=ss.metricsummaryseq
+and me.metrictypeseq=mt.metrictypeseq
+order by pl.pipelinerunseq desc;</code></pre>
+</body>
+</html>

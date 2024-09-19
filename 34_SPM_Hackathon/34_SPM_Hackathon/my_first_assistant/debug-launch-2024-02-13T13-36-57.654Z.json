@@ -1,0 +1,14 @@
+[
+  {
+    "timestamp": "2024-02-13T13:36:57.655Z",
+    "command": "launch",
+    "level": "debug",
+    "message": "Executing: launch"
+  },
+  {
+    "timestamp": "2024-02-13T13:36:57.710Z",
+    "command": "launch",
+    "level": "debug",
+    "message": "Executed: launch"
+  }
+]

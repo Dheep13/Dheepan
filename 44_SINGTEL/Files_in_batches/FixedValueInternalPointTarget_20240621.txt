@@ -1,0 +1,59 @@
+Validation	Team	Year	April	May	June	July	August	September	October	November	December	January	February	March	Type	Title
+Validation formula. Copy this down to all rows before uploading the file. Only rows marked OK here will be uploaded	"Mandatory. Must be a valid Team name, matching the values in Callidus"	Mandatory. YYYY year. Copy down to all rows	Monthly Target figure. No commas or currency symbol.  Blanks are treated as ZERO	Monthly Target figure. No commas or currency symbol.  Blanks are treated as ZERO	Monthly Target figure. No commas or currency symbol.  Blanks are treated as ZERO	Monthly Target figure. No commas or currency symbol.  Blanks are treated as ZERO	Monthly Target figure. No commas or currency symbol.  Blanks are treated as ZERO	Monthly Target figure. No commas or currency symbol.  Blanks are treated as ZERO	Monthly Target figure. No commas or currency symbol.  Blanks are treated as ZERO	Monthly Target figure. No commas or currency symbol.  Blanks are treated as ZERO	Monthly Target figure. No commas or currency symbol.  Blanks are treated as ZERO	Monthly Target figure. No commas or currency symbol.  Blanks are treated as ZERO	Monthly Target figure. No commas or currency symbol.  Blanks are treated as ZERO	Monthly Target figure. No commas or currency symbol.  Blanks are treated as ZERO	Actuals or Target	"Mandatory. Must be a valid Title, matching the values in Callidus"
+OK	STS - Singtel Shop Comcentre	2024	26641	26641	26641	26641	26641	0	0	0	0	0	0	0	Target	STS - Store Mgr
+OK	STS - Singtel Shop Bugis Junction	2024	20046	20046	20046	20046	20046	0	0	0	0	0	0	0	Target	STS - Store Mgr
+OK	STS - Singtel Shop Causeway Point	2024	25451	25451	25451	25451	25451	0	0	0	0	0	0	0	Target	STS - Store Mgr
+OK	STS - Singtel Shop Tampines Mall	2024	27129	27129	27129	27129	27129	0	0	0	0	0	0	0	Target	STS - Store Mgr
+OK	STS - Singtel Shop Ang Mo Kio Hub	2024	18568	18568	18568	18568	18568	0	0	0	0	0	0	0	Target	STS - Store Mgr
+OK	STS - Singtel Shop Jurong Point	2024	26198	26198	26198	26198	26198	0	0	0	0	0	0	0	Target	STS - Store Mgr
+OK	STS - Cluster 1	2024	45209	45209	45209	45209	45209	0	0	0	0	0	0	0	Target	STS - Cluster Mgr
+OK	STS - Cluster 2	2024	53327	53327	53327	53327	53327	0	0	0	0	0	0	0	Target	STS - Cluster Mgr
+OK	STS - Cluster 3	2024	45497	45497	45497	45497	45497	0	0	0	0	0	0	0	Target	STS - Cluster Mgr
+OK	STS	2024	144033	144033	144033	144033	144033	0	0	0	0	0	0	0	Target	STS - Ops Mgr
+OK	STS - Singtel Shop Comcentre	2024	980	980	980	980	980	0	0	0	0	0	0	0	Target	STS - Retail Exec
+OK	STS - Singtel Shop Bugis Junction	2024	1349	1349	1349	1349	1349	0	0	0	0	0	0	0	Target	STS - Retail Exec
+OK	STS - Singtel Shop Causeway Point	2024	1690	1690	1690	1690	1690	0	0	0	0	0	0	0	Target	STS - Retail Exec
+OK	STS - Singtel Shop Tampines Mall	2024	1698	1698	1698	1698	1698	0	0	0	0	0	0	0	Target	STS - Retail Exec
+OK	STS - Singtel Shop Ang Mo Kio Hub	2024	1300	1300	1300	1300	1300	0	0	0	0	0	0	0	Target	STS - Retail Exec
+OK	STS - Singtel Shop Jurong Point	2024	1604	1604	1604	1604	1604	0	0	0	0	0	0	0	Target	STS - Retail Exec
+OK	STS	2024	144033	144033	144033	144033	144033	0	0	0	0	0	0	0	Target	STS - Director
+OK	STS - Singtel Shop Comcentre	2024	26641	26641	26641	26641	26641	0	0	0	0	0	0	0	Target	STS - Assistant Manager
+OK	STS - Singtel Shop Bugis Junction	2024	20046	20046	20046	20046	20046	0	0	0	0	0	0	0	Target	STS - Assistant Manager
+OK	STS - Singtel Shop Causeway Point	2024	25451	25451	25451	25451	25451	0	0	0	0	0	0	0	Target	STS - Assistant Manager
+OK	STS - Singtel Shop Tampines Mall	2024	27129	27129	27129	27129	27129	0	0	0	0	0	0	0	Target	STS - Assistant Manager
+OK	STS - Singtel Shop Ang Mo Kio Hub	2024	18568	18568	18568	18568	18568	0	0	0	0	0	0	0	Target	STS - Assistant Manager
+OK	STS - Singtel Shop Jurong Point	2024	26198	26198	26198	26198	26198	0	0	0	0	0	0	0	Target	STS - Assistant Manager
+OK	STS - Singtel Shop Comcentre	2024	26641	26641	26641	26641	26641	0	0	0	0	0	0	0	Target	STS - Shop
+OK	STS - Singtel Shop Bugis Junction	2024	20046	20046	20046	20046	20046	0	0	0	0	0	0	0	Target	STS - Shop
+OK	STS - Singtel Shop Causeway Point	2024	25451	25451	25451	25451	25451	0	0	0	0	0	0	0	Target	STS - Shop
+OK	STS - Singtel Shop Tampines Mall	2024	27129	27129	27129	27129	27129	0	0	0	0	0	0	0	Target	STS - Shop
+OK	STS - Singtel Shop Ang Mo Kio Hub	2024	18568	18568	18568	18568	18568	0	0	0	0	0	0	0	Target	STS - Shop
+OK	STS - Singtel Shop Jurong Point	2024	26198	26198	26198	26198	26198	0	0	0	0	0	0	0	Target	STS - Shop
+OK	DT_SGOB_Team	2024	1862	1862	1862	1862	1862	0	0	0	0	0	0	0	Target	Digital Telesales - ATL
+OK	DT_All_Team	2024	82848	82848	82848	82848	82848	0	0	0	0	0	0	0	Target	Digital Telesales - Director
+OK	DT_SGOB_Team	2024	1862	1862	1862	1862	1862	0	0	0	0	0	0	0	Target	Digital Telesales - SE
+OK	DT_Sudong_Team1	2024	29542	29542	29542	29542	29542	0	0	0	0	0	0	0	Target	Digital Telesales - Sudong SE
+OK	DT_Sudong_Team2	2024	29542	29542	29542	29542	29542	0	0	0	0	0	0	0	Target	Digital Telesales - Sudong SE
+OK	DT_All_Team	2024	82848	82848	82848	82848	82848	0	0	0	0	0	0	0	Target	Digital Telesales - Senior Sales Manager
+OK	DT_Sudong	2024	34999	34999	34999	34999	34999	0	0	0	0	0	0	0	Target	Digital Telesales - Sudong Manager
+OK	DT_Sudong_Team1	2024	782	782	782	782	782	0	0	0	0	0	0	0	Target	Digital Telesales - Sudong TL
+OK	DT_Sudong_Team2	2024	782	782	782	782	782	0	0	0	0	0	0	0	Target	Digital Telesales - Sudong TL
+OK	DT_OB_Team	2024	40537	40537	40537	40537	40537	0	0	0	0	0	0	0	Target	Digital Telesales - Sales Manager
+OK	DT_IB_Team	2024	42311	42311	42311	42311	42311	0	0	0	0	0	0	0	Target	Digital Telesales - Sales Manager
+OK	DT_OB_Team	2024	7487	7487	7487	7487	7487	0	0	0	0	0	0	0	Target	Digital Telesales - TL
+OK	DT_SGOB_Online_Team	2024	40537	40537	40537	40537	40537	0	0	0	0	0	0	0	Target	Digital Telesales - TL
+OK	Retail SERs	2024	114696	114696	114696	114696	114696	0	0	0	0	0	0	0	Target	Retail SER - Senior Biz Mgr
+OK	Retail SERs	2024	114696	114696	114696	114696	114696	0	0	0	0	0	0	0	Target	Retail SER - Trade Marketing Mgr
+OK	3 Mobile	2024	15958	15958	15958	15958	15958	0	0	0	0	0	0	0	Target	Retail SER - Biz Mgr
+OK	Rigel	2024	25515	25515	25515	25515	25515	0	0	0	0	0	0	0	Target	Retail SER - Biz Mgr
+OK	Trends	2024	22526	22526	22526	22526	22526	0	0	0	0	0	0	0	Target	Retail SER - Biz Mgr
+OK	Novel	2024	33861	33861	33861	33861	33861	0	0	0	0	0	0	0	Target	Retail SER - Biz Mgr
+OK	ERA	2024	16836	16836	16836	16836	16836	0	0	0	0	0	0	0	Target	Retail SER - Biz Mgr
+OK	Retail SERs	2024	114696	114696	114696	114696	114696	0	0	0	0	0	0	0	Target	Retail SER - Director
+OK	Direct Sales	2024	1000	1000	1000	1000	1000	0	0	0	0	0	0	0	Target	DirectSales - Director
+X																
+X																
+X																
+X																
+X																
+X																

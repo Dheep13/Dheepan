@@ -1,0 +1,11 @@
+type: node
+title: Welcome
+condition: '#greeting'
+
+response:
+  messages:
+    - type: text
+      content: Hi <? $transient.user.first_name ?>! Welcome to the SAP Incentive Management Digital Assistant .
+      
+finally:
+  behavior: wait

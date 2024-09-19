@@ -1,0 +1,87 @@
+fuzzy_matching: true
+values:
+  - value: HR contact
+    synonyms:
+      - hr admin
+  - value: cost center
+    synonyms:
+      - cost central
+      - cost hub
+      - cost centre
+  - value: business title
+  - value: legal name
+    synonyms:
+      - first name
+      - middle name
+      - last name
+      - forename
+      - legal birth name
+      - official name
+      - given name
+      - family name
+      - christian name
+      - surname
+      - second name
+      - real name
+      - lawful name
+      - birth name
+      - full legal name
+  - value: pronouns
+    synonyms:
+      - pronoun
+  - value: title
+  - value: email
+  - value: display_name
+  - value: manager
+    synonyms:
+      - boss
+  - value: direct_report
+    synonyms:
+      - direct reports
+      - direct report
+      - team member
+      - team
+      - directreport 
+  - value: job_code
+    synonyms:
+      - job code
+      - job data
+      - job title
+      - job classification
+      - job code id
+      - job info
+  - value: location
+    synonyms:
+      - office address
+      - office site
+      - work location
+      - work site
+      - business address
+      - corporate address
+      - company location
+      - work address
+  - value: time_zone
+    synonyms:
+      - timezone
+      - time region
+      - time belt
+      - time area
+  - value: hire_date
+    synonyms:
+      - hiredate
+  - value: division
+  - value: department
+  - value: phone 
+    synonyms:
+      - phones
+  - value: birthday
+    synonyms:
+      - birth day
+      - bdays
+      - B days
+      - b-days
+      - birthdays
+  - value: chosen name
+    synonyms:
+      - preferred name
+      - name

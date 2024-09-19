@@ -1,0 +1,49 @@
+parameters:
+  - name: periodSeq
+  - name: positionSeq
+  - name: payeeId
+  - name: periodName
+action_groups:
+  # - actions:
+  #     - type: message
+  #       scripting_type: handlebars
+  #       message:
+  #         type: text
+  #         content: The period name is <? periodName?> and position name is <? payeeId ?>. The corresponding periodseq and positionseqs are  <? positionSeq ?> and  <? periodSeq ?>
+
+    - actions:
+
+        - type: message
+          scripting_type: spel
+          message: 
+            type: text
+            content: The period name is <? periodName ?> and position name is <? payeeId ?>. The corresponding periodseq and positionseqs are <? positionSeq ?> and  <? periodSeq ?>
+        
+        # - type: message
+        #   message:
+        #     type: buttons
+        #     content: 
+        #       title: "What Would you like to check?"
+        #       buttons:
+        #         - type: postback
+        #           title: "Get Credit Invoice"
+        #           value: "Get Credit Invoice"
+
+
+        # - type: message
+        #   message:
+        #     type: quickReplies
+        #     content:
+        #       title: What would you like to view?
+        #       buttons:
+        #         - title: "Get Credit Invoice Details"
+        #           value: CreditInvoice
+        #         - title: "My Invoices"
+        #           value: AllInvoices
+        #         - title: "Missing Invoices"
+        #           value: MissingInvoice
+        #         - title: "My Total Payments"
+        #           value: paymentTotal
+
+result: #here we are only selecting the required properties
+  proceed: "yes"
