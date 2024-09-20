@@ -1,0 +1,9 @@
+{
+	"description": "Call the TQ2Com job",
+	"action": "call_TQ2Com.xsjs::callProc",
+	"schedules": [{
+		"description": "Perform call_TQ2Com.xsjs::callProc", 
+		"xscron": "* * * * * * 1",
+		"parameter": {}
+	}]
+}

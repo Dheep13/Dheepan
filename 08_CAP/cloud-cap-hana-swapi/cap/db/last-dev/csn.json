@@ -1,0 +1,183 @@
+{
+  "namespace": "star.wars",
+  "definitions": {
+    "star.wars.Film": {
+      "kind": "entity",
+      "doc": "All Films in the Star Wars Skywalker Saga",
+      "@cds.persistence.journal": true,
+      "elements": {
+        "ID": {
+          "@Core.Computed": true,
+          "key": true,
+          "type": "cds.String",
+          "length": 36,
+          "@cds.persistence.name": "ID"
+        },
+        "createdAt": {
+          "type": "cds.Timestamp",
+          "@cds.persistence.name": "CREATEDAT"
+        },
+        "createdBy": {
+          "doc": "Canonical user ID",
+          "type": "cds.String",
+          "length": 255,
+          "@cds.persistence.name": "CREATEDBY"
+        },
+        "modifiedAt": {
+          "type": "cds.Timestamp",
+          "@cds.persistence.name": "MODIFIEDAT"
+        },
+        "modifiedBy": {
+          "doc": "Canonical user ID",
+          "type": "cds.String",
+          "length": 255,
+          "@cds.persistence.name": "MODIFIEDBY"
+        },
+        "title": {
+          "type": "cds.String",
+          "length": 5000,
+          "@cds.persistence.name": "TITLE"
+        },
+        "episode_id": {
+          "type": "cds.Integer",
+          "@cds.persistence.name": "EPISODE_ID"
+        },
+        "opening_crawl": {
+          "type": "cds.String",
+          "length": 2500,
+          "@cds.persistence.name": "OPENING_CRAWL"
+        },
+        "director": {
+          "type": "cds.String",
+          "length": 5000,
+          "@cds.persistence.name": "DIRECTOR"
+        },
+        "producer": {
+          "type": "cds.String",
+          "length": 5000,
+          "@cds.persistence.name": "PRODUCER"
+        },
+        "release_date": {
+          "type": "cds.Date",
+          "@cds.persistence.name": "RELEASE_DATE"
+        },
+        "characters": {
+          "type": "cds.Composition",
+          "cardinality": {
+            "max": "*"
+          },
+          "target": "star.wars.Film2People",
+          "on": [
+            {
+              "ref": [
+                "characters",
+                "film_ID"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "ID"
+              ]
+            }
+          ],
+          "@cds.persistence.name": "CHARACTERS"
+        },
+        "planets": {
+          "type": "cds.Composition",
+          "cardinality": {
+            "max": "*"
+          },
+          "target": "star.wars.Film2Planets",
+          "on": [
+            {
+              "ref": [
+                "planets",
+                "film_ID"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "ID"
+              ]
+            }
+          ],
+          "@cds.persistence.name": "PLANETS"
+        },
+        "starships": {
+          "type": "cds.Composition",
+          "cardinality": {
+            "max": "*"
+          },
+          "target": "star.wars.Film2Starships",
+          "on": [
+            {
+              "ref": [
+                "starships",
+                "film_ID"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "ID"
+              ]
+            }
+          ],
+          "@cds.persistence.name": "STARSHIPS"
+        },
+        "vehicles": {
+          "type": "cds.Composition",
+          "cardinality": {
+            "max": "*"
+          },
+          "target": "star.wars.Film2Vehicles",
+          "on": [
+            {
+              "ref": [
+                "vehicles",
+                "film_ID"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "ID"
+              ]
+            }
+          ],
+          "@cds.persistence.name": "VEHICLES"
+        },
+        "species": {
+          "type": "cds.Composition",
+          "cardinality": {
+            "max": "*"
+          },
+          "target": "star.wars.Film2Species",
+          "on": [
+            {
+              "ref": [
+                "species",
+                "film_ID"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "ID"
+              ]
+            }
+          ],
+          "@cds.persistence.name": "SPECIES"
+        }
+      },
+      "@cds.persistence.name": "STAR_WARS_FILM"
+    }
+  },
+  "meta": {
+    "creator": "CDS Compiler v4.5.0",
+    "build": "CDS Build v7.5.2"
+  },
+  "$version": "2.0"
+}

@@ -1,0 +1,336 @@
+{
+	"EXT": {
+		"kind": "context",
+		"@Common.Label": "Custom"
+	},
+	"EXT.CSA_REDEMPTION_REPORT_SVW": {
+        "kind": "entity",
+        "@Common.Label": "EXT Redemption Report",
+        "@Analytics.query": false,
+        "@Analytics.dataCategory": {
+            "#": "CUBE"
+        },	
+        "elements": {
+            "YEAR": {
+                "@Common.Label": "år",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"PERIOD": {
+                "@Common.Label": "Pipelineperiode",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+            "TABLE_NAME": {
+                "@Common.Label": "Table Name",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"POLICYNUMBER": {
+                "@Common.Label": "Policenr",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"INSURANCEGRPNAME": {
+                "@Common.Label": "Branche",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"CUSTOMERNAME": {
+                "@Common.Label": "Kundenavn",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"PARTICIPANT_NAME": {
+                "@Common.Label": "Assurandørnavn",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"POSITIONNAME": {
+                "@Common.Label": "Position Name",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"SPLITFLAG": {
+                "@Common.Label": "Split Flag",
+                "type": "cds.Integer",
+                "@Analytics.Dimension": true
+            },
+			"SPLITTYPE": {
+                "@Common.Label": "Split type",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"WEIGHT": {
+                "@Common.Label": "Vægt",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"POLICY_COMP_DATE": {
+                "@Common.Label": "Policy Comp date",
+                "type": "cds.Timestamp",
+                "@Analytics.Dimension": true
+            },
+			"POLICYSTARTDATE": {
+                "@Common.Label": "Police start",
+                "type": "cds.Timestamp",
+                "@Analytics.Dimension": true
+            },
+			"NEWPREMIUM": {
+                "@Common.Label": "Ny Præmie",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"OLDPREMIUM": {
+                "@Common.Label": "Gl. Præmie",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"BEREGNETPROVISION": {
+                "@Common.Label": "Beregnet provision",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"ARSAG_CAUSE": {
+                "@Common.Label": "Årsag",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"ULTIMOPOINT_TEXT": {
+                "@Common.Label": "Ultimo point",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"TILGANGSTYPE": {
+                "@Common.Label": "Tilgangstype",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"RABATGL": {
+                "@Common.Label": "Rabat % Gl.",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"RABATNY": {
+                "@Common.Label": "Rabat % Ny",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"PAYMENTSTATUS": {
+                "@Common.Label": "Betalingsstatus",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"PAYMENTDATE": {
+                "@Common.Label": "Payment date",
+                "type": "cds.Timestamp",
+                "@Analytics.Dimension": true
+            },
+			"PARTNERAGREEMENT1": {
+                "@Common.Label": "Partner aftale 1",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"PARTNERAGREEMENT2": {
+                "@Common.Label": "Partner aftale 2",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"FGR": {
+                "@Common.Label": "FGR",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"PAYMENTDATE_TEXT": {
+                "@Common.Label": "Betalingsdato",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"PAYMENTDATE_YEAR": {
+                "@Common.Label": "Provisions år",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"PAYMENTDATE_TEXT2": {
+                "@Common.Label": "Provisionsperiode",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"ULTIMOPOINT": {
+                "@Common.Label": "Ultimopoint",
+                "type": "cds.DecimalFloat",
+                "@Analytics.Measure": true
+            },
+			"ROW_NUM": {
+                "@Common.Label": "Number of records",
+                "type": "cds.Integer",
+                "@Analytics.Measure": true
+            }
+        }
+    },
+	"EXT.CSA_SALES_COMMISSION_REPORT_SVW": {
+        "kind": "entity",
+        "@Common.Label": "EXT Sales Commission Report",
+        "@Analytics.query": false,
+        "@Analytics.dataCategory": {
+            "#": "CUBE"
+        },	
+        "elements": {
+            "YEAR": {
+                "@Common.Label": "år",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"PERIOD": {
+                "@Common.Label": "Pipelineperiode",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+            "TABLE_NAME": {
+                "@Common.Label": "Table Name",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"POLICYNUMBER": {
+                "@Common.Label": "Policenr",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"INSURANCEGRPNAME": {
+                "@Common.Label": "Branche",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"CUSTOMERNAME": {
+                "@Common.Label": "Kundenavn",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"PARTICIPANT_NAME": {
+                "@Common.Label": "Assurandørnavn",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"POSITIONNAME": {
+                "@Common.Label": "Position Name",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"SPLITFLAG": {
+                "@Common.Label": "Split Flag",
+                "type": "cds.Integer",
+                "@Analytics.Dimension": true
+            },
+			"SPLITTYPE": {
+                "@Common.Label": "Split type",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"COMMISSIONPERCENTAGE": {
+                "@Common.Label": "Provisions%",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"POLICY_COMP_DATE": {
+                "@Common.Label": "Policy Comp date",
+                "type": "cds.Timestamp",
+                "@Analytics.Dimension": true
+            },
+			"PARTNERAGREEMENT1": {
+                "@Common.Label": "Partner aftale 1",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"PARTNERAGREEMENT2": {
+                "@Common.Label": "Partner aftale 2",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"POLICYSTARTDATE": {
+                "@Common.Label": "Police start",
+                "type": "cds.Timestamp",
+                "@Analytics.Dimension": true
+            },
+			"NEWPREMIUM": {
+                "@Common.Label": "Ny Præmie",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"OLDPREMIUM": {
+                "@Common.Label": "Gl. Præmie",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"BEREGNETPROVISION": {
+                "@Common.Label": "Beregnet provision",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"ULTIMOPOINT_TEXT": {
+                "@Common.Label": "Provision",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"ARSAG_CAUSE": {
+                "@Common.Label": "Årsag",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"TILGANGSTYPE": {
+                "@Common.Label": "Tilgangstype",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"RABATGL": {
+                "@Common.Label": "Rabat % Gl.",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"RABATNY": {
+                "@Common.Label": "Rabat % Ny",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"PAYMENTSTATUS": {
+                "@Common.Label": "Betalingsstatus",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"PAYMENTDATE": {
+                "@Common.Label": "Payment date",
+                "type": "cds.Timestamp",
+                "@Analytics.Dimension": true
+            },		
+			"FGR": {
+                "@Common.Label": "FGR",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"PAYMENTDATE_TEXT": {
+                "@Common.Label": "Betalingsdato",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"PAYMENTDATE_YEAR": {
+                "@Common.Label": "Provisions år",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"PAYMENTDATE_TEXT2": {
+                "@Common.Label": "Provisionsperiode",
+                "type": "cds.String",
+                "@Analytics.Dimension": true
+            },
+			"ULTIMOPOINT": {
+                "@Common.Label": "Provision Value",
+                "type": "cds.DecimalFloat",
+                "@Analytics.Measure": true
+            },
+            "ROW_NUM": {
+                "@Common.Label": "Number of records",
+                "type": "cds.Integer",
+                "@Analytics.Measure": true
+            }
+        }
+    }
+}

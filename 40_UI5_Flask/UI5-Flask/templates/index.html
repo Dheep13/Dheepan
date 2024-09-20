@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI5 Flask Template</title>
+    <script
+        id="sap-ui-bootstrap"
+        src="https://ui5.sap.com/resources/sap-ui-core.js"
+        data-sap-ui-theme="sap_horizon_dark"
+        data-sap-ui-libs="sap.m"
+        data-sap-ui-compatVersion="edge"
+        data-sap-ui-preload="async"
+    ></script>
+    <script>
+        sap.ui.getCore().attachInit(function () {
+            // Create the main view
+            var app = new sap.m.App("myApp", {
+                initialPage: "page1"
+            });
+
+            // Create the first page with input fields and a button
+            var page1 = new sap.m.Page("page1", {
+                title: "UI5 Flask Template",
+                content: [
+                    new sap.m.Label({ text: "Input 1:" }),
+                    new sap.m.Input("input1", { placeholder: "https://jsonplaceholder.typicode.com/todos/" }),
+                    new sap.m.Label({ text: "Input 2:" }),
+                    new sap.m.Input("input2", { placeholder: "1" }),
+                    new sap.m.Button({
+                        text: "Generate API Results",
+                        press: function () {
+                            // Get input values
+                            var value1 = sap.ui.getCore().byId("input1").getValue();
+                            var value2 = sap.ui.getCore().byId("input2").getValue();
+
+                            // Send values to the server
+                            $.ajax({
+                                type: "POST",
+                                url: "/generate_api_results",
+                                data: { input1: value1, input2: value2 },
+                                success: function (data) {
+                                    // Display API results in a table
+                                    var table = new sap.m.Table({
+                                        columns: [
+                                            new sap.m.Column({ header: new sap.m.Text({ text: "Key" }) }),
+                                            new sap.m.Column({ header: new sap.m.Text({ text: "Value" }) })
+                                        ]
+                                    });
+
+                                    for (var key in data) {
+                                        var row = new sap.m.ColumnListItem({
+                                            cells: [
+                                                new sap.m.Text({ text: key }),
+                                                new sap.m.Text({ text: JSON.stringify(data[key]) })
+                                            ]
+                                        });
+                                        table.addItem(row);
+                                    }
+
+                                    // Create a new dialog to display the table
+                                    var dialog = new sap.m.Dialog({
+                                        title: "API Results",
+                                        content: [table],
+                                        endButton: new sap.m.Button({
+                                            text: "Close",
+                                            press: function () {
+                                                dialog.close();
+                                            }
+                                        })
+                                    });
+
+                                    // Open the dialog
+                                    dialog.open();
+                                },
+                                error: function (xhr, status, error) {
+                                    // Handle errors
+                                    alert("Error fetching API results: " + error);
+                                }
+                            });
+                        }
+                    })
+                ]
+            });
+
+            // Add pages to the app
+            app.addPage(page1);
+
+            // Place the app into the HTML body
+            app.placeAt("content");
+        });
+    </script>
+</head>
+<body class="sapUiBody" id="content"></body>
+</html>

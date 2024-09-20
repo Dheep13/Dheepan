@@ -1,0 +1,2 @@
+grant update, delete, insert on tcmp.cs_transactionassignment to ext;
+grant update on tcmp.cs_salestransaction to ext;

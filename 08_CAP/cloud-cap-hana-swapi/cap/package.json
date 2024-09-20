@@ -1,0 +1,165 @@
+{
+  "name": "cap-hana-swapi",
+  "version": "1.2.5",
+  "description": "SAP Cloud Application Programming Model fun sample to demonstrate many-to-many relationships.",
+  "repository": "https://github.com/SAP-samples/cloud-cap-hana-swapi",
+  "license": "Apache-2.0",
+  "private": false,
+  "dependencies": {
+    "@cap-js-community/odata-v2-adapter": "^1.12.2",
+    "@cap-js/audit-logging": "^0.5.2",
+    "@cap-js/change-tracking": "^1.0.4",
+    "@cap-js/graphql": "0.9.0",
+    "@cap-js/notifications": "^0.1.0",
+    "@cap-js/postgres": "^1.4.1",
+    "@cap-js/sqlite": "^1.4.0",
+    "@sap-cloud-sdk/resilience": "^3.10.0",
+    "@sap/cds": "^7.5.2",
+    "@sap/cds-common-content": "^1.3.1",
+    "@sap/cds-fiori": "^1.2.2",
+    "@sap/cds-hana": "^2.0.0",
+    "@sap/xb-msg-amqp-v100": "^0.9.58",
+    "cds-swagger-ui-express": "^0.7.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "uuid": "^9.0.1"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "cds build",
+    "build_sqlite": "cds deploy --profile sqlite",
+    "build_pg": "cds deploy --profile pg",
+    "hana": "cds deploy --to hana:starwars --auto-undeploy",
+    "load": "cds bind --exec node convertData.js --profile hybrid",
+    "load_sqlite": "cds bind --exec node convertData.js --profile sqlite",
+    "load_pg": "cds bind --exec node convertData.js --profile pg",
+    "start": "cds-serve",
+    "watch": "cds watch --profile hybrid --livereload false",
+    "sqlite": "cds watch --profile sqlite --livereload false",
+    "pg": "cds watch --profile pg --livereload false",
+    "build2": "cp ./gen/db/.env ./ && cds build && cp ./.env ./gen/db/",
+    "openapi": "cds compile srv --service all -o docs --to openapi --openapi:diagram",
+    "asyncapi": "cds compile srv --service all -o docs --to asyncapi",
+    "readme": "widdershins --summary docs/DataService.openapi3.json -o docs/DataService_readme.md && widdershins --summary docs/StarWarsFilm.openapi3.json -o docs/StarWarsFilm_readme.md",
+    "helm": "helm upgrade --install swapi ./chart --namespace teched22",
+    "changeLog": "node CHANGELOG.mjs",
+    "packDb": "pack build cap-hana-swapi-hana-deployer --path gen/db --builder paketobuildpacks/builder:base",
+    "pack": "pack build cap-hana-swapi-srv --path gen/srv --builder paketobuildpacks/builder:base"
+  },
+  "cds": {
+    "query": {
+      "limit": {
+        "reliablePaging": true
+      }
+    },
+    "cov2ap": {
+      "plugin": true
+    },
+    "i18n": {
+      "folders": [
+        "_i18n"
+      ]
+    },
+    "fiori": {
+      "bypass_draft": true,
+      "preview": {
+        "ui5": {
+          "version": "1.120.4"
+        }
+      }
+    },    
+    "cdsc": {
+      "docs": true,
+      "beta": {
+        "sqlSnippets": true
+      }
+    },
+    "hana": {
+      "journal": {
+        "enable-drop": false,
+        "change-mode": "alter"
+      },
+      "deploy-format": "hdbtable"
+    },
+    "requires": {
+      "outbox": true,
+      "[sqlite]": {
+        "db": {
+          "kind": "sqlite",
+          "impl": "@cap-js/sqlite",
+          "credentials": {
+            "url": "db.sqlite"
+          },
+          "schema_evolution": "auto"
+        },
+        "db-ext": {
+          "model": "db/sqlite"
+        }
+      },
+      "[pg]": {
+        "db": {
+          "kind": "postgres",
+          "dialect": "postgres",
+          "impl": "@cap-js/postgres",
+          "schema_evolution": "auto",
+          "credentials": {
+            "host": "localhost",
+            "port": 5432,
+            "user": "postgres",
+            "password": "postgres",
+            "database": "postgres"
+          }
+        },
+        "db-ext": {
+          "model": "db/sqlite"
+        }
+      },
+      "middlewares": true,
+      "db": {
+        "kind": "hana-cloud"
+      },
+      "db-ext": {
+        "model": "db/hana"
+      },
+      "messaging": {
+        "[production]": {
+          "kind": "enterprise-messaging"
+        },
+        "[development]": {
+          "kind": "file-based-messaging"
+        },
+        "[hybrid!]": {
+          "kind": "file-based-messaging"
+        }
+      }
+    },
+    "features": {
+      "preserve_computed": true,
+      "kibana_formatter": true,
+      "audit_personal_data": true,
+      "optimized_search": true,
+      "rest_new_adapter": true,
+      "assert_integrity": "db",
+      "odata_new_parser": true
+    },
+    "protocols": {
+      "graphql": {
+        "path": "/graphql",
+        "impl": "@cap-js/graphql"
+      }
+    },
+    "log": {
+      "service": true
+    }
+  },
+  "devDependencies": {
+    "@sap/cds-dk": "^7.5.1",
+    "@sap/eslint-plugin-cds": "^2.6.4",
+    "@sap/hdi-deploy": "^4.9.1",
+    "eslint": "^8.56.0",
+    "stringify-changelog": "^0.2.1",
+    "widdershins": "^4.0.1"
+  }
+}

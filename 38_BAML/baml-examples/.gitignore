@@ -1,0 +1,50 @@
+.env
+
+*.pyc
+
+# Packages
+*.egg
+!/tests/**/*.egg
+/*.egg-info
+/dist/*
+build
+_build
+.cache
+*.so
+
+# Installer logs
+pip-log.txt
+
+__pycache__/
+
+# Unit test / coverage reports
+.coverage
+.pytest_cache
+
+.DS_Store
+.idea/*
+.python-version
+.vscode/*
+
+/test.py
+/test_*.*
+
+/setup.cfg
+MANIFEST.in
+/setup.py
+/docs/site/*
+/tests/fixtures/simple_project/setup.py
+/tests/fixtures/project_with_extras/setup.py
+.mypy_cache
+
+.venv
+/releases/*
+pip-wheel-metadata
+/poetry.toml
+
+poetry/core/*
+.infisical.json
+
+# Ignoring this to keep this repo clean, but don't add this line for your own baml
+# project or your code won't be able to import the baml_client package
+baml_client/

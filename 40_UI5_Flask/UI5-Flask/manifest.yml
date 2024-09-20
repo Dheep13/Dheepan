@@ -1,0 +1,8 @@
+applications:
+  - name: todos-api
+    memory: 128MB
+    disk_quota: 512M
+    host: todos-api
+    domain: cfapps.eu10.hana.ondemand.com
+    buildpacks: ["python_buildpack"]
+    command: python app.py

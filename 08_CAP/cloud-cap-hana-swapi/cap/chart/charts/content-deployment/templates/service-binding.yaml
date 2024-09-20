@@ -1,0 +1,28 @@
+{{- range $name, $params := .Values.bindings }}
+{{- if not $params.fromSecret }}
+---
+apiVersion: services.cloud.sap.com/v1
+kind: ServiceBinding
+metadata:
+  name: {{ include "content-deployment.bindingName" (dict "root" $ "name" $name) }}
+  labels: {{- include "content-deployment.labels" $ | nindent 4 }}
+spec:
+  serviceInstanceName: {{include "content-deployment.serviceInstanceName" (dict "binding" $params "release" $.Release.Name) }}
+  secretKey: credentials
+  {{- if $params.externalName }}
+  externalName: {{ $params.externalName }}
+  {{- end }}
+  {{- if $params.secretName }}
+  secretName: {{ $params.secretName }}
+  {{- end }}
+  {{- if $params.parameters }}
+  parameters: {{ $params.parameters | toYaml | nindent 4 }}
+  {{- end }}
+  {{- if $params.parametersFrom }}
+  parametersFrom: {{ $params.parametersFrom | toYaml | nindent 4 }}
+  {{- end }}
+  {{- if $params.credentialsRotationPolicy }}
+  credentialsRotationPolicy: {{ $params.credentialsRotationPolicy | toYaml | nindent 4 }}
+  {{- end }}
+{{- end }}
+{{- end }}
