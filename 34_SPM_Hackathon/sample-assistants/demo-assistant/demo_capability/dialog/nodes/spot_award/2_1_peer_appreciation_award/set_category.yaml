@@ -1,0 +1,15 @@
+title: set category
+type: node
+condition: "$awardtype == 'Peer Appreciation'"
+response:
+  context:
+    - variable: "awardcategoryid"
+      value: "<? input.text ?>"
+  messages:
+    - type: text
+      content: ""
+finally:
+  behavior: jump
+  jump_to:
+    node: spot_award/2_1_peer_appreciation_award/award_including_category
+    execution: responses

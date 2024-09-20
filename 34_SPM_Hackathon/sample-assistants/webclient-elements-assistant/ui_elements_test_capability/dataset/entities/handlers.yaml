@@ -1,0 +1,4 @@
+fuzzy_matching: true
+values: 
+  - value: handle_quick_reply
+  - value: handle_postback

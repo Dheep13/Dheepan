@@ -1,0 +1,18 @@
+type: node
+title: send spot award
+condition: "#send_award"
+slot_filling:
+  slots:
+    - check_for: "@awardrecipient"
+      save_as:
+        variable: "recipientname"
+        value: "@awardrecipient"
+      not_present:
+        prompts:
+          - type: text
+            content: "Who do you want to award?"
+finally:
+  behavior: jump
+  jump_to: 
+    node: spot_award/1_recipient/get_userinfo_by_name
+    execution: responses

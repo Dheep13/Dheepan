@@ -1,0 +1,8 @@
+# assistant config file
+schema_version: '0.1'
+project_type: bot
+
+metadata:
+  name: test_assistant
+  version: 1.0.0
+  display_name: test_assistant

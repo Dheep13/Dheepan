@@ -1,0 +1,13 @@
+title: Term Lookup
+type: node
+condition: "#term_lookup"
+
+response:
+  context:
+   - variable: "user_term"
+     value: null
+  messages:
+   - type: text
+     content: "Is there anything else I can do for you ?"
+finally:
+  behavior: wait

@@ -1,0 +1,104 @@
+type: node
+title: show card
+condition: "@element_types == 'timeline integration card'"
+response:
+  messages:
+    - type: ui5integrationCard
+      content: >
+             {
+                "sap.ui": {
+                  "icons": {
+                    "icon": "sap-icon://activity-individual"
+                  },
+                  "technology": "UI5"
+                },
+                "sap.app": {
+                  "id": "card.explorer.members.timeline.card",
+                  "info": "Additional information about this Card",
+                  "tags": {
+                    "keywords": [
+                      "Timeline",
+                      "Card",
+                      "Sample"
+                    ]
+                  },
+                  "type": "card",
+                  "title": "Sample of a Members Timeline",
+                  "subTitle": "Sample of a Members Timeline",
+                  "shortTitle": "A short title for this Card",
+                  "description": "A long description for this Card",
+                  "applicationVersion": {
+                    "version": "1.0.0"
+                  }
+                },
+                "_version": "1.15.0",
+                "sap.card": {
+                  "type": "Timeline",
+                  "header": {
+                    "icon": {
+                      "src": "sap-icon://group"
+                    },
+                    "title": "New Team Members"
+                  },
+                  "content": {
+                    "data": {
+                      "json": [
+                        {
+                          "Icon": "sap-icon://activity-individual",
+                          "Name": "Laurent Dubois",
+                          "Photo": "./images/Laurent_Dubois.png",
+                          "HireDate": "Date(1371020400000)",
+                          "JobTitle": "Accounts Payable Manager",
+                          "JobResponsibilities": "I am Laurent. I put great attention to detail."
+                        },
+                        {
+                          "Icon": "sap-icon://settings",
+                          "Name": "Sabine Mayer",
+                          "Photo": "./images/Sabine_Mayer.png",
+                          "HireDate": "Date(1376290800000)",
+                          "JobTitle": "Configuration Expert",
+                          "JobResponsibilities": "I am Sabine. And can't wait to get to know the team."
+                        },
+                        {
+                          "Icon": "sap-icon://manager-insight",
+                          "Name": "Alain Chevalier",
+                          "Photo": "./images/Alain_Chevalier.png",
+                          "HireDate": "Date(1332403200000)",
+                          "JobTitle": "Credit Analyst",
+                          "JobResponsibilities": "I am Alain. I put great attention to detail."
+                        },
+                        {
+                          "Icon": "sap-icon://account",
+                          "Name": "Monique Legrand",
+                          "Photo": "./images/Monique_Legrand.png",
+                          "HireDate": "Date(1422777600000)",
+                          "JobTitle": "Accountant Manager",
+                          "JobResponsibilities": "I am Monique. And i am the new head of Accounting."
+                        }
+                      ]
+                    },
+                    "item": {
+                      "icon": {
+                        "src": "{Icon}"
+                      },
+                      "owner": {
+                        "value": "{Name}"
+                      },
+                      "title": {
+                        "value": "{JobTitle}"
+                      },
+                      "dateTime": {
+                        "value": "{HireDate}"
+                      },
+                      "ownerImage": {
+                        "value": "{Photo}"
+                      },
+                      "description": {
+                        "value": "{JobResponsibilities}"
+                      }
+                    }
+                  }
+                }
+              }
+finally:
+  behavior: wait

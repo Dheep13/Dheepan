@@ -1,0 +1,20 @@
+type: node
+title: show card
+condition: "@element_types == 'client data'"
+response:
+  messages:
+    - type: client_data
+      content:
+        elements:
+          fiori:
+            navigate:
+              semanticObject: semanticObject
+              action: action
+              params:
+                key1: value1
+                key2: value2
+              appStateData:
+                key1: value1
+                key2: value2
+finally:
+  behavior: wait

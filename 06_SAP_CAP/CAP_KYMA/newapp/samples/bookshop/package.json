@@ -1,0 +1,45 @@
+{
+  "name": "@capire/bookshop",
+  "version": "1.0.0",
+  "description": "A simple self-contained bookshop service.",
+  "files": [
+    "app",
+    "srv",
+    "db",
+    "index.cds",
+    "index.js"
+  ],
+  "engines": {
+    "node": "^12 || ^14"
+  },
+  "dependencies": {
+    "@sap/cds": ">=5.9",
+    "express": "^4.17.1",
+    "passport": ">=0.4.1",
+    "hdb": "^0.19.0"
+  },
+  "scripts": {
+    "genres": "cds serve test/genres.cds",
+    "start": "cds run",
+    "watch": "cds watch"
+  },
+  "cds": {
+    "requires": {
+      "db": {
+        "kind": "sql",
+        "credentials": {
+          "database": "my.db"
+        }
+      },
+      "[hybrid]": {
+        "db": {
+          "kind": "hana-cloud"
+        }
+      }
+    }
+  },
+  "devDependencies": {
+    "sqlite3": "^5.1.2"
+  }
+  
+}

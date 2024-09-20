@@ -1,0 +1,102 @@
+type: node
+title: show card
+condition: "@element_types == 'table integration card'"
+response:
+  messages:
+    - type: ui5integrationCard
+      content: >
+        {
+                "sap.ui": {
+                  "icons": {
+                    "icon": "sap-icon://table-view"
+                  },
+                  "technology": "UI5"
+                },
+                "sap.app": {
+                  "id": "card.explorer.table.card",
+                  "info": "Additional information about this Card",
+                  "tags": {
+                    "keywords": [
+                      "Table",
+                      "Card",
+                      "Sample"
+                    ]
+                  },
+                  "type": "card",
+                  "title": "Sample of a Table Card",
+                  "subTitle": "Sample of a Table Card",
+                  "shortTitle": "A short title for this Card",
+                  "description": "A long description for this Card",
+                  "applicationVersion": {
+                    "version": "1.0.0"
+                  }
+                },
+                "_version": "1.15.0",
+                "sap.card": {
+                  "data": {
+                    "json": [
+                      {
+                        "status": "Delivered",
+                        "netAmount": "2K USD",
+                        "salesOrder": "5000010050",
+                        "statusState": "Success",
+                        "customerName": "Robert Brown Entertainment"
+                      },
+                      {
+                        "status": "In Progress",
+                        "netAmount": "8K USD",
+                        "salesOrder": "5000010052",
+                        "statusState": "Warning",
+                        "customerName": "Brazil Technologies"
+                      },
+                     
+                      {
+                        "status": "In Progress",
+                        "netAmount": "8K USD",
+                        "salesOrder": "5000010052",
+                        "statusState": "Warning",
+                        "customerName": "Brazil Technologies"
+                      },
+                      {
+                        "status": "In Progress",
+                        "netAmount": "8K USD",
+                        "salesOrder": "5000010052",
+                        "statusState": "Warning",
+                        "customerName": "Brazil Technologies"
+                      }
+                    ]
+                  },
+                  "type": "Table",
+                  "header": {
+                    "title": "Sales Orders for Key Accounts",
+                    "subTitle": "Today"
+                  },
+                  "content": {
+                    "row": {
+                      "columns": [
+                        {
+                          "title": "Sales Order",
+                          "value": "{salesOrder}",
+                          "identifier": true
+                        },
+                        {
+                          "title": "Customer",
+                          "value": "{customerName}"
+                        },
+                        {
+                          "title": "Net Amount",
+                          "value": "{netAmount}",
+                          "hAlign": "End"
+                        },
+                        {
+                          "state": "{statusState}",
+                          "title": "Status",
+                          "value": "{status}"
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+finally:
+  behavior: wait

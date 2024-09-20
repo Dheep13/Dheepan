@@ -1,0 +1,38 @@
+values:
+  - value: absence event
+  - value: B2A manager
+  - value: bank transfers
+  - value: capital formation savings payment
+  - value: check digit procedure
+  - value: company code
+  - value: company pension scheme
+  - value: contribution scales
+  - value: controlling area
+  - value: contract accounting
+  - value: counted child
+  - value: credit factor
+  - value: electronic tax return
+  - value: employee savings bonus
+  - value: entitlement
+  - value: false occupancy rate
+  - value: garnishment number
+  - value: German Pension Reform
+  - value: German Pension Tax Law
+  - value: invoice
+  - value: labor costs census
+  - value: non-binary
+  - value: pay scale jump due to seniority
+  - value: pension office
+  - value: retirement pension
+  - value: sick pay
+  - value: statement wage type
+  - value: time slice
+  - value: unemployment benefit 2 in Germany
+  - value: spot award
+  - value: intent
+  - value: Business Technology Platform
+    synonyms:
+      - BTP
+      - Business TP
+      - SAP Cloud Platform
+      - SCP

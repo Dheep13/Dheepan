@@ -1,0 +1,51 @@
+parameters:
+  - name: username
+  - name: awardtype
+action_groups:
+  - condition: awardtype == "Peer Appreciation"
+    actions:
+      - type: api-request
+        method: GET
+        system_alias: SFSF_SpotAward
+        path: /SpotAwardCategory?$filter0SpotAwardProgram_externalCode%20eq%20'Peer%20Appreciation'&$format=json
+        result_variable: category_info
+      - type: message
+        scripting_type: handlebars
+        message: >
+          {
+            "type": "buttons",
+            "content": {
+              "title": "What value to the company would you like to recognize with the {{awardtype}} Award?",
+              "buttons": [
+                {{#eachJoin category_info.body.d.results}}
+                {
+                  "type": "postback",
+                  "value": "{{this.externalCode}}",
+                  "title": "{{this.title_defaultValue}}"
+                }
+                {{/eachJoin}}
+              ]
+            }
+          }
+  
+  - actions: 
+    - type: set-variables
+      scripting_type: handlebars
+      variables:
+        - name: awardcategorylist
+          value: "{{#if category_info.body.d.results}} {{category_info.body.d.results}} {{else}} \"\" {{/if}}"
+
+  - condition: awardtype == "Thank you"
+    actions:
+      - type: message
+        message: 
+          type: quickReplies
+          content:
+            title: "All right, I recognized that you would like to send a Thank You Award to <? username ?>"
+            buttons:
+              - title: Add Award Message
+                value: "Correct"
+              - title: No, change awardtype
+                value: "diffawardtype"
+result:
+  response_categories: <? awardcategorylist ?>

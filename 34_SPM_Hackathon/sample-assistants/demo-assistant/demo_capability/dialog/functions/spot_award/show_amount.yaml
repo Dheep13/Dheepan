@@ -1,0 +1,43 @@
+parameters:
+  - name: username
+  - name: awardcategoryid
+  - name: awardlevelid
+  - name: awardlevels
+action_groups:
+  - actions:
+    - type: api-request
+      method: GET
+      system_alias: SFSF_SpotAward
+      path: /SpotAwardGuidelinesRule?$filter0SpotAwardProgram_externalCode%20eq%20'Peer%20Appreciation%20Award'&$format=json
+      result_variable: guideline_info
+  
+    - type: set-variables
+      scripting_type: handlebars
+      variables:
+        - name: amount
+          value: "{{#each guideline_info.body.d.results}}{{#eq this.level @root.awardlevelid}}{{#eq this.category @root.awardcategoryid}}{{#eq this.currency \"USD\"}}{{this.ruleAmount}}{{/eq}}{{/eq}}{{/eq}}{{/each}}"
+
+    - type: set-variables
+      scripting_type: handlebars
+      variables:
+        - name: awardlevelname
+          value: "{{#each awardlevels}} {{#eq this.externalCode @root.awardlevelid}} {{this.title_defaultValue}}{{/eq}} {{/each}}"
+
+  #Optional ToDo: introduce differentiation in case no amount was found (--> invalid category-level-combination)
+    - type: message
+      scripting_type: handlebars
+      message: 
+        type: buttons
+        content:
+          title: "All right, for '{{trim awardlevelname}}', {{username}} recieves {{amount}}$."
+          buttons:
+            - type: postback
+              title: Add Award Message
+              value: "Correct"
+            - type: postback
+              title: Change level
+              value: "difflevel"
+
+result:
+  amount_info: <? amount ?>
+  levelname: <? awardlevelname ?>

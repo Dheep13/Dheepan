@@ -1,0 +1,29 @@
+parameters:
+  - name: llm
+  - name: input
+  - name: session_id
+  - name: user_id
+action_groups:
+  - condition: llm == 'houdinie'
+    actions:
+      - type: dialog-function
+        name: user_enablement_qa/houdinie/houdinie_inference
+        result_variable: inference_result_houdinie
+        parameters:
+          - name: input
+            value: <? input ?>
+          - name: userId
+            value: <? user_id ?>
+          - name: sessionId
+            value: <? session_id ?>
+  - condition: llm == 'ibm'
+    actions:
+      - type: dialog-function
+        name: user_enablement_qa/ibm_llm/ibm_llm_inference
+        result_variable: inference_result_ibm
+        parameters:
+            - name: input
+              value: <? input ?>
+
+result:
+  search_details: "<? llm == 'houdinie' ? inference_result_houdinie.prepared_details : inference_result_ibm.prepared_details ?>"

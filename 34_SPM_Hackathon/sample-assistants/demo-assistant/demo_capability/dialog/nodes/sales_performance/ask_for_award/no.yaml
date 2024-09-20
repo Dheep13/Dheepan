@@ -1,0 +1,5 @@
+type: node
+title: "No"
+condition: "#no"
+finally:
+  behavior: wait

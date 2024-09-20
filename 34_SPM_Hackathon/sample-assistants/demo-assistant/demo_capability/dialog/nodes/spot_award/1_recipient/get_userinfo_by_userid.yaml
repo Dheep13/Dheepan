@@ -1,0 +1,14 @@
+type: node
+title: get user info
+condition: "#send_award"
+dialog_functions:
+  - name: spot_award/get_recipient_info_by_id
+    parameters:
+      - name: recipient_id
+        value: "$recipientname"
+    result_variable: award_recipient_info
+finally:
+  behavior: jump
+  jump_to:
+    node: spot_award/2_0_award_type/ask_type
+    execution: responses

@@ -1,0 +1,14 @@
+type: node
+title: Sales performance per team for current quarter
+condition: "#sales_performance && @team || #top_performer"
+dialog_functions :
+  - name: sales_performance/show_sales_performance
+    parameters:
+      - name: team
+        value: "@team"
+    result_variable: salesChampion
+finally:
+  behavior: jump
+  jump_to:
+    node: sales_performance/ask_for_award
+    execution: responses

@@ -1,0 +1,8 @@
+- welcome: []
+- sapterm_lookup: 
+   - sapterm_cleanup: []
+- sap_help: 
+   - show_result_details: []
+- enable_now: []
+- thank_you: []
+- fallback: []

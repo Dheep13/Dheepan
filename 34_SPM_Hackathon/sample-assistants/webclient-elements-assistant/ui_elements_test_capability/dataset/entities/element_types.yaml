@@ -1,0 +1,20 @@
+fuzzy_matching: true
+values:
+  - value: text
+  - value: card
+  - value: carousel
+  - value: buttons
+  - value: quick replies
+  - value: list
+  - value: enhanced list
+  - value: integration card
+  - value: list integration card
+  - value: timeline integration card
+  - value: table integration card
+  - value: object integration card
+  - value: analytical integration card
+  - value: adaptive integration card
+  - value: media
+  - value: calendar integration card
+  - value: client data
+  - value: raw

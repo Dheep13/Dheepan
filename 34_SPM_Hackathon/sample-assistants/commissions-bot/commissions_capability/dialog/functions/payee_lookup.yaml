@@ -1,0 +1,26 @@
+parameters:
+  - name: payee
+action_groups:
+  - actions:
+      - type: api-request
+        method: GET
+        system_alias: CommissionsService
+        path: "/api/v2/participants?$filter=(payeeId%20eq%20<? payee ?>)"
+        result_variable: payee_result
+      - type: message
+        message: >
+          {
+            "type": "text",
+            "content": "Here is what I have found :"
+          }
+      - type: message
+        scripting_type: spel
+        message: >
+          {
+            "type": "text",
+            "content": "<? payee_result.body.participants[0].payeeSeq ?>"
+          }       
+        
+result:
+  success: <? payee_result.status_code == 200 ?>
+  payee: <? payee_result.body.participants[0].payeeSeq ?>

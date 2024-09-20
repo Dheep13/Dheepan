@@ -1,0 +1,81 @@
+parameters:
+  - name: first_name
+  - name: last_name
+    optional: true
+action_groups:
+  - condition: (first_name != null) && (last_name != null)
+    actions:
+      - type: set-variables
+        variables:
+          - name: firstConcat
+            value: <? first_name.append("%20") ?>
+          - name: firstAndLastName
+            value: <? firstConcat.append(last_name) ?>
+      - type: api-request
+        method: GET
+        system_alias: SFSF_SpotAward
+        path: /User?$select=userId,displayName&$filter=(tolower(displayName)%20eq%20tolower('<? firstAndLastName ?>')%20or%20tolower(userId)%20eq%20tolower('<? firstAndLastName ?>')%20or%20tolower(lastName)%20eq%20tolower('<? firstAndLastName ?>')%20or%20tolower(firstName)%20eq%20tolower('<? firstAndLastName ?>'))
+        result_variable: userinfo_response
+  
+  - condition: last_name == null
+    actions:
+      - type: api-request
+        method: GET
+        system_alias: SFSF_SpotAward
+        path: /User?$select=userId,displayName&$filter=(tolower(displayName)%20eq%20tolower('<? first_name ?>')%20or%20tolower(userId)%20eq%20tolower('<? first_name ?>')%20or%20tolower(lastName)%20eq%20tolower('<? first_name ?>')%20or%20tolower(firstName)%20eq%20tolower('<? first_name ?>'))
+        result_variable: userinfo_response
+
+  - condition: (userinfo_response.body.d.results.size() == 0) && (last_name == null)
+    actions:
+      - type: message
+        message:
+          type: text
+          content: Sorry, no person with name '<? first_name ?>' has been found. Please check the recipient name.
+  - condition: (userinfo_response.body.d.results.size() == 0) && (last_name != null)
+    actions:
+      - type: message
+        message:
+          type: text
+          content: Sorry, no person with name '<? first_name ?> <? last_name ?>' has been found in SuccessFactors.
+  
+  - condition: userinfo_response.body.d.results.size() == 1
+    actions:
+      - type: message
+        message:
+          type: text
+          content: An award will be send to '<? userinfo_response.body.d.results[0].displayName ?>'. Please confirm your intention.
+      - type: message
+        message: 
+          type: quickReplies
+          content:
+            buttons:
+              - title: "Yes"
+                value: "Yes!"
+              - title: "No"
+                value: "No!"
+ 
+  - condition: userinfo_response.body.d.results.size() > 1
+    actions:
+      - type: message
+        scripting_type: handlebars
+        message: >
+          {
+            "type": "buttons",
+            "content": {
+              "title": "There is more than one person with the name {{first_name}}. Which person do you want to award?",
+              "buttons": [
+                {{#eachJoin userinfo_response.body.d.results}}
+                {
+                  "type": "postback",
+                  "value": "{{this.userId}}",
+                  "title": "{{this.displayName}}"
+                }
+                {{/eachJoin}}
+              ]
+            }
+          }
+
+result:
+  recipient_found: <? userinfo_response.body.d ?>
+  recipient_userid: <? userinfo_response.body.d.results[0].userId ?>
+  recipient_username: <? userinfo_response.body.d.results[0].displayName ?>

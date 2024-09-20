@@ -1,0 +1,25 @@
+title: Enable Now Project
+type: node
+condition: "#enable_now_project"
+
+slot_filling:
+  slots:
+    - check_for: "@project_UID"
+      save_as:
+        variable: "projectID"
+        value: "@project_UID"
+      not_present:
+        prompts:
+          - type: text
+            content: "What is the tutorial, demo or simulation you would like to see?" 
+dialog_functions:
+  - name: enable_now_search
+    result_variable: tutorial_result
+    parameters:
+      - name: projectid
+        value: "$projectID"
+      - name: projectIdLiteral
+        value: "<? @project_UID.literal ?>"
+
+finally:
+  behavior: wait

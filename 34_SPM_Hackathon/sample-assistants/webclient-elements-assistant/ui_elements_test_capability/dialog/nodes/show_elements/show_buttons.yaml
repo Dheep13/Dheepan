@@ -1,0 +1,33 @@
+type: node
+title: show card
+condition: "@element_types == 'buttons'"
+response:
+  messages:
+    - type: buttons
+      delay: 0
+      content:
+        title: Button List
+        buttons:
+          - type: web_url
+            title: link
+            value: https://help.sap.com
+            imageUrl: >-
+              https://i0.wp.com/www.travelspring.de/wp-content/uploads/2019/10/header_rundreise-kalifornien-scaled.jpg?resize=1536%2C864&ssl=1
+          - type: clientdata
+            title: Button (Client Side Only)
+            value: dummy
+            client_data:
+              ItemClientOnly1: Data for item one
+              ItemClientOnly2: data for item 2
+          - type: postback
+            title: Post back button 2
+            value: handle_postback
+            imageUrl: sap-icon://learning-assistant
+          - type: postback
+            title: Post back
+            value: handle_postback
+          - type: phonenumber
+            title: PHONE
+            value: '1231231234'
+finally:
+  behavior: wait

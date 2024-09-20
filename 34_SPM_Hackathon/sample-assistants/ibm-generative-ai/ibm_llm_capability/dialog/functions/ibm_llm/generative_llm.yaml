@@ -1,0 +1,102 @@
+parameters:
+  - name: input
+action_groups:
+  - actions:
+      - type: api-request
+        method: POST
+        system_alias: Generative_LLM
+        path: "/query"
+        body: 
+         {   
+            "query": "text:<? input ?>" 
+          }
+        result_variable: api_result
+      - type: set-variables
+        scripting_type: handlebars
+        variables:
+          - name: prepared_answer_unconfident
+            value: >
+              {
+                "type": "list",
+                "content": {
+                  "title": "",
+                  "subtitle": "I'm not sure how to summarize the results for you. So please check out the list of topics I found for your question. With **Open Topic** the help topic in SAP Help Portal opens in a new tab:",
+                  "elements": [ 
+                    {{#eachJoin api_result.body.results}}
+                    {{#if this.link }}
+                       {
+                       "title": "{{this.title}}",
+                       "description": "{{this.text.[0]}}",
+                       "buttons": [
+                        {
+                          "title": "Open Topic",
+                          "value": "{{this.link}}",
+                          "type": "web_url"
+                        }
+                       ]
+                      } 
+                    {{/if}}
+                    {{/eachJoin}} 
+                  ]
+               }, 
+                "markdown": true
+              }
+      - type: set-variables
+        scripting_type: handlebars
+        variables:
+          - name: prepared_answer_confident
+            value: >
+              {
+                "type": "buttons",
+                "content": {
+                  "title": "Here's a summary of what I have found for you: \n \n {{api_result.body.results.[0].text[0]}} \n \n Do you want to get more detailed information? Check out the search results with links to further information on SAP Help Portal.",
+                  "buttons": [ 
+                       {
+                       "type": "postback",
+                       "title": "Show search results", 
+                       "value": "show search results"
+                      },
+                      {
+                      "type": "web_url",
+                      "title": "Open Create Sales Orders - Automatic Extraction App",
+                      "value": "https://xjd-100.wdf.sap.corp/ui?help-useABAPHelpTexts=false&edithelp=true&help-enableTextBasedRecognition=false&help-product=SAP_S4HANA_CLOUD&help-version=2302.501&help-showShortDescription=false&help-buttonLocation=head&help-showWhatsNew=true&sap-language=EN&help-noHelpMode=carousel&help-useGlobalHelp=true&help-carouselOrientation=vertical#SalesOrderRequest-autoExtract"
+                      }
+                  ]
+               }
+              }
+      - type: set-variables
+        scripting_type: handlebars
+        variables:
+          - name: search_results_prepared_answer
+            value: >
+              {
+                "type": "list",
+                "content": {
+                  "title": "Your search results",
+                  "imageUrl": "sap-icon://activate",
+                  "subtitle": "Here's the full list of what I found for you. Check it out. With Open Topic the help topic in SAP Help Portal opens in a new tab:",
+                  "elements": [ 
+                    {{#eachJoin api_result.body.results}}
+                    {{#if this.url }}
+                       {
+                       "title": "{{this.title}}",
+                       "description": "{{this.text.[0]}}",
+                       "buttons": [
+                        {
+                          "title": "Open Topic",
+                          "value": "{{this.url}}",
+                          "type": "web_url"
+                        }
+                       ]
+                      } 
+                    {{/if}}
+                    {{/eachJoin}} 
+                  ]
+               }
+              }
+
+
+result:
+ results: "<? api_result.body.retrievalDetails.document_retrieval_strategy == 'llm' ? search_results_prepared_answer : null ?>"
+ prepared_answer: "<? api_result.body.retrievalDetails.document_retrieval_strategy == 'llm' ? prepared_answer_confident : prepared_answer_unconfident ?>"
+  

@@ -1,0 +1,10 @@
+type: node
+title: handle quick reply
+condition: "@handlers:handle_quick_reply"
+response:
+  messages:
+    - type: text
+      content: Quick reply handler triggered
+finally:
+  behavior: wait
+

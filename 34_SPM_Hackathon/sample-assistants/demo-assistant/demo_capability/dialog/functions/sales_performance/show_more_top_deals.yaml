@@ -1,0 +1,122 @@
+parameters:
+  - name: topDeals
+  - name: currentQuarter
+  - name: currentYear
+action_groups:
+  - actions:
+      # Setting top 6-10 variables
+      - type: set-variables
+        variables:  
+            - name: top5_sixth
+              value: <? topDeals.topDealsList[5] ?>
+            - name: top5_seventh
+              value: <? topDeals.topDealsList[6] ?>
+            - name: top5_eigth
+              value: <? topDeals.topDealsList[7] ?>
+            - name: top5_ninth
+              value: <? topDeals.topDealsList[8] ?>
+            - name: top5_tenth
+              value: <? topDeals.topDealsList[9] ?>
+      # creating ui5 card1
+      - type: message
+        message: >
+          {
+            "type": "ui5integrationCard",
+              "content": {
+                "sap.ui": {
+                  "icons": {
+                    "icon": "sap-icon://list"
+                  },
+                  "technology": "UI5"
+                },
+                "sap.app": {
+                  "id": "card.explorer.numeric.list.card",
+                  "info": "Additional information about this Card",
+                  "tags": {
+                    "keywords": [
+                      "List",
+                      "Numeric",
+                      "Card",
+                      "Sample"
+                    ]
+                  },
+                  "type": "card",
+                  "title": "Sample of a List with Numeric Header",
+                  "subTitle": "Sample of a List with Numeric Header",
+                  "shortTitle": "A short title for this Card",
+                  "description": "A long description for this Card",
+                  "applicationVersion": {
+                    "version": "1.0.0"
+                  }
+                },
+                "sap.card": {
+                  "type": "List",
+                  "header": {
+                    "type": "Numeric",
+                    "title": "Top 6-10 Deals",
+                    "subTitle": "Q<? currentQuarter ?>, <? currentYear ?>"
+                  },
+                  "content": {
+                    "data": {
+                      "json": [
+                        {
+                          "Name": "<? top5_sixth.name ?>",
+                          "Sales": "Revenue: {=format.float(<? top5_sixth.revenue ?>, {decimals:0, style:'short'}, 'us' )}",
+                          "State": "Success",
+                          "Customer": "6. <? top5_sixth.customer ?>",
+                          "Opportunity": "Opportunity <? top5_sixth.opportunity ?>"
+                        },
+                        {
+                          "Name": "<? top5_seventh.name ?>",
+                          "Sales": "Revenue: {=format.float(<? top5_seventh.revenue ?>, {decimals:0, style:'short'}, 'us' )}",
+                          "State": "Success",
+                          "Customer": "7. <? top5_seventh.customer ?>",
+                          "Opportunity": "Opportunity <? top5_seventh.opportunity ?>"
+                        },
+                        {
+                          "Name": "<? top5_eigth.name ?>",
+                          "Sales": "Revenue: {=format.float(<? top5_eigth.revenue ?>, {decimals:0, style:'short'}, 'us' )}",
+                          "State": "Success",
+                          "Customer": "8. <? top5_eigth.customer ?>",
+                          "Opportunity": "Opportunity <? top5_eigth.opportunity ?>"
+                        },
+                        {
+                          "Name": "<? top5_ninth.name ?>",
+                          "Sales": "Revenue: {=format.float(<? top5_ninth.revenue ?>, {decimals:0, style:'short'}, 'us' )}",
+                          "State": "Success",
+                          "Customer": "9. <? top5_ninth.customer ?>",
+                          "Opportunity": "Opportunity <? top5_ninth.opportunity ?>"
+                        },
+                        {
+                          "Name": "<? top5_tenth.name ?>",
+                          "Sales": "Revenue: {=format.float(<? top5_tenth.revenue ?>, {decimals:0, style:'short'}, 'us' )}",
+                          "State": "Success",
+                          "Customer": "10. <? top5_tenth.customer ?>",
+                          "Opportunity": "Opportunity <? top5_tenth.opportunity ?>"
+                        }
+                      ]
+                    },
+                    "item": {
+                      "info": {
+                        "state": "{State}",
+                        "value": "{Sales}"
+                      },
+                      "title": "{Customer}",
+                      "attributes": [
+                        {
+                          "value": "{Name}",
+                          "visible": true
+                        },
+                        {
+                          "value": "{Opportunity}",
+                          "visible": true
+                        }
+                      ],
+                      "attributesLayoutType": "OneColumn"
+                    }
+                  }
+                }
+              }
+            }          
+result:
+  topDeals6To10List: <? top5_sixth ?>

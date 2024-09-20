@@ -1,0 +1,23 @@
+apiVersion: v1
+data:
+  xs-app.json: |-
+    {
+        "authenticationMethod": "route",
+        "sessionTimeout": 10,
+        "login" : {
+          "callbackEndpoint": "/sap/com/onprem/mysales"
+        },
+        "routes": [
+            {
+                "source": "^/sap/com/onprem/(.*)$",
+                "destination": "on-prem-backend",
+                "target": "$1",
+                "authenticationType": "xsuaa"
+            }
+        ]
+    }
+kind: ConfigMap
+metadata:
+  name: approuter-config
+  labels:
+    sample: principal-prop-on-prem

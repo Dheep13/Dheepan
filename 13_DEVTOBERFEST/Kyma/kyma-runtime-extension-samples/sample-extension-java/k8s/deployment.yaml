@@ -1,0 +1,50 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: sample-extension-java
+    kyma-grafana: enabled
+  name: sample-extension-java
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sample-extension-java
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: sample-extension-java
+        kyma-grafana: enabled
+    spec:
+      containers:
+      - image: gabbi/sample-extension-java:0.0.20
+        name: sample-extension-java
+        ports:
+          - containerPort: 8080
+        envFrom:
+          - secretRef:
+              name: sample-extension-java
+              optional: true
+status: {}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    app: sample-extension-java
+  name: sample-extension-java
+spec:
+  ports:
+    - port: 8080
+      protocol: TCP
+      targetPort: 8080
+  selector:
+    app: sample-extension-java
+  type: ClusterIP
+status:
+  loadBalancer: {}

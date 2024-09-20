@@ -1,0 +1,9 @@
+type: node
+title: greet
+condition: "#greetings"
+response:
+  messages:
+    - type: text
+      content: Hi, how are you today?I can show you all the UI Elements Web Client supports. Just type 'help'.
+finally:
+  behavior: wait

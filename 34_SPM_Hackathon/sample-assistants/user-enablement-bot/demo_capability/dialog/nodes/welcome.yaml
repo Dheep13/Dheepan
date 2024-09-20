@@ -1,0 +1,9 @@
+type: node
+title: Welcome
+condition: '#greeting'
+response:
+  messages:
+    - type: text
+      content: Hi <? $transient.user.first_name ?>! Welcome to the SAP Digital Assistant.
+finally:
+  behavior: wait

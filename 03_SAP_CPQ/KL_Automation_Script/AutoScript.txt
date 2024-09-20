@@ -1,0 +1,30 @@
+if Quote is not None:
+    #Delivery Site
+    DeliverySite=Quote.GetCustomField("Header_DeliverySite")
+    codeList=DeliverySite.Content.split(',')
+    codeValue=str(codeList[len(codeList)-1]).strip()
+    #Storage Location
+    StorageLocationItemCategory=Quote.GetCustomField("Header_StorageLocationItemCategory")
+    code = StorageLocationItemCategory.Content[0:4]
+    codeList=StorageLocationItemCategory.Content.split(',')
+    StorageLocation =str(codeList[len(codeList)-2]).strip()
+    ItemCategoryGroup =str(codeList[len(codeList)-1]).strip()
+    SalesOrderType = Quote.GetCustomField("Sales Order Type").Content
+    Slic= SqlHelper.GetFirst("SELECT UniqueEntryId AS UniqueEntryId FROM ItemCatGroupSelection WHERE SalesOrderType = '" + SalesOrderType + "' AND StorageLocation = '" + StorageLocation + "' AND ItemCategoryGroup = '" + ItemCategoryGroup + "' ")
+    #Sl= SqlHelper.GetFirst("SELECT Code FROM StorageLocation WHERE Code = '" + code + "' ")
+    #Trace.Write(Obj.UniqueEntryId)
+
+    #shipping method
+    shippingMethod=Quote.GetCustomField("Header_ShippingMethod").Content
+    #Delivery Date
+    DeliveryDate=Quote.GetCustomField("Header_DeliveryDate").Content
+    #Shipping District
+    ShippingDistrict=Quote.GetCustomField("Header_ShippingDistrict").Content
+
+
+for item in Quote.Items:
+    item["ShippingMethod"].Value = shippingMethod
+    item["StorageLocationItemCategory"].Value=str(Slic.UniqueEntryId)
+    item["StorageLocation"].Value=str(code)
+    item["DeliverySite"].Value=codeValue
+    item["DeliveryDate"].Value = UserPersonalizationHelper.CovertToDate(DeliveryDate)

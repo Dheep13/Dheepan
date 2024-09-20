@@ -1,0 +1,17 @@
+type: node
+title: Ask if appreciate award should be created for top performer
+condition: ""
+response:
+  messages:
+    - type: buttons
+      content: 
+        title: "Would you like to create an appreciate award for them?"
+        buttons:
+          - type: postback
+            title: "Yes"
+            value: "yes"
+          - type: postback
+            title: "No"
+            value: "no"
+finally:
+  behavior: wait

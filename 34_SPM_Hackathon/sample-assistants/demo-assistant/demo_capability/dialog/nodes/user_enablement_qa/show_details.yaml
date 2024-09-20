@@ -1,0 +1,13 @@
+type: node
+title: node to show detailed list of used search results for summary
+condition: '#show_llm_details'
+
+dialog_functions:
+  - name: user_enablement_qa/show_details
+    result_variable: final
+    parameters:
+      - name: prepared_details
+        value: <? $inference_result.search_details ?>
+
+finally:
+  behavior: wait

@@ -1,0 +1,17 @@
+type: node
+title: Ask for more top deals
+condition: ""
+response:
+  messages:
+    - type: buttons
+      content: 
+        title: "Would you like to see more top deals?"
+        buttons:
+          - type: postback
+            title: "Yes"
+            value: "Yes!"
+          - type: postback
+            title: "No"
+            value: "No!"
+finally:
+  behavior: wait

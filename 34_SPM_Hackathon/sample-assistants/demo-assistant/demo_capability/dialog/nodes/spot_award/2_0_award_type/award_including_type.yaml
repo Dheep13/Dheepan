@@ -1,0 +1,13 @@
+title: Award for the recipient including award type 
+type: node
+condition: ""
+dialog_functions:
+  - name: spot_award/show_buttons_diff_on_awardtype
+    parameters:
+      - name: username
+        value: <? $award_recipient_info.recipient_username ?>
+      - name: awardtype
+        value: "<? $awardtype ?>"
+    result_variable: awardcategories
+finally:
+  behavior: wait 

@@ -1,0 +1,12 @@
+schema_version: 1.3.0
+
+metadata:
+  display_name: OpenAI_GPT
+  namespace: namespace
+  name: OpenAI_GPT
+  version: 1.0.0
+  description: Demo capability for OpenAI
+
+system_aliases:
+  OpenAIServices:
+    destination: OpenAI_GPT

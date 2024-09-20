@@ -1,0 +1,137 @@
+parameters:
+  - name: term
+  - name: user_input
+action_groups:
+  - actions:
+      - type: dialog-function
+        name: sap_help_search
+        parameters:
+          - name: term
+            value: <? term ?>
+        result_variable: elastic_search
+
+      - type: set-variables
+        scripting_type: handlebars
+        variables:
+          - name: prepared_details
+            value: > 
+              {
+                "type": "list",
+                "incrementPageSize":5,
+                "initialPageSize":1,
+                "maxNumberOfRowsInList":10,
+                "content": {
+                  "title": "Your search results",
+                  "imageUrl": "sap-icon://inspection",
+                  "subtitle": "Here's the full list of what I found for you. Check it out. With Open Topic the help topic in SAP Help Portal opens in a new tab:",
+                  "elements": [ 
+                    {{#eachJoin elastic_search.search_result}}
+                    {{#if this.url }}
+                       {
+                       "title": "{{this.title}}",
+                       "description": "{{this.deliverableTitle}}: {{this.description}}",
+                       "subtitle": "{{this.product}}",
+                       "sections": [
+                          {
+                            "attributes": [
+                             {
+                                "label":"Product",
+                                "type":"text",
+                                "value":"{{this.product}}"
+                              },
+                              {
+                                "label":"Product ID",
+                                "type":"text",
+                                "value":"{{this.productId}}"
+                              },
+                              {
+                                "label":"Version",
+                                "type":"text",
+                                "value":"{{this.version}}"
+                              }
+                            ]
+                          }
+                      ],
+                       "buttons": [
+                        {
+                          "title": "Open Topic",
+                          "value": "https://help.sap.com{{this.url}}",
+                          "type": "web_url"
+                        }
+                       ]
+                      } 
+                    {{/if}}
+                    {{/eachJoin}} 
+                  ]
+               }
+              }
+              
+
+      - type: set-variables
+        scripting_type: handlebars
+        variables:
+          - name: prompt_context
+            value: >
+              Context:
+                {{#eachJoin elastic_search.search_result}}
+                  {{#if this.snippet}} 
+                    - {{this.snippet}}
+                  {{/if}}
+                  {{#if this.description}}
+                    - {{this.description}} 
+                  {{/if}}
+                  {{#if this.deliverableTitle}}
+                       - {{this.deliverableTitle}} 
+                  {{/if}}
+                {{/eachJoin}}
+              
+      - type: api-request
+        method: POST
+        system_alias: chatgpt
+        path: "/v1/completions"
+        body: 
+          {
+          "deployment_id": "gpt-35-turbo",
+          "messages": [
+                {
+                    "role": "system",
+                    "content":   "Assistant is an intelligent chatbot designed to help users exclusively answer their SAP related questions. 
+                                Instructions:
+                                  - Only answer questions related to SAP or SAP based technologies.
+                                  - You are not allowed to answer any questions that are not related to SAP or SAP based technolgies
+                                  - Do not, under any circumstances, answer a question to which you have no context.
+                                  - Try to answer short and crisp
+                                  - Do not ask counter question or further questions in general
+                                  - If you're unsure of an answer, you have to say 'I don't know' or 'I'm not sure' and recommend users go to the SAP Help website for more information.
+                                Context: <? prompt_context ?>"
+                },
+                {
+                    "role": "user",
+                    "content": "<? user_input ?>"
+                }
+          ],
+          "max_tokens": 200,
+          "temperature": 1.0,
+          "n": 1
+          }
+        result_variable: search_summary
+
+      - type: set-variables
+        scripting_type: handlebars
+        variables:
+          - name: search_result_prepared_1
+            value: "{{replace search_summary.body.choices.[0].message.content '\n' ''}}"
+
+      - type: message
+        message:
+          type: quickReplies
+          content: 
+            title: "Here's a summary of what I have found for you: \n \n <? search_result_prepared_1 ?> \n \n Do you want to get more detailed information? Check out the search results."
+            buttons:
+              - title: show results
+                value: show results
+result:
+ search_summary: "<? search_result_prepared ?>"
+ prepared_details: "<? prepared_details ?>"
+
+  

@@ -1,0 +1,4991 @@
+values:  
+  - value: PR_B2F34814AE990E84
+    synonyms: 
+    - Creating Sections and Questions in the Question Library
+  - value: PR_F98EBC73E97BF6A0
+    synonyms: 
+    - Creating Evaluation Questionnaires
+  - value: PR_90D3EBC140EC7EB7
+    synonyms: 
+    - Managing User-Defined Criteria for Supplier Evaluation
+  - value: PR_9CAB750441C0598E
+    synonyms: 
+    - Exporting Bank Accounts
+  - value: PR_9E4E12E9144CF58C
+    synonyms: 
+    - Creating Bank Accounts
+  - value: PR_635168E759DB63AC
+    synonyms: 
+    - Managing Banks
+  - value: PR_8A2B5A5EBFBC2194
+    synonyms: 
+    - Managing House Banks
+  - value: PR_EC6B5EC7BBB23DB1
+    synonyms: 
+    - Closing Bank Accounts and Canceling Closing
+  - value: PR_860381700612C1A1
+    synonyms: 
+    - Removing Inconsistent Data After Closing a Bank Account
+  - value: PR_AA0B4052B93EFEA7
+    synonyms: 
+    - Enhancing Fields for Bank Account Master Data
+  - value: PR_710C9985F71975A3
+    synonyms: 
+    - Creating Bank Chains
+  - value: PR_8E942D7E8CC34482
+    synonyms: 
+    - Deleting Bank Chains
+  - value: PR_686CD15749E94EBC
+    synonyms: 
+    - Changing Bank Chains
+  - value: PR_E3AF839EF6306494
+    synonyms: 
+    - Checking Bank Chain Information in Business Partners
+  - value: PR_1383B4AE17CB7E92
+    synonyms: 
+    - Scheduling Delete Bank Chain Jobs
+  - value: PR_29699815FDE7A5A7
+    synonyms: 
+    - Billing Customers
+  - value: PR_5A56FE08D9034788
+    synonyms: 
+    - Removing Billing Blocks on Down Payment Requests
+  - value: PR_D8FA66B5B388DF85
+    synonyms: 
+    - Creating Credit Memo Requests  (BKL)
+  - value: PR_DB60DBA5BC953E81
+    synonyms: 
+    - Creating Sales Orders with Billing Plans
+  - value: PR_549C847F27042EB8
+    synonyms: 
+    - Checking the Billing Block Status (BKL)
+  - value: PR_7792E263900028B
+    synonyms: 
+    - Monitoring Availability
+  - value: PR_F3DFDB14A5201599
+    synonyms: 
+    - Posting Down Payments
+  - value: PR_C5655694FA165693
+    synonyms: 
+    - Creating Sales Orders (BKA)
+  - value: PR_7BDECE504A6A5AA8
+    synonyms: 
+    - Creating Deliveries (BKA)
+  - value: PR_90727398F1C8B3B3
+    synonyms: 
+    - Executing the Picking Process (BKA)
+  - value: PR_CE65E34B6F0C15A3
+    synonyms: 
+    - Posting Goods Issues (BKA)
+  - value: PR_D7194AD8B998219A
+    synonyms: 
+    - Managing Billing Documents (BKA)
+  - value: PR_6DD6EB64C737449D
+    synonyms: 
+    - Approving Credit Memo Requests (BKL)
+  - value: PR_5753ADB51458A80
+    synonyms: 
+    - Creating Credit Memos  (BKL)
+  - value: PR_42EC021D58A988BD
+    synonyms: 
+    - Creating Down Payment Requests (BKJ)
+  - value: PR_2D255D66958B81
+    synonyms: 
+    - Creating Deliveries (BKJ)
+  - value: PR_9397EDAA58425EBB
+    synonyms: 
+    - Executing Picking (BKJ)
+  - value: PR_7EAD279764C7BF93
+    synonyms: 
+    - Posting Goods Issues (BKJ)
+  - value: PR_94404939D6062096
+    synonyms: 
+    - Removing Billing Blocks on Closing Invoices
+  - value: PR_C6F5A065FA668FBA
+    synonyms: 
+    - Transfering Stocks from Consignment Stock to Inventory
+  - value: PR_9FA6F67590A037BB
+    synonyms: 
+    - Creating Purchase Orders for Consignment Material
+  - value: PR_34725844895810A2
+    synonyms: 
+    - Posting Goods Receipts for Consignment Material
+  - value: PR_8187AD2940689BD
+    synonyms: 
+    - Creating Return Orders  (BDD)
+  - value: PR_BAE7E224D8BAE996
+    synonyms: 
+    - Removing Billing Blocks (BDD)
+  - value: PR_2CD7F672A2BA9DA7
+    synonyms: 
+    - Posting Goods Receipts (BDD)
+  - value: PR_46672F1EEC1C71B0
+    synonyms: 
+    - Creating Billing Documents (BDD)
+  - value: PR_EF98E4DACDA0018B
+    synonyms: 
+    - Entering an Activity Price
+  - value: PR_74DFE44B792295B8
+    synonyms: 
+    - Creating a Costing Run
+  - value: PR_7A016BAB43DE1C99
+    synonyms: 
+    - Executing a Costing Run
+  - value: PR_CD509A8748D28E9F
+    synonyms: 
+    - Performing Write-offs for GR/IR Accounts
+  - value: PR_E95CED666FA08681
+    synonyms: 
+    - Reconciling GR/IR Accounts
+  - value: PR_1210FA569294A0AD
+    synonyms: 
+    - Working With ML Recommendations for GR/IR Account Reconciliation
+  - value: PR_AB95CBF57D3DE08D
+    synonyms: 
+    - Monitoring GR/IR Accounts
+  - value: PR_16ADE29C085BEA82
+    synonyms: 
+    - Managing Situation Types for GR/IR Accounts
+  - value: PR_904E769D1AB0FF89
+    synonyms: 
+    - Monitoring Notifications for GR/IR Accounts
+  - value: PR_3F2EA7448FDBFFBA
+    synonyms: 
+    - Managing Teams and Responsibilities for GR/IR Accounts
+  - value: PR_1432445BE78998B3
+    synonyms: 
+    - Creating Supplier Invoices for Limit Items
+  - value: PR_637B03FE4864C95
+    synonyms: 
+    - Checking Goods Receipts Details
+  - value: PR_F6C382856FE52194
+    synonyms: 
+    - Running Market Segments Actuals Reports
+  - value: PR_3277F9681D3629A4
+    synonyms: 
+    - Printing Scheduling Agreements
+  - value: PR_135D1AFD6260D08F
+    synonyms: 
+    - Converting Purchase Requisitions to Purchase Orders (J45)
+  - value: PR_459595EAB9987B99
+  - value: PR_BAB25CEB0DC61283
+    synonyms: 
+    - Viewing Posted Statistical Key Figures
+  - value: PR_741B09BDA9D99C96
+    synonyms: 
+    - Listing Count Differences
+  - value: PR_AD22B2D9EF861B92
+    synonyms: 
+    - Creating Supplier Invoices with PO/GR Relation (J45)
+  - value: PR_91F549B724CA2FB4
+    synonyms: 
+    - Creating Purchase Orders Manually for Down Payments
+  - value: PR_1E098D27D47A76B2
+    synonyms: 
+    - Receiving Goods from a Subcontracting PO (BMY)
+  - value: PR_D35B1F99371E9089
+    synonyms: 
+    - Posting Inventory Count Differences
+  - value: PR_CE8790EAA61D0A9
+    synonyms: 
+    - Creating a Top-Down Distribution Cycle
+  - value: PR_1CBC8B010687A78B
+    synonyms: 
+    - Setting a Credit Limit
+  - value: PR_712BE907E984EB0
+    synonyms: 
+    - Recreating Payment Behavior Summaries
+  - value: PR_AF85BBBE422DDC91
+    synonyms: 
+    - Creating a Sales Order (BD6)
+  - value: PR_B0768646871C05A1
+    synonyms: 
+    - Assigning Credit Cases (BD6)
+  - value: PR_71B0C8BA2874E796
+    synonyms: 
+    - Rebuilding Credit Exposure
+  - value: PR_2C9D9680019B2BBC
+    synonyms: 
+    - Reviewing and Releasing or Rejecting Sales Orders (BD6)
+  - value: PR_44FD4DD0B476D9B5
+    synonyms: 
+    - Assigning Credit Management Roles to Business Partners
+  - value: PR_C50DF84D98AE5B9A
+    synonyms: 
+    - Sending Deltas of Payment Behavior Summaries
+  - value: PR_AE0DB76E7F620A7
+    synonyms: 
+    - Maintaining PIRs
+  - value: PR_A4E5657A46E30F84
+    synonyms: 
+    - Displaying MRP Run Key Figures
+  - value: PR_CA7DDB76B3A90D99
+    synonyms: 
+    - Automating Reprocessing Rules
+  - value: PR_D6D03394E1DDEC83
+    synonyms: 
+    - Batch Information Cockpit - Changing Batch Selection
+  - value: PR_749A508B0AECC6B0
+    synonyms: 
+    - Maintaining Delivery Schedules
+  - value: PR_5674B079288395BC
+    synonyms: 
+    - Maintaining Serial Number Master Data
+  - value: PR_F2F9014802C178A7
+    synonyms: 
+    - Changing Purchase Orders (BNX)
+  - value: PR_3813B8DCE72914B9
+    synonyms: 
+    - Creating Down Payment Requests (J45)
+  - value: PR_FE2BA93C438DFDA1
+    synonyms: 
+    - Creating a Batch
+  - value: PR_DC5792D2282C6998
+    synonyms: 
+    - Creating Purchase Orders (J45)
+  - value: PR_69838F9673F4C9A
+    synonyms: 
+    - Maintaining PIRs for Material TG0012
+  - value: PR_A2BA046A605DA5A2
+    synonyms: 
+    - Creating Purchase Orders for Limit Items
+  - value: PR_75239720C59A8FB7
+    synonyms: 
+    - Evaluating MRP Results (Purchase Requisitions)
+  - value: PR_73CD63405B0FBC9F
+    synonyms: 
+    - Transferring Stocks - Two Steps (Place to Storage Location)
+  - value: PR_E1EFA09B47F7C689
+    synonyms: 
+    - Running Cost Centers Actual Data Reporting
+  - value: PR_DBB40B3552AECEB3
+    synonyms: 
+    - Creating Profitability Realignment Runs
+  - value: PR_26557EAC60FC0CAB
+    synonyms: 
+    - Scheduling MRP Runs
+  - value: PR_A400C3B990F48CA8
+    synonyms: 
+    - Posting Goods Receipts (BMD)
+  - value: PR_92A256EB72FA64A6
+    synonyms: 
+    - Evaluating the Stock/Requirement Situation
+  - value: PR_43D81A630CFC428A
+    synonyms: 
+    - Approving Purchase Orders (BNX)
+  - value: PR_238EB60E1321DFB2
+    synonyms: 
+    - Maintaining the Batch Master Record Alternative 1
+  - value: PR_59E9083D7F22AC98
+    synonyms: 
+    - Displaying Serial Number Data
+  - value: PR_18C87B3DDACDBC81
+    synonyms: 
+    - Displaying MRP Run Material Issues
+  - value: PR_A1ADDC9B4507D0AA
+    synonyms: 
+    - Evaluating MRP Results (Delivery Schedule)
+  - value: PR_D997A53B3DC4BDB9
+    synonyms: 
+    - Printing Purchase Contracts
+  - value: PR_28950AB65566A193
+    synonyms: 
+    - Posting Statistical Key Figures
+  - value: PR_2734F6BD944A10AD
+    synonyms: 
+    - Recounting Inventory
+  - value: PR_D51E648287D6F4BC
+    synonyms: 
+    - Posting Expenses to the Central Cost Center
+  - value: PR_698C8F90ACBEA2A4
+    synonyms: 
+    - Releasing Scheduling Agreements
+  - value: PR_5C2B6C8472C20E94
+    synonyms: 
+    - Creating Third-Party Sales Orders
+  - value: PR_DE6BF01AD027D09F
+    synonyms: 
+    - Displaying Lists of Purchase Requisitions to be Assigned
+  - value: PR_4D398D42B51A51A7
+    synonyms: 
+    - Entering Vendor Invoices
+  - value: PR_4D2334B55BDDB98
+    synonyms: 
+    - Converting Assigned Requisitions into Purchase Orders
+  - value: PR_FC1349C361E91EAD
+    synonyms: 
+    - Posting Statistical Goods Receipts
+  - value: PR_FBBBF31854FAE5BF
+    synonyms: 
+    - Creating Billing Documents (BD3)
+  - value: PR_D33C4AEE6F89FBAE
+    synonyms: 
+    - Running Market Segments Actuals Versus Plan Reports
+  - value: PR_1D6E2AF2B92A3DBA
+    synonyms: 
+    - Processing Purchase Requisitions and Creating Purchase Orders
+  - value: PR_DC70023CE0A49A83
+    synonyms:
+    - "Batch Information Cockpit: Top-Down and Bottom-Up Analysis"
+  - value: PR_CAD370B0B0F2F998
+    synonyms: 
+    - Executing Profitability Realignment Run
+  - value: PR_6EDB07A29B4234B0
+    synonyms: 
+    - Creating Sales Orders
+  - value: PR_8CE3E20D59CAEB90
+    synonyms: 
+    - Creating Customer Invoices (BDA)
+  - value: PR_7F1A392BFDCED3A7
+    synonyms: 
+    - Creating Pro Forma Invoices
+  - value: PR_744FE1434AB131A2
+    synonyms: 
+    - Checking Supplier Invoice Lists
+  - value: PR_E8454D7474241C93
+    synonyms: 
+    - Creating Physical Inventory Documents (Mass Creation)
+  - value: PR_45F44F33BBB1CBA4
+    synonyms: 
+    - Batch Information Cockpit - Selecting a Batch
+  - value: PR_24DFB2FF8C82CEBA
+    synonyms: 
+    - Creating Supplier Invoices for Down Payments
+  - value: PR_131DB3891F00238F
+    synonyms: 
+    - Executing Picking (BDH)
+  - value: PR_7D9C0C2C77622785
+    synonyms: 
+    - Creating Sales Orders (BDH)
+  - value: PR_34EC3DAA12651A88
+    synonyms: 
+    - Creating Deliveries
+  - value: PR_406A68D24031B2B5
+    synonyms: 
+    - Creating Billing Documents (BDH)
+  - value: PR_470EF64887F858AB
+    synonyms: 
+    - Creating Attachments for Billing Documents (BDH)
+  - value: PR_EAF7E93238B790BD
+    synonyms: 
+    - Executing Assessment Cycle (CO-PA)
+  - value: PR_27B8529B8C75708A
+  - value: PR_C64B4665272677A4
+    synonyms: 
+    - Recording General Journal Entries with Cost Center
+  - value: PR_16FDDD39AEC4BBB1
+    synonyms: 
+    - Executing the Overhead Allocation Cycle
+  - value: PR_C629CF307203A381
+    synonyms: 
+    - Reviewing Existing Allocation Results
+  - value: PR_127A10B12CE1559C
+    synonyms: 
+    - Executing Top-Down Distribution
+  - value: PR_5EF13023332CC791
+    synonyms: 
+    - Analyzing Realignment Results
+  - value: PR_4D98A007081D72BF
+    synonyms: 
+    - Creating and Applying New Bank Statement Reprocessing Rules
+  - value: PR_518995AAE4A1D4B0
+    synonyms: 
+    - Rejecting Sales Quotations
+  - value: PR_F5983F3CD32B9EB4
+    synonyms: 
+    - Creating Sales Quotations
+  - value: PR_677233CE5AC383A0
+    synonyms: 
+    - Changing Sales Quotations
+  - value: PR_39EC10132FEDCFAD
+    synonyms: 
+    - Creating Return Purchase Orders
+  - value: PR_10B331499D64797
+    synonyms: 
+    - Creating Documents with Create PI Documents Regular Stock
+  - value: PR_3CA1B5FA72686FA4
+    synonyms: 
+    - Displaying Physical Inventory Document Object Page
+  - value: PR_EA72F18CD18158B2
+    synonyms: 
+    - Analyzing Physical Inventory
+  - value: PR_B6B5A4C27FD916B9
+    synonyms: 
+    - Posting Goods Receipt Without Reference
+  - value: PR_9F53108C158EE5B1
+  - value: PR_B5203A087BF2F9AB
+    synonyms: 
+    - Unblocking Material – Stock Transfer Blocked to Unrestricted
+  - value: PR_9BC160BF2A5E01AE
+    synonyms: 
+    - Maintaining the Batch Master Record Alternative 2
+  - value: PR_24AB9EEA006BC494
+    synonyms: 
+    - Creating Purchase Requisitions (Standard)
+  - value: PR_35847493B4FE9EA8
+  - value: PR_81D8ABE2DEC883A3
+    synonyms: 
+    - Viewing Purchasing Documents by Requirement Tracking Number
+  - value: PR_3FDA0A0341674A83
+    synonyms: 
+    - Creating Supplier Invoices (BMD)
+  - value: PR_20E378ADFD25A7AC
+    synonyms: 
+    - Creating Purchase Orders (BNX)
+  - value: PR_1BEE4CA6152D3292
+    synonyms: 
+    - Posting Goods Receipts (BNX)
+  - value: PR_8263137914B6A8
+    synonyms: 
+    - Creating Supplier Invoices with PO/GR Relation (BNX)
+  - value: PR_6E06A366F57376B3
+    synonyms: 
+    - Creating Scheduling Agreements with Release Documents
+  - value: PR_61F47A4D285DA882
+    synonyms: 
+    - Creating Scheduling Agreements Without Release Documents
+  - value: PR_8C894FDB01E505AE
+    synonyms: 
+    - Creating Purchase Orders (BMY)
+  - value: PR_47DA9F9D5CF59292
+    synonyms: 
+    - Creating an Outbound Delivery
+  - value: PR_765FC094B8D9C080
+    synonyms: 
+    - Picking and Posting a Goods Issue
+  - value: PR_5A8A703C41E0C493
+    synonyms: 
+    - Creating Supplier Invoices (BMY)
+  - value: PR_4BAB9F64FE08CA9F
+    synonyms: 
+    - Searching a Batch Alternative 1
+  - value: PR_3BE853DE25DD4EBD
+    synonyms: 
+    - Searching a Batch Alternative 2
+  - value: PR_DB2D8B1E8083E992
+    synonyms: 
+    - Approving Purchase Orders (J45)
+  - value: PR_62FC1CA37E84281
+    synonyms: 
+    - Posting Goods Receipts for Purchase Orders (J45)
+  - value: PR_7FBB5FF1CBF9DC87
+    synonyms: 
+    - Posting Goods Receipts for Down Payments
+  - value: PR_5BCA9C86D8EA5385
+    synonyms: 
+    - Running Material Requirements Planning (MRP)
+  - value: PR_D8D6342940B70E8F
+    synonyms: 
+    - Handing Over Purchase Requisitions
+  - value: PR_D70312CE857A9499
+    synonyms: 
+    - Creating Billing Documents
+  - value: PR_B15071CC494D82B2
+    synonyms: 
+    - Creating Sales Orders (BDK)
+  - value: PR_EEC2AEBD26C4BBA1
+    synonyms: 
+    - Displaying the List of Purchase Requisitions to be Assigned
+  - value: PR_FEAD1FD841F19DA8
+    synonyms: 
+    - Converting Assigned Requisitions to Purchase Orders
+  - value: PR_C6FBF5F4BFFDAD
+    synonyms: 
+    - Deleting Reference Operation Set from Routing
+  - value: PR_B13573E5881827AA
+    synonyms: 
+    - Executing Settlement for Assets Under Construction
+  - value: PR_25F7F343515059BD
+    synonyms: 
+    - Releasing Production Orders
+  - value: PR_F57F1B99EC3932B1
+    synonyms: 
+    - Creating a Sales Order with Invoice List
+  - value: PR_650E25792F6D51AC
+    synonyms: 
+    - Creating a Billing Document for Collective Billing
+  - value: PR_8930C88AF34D2EBE
+    synonyms: 
+    - Creating a Billing Document for Invoice List
+  - value: PR_A9DAE5104FDC7594
+    synonyms: 
+    - Creating an Invoice List
+  - value: PR_CA87922E6CCE4193
+    synonyms: 
+    - Creating a Sales Order with Collective Billing
+  - value: PR_E4E4BA5B20BD0191
+    synonyms: 
+    - Creating Debit Memo Requests
+  - value: PR_E01DD933BD098287
+    synonyms: 
+    - Removing Billing Blocks (BDQ)
+  - value: PR_607772BBB6FC30A0
+    synonyms: 
+    - Creating Debit Memos
+  - value: PR_115B0362826056AB
+    synonyms: 
+    - Managing Billing Documents (BDQ)
+  - value: PR_32A8421FA111BCA0
+    synonyms: 
+    - Managing Commodity Codes
+  - value: PR_6A845121E7B81B1
+    synonyms: 
+    - Creating Intrastat Declarations Automatically (Background Job)
+  - value: PR_C3CF3B6291E10B88
+    synonyms: 
+    - Creating Intrastat Declarations Manually
+  - value: PR_8D1263A8D275F887
+    synonyms: 
+    - Managing Providers of Information
+  - value: PR_759AC87EB21F35B8
+    synonyms: 
+    - Displaying Intrastat Declarations
+  - value: PR_A9F0EB1334EE9BB3
+    synonyms: 
+    - Displaying Pallets Stock
+  - value: PR_6D15372685076C9A
+    synonyms: 
+    - Adding Delivery Items to Pallets
+  - value: PR_7A0E4C8824D182B2
+    synonyms: 
+    - Creating Pallets Return Sales Orders
+  - value: PR_B630686F14FCD5B8
+    synonyms: 
+    - Creating Billing Documents for Unreturned Returnable Materials
+  - value: PR_172BA59689E455BE
+    synonyms: 
+    - Creating Outbound Deliveries Without Order References
+  - value: PR_22178290F5C7C0B4
+    synonyms: 
+    - Creating Pallets Issue Orders
+  - value: PR_AA4BF86102A537A0
+    synonyms: 
+    - Flagging Materials as Relevant for FIFO (BEJ)
+  - value: PR_E83FCDB9E82CCDA2
+    synonyms: 
+    - Determining the Lowest Value Market Prices (BEJ)
+  - value: PR_BB81749B013A7285
+    synonyms: 
+    - Comparing Valuation Alternatives (BEJ)
+  - value: PR_32DEB1C58BEA88B3
+    synonyms: 
+    - Executing FIFO Valuations (BEJ)
+  - value: PR_89E6E7C8403D4C94
+    synonyms: 
+    - Creating FIFO Valuation Extracts (BEJ)
+  - value: PR_5EA572505E033AA4
+    synonyms: 
+    - Displaying FIFO Results (BEJ)
+  - value: PR_AECDB1CB651F2A8
+    synonyms: 
+    - Performing Delta Posting
+  - value: PR_9CE0C74DC59AA1A0
+    synonyms: 
+    - Analyzing Variances
+  - value: PR_43A34DF60B4581A2
+    synonyms: 
+    - Opening New Material Master Periods
+  - value: PR_90ED8F0B1BADB28F
+    synonyms: 
+    - Running Assessment Cycles for Quality Costs
+  - value: PR_5B43D78B18D0B4B1
+    synonyms: 
+    - Recording Purchase Order-Related Accounts Payable Transactions
+  - value: PR_80BA28B49648C7B0
+    synonyms: 
+    - Analyzing Costs by Work Center/Operation
+  - value: PR_93711D2F52228CA2
+    synonyms: 
+    - Calculating Work in Process
+  - value: PR_717A90B385447C9F
+    synonyms: 
+    - Rerunning MRP for Sales Orders
+  - value: PR_DC79D390F8EE3DA7
+    synonyms: 
+    - Creating Sales Orders (BJE)
+  - value: PR_F308BE02C4FE8E96
+    synonyms: 
+    - Recalculating Costs in Sales Orders
+  - value: PR_4CCDD1100E8579B8
+    synonyms: 
+    - Releasing Rework Production Orders
+  - value: PR_29DE2BE254D604A2
+    synonyms: 
+    - Confirming Rework Production Activities
+  - value: PR_74254E983BC43BE
+    synonyms: 
+    - Managing Production Operations (BJN)
+  - value: PR_3745BEB4D7AD83A3
+    synonyms: 
+    - Posting Goods Receipts for Rework Production Orders
+  - value: PR_BDB4433E42C42FB9
+    synonyms: 
+    - Previewing Goods Receipt Slips
+  - value: PR_1C23E2990FB531B6
+    synonyms: 
+    - Reviewing Manufacturing Object Pages
+  - value: PR_10B9C62115794084
+    synonyms: 
+    - Posting Acquisition (Integrated AP) Without a Purchase Order
+  - value: PR_2A691B6D9D22DF87
+    synonyms: 
+    - Defining Distribution Rules for Assets Under Construction
+  - value: PR_62FA09B28618CA9E
+    synonyms: 
+    - Submitting Price Quotes on Ariba Discovery
+  - value: PR_9280DEF99C8A2193
+    synonyms: 
+    - Managing Lockbox Batches
+  - value: PR_99BE067B45DCAD96
+    synonyms: 
+    - Creating Change Records
+  - value: PR_BCC13AA432EF47A6
+    synonyms: 
+    - Extracting Payment Advice
+  - value: PR_E9CD7AD6CEC72BAE
+    synonyms: 
+    - Importing Financial Plan Data
+  - value: PR_5110517923038587
+    synonyms: 
+    - Displaying Actual General Ledger Distribution Cycles
+  - value: PR_CED1216950E799A7
+    synonyms: 
+    - Creating Sales Inquiries
+  - value: PR_40895D28C905929E
+    synonyms: 
+    - Starting Workflows
+  - value: PR_7B72129C95499A7
+    synonyms: 
+    - Scheduling Accounts Receivable Jobs - Receivables Clearing
+  - value: PR_84E4E0B027A62B97
+    synonyms: 
+    - Preparing Files with Data Plan Scope Characteristic Changes
+  - value: PR_81F1C066EE293EA7
+    synonyms: 
+    - Creating Deliveries (1MI)
+  - value: PR_ABCE3DD0366251A9
+    synonyms: 
+    - Changing Storage Locations for Quality Stock
+  - value: PR_848C5A592EE1639C
+    synonyms: 
+    - Creating Bills of Material
+  - value: PR_E3443D53D90C62AE
+    synonyms: 
+    - Using the Procurement Overview Page
+  - value: PR_75672B6433F4F99C
+    synonyms: 
+    - Viewing P&L Actuals Versus Plan
+  - value: PR_B084E7DFF9C582A8
+    synonyms: 
+    - Creating Attachments for Deliveries (1MI)
+  - value: PR_7730A0944F1F92A4
+    synonyms: 
+    - Uploading Lockbox Files
+  - value: PR_24B9C641FA1236A9
+    synonyms: 
+    - Deleting Actual General Ledger Distribution Cycles
+  - value: PR_3F35F623D2C04C9E
+    synonyms: 
+    - Creating Custom CDS Views
+  - value: PR_DC111D16AE662DBC
+    synonyms: 
+    - Adding Freight Costs
+  - value: PR_4065BE1A9785D798
+    synonyms: 
+    - Importing Statistical Key Figure Plan Data
+  - value: PR_EC2A0BE6EA94DB8B
+    synonyms: 
+    - Executing Actual General Ledger Distribution Cycles
+  - value: PR_60A10C1266F413A5
+    synonyms: 
+    - Awarding Quotes
+  - value: PR_B365AF9F992392B8
+    synonyms: 
+    - Viewing P&L Actuals
+  - value: PR_F950A6EC84FC58BB
+    synonyms: 
+    - Updating Plan Data
+  - value: PR_85673FE8A69688BE
+    synonyms: 
+    - Creating Actual General Ledger Distribution Cycles
+  - value: PR_9BD8948BD47E3E83
+    synonyms: 
+    - Changing Actual General Ledger Distribution Cycles
+  - value: PR_570850E2A28E2D91
+  - value: PR_28C29781678B29BE
+    synonyms: 
+    - Reprocessing Incoming Checks (Unprocessed Scenario)
+  - value: PR_93D98ADB209ABBAF
+  - value: PR_D7B32957C1603D85
+  - value: PR_FA32D1C1B89180A7
+    synonyms: 
+    - Accepting Material
+  - value: PR_84A6E90B479927A6
+    synonyms: 
+    - Managing Usage Decisions After Quality Inspections
+  - value: PR_A560A416043DAB99
+    synonyms: 
+    - Changing Sales Inquiries
+  - value: PR_367F186C0A21BF92
+    synonyms: 
+    - Rejecting Sales Inquiries
+  - value: PR_ABC12B13B52D40AC
+    synonyms: 
+    - Configuring Order Fulfillment Responsibilities
+  - value: PR_B25C87B3615EEFAA
+  - value: PR_44DCD4C0BDA4AA84
+  - value: PR_1972A061CF86ED87
+    synonyms: 
+    - Solving Issues by Redistributing Quantities
+  - value: PR_A25B8D98ECAB4995
+    synonyms: 
+    - Releasing Processed Sales Orders
+  - value: PR_6219EC9C44D1B1A2
+    synonyms: 
+    - Executing Picking (1MI)
+  - value: PR_76DD4AE4DEB7DCA8
+    synonyms: 
+    - Posting Goods Issues (1MI)
+  - value: PR_9C653568E49BF99A
+    synonyms: 
+    - Creating Billing Documents (1MI)
+  - value: PR_E640E10186F8D48B
+    synonyms: 
+    - Managing Bank Statement Reprocessing Rules
+  - value: PR_DFEE85B692266895
+    synonyms: 
+    - Scheduling Accounts Receivable Jobs - Payables Clearing
+  - value: PR_91D68DFF8C0355A8
+    synonyms: 
+    - Reworking Requests
+  - value: PR_9EC9CF6B2DD40EB0
+    synonyms: 
+    - Printing Billing Documents
+  - value: PR_B562682250EDBF95
+    synonyms: 
+    - Exploring Extensibility Cockpit
+  - value: PR_D39D7742A9224F8A
+    synonyms: 
+    - Exploring UI Flexibility
+  - value: PR_358486EA654CC8BF
+    synonyms: 
+    - Adding Custom Fields
+  - value: PR_1259E287D9153590
+    synonyms: 
+    - Adding Custom Fields to Web GUI for HTML
+  - value: PR_56F5EB14B1792AAE
+    synonyms: 
+    - Creating, Generating and Assigning Business Object to a Catalog
+  - value: PR_C968ECC9CFF99A8C
+    synonyms: 
+    - Creating Custom Logic
+  - value: PR_58EEAEEEDB7DF9F
+    synonyms: 
+    - Creating Requests for Quotation (1L2)
+  - value: PR_125E53605782B5B2
+    synonyms: 
+    - Displaying Automatically Created Purchase Orders
+  - value: PR_64F2F1CE57E121A5
+    synonyms: 
+    - Adapting Filters in the Maintain Bill of Materials App
+  - value: PR_3448CC9CC658C38C
+    synonyms: 
+    - Releasing Versions of Bills of Material
+  - value: PR_6B563A9A57422AA
+    synonyms: 
+    - Creating Header Materials
+  - value: PR_F5A12C89FD3D36B5
+    synonyms: 
+    - Creating Down Payments
+  - value: PR_2205DE80018802B6
+    synonyms: 
+    - Removing a Billing Block in Sales Contracts Manually
+  - value: PR_9523DC1B815AEA98
+    synonyms: 
+    - Creating Sales Quantity Contracts
+  - value: PR_A5FA1BA8548BC08F
+    synonyms: 
+    - Creating Outbound Deliveries
+  - value: PR_7CCCE58CAE2DDAA7
+    synonyms: 
+    - Creating Sales Value Contracts
+  - value: PR_11084DBC52EA048F
+    synonyms: 
+    - Printing Forms (Output Management)
+  - value: PR_9D1B23E5798039AB
+    synonyms: 
+    - Listing Incomplete Sales Contracts
+  - value: PR_99B9382D0BF37C81
+    synonyms: 
+    - Creating Sales Contracts (Quantity)
+  - value: PR_FB4DAB9F216D5CB2
+    synonyms: 
+    - Creating Sales Orders with Delivery Block
+  - value: PR_39699488C920C390
+    synonyms: 
+    - Creating a Down Payment Request
+  - value: PR_B2734EAFC10D62B9
+    synonyms: 
+    - Creating a Sales Order without a Delivery Block
+  - value: PR_E4902BEC4A41618A
+    synonyms: 
+    - Executing Picking
+  - value: PR_FB941FF7CAE1CDA6
+    synonyms: 
+    - Posting a Goods Issue
+  - value: PR_20690839BBC0ACAC
+    synonyms: 
+    - Performing Billing
+  - value: PR_E3CAFA99D1156488
+  - value: PR_D999B31B42C6A83
+    synonyms: 
+    - Displaying Billing Documents
+  - value: PR_5EA3DAA64D658083
+    synonyms: 
+    - Displaying Incomplete Sales Items
+  - value: PR_6B00B2168437978A
+    synonyms: 
+    - Deleting Applications in View Browser
+  - value: PR_ABE0D85747E5EABF
+    synonyms: 
+    - Renumbering G/L Accounts
+  - value: PR_C4A89EF4A280A782
+    synonyms: 
+    - Creating Further Examples of Purchase Orders Using OData Service
+  - value: PR_F7E63D3CDB8B7F96
+    synonyms: 
+    - Defining Semantic Tags
+  - value: PR_E36DF1DF4A693190
+    synonyms: 
+    - Editing Applications in View Browser
+  - value: PR_1A5323F454C042AE
+    synonyms: 
+    - Assigning the Payment Medium Format to a Payment Method
+  - value: PR_D82E59DB3EE366AA
+    synonyms: 
+    - Filtering and Sorting Data in View Browser
+  - value: PR_7264AC25FE39D4B0
+    synonyms: 
+    - Creating and Publishing Applications in View Browser
+  - value: PR_909803DA1EAEEBA5
+    synonyms: 
+    - Converting Renumbered G/L Accounts
+  - value: PR_F496BBD2B7AA65B8
+  - value: PR_1F2B8B58EEEA80B6
+    synonyms: 
+    - Synchronizing G/L Account Master Data
+  - value: PR_75FD2A87169A1CA8
+    synonyms: 
+    - Creating Purchase Orders Using OData Service
+  - value: PR_876FFC74853DFA80
+    synonyms: 
+    - Maintaining Schedule Lines Using OData Service
+  - value: PR_A525E05989D799A6
+    synonyms: 
+    - Creating a Payment Medium Format
+  - value: PR_1A99CBA71C9C85B5
+    synonyms: 
+    - Creating a Variant for the Payment Medium Format
+  - value: PR_4467CCDBB32736B5
+    synonyms: 
+    - Displaying Physical Inventory Document Object Page
+  - value: PR_A4A7CFA7CAD64D86
+    synonyms: 
+    - Determining Refunds
+  - value: PR_35ECBDCEFC35F9B8
+    synonyms: 
+    - Calculating Work in Process
+  - value: PR_353F02BB10B4839B
+    synonyms: 
+    - Rerunning MRP for Sales Orders
+  - value: PR_D2FA254EAFB2F6BD
+    synonyms: 
+    - Creating Billing Documents (2EQ)
+  - value: PR_169C81A4639F01B6
+    synonyms: 
+    - Creating Purchase Orders (1FM)
+  - value: PR_5500F3B5F1BCC8C
+    synonyms: 
+    - Processing Purchase Requisitions and Creating Purchase Orders
+  - value: PR_992AA4C221D164AF
+    synonyms: 
+    - Creating Production Orders With Subcontract Operation
+  - value: PR_F5738B751422F0BB
+    synonyms: 
+    - Managing Depreciation Runs
+  - value: PR_F6CEAE5D3CD9729E
+    synonyms: 
+    - Creating Sales Orders with Billing Plans
+  - value: PR_E721B0E99DDDFCAA
+    synonyms: 
+    - Changing a BOM Using a Change Master
+  - value: PR_EAD83D8D369CC8A
+    synonyms: 
+    - Approving Purchase Orders (J45)
+  - value: PR_CAE8BFD4AC5B7CB6
+    synonyms: 
+    - Approving a Shopping Cart
+  - value: PR_F7A8543A7FCCA995
+    synonyms: 
+    - Monitoring Purchase Requisition Items
+  - value: PR_CBB9C6355FCA33A7
+    synonyms: 
+    - Creating Supplier Invoices with PO/GR Relation (BNX)
+  - value: PR_774C707567C00796
+    synonyms: 
+    - Creating Return Orders (1Z3)
+  - value: PR_88BD5770040938AD
+    synonyms: 
+    - Creating Change Masters
+  - value: PR_DBFD21A6B8C44B99
+    synonyms: 
+    - Creating Supplier Credit Memos  (1Z3)
+  - value: PR_313D373521228087
+    synonyms: 
+    - Regrouping Receivables and Payables (1GA)
+  - value: PR_BC86C9D97978FD91
+    synonyms: 
+    - Posting Goods Issues (1Z3)
+  - value: PR_930985B17B31C984
+    synonyms: 
+    - Verifying General Journal Entries for Ledger Group
+  - value: PR_1C1B05FDAC9583BC
+    synonyms: 
+    - Posting General Journal Entries (1GA)
+  - value: PR_50C8011071F43C91
+    synonyms: 
+    - Checking Sales Orders with One-time Payment Cards
+  - value: PR_F94560295ACA3985
+    synonyms: 
+    - Creating Intercompany Invoices
+  - value: PR_43682D9923BF7B9D
+    synonyms: 
+    - Resetting Cleared Items
+  - value: PR_C4073015413E769F
+    synonyms: 
+    - Displaying Line Items in General Ledger
+  - value: PR_29A54711864FCE9E
+    synonyms: 
+    - Transferring Stocks - Two Steps (Place to Storage Location)
+  - value: PR_5B9D0B4D07926495
+    synonyms: 
+    - Executing the Picking Process (BKA)
+  - value: PR_246E5439624B78A8
+    synonyms: 
+    - Viewing Audit Journals (1GA)
+  - value: PR_844F23F576E9ECA6
+    synonyms: 
+    - Posting a Goods Receipt
+  - value: PR_783C44F7DA4CF7A4
+    synonyms: 
+    - Posting Currency Adjustments
+  - value: PR_A5B3D5F938AB12BB
+    synonyms: 
+    - Creating Sales Inquiries
+  - value: PR_12D43F843D9E49AE
+    synonyms: 
+    - Creating Job Postings
+  - value: PR_3A31F45686063A8C
+    synonyms: 
+    - Printing Scheduling Agreements
+  - value: PR_4D516AF7210A58AD
+    synonyms: 
+    - Processing Worklists
+  - value: PR_6B508D43C1C108AF
+    synonyms: 
+    - Carrying Forward Balances (1GA)
+  - value: PR_8617BEBB85C06A1
+    synonyms: 
+    - Adapting Filters in the Maintain Bill of Materials App
+  - value: PR_E31E471CED9D048C
+    synonyms: 
+    - Maintaining Work Package Staffing for Internal Projects
+  - value: PR_766255D76CC757B8
+    synonyms: 
+    - Creating Intrastat Declarations Manually
+  - value: PR_5C3D840FAA4EDA86
+    synonyms: 
+    - Approving Job Postings
+  - value: PR_83D3525C60375599
+    synonyms: 
+    - Managing Billing Documents (BDQ)
+  - value: PR_3FBD79F253336087
+    synonyms: 
+    - Managing User-Defined Criteria for Supplier Evaluation
+  - value: PR_55C50DA024359C85
+    synonyms: 
+    - Comparing and Awarding Supplier Quotations
+  - value: PR_27F08DAB28D4FBF
+    synonyms: 
+    - Activating Work Orders
+  - value: PR_560BB8EC420F3BA3
+    synonyms: 
+    - Performing Delta Posting
+  - value: PR_15E4ACA5253F6BB4
+    synonyms: 
+    - Viewing Supplier Balances
+  - value: PR_9C711F1A98F13FA3
+    synonyms: 
+    - Scheduling Payment Proposals (J60)
+  - value: PR_4CCC95E3BEA699A5
+    synonyms: 
+    - Revising Payment Proposals (J60)
+  - value: PR_70B63398B30C018D
+    synonyms: 
+    - Releasing Payment Proposals (J60)
+  - value: PR_2A680FBCA8DDEA9B
+    synonyms: 
+    - Creating Free Form Payment Requests
+  - value: PR_D62CEF95B2E16EBE
+    synonyms: 
+    - Executing Evaluated Receipts Settlements
+  - value: PR_A6B612955BC36795
+    synonyms: 
+    - Creating Supplier Evaluation Weighting and Scoring
+  - value: PR_A54BD1526063F2BC
+    synonyms: 
+    - Posting Free Form Payment Requests
+  - value: PR_11FBE59EACAC7999
+    synonyms: 
+    - Awarding Quotes
+  - value: PR_DEB5634F11673AA5
+    synonyms: 
+    - Changing Order BOM for Sales Orders
+  - value: PR_FEF91BA52503728D
+    synonyms: 
+    - Posting Goods Receipts for Subcontract Purchase Orders
+  - value: PR_315FBAFA959E1B0
+    synonyms: 
+    - Processing Free Form Payment Requests
+  - value: PR_842F134C01D19AAC
+    synonyms: 
+    - Viewing Days Payable Outstanding
+  - value: PR_FE1FC93C6EB44790
+    synonyms: 
+    - Displaying Serial Number Data
+  - value: PR_740D73F0832599BB
+    synonyms: 
+    - Initiating Bank Transfers with Templates
+  - value: PR_E7AD875F18EA4DA6
+    synonyms: 
+    - Viewing Overdue Payables
+  - value: PR_931CDB03B2A2CD8A
+    synonyms: 
+    - Creating Dunning Notices
+  - value: PR_F89AD891156A396
+    synonyms: 
+    - Configuring Order Fulfillment Responsibilities
+  - value: PR_4A09D890FB3C31A9
+  - value: PR_63D809B5CD09B5B3
+    synonyms: 
+    - Reworking Manufacturing Bills of Material
+  - value: PR_D54C8ADDDC228C8A
+    synonyms: 
+    - Creating Credit Memo Requests  (BKL)
+  - value: PR_C6B9BE7C755B42B6
+  - value: PR_534489C378DBA1AE
+    synonyms: 
+    - Creating Intercompany Stock Transport Orders
+  - value: PR_50CE182E92C9DB91
+    synonyms: 
+    - Solving Issues by Redistributing Quantities
+  - value: PR_6D4C776A27317F86
+    synonyms: 
+    - Posting Retirement (Integrated) with Customer
+  - value: PR_1B233F6AABE4B0BD
+    synonyms: 
+    - Releasing Processed Sales Orders
+  - value: PR_AF6E66599593D99D
+    synonyms: 
+    - Creating Purchase Requisitions in HUB Systems
+  - value: PR_DB957D8747924D88
+    synonyms: 
+    - Checking Availability for a Sales Order
+  - value: PR_B52D5FFEB35484AB
+    synonyms: 
+    - Approving Closing Tasks
+  - value: PR_A04EC7CE30D8729D
+    synonyms: 
+    - Creating Price Requests
+  - value: PR_95143E3C8DC95DAA
+    synonyms: 
+    - Creating Deliveries
+  - value: PR_F5C7A222E3596383
+    synonyms: 
+    - Creating Situation Types
+  - value: PR_64918B034DBEE6A2
+    synonyms: 
+    - Removing Billing Blocks (BDQ)
+  - value: PR_82D0E1B353742F8F
+    synonyms: 
+    - Monitoring Situations
+  - value: PR_3F7BD40C64D4F993
+    synonyms: 
+    - Managing Customer Master Data
+  - value: PR_E21BEFFAECE9A395
+    synonyms: 
+    - Displaying PR Numbers in Shopping Carts
+  - value: PR_498B98CDB457A08C
+    synonyms: 
+    - Printing Sales Order Forms
+  - value: PR_7D8DAE679D9B7CAF
+    synonyms: 
+    - Running Settlements
+  - value: PR_DAB2DDE04E7D8591
+    synonyms: 
+    - Creating Scheduling Agreements with Release Documents
+  - value: PR_34FE858A4DC2359A
+    synonyms: 
+    - Working With ML Recommendations for GR/IR Account Reconciliation
+  - value: PR_778AE9886B94719D
+    synonyms: 
+    - Setting a Credit Limit and Calculating Credit Ratings
+  - value: PR_19315EDE7FDF799C
+    synonyms: 
+    - Creating Credit Limit Requests
+  - value: PR_15E4A8AFBE83109C
+    synonyms: 
+    - Posting Credit Memos In Year of Invoice
+  - value: PR_C8EF1361635328BA
+    synonyms: 
+    - Approving Credit Limit Requests
+  - value: PR_6636F7224E4C98B5
+    synonyms: 
+    - Reviewing Sales Orders (1QM)
+  - value: PR_BEB24E8D1FED7F90
+    synonyms: 
+    - Depreciating Lists - Year End Closing
+  - value: PR_A8F13C5521F876A7
+    synonyms: 
+    - Releasing Sales Orders (1QM)
+  - value: PR_EA4FEEEC9903F9B2
+    synonyms: 
+    - Creating Bills of Material
+  - value: PR_7EC0F1138143C8A4
+    synonyms: 
+    - Reviewing Sales Documents Blocked for Billing
+  - value: PR_4EABD42ECB49518A
+    synonyms: 
+    - Posting Transfers - Within Company Code
+  - value: PR_C67330AE43D50280
+    synonyms: 
+    - Rejecting Sales Orders (1QM)
+  - value: PR_1FB9630075863D86
+    synonyms: 
+    - Confirming Rework Production Activities
+  - value: PR_B6EF116865D62FAA
+    synonyms: 
+    - Defining User Groups
+  - value: PR_894ED36C3500CC85
+    synonyms: 
+    - Reviewing Financial Close
+  - value: PR_7F616F584C9CA193
+    synonyms: 
+    - Analyzing Closing Tasks Completion
+  - value: PR_C35216FDD56996A4
+    synonyms: 
+    - Reviewing the Change Log - Financial Closing
+  - value: PR_A68011A2A25D1999
+    synonyms: 
+    - Releasing Payment Proposals (19M)
+  - value: PR_88C865BB8042B83
+    synonyms: 
+    - Checking and Transferring Staffing Assignments
+  - value: PR_19E22F3E4F0F9CA2
+    synonyms: 
+    - Managing Overbooked Resources
+  - value: PR_4C9DB0F80226BA4
+    synonyms: 
+    - Reviewing Schedule Billing Release for Accounting
+  - value: PR_7A4DE83EED6BE29A
+    synonyms: 
+    - Managing Resources with Free Capacity
+  - value: PR_5FCF007116D7629F
+    synonyms: 
+    - Creating Depreciation Lists
+  - value: PR_657BB1F416D8B8B5
+    synonyms: 
+    - Managing Open Resource Requests
+  - value: PR_B81E644345F0D08C
+    synonyms: 
+    - Creating Asset Master Records
+  - value: PR_6242A27D33085A9D
+    synonyms: 
+    - Performing Picking
+  - value: PR_4B315EAD46F898BE
+    synonyms: 
+    - Changing Purchase Orders (2LH)
+  - value: PR_564446F7075462A7
+    synonyms: 
+    - Creating Purchase Requisitions
+  - value: PR_B5AF219CB3F01787
+    synonyms: 
+    - Creating Invoice Receipts by Line Item (J62)
+  - value: PR_6F7559F4E446C2BD
+    synonyms: 
+    - Settling Documents with a Payment Service Provider
+  - value: PR_C8960E8327B9BEA2
+    synonyms: 
+    - Posting Acquisitions without Order (Integrated AP) (J62)
+  - value: PR_8EC726141556A289
+    synonyms: 
+    - Posting Transfers Within Company Code
+  - value: PR_F428173FF62B0A91
+    synonyms: 
+    - Creating Sourcing Projects (as a Buyer in Ariba Sourcing)
+  - value: PR_328DA37CB8CA9BB8
+    synonyms: 
+    - Picking Components
+  - value: PR_FF43453110C0BEB1
+    synonyms: 
+    - Managing Depreciation Runs
+  - value: PR_9A4CA17369254CB1
+  - value: PR_8D1AF5E2CA59A9A0
+    synonyms: 
+    - Entering Incoming Supplier Invoices
+  - value: PR_9241D683400D6D93
+    synonyms: 
+    - Creating Asset Balances Reports
+  - value: PR_B19DF9EE13829CAE
+    synonyms: 
+    - Checking Invoice Status Updates
+  - value: PR_CF81E401B18324BB
+    synonyms: 
+    - Managing Asset Values
+  - value: PR_754B81FC847C90BA
+    synonyms: 
+    - Performing Year End Closing
+  - value: PR_4A8EAD7FF579A8A
+    synonyms: 
+    - Posting Credit Memos After Year of Invoice
+  - value: PR_D32D9EEC9A61BBB7
+    synonyms: 
+    - Posting Goods Receipts for Subassembly Production Order
+  - value: PR_C0649249BB154F81
+    synonyms: 
+    - Maintaining Evaluation Responses as Appraiser
+  - value: PR_AD11675E34753CBC
+    synonyms: 
+    - Posting Retirements (Non-Integrated) Without Customer
+  - value: PR_B076C7F81230809B
+    synonyms: 
+    - Reversing Journal Entries
+  - value: PR_16C48CF8E9879C98
+    synonyms: 
+    - Listing Count Differences
+  - value: PR_F8355350434085A1
+    synonyms: 
+    - Running Assessment Cycles for Quality Costs
+  - value: PR_668CA3EA68A2A79B
+    synonyms: 
+    - Viewing Overdue Receivables
+  - value: PR_634D6CB55D312092
+    synonyms: 
+    - Posting Goods Receipts (BMD)
+  - value: PR_C7E8ED28776D7C98
+    synonyms: 
+    - Posting Post-Capitalizations
+  - value: PR_147F5A1B529628B6
+    synonyms: 
+    - Posting Unplanned Depreciations Manually
+  - value: PR_C0678FB433790090
+    synonyms: 
+    - Recalculating Values
+  - value: PR_3D1E5F2FD2C7B798
+    synonyms: 
+    - Scheduling Payment Proposals (BJK)
+  - value: PR_383AFA35B95346AD
+    synonyms: 
+    - Posting Asset Revaluations
+  - value: PR_9CB145DD8861C790
+    synonyms: 
+    - Creating Sales Orders
+  - value: PR_537D889F07766D95
+    synonyms: 
+    - Executing Settlement for AuC (Periodic Processing)
+  - value: PR_6CA4A8022970A1BD
+    synonyms: 
+    - Defining Distribution Rules for AuC (Periodic Processing)
+  - value: PR_C7E81ED3D2270EB7
+    synonyms: 
+    - Creating Purchase Orders (2LH)
+  - value: PR_B0A26A0132A4A8AB
+    synonyms: 
+    - Creating Sales Orders (1MX)
+  - value: PR_8C7206F4DFC1EB8E
+    synonyms: 
+    - Participating in Sourcing Events
+  - value: PR_51465F6E2789339C
+    synonyms: 
+    - Approving Purchase Orders (2LH)
+  - value: PR_687046802B7298A6
+    synonyms: 
+    - Adding Custom Fields
+  - value: PR_B0047D51FF1CDD83
+    synonyms: 
+    - Posting Goods Receipts (2LH)
+  - value: PR_771FF22609B3690
+    synonyms: 
+    - Registering Payment Cards in Customer Master Data
+  - value: PR_E2F0371C46BD0487
+    synonyms: 
+    - Posting the Goods Issue
+  - value: PR_A590A9ADE7BDA196
+    synonyms: 
+    - Creating Purchase Orders for Service Items
+  - value: PR_BDBBDBE34F9DD6A1
+    synonyms: 
+    - Searching a Batch Alternative 1
+  - value: PR_BFBE43E396D52498
+    synonyms: 
+    - Checking Supplier Invoices
+  - value: PR_26E48CBA3C2419B
+    synonyms: 
+    - Entering Inventory Counts
+  - value: PR_173B3C15FD3B359F
+    synonyms: 
+    - Creating Purchase Orders Using the Advanced App
+  - value: PR_A7BDB2E047549D83
+    synonyms: 
+    - Running Material Requirements Planning for Sales Orders
+  - value: PR_126542BEB8BD7392
+    synonyms: 
+    - Previewing Purchase Orders
+  - value: PR_3D3AA92D2818E6A0
+    synonyms: 
+    - Capturing Planned Project Costs
+  - value: PR_CDDFDBB06896D699
+    synonyms: 
+    - Sending Quote Messages
+  - value: PR_BB4BFA1B9A715289
+    synonyms: 
+    - Creating Supplier Invoices with PO/GR Relations on Ariba Network
+  - value: PR_E97E8507DCF2B992
+    synonyms: 
+    - Posting Documents
+  - value: PR_CEE703BC4F92EDB3
+    synonyms: 
+    - Managing Providers of Information
+  - value: PR_DD4A64BFD81AFE98
+    synonyms: 
+    - Downloading Payment Medium Files
+  - value: PR_4514AB0B9B707AAC
+    synonyms: 
+    - Analyzing Dead Stock
+  - value: PR_AEEABE0FD277909B
+    synonyms: 
+    - Creating Debit Memo Requests
+  - value: PR_B7EE8DAB906E9695
+  - value: PR_C9C877317C9394B1
+    synonyms: 
+    - Creating Documents with Create PI Documents Regular Stock
+  - value: PR_27A2B3ED04015397
+    synonyms: 
+    - Uploading MT940 Bank Statements
+  - value: PR_2B4F0855C0F47689
+    synonyms: 
+    - Creating Requests for Quotation (1L2)
+  - value: PR_90F76F75EA7457B6
+    synonyms: 
+    - Uploading camt.054 Bank Statements
+  - value: PR_5DAACF89D904A3A7
+    synonyms: 
+    - Unblocking Material – Stock Transfer Blocked to Unrestricted
+  - value: PR_26ACD9C3F41EC781
+    synonyms: 
+    - Tracking Sales Orders
+  - value: PR_611C7D65A124B098
+    synonyms: 
+    - Uploading camt.053 Bank Statements
+  - value: PR_BC1B87AF688BFC8A
+    synonyms: 
+    - Uploading pain.002 Payment Status Reports
+  - value: PR_F1BA6E3DB0C5CFA2
+    synonyms: 
+    - Creating FIFO Valuation Extracts (BEJ)
+  - value: PR_BA5F29E3BC4EA0AC
+    synonyms: 
+    - Monitoring Availability
+  - value: PR_130366CBD7251B9
+    synonyms: 
+    - Executing Actual General Ledger Distribution Cycles
+  - value: PR_F92A410739A239B1
+    synonyms: 
+    - Scheduling BOP Runs
+  - value: PR_31922A5CE8096AA
+    synonyms: 
+    - Creating Billing Documents (BDD)
+  - value: PR_B6673EA9BE770CA3
+    synonyms: 
+    - Monitoring BOP Runs
+  - value: PR_C8F8789A34FAB693
+  - value: PR_62340E8C6DEE0399
+    synonyms: 
+    - Creating Pro Forma Invoices
+  - value: PR_D87B8FB5B18805BB
+    synonyms: 
+    - Creating Supplier Invoices (BMD)
+  - value: PR_6BB912F9515C1899
+    synonyms: 
+    - Posting a Goods Issue
+  - value: PR_41196F50725B018C
+    synonyms: 
+    - Posting Goods Issues (1MI)
+  - value: PR_172FA1A81E38C29D
+    synonyms: 
+    - Searching a Batch Alternative 2
+  - value: PR_F10B5DC9B4B6D5BE
+    synonyms: 
+    - Creating a Batch
+  - value: PR_1C85E15BA2DFE6B2
+    synonyms: 
+    - Creating Consignment Return Orders
+  - value: PR_7322B4215D34FF98
+    synonyms: 
+    - Maintaining the Batch Master Record Alternative 2
+  - value: PR_DB810A099D692AAE
+    synonyms: 
+    - Batch Information Cockpit - Selecting a Batch
+  - value: PR_1CAED11B0358BA87
+    synonyms: 
+    - Monitoring Material Coverage
+  - value: PR_65785A2A457A66BD
+    synonyms: 
+    - Reprocessing Incoming Checks (Unprocessed Scenario)
+  - value: PR_77B091CBF26C97AF
+    synonyms: 
+    - Creating Purchase Orders for Consignment Material
+  - value: PR_DB069D1BCD43F8C
+    synonyms: 
+    - Batch Information Cockpit - Changing Batch Selection
+  - value: PR_339A5E76F668AC95
+    synonyms: 
+    - Creating a Down Payment Request
+  - value: PR_A13C1519D79D1EBF
+    synonyms: 
+    - Posting Inventory Count Differences
+  - value: PR_CA9986062A0CD08D
+    synonyms: 
+    - Entering Inventory Counts (BML)
+  - value: PR_DCC18B3601F91E84
+    synonyms: 
+    - Creating New Documents
+  - value: PR_C9AE222C75D3A5A3
+    synonyms: 
+    - Reviewing Credit Limits for Business Partners
+  - value: PR_B82EA8022D51239A
+    synonyms: 
+    - Creating a Contract
+    - A contract can be Created
+    - creating contract
+    - contract creation
+    - setup a contract
+    - set up a contract
+  - value: PR_60DD42407344D786
+    synonyms: 
+    - Creating Intercompany Invoices (16T)
+  - value: PR_FE977420A369F486
+    synonyms: 
+    - Setting Global Parameters and Opening Periods
+  - value: PR_92CD390470E14EAF
+    synonyms: 
+    - Releasing Rework Production Orders
+  - value: PR_D9AF0170F8B523BA
+    synonyms: 
+    - Performing Material Requirements Planning at Plant Level
+  - value: PR_806EA19146EDA985
+  - value: PR_CEC34036F8259390
+    synonyms: 
+    - Picking and Posting a Goods Issue
+  - value: PR_94DCA6035F42C184
+    synonyms: 
+    - Creating Final Settlements with Reversal of Accruals
+  - value: PR_FEE1D31316766B94
+    synonyms: 
+    - Managing Open Resource Requests
+  - value: PR_88FF4DD799CA4491
+    synonyms: 
+    - Running a Contracts Overview Report
+  - value: PR_3177A3DF34459A9D
+    synonyms: 
+    - Managing Billing Documents
+  - value: PR_23ACFCC0D2A45DB0
+    synonyms: 
+    - Editing Recurring Journal Entries
+  - value: PR_C8D7B9C21C5186AC
+    synonyms: 
+    - Managing G/L Account Master Data
+  - value: PR_1073AD47C52AC9C
+    synonyms: 
+    - Creating Billing Document for Invoice List
+  - value: PR_58FA992E60348F85
+    synonyms: 
+    - Creating Activities
+  - value: PR_C44B52CFA72535A8
+  - value: PR_7E82E7575F502DA4
+    synonyms: 
+    - Evaluating Stock and Requirements
+  - value: PR_49FFA6D5AA51519E
+    synonyms: 
+    - Displaying Line Item Entries
+  - value: PR_A20B4A78210EEE96
+    synonyms: 
+    - Executing Periodic Postings (2SB)
+  - value: PR_B35A7054F732A7A7
+    synonyms: 
+    - Viewing Year-to-Date Balances by Fiscal Period
+  - value: PR_27D29FE80437379F
+    synonyms: 
+    - Reviewing Lists of Blocked Billing Documents (for Accounting)
+  - value: PR_DB6D61978994849E
+    synonyms: 
+    - Posting General Journal Entries (J58)
+  - value: PR_64C5DBBFDC900698
+    synonyms: 
+    - Copying Recurring Journal Entries
+  - value: PR_A485F61745D414B2
+    synonyms: 
+    - Creating Sales Orders with Delivery Block
+  - value: PR_AD098F2F2C3BE9AD
+    synonyms: 
+    - Managing Posting Periods
+  - value: PR_43E450B48BEC7F86
+    synonyms: 
+    - Creating Third-Party Sales Orders
+  - value: PR_77DBDD921037AC92
+    synonyms: 
+    - Editing Profit Centers (Collective)
+  - value: PR_F9D9143093B7C6AA
+    synonyms: 
+    - Setting a Credit Limit and Calculating an Internal Score
+  - value: PR_BB6865338892EA89
+    synonyms: 
+    - Displaying Physical Inventory Document Object Page
+  - value: PR_F751262D6BFFE898
+    synonyms: 
+    - Uploading Journal Entries
+  - value: PR_206DDBAADE0A3BD
+    synonyms: 
+    - Creating Putaway Warehouse Tasks
+  - value: PR_2E6C8C4CEFD74397
+    synonyms: 
+    - Managing Profit Centers
+  - value: PR_439FEFB52B316AB3
+    synonyms: 
+    - Importing Statistical Key Figure Plan Data
+  - value: PR_57B59EA5A5B21FB9
+    synonyms: 
+    - Managing Chart of Accounts
+  - value: PR_BD20F3225B501AAB
+  - value: PR_D74127DBE366D5AC
+    synonyms: 
+    - Analyzing Differences
+  - value: PR_8A4528C5E786808F
+    synonyms: 
+    - Calculating Credit Risk Based Impairments
+  - value: PR_5F793B18EEE113B0
+    synonyms: 
+    - Forwarding General Journal Entries - For Processor (Inbox)
+  - value: PR_597394F368B37BB7
+    synonyms: 
+    - Managing Financial Statement Versions
+  - value: PR_87C7751434DC080
+    synonyms: 
+    - Analyzing Credit Loss Allowances
+  - value: PR_FD56A18DD73408E
+    synonyms: 
+    - Synchronizing G/L Account Master Data (J58)
+  - value: PR_F57122B978FEDC93
+    synonyms: 
+    - Displaying Changes to General Ledger Accounts
+  - value: PR_B0D1F8D4C75352B3
+    synonyms: 
+    - Managing Profit Center Groups
+  - value: PR_EC2C23BABED0B7
+    synonyms: 
+    - Editing Company Code Assignment Profit Centers
+  - value: PR_C9873EA86FE528B3
+    synonyms: 
+    - Opening Where-Used Lists - Profit Centers
+  - value: PR_9F2947D7974F67BC
+    synonyms: 
+    - Viewing Change Logs - Profit Centers
+  - value: PR_98743CEA3611DB8E
+    synonyms: 
+    - Downloading and Printing Financial Statements
+  - value: PR_7E7963222BC57A94
+    synonyms: 
+    - Creating Purchase Requisitions in HUB Systems
+  - value: PR_84BE2A6C8FED4695
+    synonyms: 
+    - Checking Availability for a Sales Order
+  - value: PR_28F325E1A2D3B9A2
+    synonyms: 
+    - Maintaining Work Package Staffing for Internal Projects
+  - value: PR_C138783251B4FBBA
+    synonyms: 
+    - Managing Journal Entry Templates
+  - value: PR_81A04985D19EDEA7
+    synonyms: 
+    - Posting Manual Accruals and Deferrals
+  - value: PR_B35387834BDF488
+    synonyms: 
+    - Posting with Auto-Reverse
+  - value: PR_25ED638AC5D412B5
+    synonyms: 
+    - Creating Outbound Deliveries
+  - value: PR_9ACF65F4FFA140A8
+    synonyms: 
+    - Verifying General Journal Entries with Auto-Reverse
+  - value: PR_3F5AEA2BD945BC90
+  - value: PR_889B3568D7CE7DAE
+    synonyms: 
+    - Posting Goods Receipts (BNX)
+  - value: PR_8BE56F2F44930CBF
+    synonyms: 
+    - Editing Rejected Verified General Journal Entries (Requestor)
+  - value: PR_963DF55D3460C5B9
+    synonyms: 
+    - Checking the Stock Overview
+  - value: PR_AFC0445DC685F798
+    synonyms: 
+    - Managing Journal Entries
+  - value: PR_9B9A696F58B0259B
+    synonyms: 
+    - Opening Correspondence
+  - value: PR_8B38C2EB5557EAC
+    synonyms: 
+    - Reversing General Journal Entries
+  - value: PR_C7CE6B28C989AC92
+    synonyms: 
+    - Reversing Manual Accruals and Deferrals
+  - value: PR_C3DF53EDA62E0485
+    synonyms: 
+    - Displaying Document Flows
+  - value: PR_FF8253F239C67BC
+    synonyms: 
+    - Creating Recurring Journal Entries
+  - value: PR_72914719AD25083
+    synonyms: 
+    - Displaying Recurring Journal Entries
+  - value: PR_A1F06542E80DD198
+    synonyms: 
+    - Posting Recurring Journal Entries
+  - value: PR_B3CFC445ECD638AE
+  - value: PR_250681ADBD79108D
+    synonyms: 
+    - Viewing Audit Journals (J58)
+  - value: PR_B9BDC213A7C44EBB
+    synonyms: 
+    - Performing Actual Project Settlement
+  - value: PR_8AE5AF187F612DA4
+    synonyms: 
+    - Viewing Journal Entries in the Journal Entry Analyzer
+  - value: PR_48E27224AB764087
+    synonyms: 
+    - Clearing G/L Accounts - Manually (J58)
+  - value: PR_BB283A86C9C76988
+    synonyms: 
+    - Clearing G/L Accounts
+  - value: PR_9A9989B5CECEB0AB
+    synonyms: 
+    - Resetting Cleared Items
+  - value: PR_CF7C8F348919F888
+    synonyms: 
+    - Creating Intrastat Declarations Automatically (Background Job)
+  - value: PR_A97946FA4A7C728C
+    synonyms: 
+    - Clearing Open Items Automatically
+  - value: PR_BC5011264F143D8A
+    synonyms: 
+    - Adding Objects to Organizational Changes
+  - value: PR_4A3BD602C5CDD594
+    synonyms: 
+    - Monitoring Tasks
+  - value: PR_E1D5A85788363EBB
+    synonyms: 
+    - Maintaining Currency Exchange Rates
+  - value: PR_6E26F9A6374042AF
+    synonyms: 
+    - Importing Foreign Exchange Rates
+  - value: PR_5F173561213CFBA9
+    synonyms: 
+    - Recording Inspection Results
+  - value: PR_614D46E05F091EA4
+    synonyms: 
+    - Reposting GR/IR Clearing Accounts
+  - value: PR_F992E54A8FC263A4
+    synonyms: 
+    - Creating Debit Memos (1F1)
+  - value: PR_9525311A87797FAF
+    synonyms: 
+    - Creating Returns Orders (BDD)
+  - value: PR_B12779B904024783
+    synonyms: 
+    - Performing Foreign Currency Valuations
+  - value: PR_FB887E6CC6DA18D
+    synonyms: 
+    - Performing Advanced Foreign Currency Valuations
+  - value: PR_D874C95091833D9D
+    synonyms: 
+    - Posting Currency Adjustments (J58)
+  - value: PR_ED960668BB348F8C
+    synonyms: 
+    - Verifying Currency Adjustments
+  - value: PR_A3A92CE794A635B7
+    synonyms: 
+    - Creating Purchase Orders (1FM)
+  - value: PR_6A47E843A881838B
+    synonyms: 
+    - Rejecting Material
+  - value: PR_7CF42EECE2007582
+    synonyms: 
+    - Forwarding Currency Adjustments - For Processor (Inbox)
+  - value: PR_84D3339ADD65A7A4
+    synonyms: 
+    - Verifying Data Flows
+  - value: PR_95F0A073FC0B2E99
+    synonyms: 
+    - Running Actual Overhead Projects
+  - value: PR_C3E6AE36986965BA
+    synonyms: 
+    - Managing External Tax Postings - External Tax Calculations
+  - value: PR_89685AB92C6BC6B7
+    synonyms: 
+    - Posting Tax Payables
+  - value: PR_B535ED9516872CA4
+    synonyms: 
+    - Regrouping Receivables/Payables
+  - value: PR_C475A9306F78D19F
+    synonyms: 
+    - Processing Batch Input Plans
+  - value: PR_29261D2D833D71AC
+    synonyms: 
+    - Posting Goods Issues (2ET)
+  - value: PR_5F9A90513F9712B3
+    synonyms: 
+    - Creating Billing Documents (2EQ)
+  - value: PR_630F80EDA1BB36B2
+  - value: PR_2C28263380CE6ABC
+    synonyms: 
+    - Reviewing Allocation Results
+  - value: PR_EDA585DE97A363A0
+    synonyms: 
+    - Importing Financial Plan Data
+  - value: PR_E9EADD7A43DAC3A4
+    synonyms: 
+    - Uploading Subsequent Period Reported Financial Data
+  - value: PR_B22FACA08DE1AAA7
+    synonyms: 
+    - Configuring Alternative Control
+  - value: PR_C90D3BD26390381
+    synonyms: 
+    - Displaying Financial Statements
+  - value: PR_74DF860FA6CE21AB
+    synonyms: 
+    - Submitting Tasks
+  - value: PR_C74BD3C8DFEBC3BA
+    synonyms: 
+    - Managing Characteristic Combination
+  - value: PR_62308ADF33AC8489
+    synonyms: 
+    - Performing Trial Balances
+  - value: PR_870E58D120FBD9A
+    synonyms: 
+    - Managing Commodity Codes
+  - value: PR_A3FC38FB6DDD38A8
+  - value: PR_2502FC2B5F20A5A4
+  - value: PR_9315F92896BAA4AC
+  - value: PR_8E932CA41C5BCCBB
+    synonyms: 
+    - Creating Purchase Requisitions (Outline Agreement Requisition)
+  - value: PR_2CCBCC82BD99EA3
+    synonyms: 
+    - Displaying Journal Entries in T-Account View
+  - value: PR_631570EB374CCB92
+    synonyms: 
+    - Displaying Statements of Change
+  - value: PR_6F0619E6FA304D88
+    synonyms: 
+    - Creating Supplier Invoices (3EN)
+  - value: PR_9A8C7FCF1CA739AA
+  - value: PR_38F00A910091C8BA
+    synonyms: 
+    - Adding a Worker ID to the Initial Admin User
+  - value: PR_A7B94098C4D2818C
+    synonyms: 
+    - Executing a Cost Center Plan Assessment Cycle of Shared Expenses
+  - value: PR_7D7104EAB8F41780
+    synonyms: 
+    - Analyzing Internal Projects
+  - value: PR_C42A451083DA8090
+    synonyms: 
+    - Posting the Goods Issue
+  - value: PR_77720FDFB8024284
+    synonyms: 
+    - Creating Supplier Items
+  - value: PR_FCF94749547DC284
+    synonyms: 
+    - "Viewing P&L: Plan/Actual/Committed Data"
+  - value: PR_DCDACD30CE170584
+    synonyms: 
+    - Posting Goods Issues (1MI)
+  - value: PR_4E34741B4C83968A
+    synonyms: 
+    - Defining Your Own Statements of Change Types
+  - value: PR_5D98F0D6003C1893
+    synonyms: 
+    - Configuring Order Fulfillment Responsibilities
+  - value: PR_B489BD13B705EFAC
+    synonyms: 
+    - Creating a Bill of Material (BOM)
+  - value: PR_FE45206565B2329B
+    synonyms: 
+    - Evaluating MRP Results (Purchase Requisitions)
+  - value: PR_F68B6E521616A880
+    synonyms: 
+    - Creating Billing Document Requests
+  - value: PR_F95679AA22D5CDB7
+    synonyms: 
+    - Viewing the Status of Carryforward Balances
+  - value: PR_96C66DB1206E078C
+    synonyms: 
+    - Creating Physical Inventory Documents (Mass Creation)
+  - value: PR_3D5827F6CDD706B7
+    synonyms: 
+    - Performing Dynamic Reclassification of Receivables/Payables
+  - value: PR_304539C9ED2664AF
+    synonyms: 
+    - Reviewing Manufacturing Object Pages (BJK)
+  - value: PR_30CFE39D9DD8A887
+    synonyms: 
+    - Running a Contract Overview Report (21P)
+  - value: PR_5771E4F62231E7AB
+    synonyms: 
+    - Discounting Long-Term Assets and Liabilities
+  - value: PR_D4010EA23F8DD984
+    synonyms: 
+    - Posting Discount of Long-Term Assets and Liabilities
+  - value: PR_701D6F06914DE181
+    synonyms: 
+    - Creating Consignment Return Orders
+  - value: PR_96DB8B1E6CAC9AA0
+    synonyms: 
+    - Confirming Rework Production Activities
+  - value: PR_5427BA6FE53793BB
+    synonyms: 
+    - Performing Advanced Foreign Currency Valuations
+  - value: PR_D183054B35BA4BB3
+    synonyms: 
+    - Introducing the SAP S/4HANA Migration Cockpit
+  - value: PR_CB4564FF0FE0A2AD
+  - value: PR_3B6A7B387811388C
+    synonyms: 
+    - Creating Purchase Requisitions (Standard)
+  - value: PR_353AE34EF71C2591
+    synonyms: 
+    - Copying Totals Records from Y10 to YB2
+  - value: PR_A7D5557E0B1218A8
+    synonyms: 
+    - Posting Credit-Risk-Based Impairments
+  - value: PR_5AB1464666E522B9
+    synonyms: 
+    - Scheduling Payment Proposals (19M)
+  - value: PR_AE96B72D81912A8F
+    synonyms: 
+    - Creating Supplier Evaluation Weighting and Scoring
+  - value: PR_54E43526D2883B88
+    synonyms: 
+    - Analyzing Incoming Sales Orders
+  - value: PR_1BC9EA3F6D36A89F
+    synonyms: 
+    - Posting B/S Reclassifications
+  - value: PR_56C4F7263FB6D9A7
+  - value: PR_E5A7CE3CCEBEB1AF
+    synonyms: 
+    - Scheduling Jobs - Training Job
+  - value: PR_C77A0FB6C492E891
+    synonyms: 
+    - Creating Planned Independent Requirements (1BM)
+  - value: PR_AF538C5D68A5E483
+    synonyms: 
+    - Creating a Maintenance Order
+  - value: PR_587483445ACB2A8
+    synonyms: 
+    - Creating Purchase Orders for Consignment Material
+  - value: PR_1B6EA93F9E7F55B7
+    synonyms: 
+    - Creating Down Payment Requests (J45)
+  - value: PR_9537AD363C6F6EB4
+    synonyms: 
+    - Updating Management Views
+  - value: PR_D826221D3E16EFA3
+    synonyms: 
+    - Running a Posted Documents for Contracts Report
+  - value: PR_7CAAE20AAB28A38A
+    synonyms: 
+    - Creating Advanced Outbound Deliveries
+  - value: PR_A08416EA73E8FFB6
+    synonyms: 
+    - Posting Unrestricted Stock to Quality Inspection Stock
+  - value: PR_CE57D8F2F2602BE
+    synonyms: 
+    - Approving Credit Limit Requests
+  - value: PR_F5CB5E729C86C4B5
+    synonyms: 
+    - Converting Stock Transport Requisition to Stock Transport Order
+  - value: PR_3CD12ADF842B2B81
+    synonyms: 
+    - Running Statutory Reports
+  - value: PR_EEF19054C15DDF98
+    synonyms: 
+    - Creating Credit Memo Requests
+  - value: PR_4CA9595076142ABD
+    synonyms: 
+    - Executing Picking
+  - value: PR_A9AF9438296A5689
+    synonyms: 
+    - Performing a Business Partner Financial Overview
+  - value: PR_A4DC60794AB1E28D
+    synonyms: 
+    - Creating Deliveries (BKJ)
+  - value: PR_5B4D77944F90D5AB
+    synonyms: 
+    - Emailing Billing Documents
+  - value: PR_EFCAC04C0CD8829A
+    synonyms: 
+    - Reviewing Manufacturing Object Pages
+  - value: PR_5499E1A6F95448B6
+    synonyms: 
+    - Uploading Non-PO Referenced Invoice for Materials
+  - value: PR_AACDA113F66D1E8C
+    synonyms: 
+    - Creating Sales Orders (1MX)
+  - value: PR_78990BE771623A86
+    synonyms: 
+    - Creating Sales Orders (BJE)
+  - value: PR_E37B328AFBD69DB6
+    synonyms: 
+    - Creating Allocation Tags
+  - value: PR_2B0E43005F57D3A9
+    synonyms: 
+    - Reviewing Sales Documents Blocked for Billing
+  - value: PR_1ABCFDED5B236385
+    synonyms: 
+    - Processing Organizational Changes
+  - value: PR_C0D45E49D9DE9193
+    synonyms: 
+    - Confirming Quantities for Putaway
+  - value: PR_93C8EE8154FDADB4
+    synonyms: 
+    - Picking a Delivery
+  - value: PR_29BF49E34704ECBF
+    synonyms: 
+    - Displaying the Release Change Report
+  - value: PR_7BA48E34C9F9F7B7
+    synonyms: 
+    - Creating Intercompany Invoices (1MX)
+  - value: PR_961E2CCC027F74A0
+    synonyms: 
+    - Previewing Goods Issue Slips
+  - value: PR_A2C6218FE74EE6B3
+    synonyms: 
+    - Displaying Purchase Orders
+  - value: PR_ACDDD6DE5B75BC89
+    synonyms: 
+    - Creating Purchase Orders for Service Items
+  - value: PR_832F49F9BC315687
+    synonyms: 
+    - Creating Sales Orders
+  - value: PR_A7D0AA485DCD589F
+    synonyms: 
+    - Changing Storage Locations for Quality Stock
+  - value: PR_E0777EE2C9E963A0
+    synonyms: 
+    - Checking Goods Receipts Details
+  - value: PR_BEE5BA1A97A20092
+    synonyms: 
+    - Reviewing Purchase Order Accruals Using My Inbox
+  - value: PR_B69DC7C12801EAA4
+    synonyms: 
+    - Making Usage Decisions
+  - value: PR_DC57839D850D0D92
+    synonyms: 
+    - Managing Customs Tariff Numbers
+  - value: PR_133572B4538D48B8
+    synonyms: 
+    - Checking Supplier Invoice Lists
+  - value: PR_8DCC2896FC5822B2
+    synonyms: 
+    - Accepting Suppliers' Bids
+  - value: PR_67A7B93799FC638C
+    synonyms: 
+    - Posting Goods Receipts for Production Orders (BJ5)
+  - value: PR_556A3915302982A4
+  - value: PR_26A9249B217DC788
+    synonyms: 
+    - Reversing Documents
+  - value: PR_2E5CE9C6068171BF
+    synonyms: 
+    - Executing Picking (BDH)
+  - value: PR_E9C0F4BFBBECEF8F
+    synonyms: 
+    - Approving Timesheets
+  - value: PR_D2C8F3E4BDCA0282
+    synonyms: 
+    - Posting Goods Receipts for Subassembly Production Orders
+  - value: PR_5A89CCC444A52B8
+    synonyms: 
+    - Confirming Warehouse Tasks (3BR)
+  - value: PR_AAFE03BEFF8CDAA3
+    synonyms: 
+    - Scheduling a Material Requirement Planning (MRP)
+  - value: PR_3454734BA422D68D
+    synonyms: 
+    - Creating Condition Record in Sourcing Project
+  - value: PR_B28808A97FD8B7BF
+    synonyms: 
+    - Processing a Stock Transport Requisition (with MRP)
+  - value: PR_98E82A986F78AC9E
+    synonyms: 
+    - Uploading pain.002 Payment Status Reports
+  - value: PR_4748AB3A7CAFC3AE
+    synonyms: 
+    - Creating New Internal Projects
+  - value: PR_BB090B4260228DB6
+    synonyms: 
+    - Tracking Sales Data with the Sales Management Overview App
+  - value: PR_2F5D757B56437997
+    synonyms: 
+    - Maintaining the Batch Master Record Alternative 1
+  - value: PR_D83FF1A24472DAB1
+    synonyms: 
+    - Executing Periodic Posting (21P)
+  - value: PR_51A4A277A5BC1A89
+    synonyms: 
+    - Reviewing Schedule Billing Release for Accounting
+  - value: PR_3CF241CE1DE25FA2
+    synonyms: 
+    - Picking and Posting Goods Issue for Stock Transport Order
+  - value: PR_68C48E3AB3ACD6A3
+    synonyms: 
+    - Posting Goods Receipts for Subcontract Purchase Orders
+  - value: PR_918F1007E1D7178A
+    synonyms: 
+    - Creating Purchase Requisitions
+  - value: PR_89C3615DCF11DD82
+    synonyms: 
+    - Exploring General Ledger Overviews
+  - value: PR_E344AAE264CA4C8F
+    synonyms: 
+    - Creating Intercompany Sales Orders
+  - value: PR_7A3943215C63B2BB
+    synonyms: 
+    - Uploading MT940 Bank Statements
+  - value: PR_B868997106C31783
+    synonyms: 
+    - Creating Pallets Issue Orders
+  - value: PR_F35EB0CF199C5B8A
+    synonyms: 
+    - Displaying Bank Statements
+  - value: PR_28FF334887B208B6
+    synonyms: 
+    - Creating Free of Charge Sales Orders (1WO)
+  - value: PR_901C48BF1A00AC94
+    synonyms: 
+    - Downloading the Template File
+  - value: PR_C8ABCB8357C7A1B2
+    synonyms: 
+    - Analyzing KPI Cards on Overview Page
+  - value: PR_4CCDA681DE740981
+    synonyms: 
+    - Recalculating Costs in Sales Orders
+  - value: PR_A0F42E39EEB763BD
+    synonyms: 
+    - Creating Tasks
+  - value: PR_9A97517B7CDAB7AB
+    synonyms: 
+    - Releasing Finished Goods Orders
+  - value: PR_88F95F4D40C277A8
+    synonyms: 
+    - Running Contract Valuation Reports
+  - value: PR_96643FC4D4221AB0
+    synonyms: 
+    - Confirming Pick Warehouse Tasks
+  - value: PR_CD19BF3250ACE885
+    synonyms: 
+    - Creating Intercompany Stock Transport Orders
+  - value: PR_45644A4010FD72B1
+    synonyms: 
+    - Creating Sourcing Projects
+  - value: PR_96D609CD608EB08E
+  - value: PR_1756347C2BB77B8
+    synonyms: 
+    - Releasing Production Orders
+  - value: PR_B6E10740A2C8DDA8
+    synonyms: 
+    - Running Contract Overview Reports (21Q)
+  - value: PR_34A7CE3E87727389
+    synonyms: 
+    - Training Accruals Prediction Models
+  - value: PR_691A9CDB236695B0
+    synonyms: 
+    - Batch Information Cockpit - Changing Batch Selection
+  - value: PR_7DC4676A5A2445A4
+  - value: PR_EC2AA67EABC06A9C
+    synonyms: 
+    - Creating a Lease-Out for Sublease Contract
+  - value: PR_B9D894A1DB75E6BD
+    synonyms: 
+    - Reviewing Purchase Order Accruals
+  - value: PR_18C288BD35A904A6
+    synonyms: 
+    - Confirming Rework Required for Defective Material
+  - value: PR_35457E88BB96EDA8
+    synonyms: 
+    - Reporting
+  - value: PR_2C08E731ACA58E99
+    synonyms: 
+    - Managing Legal Transactions -  Uploading a Document
+  - value: PR_AE473E35E4CB42BA
+    synonyms: 
+    - Picking and Posting Goods Issues for Deliveries
+  - value: PR_891F726903589686
+    synonyms: 
+    - Checking Serial Numbers in a Production Order
+  - value: PR_6F955F7812CB12B0
+    synonyms: 
+    - Creating a Delivery
+  - value: PR_45767C0298A2FFA0
+    synonyms: 
+    - Creating an Asset History Sheet
+  - value: PR_1CDBDE7AA1C119B4
+    synonyms: 
+    - Recording Inspection Results  (1FM)
+  - value: PR_554D1FD2A8BB3A9A
+  - value: PR_A8658CAF24C43BA1
+    synonyms: 
+    - Displaying Info Records from Awards
+  - value: PR_C52E5AC682EF90A4
+    synonyms: 
+    - Creating Supplier Invoices
+  - value: PR_1567EF59D98C3299
+    synonyms: 
+    - Analyzing Profit Center Balances
+  - value: PR_BEB392B58442497
+    synonyms: 
+    - Posting Goods Receipt Without Reference
+  - value: PR_2D5B804D8226FD8A
+    synonyms: 
+    - Recounting Inventory
+  - value: PR_AE5F4FE08ADAE9B6
+    synonyms: 
+    - Creating Purchasing Orders from Purchase Requisitions
+  - value: PR_B5461345F1FD38AD
+    synonyms: 
+    - Releasing Sales Orders (1QM)
+  - value: PR_D40D3799C1758DAB
+    synonyms: 
+    - Creating Intercompany Invoices
+  - value: PR_158B411675F3EDB5
+    synonyms: 
+    - Unblocking Material – Stock Transfer Blocked to Unrestricted
+  - value: PR_837D536C6B4B26B7
+    synonyms: 
+    - Maintaining the Financial Statement Version
+  - value: PR_9F9402D5F937F794
+  - value: PR_278444D99DD9A88C
+    synonyms: 
+    - Displaying PO Numbers in Shopping Carts
+  - value: PR_729A12FD4B2C2A8A
+    synonyms: 
+    - Creating Down Payment Requests (BKJ)
+  - value: PR_3E331677590E4B82
+    synonyms: 
+    - Executing Mass Maintenance for Business Partners
+  - value: PR_1E0BE82866B7859C
+    synonyms: 
+    - Confirming Production for Semi Finished Products
+  - value: PR_958BF6EA6CB7478E
+    synonyms: 
+    - Scheduling Jobs for Equity Adjustment
+  - value: PR_24A1984055631298
+    synonyms: 
+    - Reviewing Incomplete Sales Orders
+  - value: PR_371FE46A9D3F42A6
+    synonyms: 
+    - Reviewing a Customer Project
+  - value: PR_90D50D79CA1E9BA9
+    synonyms: 
+    - Analyzing Stock in Date Range
+  - value: PR_83FE8A11B676B9E
+    synonyms: 
+    - Checking Sales Orders with One-time Payment Cards
+  - value: PR_A78069C8C0D5CEAA
+    synonyms: 
+    - Classifying Product Customs Tariff Numbers
+  - value: PR_797BE293785E21BE
+    synonyms: 
+    - Displaying Lists of Purchase Requisitions to be Assigned
+  - value: PR_4091C209665AA4AA
+    synonyms: 
+    - Adding Freight Costs
+  - value: PR_2B1BA785B887D68E
+    synonyms: 
+    - Advanced Picking and Posting Goods Issues (BMK)
+  - value: PR_1372FAEBC0D831B9
+    synonyms: 
+    - Requesting a Legal Contract
+  - value: PR_1EA9E41B5BE52A89
+    synonyms: 
+    - Posting Goods Issues for Defective Materials
+  - value: PR_D47CF7C0C5D40E87
+    synonyms: 
+    - Scheduling Jobs for Cutback
+  - value: PR_D7799F1AEFC97A87
+    synonyms: 
+    - Creating Master Data for Supply Protections
+  - value: PR_91A0F1F3CB378DBD
+    synonyms: 
+    - Creating Purchase Orders (3EN)
+  - value: PR_3733C3C2341466BA
+    synonyms: 
+    - Maintaining a Semantic Tag for Financial Statement Version
+  - value: PR_7DF221670F543780
+    synonyms: 
+    - Changing Purchase Orders (BNX)
+  - value: PR_3D561070BD2B8992
+    synonyms: 
+    - Running a Posted Document for Contracts Report (21P)
+  - value: PR_FC3EC70F080D9399
+    synonyms: 
+    - Reviewing Sales Documents Blocked for Delivery
+  - value: PR_9E44FF9EDE56E390
+    synonyms: 
+    - Printing Billing Documents
+  - value: PR_291514A1081F6B1
+    synonyms: 
+    - Analyzing Commitment Management by Cost Center
+  - value: PR_91E6D425C6040B88
+    synonyms: 
+    - Posting Goods Receipts for Purchasing Documents
+  - value: PR_9AA6BB73D1BB8584
+    synonyms: 
+    - Creating Planned Independent Requirements (BJH)
+  - value: PR_64D54473611BE098
+    synonyms: 
+    - Staging Materials
+  - value: PR_1A59269A2DCD20B6
+    synonyms: 
+    - Monitoring Projects via Project Budget Report
+  - value: PR_2E8541667E48A486
+    synonyms: 
+    - Inserting Valuation Parameters
+  - value: PR_56CA7975C57D2796
+    synonyms: 
+    - Running a Contract Overview Report (2SB)
+  - value: PR_2576E2B6C1E1D7AC
+    synonyms: 
+    - Scheduling Jobs for Billing Part 2
+  - value: PR_7E4C378A553771AD
+    synonyms: 
+    - Reviewing Scrap Reports
+  - value: PR_14B15ABE8430ADBB
+    synonyms: 
+    - Accounts Receivable Overview
+  - value: PR_FA45973FE65438C
+    synonyms: 
+    - Creating a Sales Order
+  - value: PR_2DD1314085A980B9
+    synonyms: 
+    - "Performing General Stock Scrapping: Goods Issue to Cost Center"
+  - value: PR_7374C65BFC63E380
+    synonyms: 
+    - Creating Contracts
+  - value: PR_3BE61F2F3A08D1A7
+    synonyms: 
+    - Approving Shopping Carts
+  - value: PR_D88630BDAB74DAA3
+    synonyms: 
+    - Executing Periodic Posting
+  - value: PR_EE7D18A57A464ABE
+    synonyms: 
+    - Performing Mass Changes to Purchase Contracts
+  - value: PR_52444E00DA8BECB1
+    synonyms: 
+    - Running a Contract Valuations Report
+  - value: PR_F2FD4981E65BB6BC
+    synonyms: 
+    - Checking Invoice Document
+  - value: PR_F3A97082E5E4D394
+    synonyms: 
+    - Classifying Product Commodity Codes
+  - value: PR_F536B041BE7895A8
+    synonyms: 
+    - Displaying Classified Products
+  - value: PR_DCE76822C4EAABAD
+    synonyms: 
+    - Checking the Asset Accounting Overview
+  - value: PR_5D4201BF6AEB387
+    synonyms: 
+    - Posting Incoming Payments
+  - value: PR_B8C3700EBEE7ED9C
+    synonyms: 
+    - Inferring Accruals from Prediction Models
+  - value: PR_A0CEA7840FAB5BA
+    synonyms: 
+    - Reviewing Purchase Order Accruals for Cost Accountant
+  - value: PR_547292473406A19E
+    synonyms: 
+    - Maintaining Time Restrictions
+  - value: PR_C3E75A6C4AA9CCB0
+    synonyms: 
+    - Creating Audits
+  - value: PR_F09B234E204FDFB1
+    synonyms: 
+    - Creating Sales Orders (1HO)
+  - value: PR_7C90468FE6B7D96
+    synonyms: 
+    - Searching a Batch Alternative 1
+  - value: PR_1A0F08F3E5E2B3BC
+    synonyms: 
+    - Reviewing Production Orders
+  - value: PR_862AF0883BC2EA9B
+    synonyms: 
+    - Running Contract Overview Reports (1T6)
+  - value: PR_8DEEAD6247994DA3
+    synonyms: 
+    - Running Audit Reports and Transactions
+  - value: PR_CEB912D9EFAA62A7
+    synonyms: 
+    - Checking Tax Reconciliation Account Balances
+  - value: PR_F45CB85C4AF6639C
+    synonyms: 
+    - Receiving Replacement Material
+  - value: PR_3259FAE41DC7D2A7
+    synonyms: 
+    - Creating F2 Invoices (1MX)
+  - value: PR_287E07EBC073C8F
+  - value: PR_E1960E6931F65BA7
+    synonyms: 
+    - Reconciling Tax Declarations
+  - value: PR_3684D9D4C5C8C683
+    synonyms: 
+    - Analyzing Financial Data Changes (Optional)
+  - value: PR_5487DCF375C3E5A0
+    synonyms: 
+    - Executing Periodic Postings (1T6)
+  - value: PR_6F68D51A7918BE88
+    synonyms: 
+    - Displaying Material Stock after Quality Inspection
+  - value: PR_A4F1FD76E23206BD
+  - value: PR_7A300C0AF4CF9EA5
+    synonyms: 
+    - Downloading and Importing Allocation Cycles
+  - value: PR_69DE0C3EBCD4B0A9
+    synonyms: 
+    - Creating Lease-Out Contracts
+  - value: PR_46AB5409844074B7
+    synonyms: 
+    - Assigning Credit Cases (1QM)
+  - value: PR_8D55843E0AE6199B
+    synonyms: 
+    - Executing Periodic Postings (21Q)
+  - value: PR_548AFA590FD83287
+    synonyms: 
+    - Scheduling Jobs for Equity Change
+  - value: PR_66699A078D015EB4
+    synonyms: 
+    - Scheduling Jobs for Billing Part 1
+  - value: PR_31AC74C964925F91
+    synonyms: 
+    - Running the Remaining Cutback Report
+  - value: PR_91672993D673E783
+    synonyms: 
+    - Handing Over Purchase Requisitions
+  - value: PR_F9F912CE1AF4999A
+    synonyms: 
+    - Generating a Settlement Rule - Overhead Projects
+  - value: PR_30714E7AC426C3A7
+    synonyms: 
+    - Displaying Parts Per Million Evaluation Scores
+  - value: PR_FF29AC254AA2329D
+    synonyms: 
+    - Running Assets Under Construction Settlement
+  - value: PR_74826B427F258BBF
+    synonyms: 
+    - Running Posted Documents for Contracts Reports (1T6)
+  - value: PR_6CBCB1D03990B29F
+    synonyms: 
+    - Displaying Billing Documents
+  - value: PR_88A305981F2A68C
+    synonyms: 
+    - Running a Posted Documents for Contracts Report (2SB)
+  - value: PR_1E727AA875B2E5B9
+    synonyms: 
+    - Rejecting Sales Orders (1QM)
+  - value: PR_91C1DE00D6C5CE96
+    synonyms: 
+    - Releasing Processed Sales Orders
+  - value: PR_225CCFD0051884BC
+    synonyms: 
+    - Activating Organizational Changes
+  - value: PR_3244B5718FDA7398
+    synonyms: 
+    - Creating a Lease-In Contract for Group Leader IFRS
+  - value: PR_467AEFD6084EDDA5
+    synonyms: 
+    - Preparing Data by Copying Totals Records
+  - value: PR_80C431244DAFE4B1
+    synonyms: 
+    - Executing the Data and Consolidation Monitor
+  - value: PR_A803F9297E5EB181
+    synonyms: 
+    - Releasing a Payment Proposal
+  - value: PR_DCC38D7BDEBCE3BA
+    synonyms: 
+    - Posting Inventory Count Differences
+  - value: PR_ED94E30873DE6E9F
+    synonyms: 
+    - Posting Goods Issues
+  - value: PR_EB9B4B05FA3E490
+    synonyms: 
+    - Importing Multiple Objects into Organizational Changes
+  - value: PR_51AEC1A8165D8281
+    synonyms: 
+    - Managing Templates - Creating a Template
+  - value: PR_420C46B7D4DC71B7
+    synonyms: 
+    - Simulating Organizational Changes
+  - value: PR_D895F0D8ADAD48BB
+    synonyms: 
+    - Settling Documents with a Payment Service Provider
+  - value: PR_C6217F16911AAF8E
+    synonyms: 
+    - Creating Planned Independent Requirements (BJ5)
+  - value: PR_C3E5CF1BF1692DAD
+    synonyms: 
+    - Checking the Range of Stock Coverage
+  - value: PR_69520972E93D75B2
+    synonyms: 
+    - Analyzing Physical Inventory
+  - value: PR_689C0F490226D1A8
+    synonyms: 
+    - Converting Planned Orders to Production Orders
+  - value: PR_CFF10AACFAC4E987
+    synonyms: 
+    - Staging Material for Subassembly
+  - value: PR_33F01557631AEA86
+    synonyms: 
+    - Releasing Production Orders for Subassembly
+  - value: PR_81ED7FAF62CB2FA1
+    synonyms: 
+    - Creating Down Payments
+  - value: PR_ABA1031E7B17708D
+    synonyms: 
+    - Picking Components
+  - value: PR_D46F6AB2E3FE1CAC
+    synonyms: 
+    - Monitoring Material Coverage
+  - value: PR_CBE0198D3C8BBD82
+    synonyms: 
+    - Uploading camt.054 Bank Statements
+  - value: PR_C6238B44D1BAF9B7
+    synonyms: 
+    - Confirming Production Operations
+  - value: PR_790D9F3F623C4FAA
+    synonyms: 
+    - Confirming Final Assembly
+  - value: PR_1BFCFE6D1A567CB7
+    synonyms: 
+    - Material Requirements Planning
+  - value: PR_2B969D3BD8BC35A9
+    synonyms: 
+    - Adjusting Planning in a Planning Table
+  - value: PR_C415BE00172D6C90
+    synonyms: 
+    - Displaying an Open Inspection Lot
+  - value: PR_426B55749EA569BF
+    synonyms: 
+    - Staging Material
+  - value: PR_EA9529DDE9A4E29B
+    synonyms: 
+    - Confirming Repetitive Manufacturing
+  - value: PR_DA8D442362DACB80
+    synonyms: 
+    - Processing Error Records
+  - value: PR_55574AF212A16F99
+    synonyms: 
+    - Creating Return Purchase Orders
+  - value: PR_90123E086646E380
+    synonyms: 
+    - Entering Incoming Supplier Invoices
+  - value: PR_BD9D030DCCFCDA1
+    synonyms: 
+    - Creating Outbound Deliveries
+  - value: PR_BE2EECD02DCA43B9
+    synonyms: 
+    - Maintaining Evaluation Responses as Appraiser
+  - value: PR_77D5C50F5FDDFD9C
+    synonyms: 
+    - Picking and Posting Goods Issues
+  - value: PR_502C66CA69BA4693
+    synonyms: 
+    - Releasing a Production Order
+  - value: PR_DCCAE95E6570B6A3
+    synonyms: 
+    - Creating Credit Memos
+  - value: PR_3AEDD9C1F2B81ABD
+    synonyms: 
+    - Creating Advanced Return Purchase Orders
+  - value: PR_FD406EDD10417497
+    synonyms: 
+    - Creating Advanced Credit Memos
+  - value: PR_F340F6B5480BD59F
+    synonyms: 
+    - Creating Advanced Return Purchase Orders (BMK)
+  - value: PR_71544CA6AC72ABA4
+    synonyms: 
+    - Creating Debit Memo Requests (1F1)
+  - value: PR_E05D23E193AAC295
+    synonyms: 
+    - Reviewing Duplicate Sales Documents
+  - value: PR_5AD09D10C384859A
+    synonyms: 
+    - Creating Supplier Invoices for Down Payments
+  - value: PR_BE1502B1D94E7693
+    synonyms: 
+    - Creating Advanced Outbound Deliveries (BMK)
+  - value: PR_42D24D20CEB2DFA0
+    synonyms: 
+    - Posting Goods Receipt
+  - value: PR_E5B79FCF26FDBDB7
+    synonyms: 
+    - Follow-Up Activities For Replacement Material
+  - value: PR_E72C47DD35A599AC
+    synonyms: 
+    - Transferring Stock - Two steps (Remove from Storage Location)
+  - value: PR_9369EAEBBEA606A1
+    synonyms: 
+    - Posting Goods Receipt (BDD)
+  - value: PR_2A40923CE9A61688
+    synonyms: 
+    - Creating Documents with Create PI Documents Regular Stock
+  - value: PR_58EB646EC1A2EEA2
+  - value: PR_38D198978CF01996
+    synonyms: 
+    - Creating Billing Document (BDD)
+  - value: PR_33CCDFA1C287B48A
+    synonyms: 
+    - Transferring Stocks - Two Steps (Place to Storage Location)
+  - value: PR_BB0BB1696AFB18AF
+    synonyms: 
+    - Analyzing Dead Stock
+  - value: PR_36FF90D29AC91F93
+    synonyms: 
+    - Creating Deliveries (1MI)
+  - value: PR_9F3968E3D13659A5
+  - value: PR_FFD28528529F4EAD
+    synonyms: 
+    - Accepting Material
+  - value: PR_D26277A1453417BB
+    synonyms: 
+    - Creating a Sales Order without a Delivery Block
+  - value: PR_E4CCEB702285C094
+    synonyms: 
+    - Creating New Inspection Lots
+  - value: PR_88815DFF02DE4088
+    synonyms: 
+    - Displaying an Inspection Plan for Inspection Characteristics
+  - value: PR_10A0BAFB7A7E85B8
+    synonyms: 
+    - Recording an Inspection Result
+  - value: PR_F03F040085E3B9B4
+    synonyms: 
+    - Defining Cycle Counting Classification
+  - value: PR_A45A15B086B4669D
+    synonyms: 
+    - Scheduling Physical Inventory Document Creation
+  - value: PR_226D2DA313343B89
+    synonyms: 
+    - Entering Inventory Count
+  - value: PR_D2F6909451006E94
+    synonyms: 
+    - Listing Count Differences
+  - value: PR_96F46290D8F71BC
+    synonyms: 
+    - Creating and Printing Cycle Counting Documents
+  - value: PR_A3239854D29F384
+    synonyms: 
+    - Creating and Printing Counting Documents
+  - value: PR_D841D7083740EA97
+    synonyms: 
+    - Entering Count Results
+  - value: PR_A697FBCF03A1D2A3
+    synonyms: 
+    - Confirming Inventory Count Results
+  - value: PR_FB9869562C7721B4
+    synonyms: 
+    - Creating Pick Warehouse Tasks
+  - value: PR_B492C110F7F4F5AE
+    synonyms: 
+    - Posting Goods Issues
+  - value: PR_BA117CE0B2433FA3
+    synonyms: 
+    - Creating a Batch
+  - value: PR_DD422465DE35EDA3
+    synonyms: 
+    - Creating Deliveries (1MX)
+  - value: PR_263556A2F06B65B6
+    synonyms: 
+    - Posting Goods Receipts
+  - value: PR_44E60C33A8EC7DA7
+    synonyms: 
+    - Uploading camt.052 Bank Statements
+  - value: PR_567703A34EB0C886
+    synonyms: 
+    - Downloading Payment Medium Files
+  - value: PR_D20F0DBF8E3A54A9
+    synonyms: 
+    - Completing One Step Stock Transfer
+  - value: PR_12CEA2A953C8A9A2
+  - value: PR_97859F2CC1AA68B3
+  - value: PR_25AED023DD0AF28B
+    synonyms: 
+    - Checking the Stock Status (Completing Two- Step Stock Transfer)
+  - value: PR_B60FC19F280EFF90
+    synonyms: 
+    - Processing Payment Cards
+  - value: PR_C94EC8EEA5519BA3
+    synonyms: 
+    - Confirming Receipt at Bases with Visual Inspections
+  - value: PR_622E5F24939979BA
+    synonyms: 
+    - Changing the Confirmation Control for an Inbound Delivery
+  - value: PR_D10176DF5041B4A8
+    synonyms: 
+    - Creating Purchasing Contracts
+  - value: PR_3CB998477735EB0
+    synonyms: 
+    - Creating a Replenishment Delivery for Stock Transport Order
+  - value: PR_81CD32E3E3156D8C
+    synonyms: 
+    - Uploading BAI2 Bank Statements
+  - value: PR_7C57F2836FCFEC99
+    synonyms: 
+    - Uploading GPI Tracker Files
+  - value: PR_A812A6A94B7B7B90
+    synonyms: 
+    - Uploading camt.053 Bank Statements
+  - value: PR_B8792F9B80CF1398
+    synonyms: 
+    - Checking the Status of a Stock Transfer
+  - value: PR_C7F207397F3694A8
+    synonyms: 
+    - Creating Sales Order with Collective Billing
+  - value: PR_4C3655FBD8D496B7
+    synonyms: 
+    - Posting a Goods Receipt for Inbound Delivery
+  - value: PR_8D5BC66D52841CA0
+    synonyms: 
+    - Posting a Goods Receipt for Stock Transport Order
+  - value: PR_CB185E90C74B308D
+    synonyms: 
+    - Posting Goods Receipts for Purchase Orders
+  - value: PR_65D1A904B96B0396
+    synonyms: 
+    - Confirming Warehouse Tasks (5HN)
+  - value: PR_86E126394AF694B1
+    synonyms: 
+    - Creating Production Orders With Subcontract Operation
+  - value: PR_502DC99371A7758A
+    synonyms: 
+    - Creating Purchasing Orders for External Processing
+  - value: PR_C1471F8066DD74AD
+    synonyms: 
+    - Creating Sales Order with Invoice List
+  - value: PR_E93701D38BAC33B3
+    synonyms: 
+    - Scheduling Payment Proposals (BJK)
+  - value: PR_2F64528972F4D399
+    synonyms: 
+    - Reviewing Periodic Payment and Releasing Blocked Invoices
+  - value: PR_44CDA7430A932C8D
+    synonyms: 
+    - Creating a Change Master
+  - value: PR_E61FF6152BB50FBC
+    synonyms: 
+    - Managing Production Operations (BJN)
+  - value: PR_530B570A5AEC8F87
+    synonyms: 
+    - Posting Goods Receipts for Rework Production Orders
+  - value: PR_C17F3A14DDA26882
+    synonyms: 
+    - Previewing Goods Receipt Slips
+  - value: PR_E7A859275B3CDAAD
+    synonyms: 
+    - Running Material Requirements Planning for Sales Orders
+  - value: PR_17CB203DDE2E2487
+    synonyms: 
+    - Changing Order BOM for Sales Orders
+  - value: PR_431D6F0E574D5692
+    synonyms: 
+    - Rerunning MRP for Sales Orders
+  - value: PR_522373445E114F92
+    synonyms: 
+    - Creating Production Orders
+  - value: PR_43E498B0B108C391
+    synonyms: 
+    - Managing Production Operations (BJQ)
+  - value: PR_DFB57E6C6E86BC9A
+    synonyms: 
+    - Printing Sales Order Forms
+  - value: PR_66108E10FF4E3E9E
+    synonyms: 
+    - Creating Shopping Carts
+  - value: PR_711E8DA75702408B
+    synonyms: 
+    - Deleting Reference Operation Set from Routing
+  - value: PR_9B4357B47A8DC59C
+    synonyms: 
+    - Creating Manual Debit Memo Requests
+  - value: PR_9ACD8FEF9ABC6085
+    synonyms: 
+    - Managing Contexts
+  - value: PR_DD8797B4BEF0749D
+    synonyms: 
+    - Creating Sales Inquiries
+  - value: PR_DF46D90866B6A9B3
+    synonyms: 
+    - Processing Credit Memo Requests Using Workflows
+  - value: PR_FCAC277F5EA548F
+    synonyms: 
+    - Changing Sales Inquiries
+  - value: PR_356EB4E21E3A5F8E
+    synonyms: 
+    - Rejecting Sales Inquiries
+  - value: PR_4FA127C2B4B5A186
+    synonyms: 
+    - Completing Customer Master Data
+  - value: PR_22791B42052C7A98
+    synonyms: 
+    - Viewing Customer Line Items
+  - value: PR_BCEBA5B68B514B5
+    synonyms: 
+    - Managing Payment Blocks (19M)
+  - value: PR_A4AB14F2726BA084
+    synonyms: 
+    - Maintaining PIRs for Material TG0012
+  - value: PR_AC2B8082F884FC88
+    synonyms: 
+    - Displaying Customer Balances (19M)
+  - value: PR_E72B51E566BB392
+    synonyms: 
+    - Revising Payment Proposals (19M)
+  - value: PR_705151ADD406B5A3
+    synonyms: 
+    - Releasing Payment Proposals (19M)
+  - value: PR_B17F8BFE249D459B
+    synonyms: 
+    - Viewing Overdue Receivables
+  - value: PR_4AE24763C05DD086
+    synonyms: 
+    - Creating Maintenance Orders
+  - value: PR_E9171B45518B5780
+  - value: PR_F55EE4BF3774E2AC
+    synonyms: 
+    - Analyzing Accrual Postings
+  - value: PR_CB0931CFB3020EB7
+    synonyms: 
+    - Checking Business Volume
+  - value: PR_25190632EA2F23B7
+    synonyms: 
+    - Comparing and Awarding Supplier Quotations
+  - value: PR_7E67E3AFC59771B5
+    synonyms: 
+    - Creating Partial Settlements with Reversal of Accruals
+  - value: PR_109AB5E7E3C9B29C
+  - value: PR_57E17C1DF93C949E
+    synonyms: 
+    - Importing Bank Statements
+  - value: PR_68CF6DC660E08E83
+  - value: PR_39F589267F118E83
+    synonyms: 
+    - Solving Issues by Redistributing Quantities
+  - value: PR_A3D13293365C37B3
+    synonyms: 
+    - Creating Attachments for Deliveries (1MI)
+  - value: PR_B54D2C9683132DBE
+    synonyms: 
+    - Executing Picking (1MI)
+  - value: PR_A772C6775BC470B6
+    synonyms: 
+    - Creating Billing Documents (1MI)
+  - value: PR_780091896ED90793
+    synonyms: 
+    - Creating Billing Documents (BDH)
+  - value: PR_24B66C1511B26292
+    synonyms: 
+    - Reviewing Sales Orders (1QM)
+  - value: PR_E8187E179D5A5C93
+    synonyms: 
+    - Scheduling MRP Runs
+  - value: PR_328A70196D3B5581
+    synonyms: 
+    - Registering Payment Cards in Customer Master Data
+  - value: PR_E9848F3BCE83368D
+    synonyms: 
+    - Creating Customer Invoices (BDA)
+  - value: PR_3497E00A5CD6E698
+    synonyms: 
+    - Checking Payment Card Status and Reauthorizing Sales Orders
+  - value: PR_198B68D5A3D663BE
+    synonyms: 
+    - Releasing Sales Orders with Payment Cards
+  - value: PR_AD4D30EC5DEAECAE
+    synonyms: 
+    - Creating Sales Orders with One-time Payment Cards
+  - value: PR_5078CC0BA9F5868E
+    synonyms: 
+    - Releasing Sales Orders with One-time Payment Cards
+  - value: PR_74C315DCF8AB6290
+    synonyms: 
+    - Printing Form - Output Management
+  - value: PR_5BD34647512CB187
+    synonyms: 
+    - Creating Contracts with Item Hierarchy
+  - value: PR_FE4216D0D1FA3BAD
+    synonyms: 
+    - Rejecting Sales Orders and Cancelling Credit Card Authorization
+  - value: PR_5FD8BF8375C6F7A3
+    synonyms: 
+    - Processing Sales Order Approval
+  - value: PR_F87EC3217EFC7C99
+    synonyms: 
+    - Creating Sales Orders
+  - value: PR_2286000D240F1DBB
+    synonyms: 
+    - Creating Deliveries
+  - value: PR_AD467CFE6FF47398
+    synonyms: 
+    - Performing Picking
+  - value: PR_DF648C09E60647A4
+    synonyms: 
+    - Posting Goods Issue
+  - value: PR_98B952B5919C0582
+    synonyms: 
+    - Monitoring Availability
+  - value: PR_C079BE37B3FC58A9
+    synonyms: 
+    - Creating a Preliminary Billing Document
+  - value: PR_451B6B0182FCE84
+    synonyms: 
+    - Creating a Billing Document
+  - value: PR_1A6B99CF14309D8A
+    synonyms: 
+    - Creating Sales Quotations
+  - value: PR_657351D38076CEA7
+    synonyms: 
+    - Changing Sales Quotations
+  - value: PR_3BB14FB06633EFBE
+    synonyms: 
+    - Rejecting Sales Quotations
+  - value: PR_3D0580BE7BBC118D
+    synonyms: 
+    - Creating Sales Orders (BDK)
+  - value: PR_14604BD5A4BC2DA2
+    synonyms: 
+    - Displaying the List of Purchase Requisitions to be Assigned
+  - value: PR_84B69C0DB4F941B0
+    synonyms: 
+    - Converting Assigned Requisitions to Purchase Orders
+  - value: PR_C1EFD1E613D4B89D
+    synonyms: 
+    - Processing Payment Lots
+  - value: PR_667AE78D008655B9
+    synonyms: 
+    - Analyzing Human Resources
+  - value: PR_A6C7CB92F62D24AE
+    synonyms: 
+    - Executing a Costing Run
+  - value: PR_1074F0058C5B13AC
+    synonyms: 
+    - Creating a Costing Run
+  - value: PR_2AEB9F56023FF387
+    synonyms: 
+    - Viewing Posted Statistical Key Figures
+  - value: PR_4838B3F4122D3F8A
+    synonyms: 
+    - Sending Payment Advice to Suppliers
+  - value: PR_E32A629344E5279B
+    synonyms: 
+    - Opening New Material Master Periods
+  - value: PR_5FAC3AF973220683
+    synonyms: 
+    - The SAP Fiori Launchpad
+  - value: PR_1305F5AA75EF69A7
+    synonyms: 
+    - Personalizing the Classic Home Page
+  - value: PR_DB2D8461662E8B2
+    synonyms: 
+    - Creating a Supplier Invoice
+  - value: PR_9176784F5DD7F494
+  - value: PR_E9D31B6006648092
+    synonyms: 
+    - Creating Business Users
+  - value: PR_827758EE22050C80
+    synonyms: 
+    - Using SAP CoPilot
+  - value: PR_D193CA911F480887
+    synonyms: 
+    - Approving Bank Payments as First Approver
+  - value: PR_BDFA7B4B143F10A3
+    synonyms: 
+    - Using the Learning Center
+  - value: PR_724C7F0A83F21D81
+    synonyms: 
+    - Confirming Repetitive Manufacturing
+  - value: PR_FC86270CC0C7CFA7
+    synonyms: 
+    - Scheduling Payment Proposals (J60)
+  - value: PR_AD982E0E48460494
+    synonyms: 
+    - Staging Material
+  - value: PR_5991CCC3E2E4487
+    synonyms: 
+    - Viewing the Balance Summary for Material Inventory Values
+  - value: PR_D9587A01B0547FAE
+    synonyms: 
+    - Creating Sourcing Projects
+  - value: PR_57AF56E81BE60D97
+    synonyms: 
+    - Displaying FIFO Results (BEJ)
+  - value: PR_E47C3125AF98868A
+    synonyms: 
+    - Creating a Sales Order
+  - value: PR_E61D97A75DCD069F
+    synonyms: 
+    - Working with and Personalizing Spaces and Pages
+  - value: PR_F0FA9302DEFBF90
+    synonyms: 
+    - Scheduling Payment Proposals (19O)
+  - value: PR_4C726D86C936C898
+    synonyms: 
+    - Getting Information on Test Tool
+  - value: PR_F3C30B8FD511BD8E
+    synonyms: 
+    - Using the Search Function
+  - value: PR_3CBD128DE403C993
+    synonyms: 
+    - Validating Reported Financial Data
+  - value: PR_6C19CCB55CFFB2B5
+    synonyms: 
+    - Creating Templates for Process Route Steps
+  - value: PR_C34D7D17C3B2385
+    synonyms: 
+    - Getting Help
+  - value: PR_6108BEC7315673A2
+    synonyms: 
+    - Authenticating the Admin User with SAP Cloud Identity Service
+  - value: PR_7BCBE84E84567AAB
+    synonyms: 
+    - Picking and Posting Goods Issues
+  - value: PR_E9C70E4752C064AC
+    synonyms: 
+    - Reviewing Best Practices for Financial Planning for S4HC
+  - value: PR_B4E7B40F714A27B2
+    synonyms: 
+    - Creating Job Postings
+  - value: PR_7576E3C73C162D9C
+    synonyms: 
+    - Working with Filters
+  - value: PR_DA2DD07A52CC6082
+    synonyms: 
+    - Adjusting Planning in a Planning Table
+  - value: PR_29A13321D69F6991
+    synonyms: 
+    - Working with Object Page Apps
+  - value: PR_A302E17FF5AB7686
+    synonyms: 
+    - Providing Trial Balances for Month-End Group Close
+  - value: PR_BBD26490A417D094
+    synonyms: 
+    - Releasing Payment Proposals (19O)
+  - value: PR_309D2AF7448AC988
+    synonyms: 
+    - Posting Statistical Key Figures
+  - value: PR_EA905DEA1122A99F
+    synonyms: 
+    - Working with Adapt UI
+  - value: PR_59F8323854D93198
+    synonyms: 
+    - Managing Billing Documents (BKA)
+  - value: PR_3DB19074D0C7A98A
+    synonyms: 
+    - Working with Tables
+    - table Workers
+  - value: PR_F0D3F524AD4A0EBD
+    synonyms: 
+    - Synchronizing G/L Account Master Data
+  - value: PR_C242D642670D4C97
+    synonyms: 
+    - Translating for Month-End Group Close/Currency Translations
+  - value: PR_E832F66629EA1782
+    synonyms: 
+    - Closing Completed Service Orders
+  - value: PR_99B01A92E14C748F
+    synonyms: 
+    - Performing Delta Posting
+  - value: PR_1AA921375B0C1A84
+    synonyms: 
+    - Handling Situations
+  - value: PR_B9804323727F97A1
+    synonyms: 
+    - Creating New Versions of Documents
+  - value: PR_AE541A3B15F04C97
+    synonyms: 
+    - Working with Attachments
+  - value: PR_20F52E1E81B8CEBE
+  - value: PR_41D99AAAD6774E83
+    synonyms: 
+    - Approving Service Entry Sheets
+  - value: PR_A1E9A9F6BC4A9E8D
+    synonyms: 
+    - Working with Transactional Apps
+  - value: PR_A1215FA4C6C66399
+    synonyms: 
+    - Creating the Initial Admin Business Role
+  - value: PR_BB32404E24AFD0B8
+    synonyms: 
+    - Revising Payment Proposals (J60)
+  - value: PR_D9B269C79B7D72A9
+    synonyms: 
+    - Working with Analytical Applications
+  - value: PR_44FB1F7705646CBF
+    synonyms: 
+    - Recording Inspection Results  (1FM)
+  - value: PR_C09A01FF6D284B89
+    synonyms: 
+    - Working with User Defaults
+  - value: PR_BBDC1AE636E40A9E
+    synonyms: 
+    - Creating an Outbound Delivery
+  - value: PR_9F323EE1FC3E0A92
+    synonyms: 
+    - Posting Goods Receipts for Subassembly Production Order
+  - value: PR_264D69C69BA8B988
+    synonyms: 
+    - Posting Goods Receipts (BDD)
+  - value: PR_C07416B281AB8BA1
+    synonyms: 
+    - Creating Profitability Realignment Runs
+  - value: PR_E24E93E77236B78D
+    synonyms: 
+    - Creating Manufacturing Bills of Material
+  - value: PR_316A156A1F7550A8
+    synonyms: 
+    - Working with Overview Pages
+  - value: PR_25495D8B0FA2758D
+    synonyms: 
+    - Setting a Credit Limit and Calculating Credit Ratings
+    - set a credit limit
+  - value: PR_1AB0D85A9587E680
+    synonyms: 
+    - Creating an Initial Admin Business User
+  - value: PR_F30A1C8EFB1E8982
+    synonyms: 
+    - Maintaining the Admin Business User
+  - value: PR_636405363636D7AE
+    synonyms: 
+    - Releasing Finished Goods Orders
+  - value: PR_C4D0DAE0FFBBFD9F
+    synonyms: 
+    - Creating Business Roles
+  - value: PR_C268DB998B968BA1
+    synonyms: 
+    - Maintaining the Business Users and Assigning Roles
+  - value: PR_236263040621A38E
+    synonyms: 
+    - Checking the Billing Block Status (J14)
+  - value: PR_9376C9484E267199
+    synonyms: 
+    - Managing Depreciation Runs
+  - value: PR_A3666657DF2D59B9
+    synonyms: 
+    - Creating Supplier Invoices (1P9)
+  - value: PR_402B1E1CCB934F88
+    synonyms: 
+    - Optimizing Marketing Campaigns
+  - value: PR_60F706B9572035BE
+    synonyms: 
+    - Creating Evaluation Questionnaires
+  - value: PR_C5EB2735177EF9B8
+    synonyms: 
+    - Authenticating a User with SAP Cloud Identity Service
+  - value: PR_1A95ED3C70EB23BC
+    synonyms: 
+    - Managing Banks
+  - value: PR_1A0872B1732B1EBA
+    synonyms: 
+    - Creating Users in the SuccessFactors System
+  - value: PR_D74919C2CD417ABE
+    synonyms: 
+    - Displaying an Open Inspection Lot
+  - value: PR_CEF4C8A5FD60D690
+    synonyms: 
+    - Verifying General Journal Entries for Ledger Group
+  - value: PR_E630D79FF64DD6B0
+    synonyms: 
+    - Performing Project Staffing Analysis
+  - value: PR_A9D13AA7736C87BA
+    synonyms: 
+    - Sending Payment Instructions to MBC
+  - value: PR_B6DEDAFA6D255D88
+    synonyms: 
+    - Pulling Status Messages from MBC
+  - value: PR_EC361F761353ABAD
+    synonyms: 
+    - Routing Payment Files and Payment Transaction Messages
+  - value: PR_2CFFF46C41C7BE8A
+    synonyms: 
+    - Viewing Audit Journals (1GA)
+  - value: PR_C5D31F6E26383CB9
+    synonyms: 
+    - Reviewing Periodic Payment and Releasing Blocked Invoices
+  - value: PR_2F4EC7A1C5A50E9F
+    synonyms: 
+    - Performing Invoice Entries Without a Purchase Order
+  - value: PR_FAB694161BE406AD
+    synonyms: 
+    - Processing Error Records
+  - value: PR_13B62375757FF0BB
+    synonyms: 
+    - Displaying Discount Information Reports on Ariba Network
+  - value: PR_2C4C753E840B12A6
+    synonyms: 
+    - Approving Bank Payments as Second Approver
+  - value: PR_4FFF37AEB47C83A2
+    synonyms: 
+    - Reviewing and Releasing or Rejecting Sales Orders (BD6)
+  - value: PR_F6A419FCA2735AB9
+    synonyms: 
+    - Displaying Purchase Orders on Ariba Network
+  - value: PR_500CC618C9CF33AF
+    synonyms: 
+    - Entering an Activity Price
+  - value: PR_2961E4C02530C3A9
+    synonyms: 
+    - Creating Supplier Evaluation Weighting and Scoring
+  - value: PR_A206EE3BDB1BD285
+    synonyms: 
+    - Posting General Journal Entries Between Company Codes
+  - value: PR_D043E71D57BF7186
+    synonyms: 
+    - Maintaining the Batch Master Record Alternative 1
+  - value: PR_7EEE70628764E2A2
+    synonyms: 
+    - Displaying Journal Entries for Cross-Company Codes
+  - value: PR_53C093A6F2046A1
+    synonyms: 
+    - Changing Journal Entries for Cross-Company Codes
+  - value: PR_D2AABC027D577BD
+    synonyms: 
+    - Creating a Sales Order (BD6)
+  - value: PR_16C919BE5D20BB84
+    synonyms: 
+    - Reversing Journal Entries for Cross-Company Codes
+  - value: PR_61721F7BB1921583
+    synonyms: 
+    - Introducing SAP Roadmap Viewer
+  - value: PR_78AC87B17F6C91AA
+    synonyms: 
+    - Managing Open Resource Requests
+  - value: PR_9E2F90F52F197D87
+    synonyms: 
+    - Extracting Payment Advice
+  - value: PR_14572366DEA044AE
+    synonyms: 
+    - Using the Procurement Overview Page
+  - value: PR_CDCEFA74289C2AB6
+    synonyms: 
+    - Confirming Production for Semi Finished Products
+  - value: PR_F037A17863699BA7
+    synonyms: 
+    - Viewing Aging Analysis
+  - value: PR_1E4B352E2B8839BD
+    synonyms: 
+    - Working With ML Recommendations for GR/IR Account Reconciliation
+  - value: PR_E7CA8B18AF333189
+    synonyms: 
+    - Creating Sales Inquiries
+  - value: PR_4F50CD5A75CFABBE
+    synonyms: 
+    - Posting Inter–Company Transactions
+  - value: PR_12E31C9BECAD20B3
+    synonyms: 
+    - Notifying Missing Time
+  - value: PR_AA9156323F1154A7
+    synonyms: 
+    - Creating Physical Inventory Documents (Mass Creation)
+  - value: PR_67E1F14441616B4
+    synonyms: 
+    - Setting a Credit Limit
+  - value: PR_95F9943D9C6DC9BF
+    synonyms: 
+    - Assigning Credit Cases (BD6)
+  - value: PR_C145B3FE5D8D38AA
+    synonyms: 
+    - Creating Shopping Carts
+  - value: PR_A1A3A321454CA49F
+    synonyms: 
+    - Managing Payment Blocks (J60)
+  - value: PR_E11658C5723BC1A4
+    synonyms: 
+    - Managing House Banks
+  - value: PR_B400E76C947EFD9F
+    synonyms: 
+    - Uploading pain.002 Payment Status Reports
+  - value: PR_B98AFAB586F8E895
+    synonyms: 
+    - Creating Bank Accounts
+  - value: PR_C385D9B05B5275A6
+    synonyms: 
+    - Reviewing Travel Expenses
+  - value: PR_8504051851A70DBF
+    synonyms: 
+    - Exporting Bank Accounts
+  - value: PR_9D41884ABC1D68AA
+    synonyms: 
+    - Flagging Materials as Relevant for FIFO (BEJ)
+  - value: PR_BF869746F540B296
+    synonyms: 
+    - Closing Bank Accounts and Canceling Closing
+  - value: PR_1A6F56EBA30DEFBE
+    synonyms: 
+    - Reviewing Material Availability Status for Production Orders
+  - value: PR_CF25D507347853BC
+    synonyms: 
+    - Removing Inconsistent Data After Closing a Bank Account
+  - value: PR_9F9E6AA7273DC796
+    synonyms: 
+    - Creating Credit Memo Requests  (BKL)
+  - value: PR_630929412E88A486
+    synonyms: 
+    - Enhancing Fields for Bank Account Master Data
+  - value: PR_9622F516B696D9BA
+    synonyms: 
+    - Updating a Purchase Requisition
+  - value: PR_FDA50D99587823B5
+    synonyms: 
+    - Creating a Payment Medium Format
+  - value: PR_C135DCD4CDA593BC
+    synonyms: 
+    - Creating Bank Chains
+  - value: PR_4026B123B7D71FA7
+    synonyms: 
+    - Changing Bank Chains
+  - value: PR_F5153CC7DB70A83
+    synonyms: 
+    - Deleting Bank Chains
+  - value: PR_AFA3C06A68AB3A9F
+    synonyms: 
+    - Checking Bank Chain Information in Business Partners
+  - value: PR_B4A5A62412DCDEB6
+    synonyms: 
+    - Analyzing Order Actuals
+  - value: PR_4107A9474AE00AB
+    synonyms: 
+    - Scheduling Delete Bank Chain Jobs
+  - value: PR_8F16E57A04F66EAC
+    synonyms: 
+    - Deleting Actual General Ledger Distribution Cycles
+  - value: PR_D365B8DAE60CA699
+    synonyms: 
+    - Managing Providers of Information
+  - value: PR_4F1EA11AABC5E983
+    synonyms: 
+    - Creating Return Purchase Orders
+  - value: PR_E4AB14CCE7DA888D
+    synonyms: 
+    - Posting Transfers - Within Company Code
+  - value: PR_CCFC581F9558BEB7
+    synonyms: 
+    - Monitoring Payments
+  - value: PR_C91A89213FF487AE
+    synonyms: 
+    - Downloading Payment Medium Files
+  - value: PR_CB7655E53656838D
+    synonyms: 
+    - Posting Credit Memos After Year of Invoice
+  - value: PR_F50900E7F86B52BF
+    synonyms: 
+    - Approving a Shopping Cart
+  - value: PR_A02D185EC8B114B8
+    synonyms: 
+    - Checking Cash Flow Items (Check Account)
+  - value: PR_C70B129E55B45FA3
+    synonyms: 
+    - Analyzing Human Resources
+  - value: PR_8BDC7922F559E4AB
+    synonyms: 
+    - Checking Manual Input Bank Statement
+  - value: PR_487EC9A4EFC25A90
+    synonyms: 
+    - Analyzing Cash Flows
+  - value: PR_22B6E26C13CC62A7
+    synonyms: 
+    - Reversing Bank Statements
+  - value: PR_D2C26722BB53EB4
+    synonyms: 
+    - Copying a BOM
+  - value: PR_DE7CBD2D3BB180A5
+    synonyms: 
+    - Creating Memo Records
+  - value: PR_31865C29D2A37EA8
+    synonyms: 
+    - Posting Acquisition (Integrated AP) Without a Purchase Order
+  - value: PR_D027810720737CB9
+    synonyms: 
+    - Rejecting Sales Orders (1QM)
+  - value: PR_611262B3344C7BE
+    synonyms: 
+    - Defining Distribution Rules for Assets Under Construction
+  - value: PR_50FF41F9CEC4E695
+    synonyms: 
+    - Checking the Stock Overview
+  - value: PR_A02DE5DC587EA6A0
+    synonyms: 
+    - Introducing SAP Best Practices Explorer
+  - value: PR_118A32432CCB7392
+    synonyms: 
+    - Executing Settlement for Assets Under Construction
+  - value: PR_FEC3A64CB530E587
+    synonyms: 
+    - Reviewing Production Orders
+  - value: PR_5BE925FD7CE14F85
+    synonyms: 
+    - Recording General Journal Entries with Cost Center
+  - value: PR_34300D72141EB696
+    synonyms: 
+    - Executing Picking (BKJ)
+  - value: PR_B5A64E597CF58E
+    synonyms: 
+    - Executing the Overhead Allocation Cycle
+  - value: PR_9E64DA9CDD9CD95
+    synonyms: 
+    - Running Cost Centers Actual Data Reporting
+  - value: PR_9B79066CC74DFD93
+    synonyms: 
+    - Reviewing Forecast Update Workflow
+  - value: PR_49AA46D50A922598
+    synonyms: 
+    - Reviewing Existing Allocation Results
+  - value: PR_33BBDC7E5F301789
+    synonyms: 
+    - Creating Confirmation for Purchase Requisitions in HUB Systems
+  - value: PR_90DE1FA30CCAD288
+    synonyms: 
+    - Rejecting Sales Orders and Cancelling Credit Card Authorization
+  - value: PR_74F2FACBACC38E95
+    synonyms: 
+    - Posting Currency Adjustments
+  - value: PR_3DAD642C01F887B1
+    synonyms: 
+    - Executing Assessment Cycle (CO-PA)
+  - value: PR_5A453B01769E9892
+  - value: PR_613081EB80C602A8
+    synonyms: 
+    - Posting Expenses to the Central Cost Center
+  - value: PR_F0EA5949E167918F
+    synonyms: 
+    - Posting Goods Receipts for Purchasing Documents
+  - value: PR_6828E94396EAA09D
+    synonyms: 
+    - Creating a Top-Down Distribution Cycle
+  - value: PR_768668E8C1B399B
+    synonyms: 
+    - Creating Supplier Invoices for Limit Items
+  - value: PR_98952CA88370D891
+    synonyms: 
+    - Executing Top-Down Distribution
+  - value: PR_B44C43A47F0E0DBA
+    synonyms: 
+    - Running Market Segments Actuals Reports
+  - value: PR_FA1B9707ABB91396
+    synonyms: 
+    - Creating Sales Orders (BDH)
+  - value: PR_24F7AFE3AAAAEBBC
+    synonyms: 
+    - Viewing the Corporate Overview
+  - value: PR_5A3721DA8348B7A5
+    synonyms: 
+    - Posting Unrestricted Stock to Quality Inspection Stock
+  - value: PR_223313A3B67ED9B1
+    synonyms: 
+    - Managing Contexts
+  - value: PR_6D0A2B4C35A246B9
+    synonyms: 
+    - Running Market Segments Actuals Versus Plan Reports
+  - value: PR_38483411B68F6783
+    synonyms: 
+    - Converting Assigned Requisitions into Purchase Orders
+  - value: PR_FBCE437A1971EE85
+    synonyms: 
+    - Removing Billing Blocks (BDQ)
+  - value: PR_3212EC0C1277EAA1
+    synonyms: 
+    - Creating a Purchase Order (Manually)
+  - value: PR_C479DBFC60133692
+    synonyms: 
+    - Executing Profitability Realignment Run
+  - value: PR_91B3D236B9DAE49D
+    synonyms: 
+    - Creating Supplier Invoices with PO/GR Relations on Ariba Network
+  - value: PR_6FE0B1F71CE68B97
+    synonyms: 
+    - Generating Cash Flow Statements
+  - value: PR_AC2C8EFD85F80CBD
+    synonyms: 
+    - Analyzing Realignment Results
+  - value: PR_82E64DE30FBA6084
+    synonyms: 
+    - Posting Retirements (Non-Integrated) Without Customer
+  - value: PR_E8E1DC293FEC64B6
+    synonyms: 
+    - Unblocking Material – Stock Transfer Blocked to Unrestricted
+  - value: PR_8AE71A352742C384
+    synonyms: 
+    - Creating Production Orders
+  - value: PR_E15741EC2D167DAB
+    synonyms: 
+    - Scheduling Test Plans
+  - value: PR_177B2B5447EEB0B5
+    synonyms: 
+    - Displaying Supplier Lists
+  - value: PR_36E704BD01DFFE9C
+    synonyms: 
+    - Managing Commodity Codes
+  - value: PR_1AFCBF0FD80A0E9B
+    synonyms: 
+    - Managing Usage Decisions After Quality Inspections
+  - value: PR_7BEA83B828C8B69C
+    synonyms: 
+    - Creating Debit Memos
+  - value: PR_6666511DDB5320BF
+    synonyms: 
+    - Recording an Inspection Result
+  - value: PR_A1E266F8DC80648F
+    synonyms: 
+    - Creating Outbound Deliveries Without Order References
+  - value: PR_C26B74CD1153E1A3
+    synonyms: 
+    - Displaying Intrastat Declarations
+  - value: PR_260336E6E2D7E99A
+    synonyms: 
+    - Creating Consignment Issue Orders
+  - value: PR_FD3D26CC03E6EAB7
+    synonyms: 
+    - Adapting Best Practice Automates
+  - value: PR_4878CE7D03057490
+    synonyms: 
+    - Generating Intercompany Billing Requests
+  - value: PR_CCDD74A3FE35A5AC
+    synonyms: 
+    - Creating Purchase Requisitions
+  - value: PR_55DB75556B677B6
+    synonyms: 
+    - Posting Goods Issue
+  - value: PR_1F4307FCC41170B4
+    synonyms: 
+    - Converting Assigned Requisitions to Purchase Orders
+  - value: PR_EBCE808ED8ABC783
+    synonyms: 
+    - Checking the Range of Stock Coverage
+  - value: PR_AAC01DF58DB81F9A
+    synonyms: 
+    - Approving Purchase Orders (J45)
+  - value: PR_78BA6E32F3EC718F
+    synonyms: 
+    - Creating Intercompany Billing Documents
+  - value: PR_763372284A9F4490
+    synonyms: 
+    - Displaying the List of Purchase Requisitions to be Assigned
+  - value: PR_F9B17928984B6499
+    synonyms: 
+    - Rejecting Sales Inquiries
+  - value: PR_4BC8FBDD7A725D84
+    synonyms: 
+    - Monitoring Purchase Requisition Items
+  - value: PR_B3A871D398FF1FBD
+    synonyms: 
+    - Performing a Business Partner Financial Overview
+  - value: PR_A0B1608FF97823A2
+    synonyms: 
+    - Managing Teams and Responsibilities for GR/IR Accounts
+  - value: PR_E2B4FCB502F3F192
+    synonyms: 
+    - Executing Settlement for AuC (Periodic Processing)
+  - value: PR_87D35C987779249D
+    synonyms: 
+    - Picking and Posting a Goods Issue
+  - value: PR_637F5AB541C19AB9
+    synonyms: 
+    - Creating Billing Documents for Unreturned Returnable Materials
+  - value: PR_9E0C5F63D7BE24A1
+    synonyms: 
+    - Editing Applications in View Browser
+  - value: PR_8720CD1A93BA00A1
+    synonyms: 
+    - Confirming Production Operations
+  - value: PR_69877D6544832997
+    synonyms: 
+    - Managing Resources with Free Capacity
+  - value: PR_BD68EE1728418CA1
+    synonyms: 
+    - Converting Planned Orders to Production Orders
+  - value: PR_B7FB943BD6FE158A
+    synonyms: 
+    - Creating Intrastat Declarations Manually
+  - value: PR_E6B15083AEFF2889
+    synonyms: 
+    - Creating Planned Independent Requirements (BJH)
+  - value: PR_FA06D95BAF59BFB7
+    synonyms: 
+    - Removing Billing Blocks on Closing Invoices
+  - value: PR_8919BE8E2A3D5985
+    synonyms: 
+    - Using Configure Your Solution
+  - value: PR_5A449FCB33FC1A1
+    synonyms: 
+    - Releasing Versions of Bills of Material
+  - value: PR_57D3DB0D8580E9BA
+    synonyms: 
+    - Running Material Requirements Planning for Sales Orders
+  - value: PR_D4B34740DF48793
+    synonyms: 
+    - Performing Foreign Currency Valuations
+  - value: PR_8AA315380879F1AA
+    synonyms: 
+    - Creating Intercompany Stock Transport Orders
+  - value: PR_5CA281938AAFE5A4
+    synonyms: 
+    - Approving Purchase Requisitions
+  - value: PR_E16B62CC1ECF25B1
+    synonyms: 
+    - Checking Purchase Requisitions
+  - value: PR_F00BD09994B3E4B4
+    synonyms: 
+    - Creating Production Orders With Subcontract Operation
+  - value: PR_F8A993CB71062BA7
+    synonyms: 
+    - Participating in Sourcing Events
+  - value: PR_3F27C163C20CAAB6
+    synonyms: 
+    - Recalculating Costs in Sales Orders
+  - value: PR_38151F26CA4FA8
+    synonyms: 
+    - Creating Purchase Orders Manually for Down Payments
+  - value: PR_D617514CE2C0D88F
+    synonyms: 
+    - Performing Write-offs for GR/IR Accounts
+  - value: PR_C706BB37B432981
+    synonyms: 
+    - Calculating Work in Process
+  - value: PR_6F03932CFA2512AC
+    synonyms: 
+    - Running Assessment Cycles for Quality Costs
+  - value: PR_F1BA5F09DB394FA7
+    synonyms: 
+    - Final Confirming for Final Assembly
+  - value: PR_7DA7F56C803B9EAE
+    synonyms: 
+    - Creating Dunning Notices
+  - value: PR_D0CB7D0BFB0685A1
+    synonyms: 
+    - Receiving Goods from a Subcontracting PO (BMY)
+  - value: PR_6810E60579F4CABF
+    synonyms: 
+    - Posting Goods Issues for Defective Materials
+  - value: PR_85081EE4B8180FAE
+    synonyms: 
+    - Reviewing Manufacturing Object Pages (BJK)
+  - value: PR_A9937016F898C0B6
+  - value: PR_7E5AF985D1870297
+    synonyms: 
+    - Changing Material Costs
+  - value: PR_EE72AAD51CBDF6AC
+  - value: PR_659D5A2DF0F61099
+    synonyms: 
+    - Viewing Consolidated Balance Sheet Reports
+  - value: PR_9C1D05E6DBBA3488
+    synonyms: 
+    - Displaying Item Change Logs
+  - value: PR_30D2A3CBEDE2EBF
+    synonyms: 
+    - Creating Return Orders (1Z3)
+  - value: PR_B0AF1071BD1FB7BF
+  - value: PR_73594FDA432ED4A0
+    synonyms: 
+    - Creating New Inspection Lots
+  - value: PR_CFEBB30753FD22A7
+    synonyms: 
+    - Managing Customer Master Data
+  - value: PR_4B9E3A9A41D357A3
+    synonyms: 
+    - Monitoring Overdue Receivables
+  - value: PR_125CB56641A2DCA8
+    synonyms: 
+    - Activating Work Orders
+  - value: PR_4BD1D109B95A8C96
+    synonyms: 
+    - Entering Incoming Supplier Invoices
+  - value: PR_BEA06AEC81C167B3
+    synonyms: 
+    - Creating New Inspection Lots
+  - value: PR_27158C4601E89C9C
+    synonyms: 
+    - Posting Goods Receipts for Inbound Deliveries
+  - value: PR_7571AFC375E2B3BA
+    synonyms: 
+    - Working with Attachments
+  - value: PR_DDCC0CE68294C293
+    synonyms: 
+    - Using SAP CoPilot
+  - value: PR_C501782F8CD94684
+    synonyms: 
+    - "Converting to SAP S/4HANA: Stage 1 - Starting SUM"
+  - value: PR_F1B94B177324785
+    synonyms: 
+    - The SAP Fiori Launchpad
+  - value: PR_2F67916E4C25AD82
+    synonyms: 
+    - Posting Goods Receipts for Rework Production Orders
+  - value: PR_AA5B0F5377A3B1AF
+    synonyms: 
+    - Checking Batches for Invoice List (Optional)
+  - value: PR_1F2DF068EDCB94B7
+    synonyms: 
+    - Displaying AP Accounting Documents for Non-Stock Material
+  - value: PR_C275691CA88A8D92
+    synonyms: 
+    - Configuring Consolidation
+  - value: PR_A94FE3B884D3F89C
+    synonyms: 
+    - Using the Learning Center
+  - value: PR_F5B5E448DE7813B6
+    synonyms: 
+    - Personalizing the SAP Fiori Launchpad
+  - value: PR_9DBBDC7F286A3AE
+    synonyms: 
+    - Creating Supplier Evaluation Weighting and Scoring
+  - value: PR_25C2463DCD763593
+    synonyms: 
+    - Posting Payment Lots
+  - value: PR_2430612D5E93F4B5
+    synonyms: 
+    - Creating Purchase Orders
+  - value: PR_D9AC510E6EAD1EAF
+    synonyms: 
+    - Working with Analytical Apps
+  - value: PR_D0DE598F74F1FB8D
+    synonyms: 
+    - Reviewing Production Orders
+  - value: PR_88B5FB11B2284284
+    synonyms: 
+    - Creating Credit Memo Requests
+  - value: PR_A00C541F4880B5B6
+    synonyms: 
+    - Releasing Sales Orders
+  - value: PR_1FA56D4B4A5336B8
+    synonyms: 
+    - Posting Unrestricted Stock to Quality Inspection Stock
+  - value: PR_966FD741D5095285
+    synonyms: 
+    - Perform Picking - Back to Customer
+  - value: PR_5D373677345E7D96
+    synonyms: 
+    - Running Settlements for Period End Closing Projects
+  - value: PR_F4D6AD4B001BF7AC
+    synonyms: 
+    - Getting Help
+  - value: PR_3E195ED0B6348D8F
+    synonyms: 
+    - Exploring UI Flexibility
+  - value: PR_C2D4362291FE297
+    synonyms: 
+    - Reviewing Sales Orders Due for Delivery
+  - value: PR_FB09D890655FA9B4
+    synonyms: 
+    - Creating Return Orders
+  - value: PR_8A6320168DDD3AA0
+    synonyms: 
+    - Releasing Sales Orders
+  - value: PR_4C259B494BCF6C86
+    synonyms: 
+    - Using the Search Function
+  - value: PR_BBC1B6B3EB71EFBE
+    synonyms: 
+    - Using the Filter function
+  - value: PR_9D938173BF9A3F81
+    synonyms: 
+    - Creating CSV Files for Billable Items
+  - value: PR_88F084294044298D
+    synonyms: 
+    - Working with Transactional Apps
+  - value: PR_83DA1E321B70A2B4
+    synonyms: 
+    - Executing Settlement for AuC (Periodic Processing)
+  - value: PR_5B7ACD0DAE9A4C96
+    synonyms: 
+    - Converting Requisitions to Purchase Orders
+  - value: PR_8D9BAE078EEFDCB1
+    synonyms: 
+    - Confirming Rework Production Activities
+  - value: PR_913E560DEAC316A5
+    synonyms: 
+    - Working with Tables
+  - value: PR_8C9F081A1B16278C
+    synonyms: 
+    - Performing Billing Processes with Mass Runs
+  - value: PR_4AC47819A54D1B84
+    synonyms: 
+    - Creating F2 Invoices
+  - value: PR_8C56734EF64949A8
+    synonyms: 
+    - Posting Goods Issue via Pick List
+  - value: PR_5B3DE273AD0470A0
+    synonyms: 
+    - Working with Object Page Apps
+  - value: PR_E2D11348D74B4797
+    synonyms: 
+    - Creating Intercompany Debit Memos
+  - value: PR_7F947EC3E596DAAA
+    synonyms: 
+    - Posting a Writeup
+  - value: PR_43B9F308D50C9EB1
+    synonyms: 
+    - Shifting Late Postings to Next Period for SAP S/4HANA Companies
+  - value: PR_EA30556E068ED4B1
+    synonyms: 
+    - Checking Stock Overviews for Consignment Pick-Up Orders
+  - value: PR_F148AC3517DCF491
+    synonyms: 
+    - Posting General Journal Entries Between Company Codes
+  - value: PR_990AF7E2CE48BDB7
+    synonyms: 
+    - Changing Material Costs
+  - value: PR_4ADA9BB9FB8B9C93
+    synonyms: 
+    - Posting Goods Issues
+  - value: PR_BCE9F50FC3D4AFA8
+    synonyms: 
+    - Displaying Journal Entries Cross-Company Code
+  - value: PR_F2A01FAB846CDF8D
+    synonyms: 
+    - Changing Journal Entries Cross-Company Code
+  - value: PR_7BA2781EB3A9198F
+    synonyms: 
+    - Adding Freight Costs in an Outbound Delivery
+  - value: PR_9B8F0D3B0BFC8AAE
+    synonyms: 
+    - Reversing Journal Entries Cross-Company Code
+  - value: PR_65A41ECF4B11E4B2
+    synonyms: 
+    - Creating Change Masters for Component Replacement
+  - value: PR_DA7EE7C9FFC9FCA1
+    synonyms: 
+    - Checking Mirror Deal
+  - value: PR_8DE97511D3F797B5
+    synonyms: 
+    - Changing Contract Vendors
+  - value: PR_235136C8BDCB4BB5
+    synonyms: 
+    - Creating Contracts in Local Currencies
+  - value: PR_19B8A3FDB6944FB9
+    synonyms: 
+    - Reviewing Sales Orders
+  - value: PR_1361CB2F5C544786
+    synonyms: 
+    - Executing a Costing Run
+  - value: PR_7A99BF419D9C9D87
+    synonyms: 
+    - Configuring Order Fulfillment Responsibilities
+  - value: PR_F2996C18B72FD6BC
+  - value: PR_4868234ED53A8B81
+    synonyms: 
+    - Creating Intercompany Credit Memos
+  - value: PR_5F24BC1B2582F0B4
+    synonyms: 
+    - Deploy the ExternalOrderSampleApp to the SAP Cloud Platform
+  - value: PR_9358574ADA293DBA
+    synonyms: 
+    - Entering Sales Orders
+  - value: PR_C63B5BDCECD72BC
+    synonyms: 
+    - Preparing for Integration of SAP S/4HANA Companies
+  - value: PR_47FCEB17A451859C
+    synonyms: 
+    - Running Data Monitor for SAP S/4HANA Companies
+  - value: PR_9E82BE8E1741EB81
+    synonyms: 
+    - Creating Bank Accounts
+  - value: PR_958646936948B093
+    synonyms: 
+    - Making Usage Decisions
+  - value: PR_FC4B335C395F72AA
+    synonyms: 
+    - Releasing Finished Goods Orders
+  - value: PR_F774880B436FB7BA
+    synonyms: 
+    - "Performing General Stock Scrapping: Goods Issue to Cost Center"
+  - value: PR_EA7801FF7B106797
+    synonyms: 
+    - Uploading pain.002 Payment Status Reports
+  - value: PR_9E1FE248A1955495
+    synonyms: 
+    - Creating Physical Inventory Documents (Single Creation)
+  - value: PR_CF4A103F97B732BC
+    synonyms: 
+    - Carrying Forward Balance for SAP S/4HANA Companies
+  - value: PR_8B290CDD15E82699
+    synonyms: 
+    - Creating Sales Orders with One-time Payment Cards
+  - value: PR_E36B78C0ED731580
+    synonyms: 
+    - Predicting Project Costs
+  - value: PR_B2ADD05E1164D4A5
+    synonyms: 
+    - Setting a Credit Limit
+  - value: PR_36C2F2320EBDD687
+    synonyms: 
+    - Determining the Lowest Value Market Prices
+  - value: PR_B146D42091ACA786
+    synonyms: 
+    - Performing Initial Consolidation
+  - value: PR_3DFA00806C18E091
+    synonyms: 
+    - Creating Sales Orders with Reference to Contracts
+  - value: PR_5AB7C55EB14D3699
+    synonyms: 
+    - Displaying Credit Data
+  - value: PR_5996D27A4AF85D91
+  - value: PR_245A68E08830BBB
+    synonyms: 
+    - Performing Full Consolidation
+  - value: PR_4A0D7157D8FFF58B
+    synonyms: 
+    - Executing Interest Run
+  - value: PR_9C55CDDCC837EF98
+    synonyms: 
+    - Managing Banks
+  - value: PR_909E2E2304A0980
+    synonyms: 
+    - Performing Subsequent Consolidation
+  - value: PR_39F68C6F9B43EEB1
+    synonyms: 
+    - Displaying Return Overviews
+  - value: PR_7509723E65EFF2B8
+    synonyms: 
+    - Running the Intercompany Reconciliation Report
+  - value: PR_E10CE14C784D93B3
+    synonyms: 
+    - Creating Planned Independent Requirements
+  - value: PR_8805ACFBFF3F0C9D
+    synonyms: 
+    - Importing Source Data for Mass Load Consolidation Processes
+  - value: PR_C98392753E328483
+    synonyms: 
+    - Running Consolidation Reports
+  - value: PR_4A2EF74F96561F9B
+    synonyms: 
+    - Picking Components
+  - value: PR_4079AB9AB7097D87
+    synonyms: 
+    - Configurating Consolidation Using Manage Your Solution
+  - value: PR_7C93BC72A6893ABB
+    synonyms: 
+    - Assigning Credit Cases
+  - value: PR_21CC790244377BAF
+    synonyms: 
+    - Releasing a Payment Proposal
+  - value: PR_ECC5A83C4B56C3A4
+    synonyms: 
+    - Executing the Picking Function
+  - value: PR_60984A795B9F2AB4
+    synonyms: 
+    - Scheduling Deletions of ATP Results Logs
+  - value: PR_BDB8D8E15958B9BE
+    synonyms: 
+    - Executing Profitability Realignment Run
+  - value: PR_161EFD6AC1A96AB
+    synonyms: 
+    - Simulating Periodic Posting
+  - value: PR_9E535C543A88E1B4
+    synonyms: 
+    - Monitoring Overdue Receivables by Risk Class
+  - value: PR_C62070B1B0C9658E
+    synonyms: 
+    - Posting Goods Issues
+  - value: PR_9EE496212D959AA0
+    synonyms: 
+    - Executing Picking for Invoice List
+  - value: PR_8C53DEEF471B55A4
+    synonyms: 
+    - Approving Credit Limit Requests
+  - value: PR_BAA0A9250CBCF9B0
+    synonyms: 
+    - Viewing Supplier Balances
+  - value: PR_E16360AEA7D407A1
+    synonyms: 
+    - Posting Goods Issues
+  - value: PR_E4042899B882A2BD
+    synonyms: 
+    - Managing a Depreciation Run
+  - value: PR_4EF72FFC81A59C
+    synonyms: 
+    - Posting Cash Journal Entries
+  - value: PR_563D10490C9985
+    synonyms: 
+    - Executing Picking
+  - value: PR_B5A7780750276FBE
+    synonyms: 
+    - Checking Goods Movement Posting for Production Goods Receipts
+  - value: PR_3A8AA9B133F7096
+    synonyms: 
+    - Viewing P&L Actuals
+  - value: PR_98CFA5D03C70F0A9
+    synonyms: 
+    - Importing P&L Plan Versus Actual
+  - value: PR_DC8D5B1A69741B86
+    synonyms: 
+    - Creating Supplier Invoices for Multiple Accounting Assignments
+  - value: PR_C4A78A46013015A4
+    synonyms: 
+    - Creating Deliveries
+  - value: PR_17E68BB80D2152A5
+    synonyms: 
+    - Creating Actual General Ledger Distribution Cycles
+  - value: PR_8F4EEBC42D61E59F
+    synonyms: 
+    - Creating Intercompany IV Invoices for Non-Stock Material
+  - value: PR_BD13D744BAA43A8D
+    synonyms: 
+    - Entering Future Prices
+  - value: PR_2703DB33B11718AA
+    synonyms: 
+    - Displaying Cash Journal Entries
+  - value: PR_781B39B54BCC99B3
+    synonyms: 
+    - Evaluating MRP Results (Delivery Schedule)
+  - value: PR_D28C5CBAEE0FACA1
+    synonyms: 
+    - Displaying MRP Run Key Figures
+  - value: PR_F7FFA843EE20E4AA
+    synonyms: 
+    - Creating Attachment for Billing for Invoice List (Optional)
+  - value: PR_370887D0B41C9086
+    synonyms: 
+    - Creating Replenishment Deliveries for Stock Transport Orders
+  - value: PR_51C516C96FD40FBB
+    synonyms: 
+    - Transferring Stocks - Two Steps (Place to Storage Location)
+  - value: PR_91C327783E8A56AF
+    synonyms: 
+    - Displaying Returns History
+  - value: PR_670C9C49A06B0795
+    synonyms: 
+    - Processing Replenishment of Bulk Storage Picking Areas
+  - value: PR_A09DB20AA7D1FBA8
+    synonyms: 
+    - Displaying Material Stock Before Quality Inspection
+  - value: PR_77FFFAC0EE8AE08D
+    synonyms: 
+    - Monitoring Material Coverage for a Semi-Finished Product
+  - value: PR_AE3335031CE9C388
+    synonyms: 
+    - Displaying Customer Balances
+  - value: PR_324735FB8CF69C97
+    synonyms: 
+    - Creating Pallets Issue Orders
+  - value: PR_451AF08E1AC398B7
+    synonyms: 
+    - Viewing Product Availability
+  - value: PR_80DAC702B462D1A2
+    synonyms: 
+    - Flagging Materials as Relevant for FIFO
+  - value: PR_506B1DE5431869A3
+    synonyms: 
+    - Scheduling the Creation of Deliveries
+  - value: PR_F959EA6E986D8AAC
+    synonyms: 
+    - Reviewing Logs of Delivery Creation
+  - value: PR_96F37C110CE32591
+    synonyms: 
+    - Valuating Foreign Currency
+  - value: PR_2E10F5FC3C14B7A5
+    synonyms: 
+    - Creating Billing Documents
+  - value: PR_7649032B18F5D490
+    synonyms: 
+    - Processing Payment Cards
+  - value: PR_3F19CF85EA7553AA
+    synonyms: 
+    - Checking Stock Overviews for Consignment Returns
+  - value: PR_A234DE71E719990
+    synonyms: 
+    - Removing Billing Blocks on Closing Invoices
+  - value: PR_E8EEC05A105A78A9
+    synonyms: 
+    - Creating Intercompany Invoices
+  - value: PR_DEAC1C00A3ABD8B2
+    synonyms: 
+    - Creating Supplier Invoices
+  - value: PR_485C734C39898AA2
+    synonyms: 
+    - Changing Purchase Orders
+  - value: PR_B1274FE9F38A0DBB
+    synonyms: 
+    - Editing Data Records in Mass Maintenance
+  - value: PR_F71AEDD65289C8F
+    synonyms: 
+    - Checking Sales Orders with One-time Payment Cards
+  - value: PR_B477588F012E61AD
+    synonyms: 
+    - Creating Return Purchase Order
+  - value: PR_D557C165CB86468D
+    synonyms: 
+    - Maintaining Work Package Staffing for Internal Projects
+  - value: PR_BBB87682530D4389
+    synonyms: 
+    - Creating Credit Memos
+  - value: PR_5BF6554F82AAF08D
+    synonyms: 
+    - Maintaining Settlement Rules
+  - value: PR_E2E9C41656302B81
+    synonyms: 
+    - Creating Return Delivery
+  - value: PR_F1B49442884188AD
+    synonyms: 
+    - Managing Open Resource Requests
+  - value: PR_3A595A5D0141BAAB
+  - value: PR_68CC552CF3D03484
+    synonyms: 
+    - Maintaining Multiple Business Partner Records
+  - value: PR_FA555EB416C0128A
+    synonyms: 
+    - Managing Resources with Free Capacity
+  - value: PR_A20D68F686D902BA
+    synonyms: 
+    - Submitting Price Quotes on Ariba Discovery
+  - value: PR_2B9E6513A731B0AD
+    synonyms: 
+    - Adjusting Supplier Evaluation Scores Manually
+  - value: PR_BF7C67636937969C
+  - value: PR_64148557F7C21B9C
+    synonyms: 
+    - Reconciling GR/IR Accounts
+  - value: PR_2CB116D3176403B1
+  - value: PR_5F2F06069341F49F
+    synonyms: 
+    - Creating Scheduling Agreement Without Release Document
+  - value: PR_EC6911A57D2B288A
+    synonyms: 
+    - Displaying Supplier Evaluation by Time
+  - value: PR_7D6397AA743E5881
+    synonyms: 
+    - Displaying Invoices in Fiori App Supplier Invoices List
+  - value: PR_A9EF922FF715B080
+    synonyms: 
+    - Creating New Documents
+  - value: PR_37C7C71CFE33FAA8
+    synonyms: 
+    - Creating Purchase Orders for Consignment Material
+  - value: PR_D8992610E91DE380
+    synonyms: 
+    - Approving Purchase Orders
+  - value: PR_25EC7A1F46720B9D
+    synonyms: 
+    - Releasing Completed Supplier Invoices
+  - value: PR_919BEF350BE008AF
+    synonyms: 
+    - Monitoring GR/IR Accounts
+  - value: PR_9246640B3BFD05A3
+    synonyms: 
+    - Managing Legal Documents
+  - value: PR_35D9496D7A0BB4A0
+    synonyms: 
+    - Posting Goods Receipt
+  - value: PR_BADA52BBA1099694
+    synonyms: 
+    - Creating Supplier Invoice with Scheduling Agreement/GR Relation
+  - value: PR_1ED3DED8FA5A1785
+    synonyms: 
+    - Printing Purchase Contracts
+  - value: PR_679C6168D8978885
+    synonyms: 
+    - Maintaining the Batch Master Record Alternative 2
+  - value: PR_46A726EB833503B0
+    synonyms: 
+    - Checking Invoice Status Updates
+  - value: PR_434ED2A25FD26984
+    synonyms: 
+    - Picking for Shipment
+  - value: PR_D8E7CA1F9B8E559A
+    synonyms: 
+    - Releasing Scheduling Agreement
+  - value: PR_88E49FE268E69EA6
+    synonyms: 
+    - Posting Goods Receipts for Inbound Deliveries
+  - value: PR_9CB35C23F2B70C9E
+    synonyms: 
+    - Displaying Supplier Quotations
+  - value: PR_6CFF0524FA4F2581
+    synonyms: 
+    - Maintaining Delivery Schedule Without Release Document
+  - value: PR_77033B2A99EB3DA8
+    synonyms: 
+    - Configuring Flexible Workflows for Purchase Orders
+  - value: PR_33FA54DEC8EEEFB2
+    synonyms: 
+    - Receiving Goods from a Subcontracting PO
+  - value: PR_6427319BCEF2F8B
+    synonyms: 
+    - Displaying Supplier Evaluation by Price
+  - value: PR_BFD83C509D03D4BF
+    synonyms: 
+    - Extracting Payment Advice
+  - value: PR_926A34FC5682699D
+  - value: PR_23C5312423552995
+    synonyms: 
+    - Creating Manual Returns Lots
+  - value: PR_8D7C3CC19B7ACF9E
+    synonyms: 
+    - Performing Invoicing Processes with Mass Runs
+  - value: PR_B720CED2905059BC
+    synonyms: 
+    - Performing Invoicing Processes with Individual Runs
+  - value: PR_AF25B7F464EE198E
+    synonyms: 
+    - Creating Consignment Fill-Up Orders
+  - value: PR_F0D9AAD0908EEEB2
+    synonyms: 
+    - Creating Outbound Deliveries
+  - value: PR_BE1BDB1F116C1A3
+    synonyms: 
+    - Creating Supplier Invoices for Service Purchase Orders
+  - value: PR_85D78C528854F1A0
+    synonyms: 
+    - Picking Goods
+  - value: PR_376EF1BA9C34F58F
+    synonyms: 
+    - Checking Stock Overviews for Consignment Fill-Up Orders
+  - value: PR_5D46DE0BB4124490
+    synonyms: 
+    - Entering Batch Numbers in Consignment Issue Orders
+  - value: PR_93E3624D7E64E98D
+    synonyms: 
+    - Creating Deliveries Manually
+  - value: PR_2EF6B974E6795483
+    synonyms: 
+    - Approving Credit Memo Requests
+  - value: PR_6AD20AB7CA79F492
+    synonyms: 
+    - Checking Batches in Consignment Issue Orders
+  - value: PR_A8FA794E4A64EBA
+    synonyms: 
+    - Posting Goods Issues Manually
+  - value: PR_F1E7306B43B40C8B
+    synonyms: 
+    - Scheduling the Posting of Goods Issues
+  - value: PR_534E8FAA5DAE8B84
+    synonyms: 
+    - Redistributing Workload
+  - value: PR_78CB321AA06831AA
+    synonyms: 
+    - Emailing Billing Documents
+  - value: PR_F2B3549817352BB0
+    synonyms: 
+    - Checking Stock Overviews for Consignment Issue Orders
+  - value: PR_BE11339108D13BBD
+    synonyms: 
+    - Checking Batches for Collective Billing (Optional)
+  - value: PR_978AA1F3FA3E54B5
+    synonyms: 
+    - Creating Customer Invoices
+  - value: PR_D58D4C0446F04A99
+    synonyms: 
+    - Assigning a Responsible Contact Person
+  - value: PR_F947A835754AB180
+    synonyms: 
+    - Creating Consignment Return Orders
+  - value: PR_85925D63A8619382
+    synonyms: 
+    - Scheduling the Creation of Return Deliveries
+  - value: PR_BD8B9DBEF5EF19B8
+    synonyms: 
+    - Creating Outbound Deliveries with Serial Number Management
+  - value: PR_BBCACF362740769C
+    synonyms: 
+    - Posting Goods Receipts Manually
+  - value: PR_9CC3FE460E6A6BBD
+    synonyms: 
+    - Releasing Consignment Return Orders for Billing
+  - value: PR_5F49A2E0D1127B98
+    synonyms: 
+    - Creating Outbound Deliveries
+  - value: PR_1B18C079A5CE6AAA
+    synonyms: 
+    - Posting Goods Receipts
+  - value: PR_57BE5A360FFEDC95
+    synonyms: 
+    - Creating Credit Memos
+  - value: PR_A0FF5B500AD4A4A0
+    synonyms: 
+    - Creating Purchase Orders for Services
+  - value: PR_19B38D27ECABA299
+    synonyms: 
+    - Creating Consignment Pick-Up Orders
+  - value: PR_26515B335D92D93
+    synonyms: 
+    - Completing Project Milestones
+  - value: PR_9CFC1E901FA0FAB2
+    synonyms: 
+    - Displaying Supplier Evaluations by Questionnaires
+  - value: PR_9A6FFABB8C71E6B0
+    synonyms: 
+    - Creating Return Deliveries
+  - value: PR_8D1F7279C5E8C2A2
+    synonyms: 
+    - Receiving Returned Goods
+  - value: PR_56C4BED665287295
+    synonyms: 
+    - Checking Batches in Consignment Pick-Ups
+  - value: PR_4B39FC497B2E0F80
+    synonyms: 
+    - Assigning Customer Payment Guarantee Procedures
+  - value: PR_60B5B0F8F253D3A8
+    synonyms: 
+    - Closing and Reopening Bank Accounts
+  - value: PR_1CDE437E87451796
+    synonyms: 
+    - Displaying Where-Used Lists for Versioned Engineering BOMs
+  - value: PR_16EA9E0528AD818E
+  - value: PR_9B99AC4BB81703AF
+    synonyms: 
+    - Creating Down Payment Requests
+  - value: PR_4BE627448ECF1D82
+    synonyms: 
+    - Managing Situation Types
+  - value: PR_D680E8776B29E2AC
+    synonyms: 
+    - Creating Deliveries
+  - value: PR_5C9D8FE4E4FC5EBC
+    synonyms: 
+    - Posting Goods Issues
+  - value: PR_DAB52F210E7716B8
+    synonyms: 
+    - Billing Customers
+  - value: PR_A8DDD39F843B028C
+    synonyms: 
+    - Posting Goods Receipts
+  - value: PR_ECAFC206687C0EB7
+    synonyms: 
+    - Checking the Billing Block Status
+  - value: PR_2325087F77291EBF
+    synonyms: 
+    - Entering Vendor Invoices
+  - value: PR_47F665041ECA89D
+    synonyms: 
+    - Creating Credit Memos
+  - value: PR_97290B43934B9490
+    synonyms: 
+    - Creating Return Orders
+  - value: PR_999D3A5E9484688F
+    synonyms: 
+    - Creating Supplier Credit Memos
+  - value: PR_A3D31A80571E608A
+    synonyms: 
+    - Determining Refunds
+  - value: PR_44691ECA5787FD9D
+    synonyms: 
+    - Accepting Supplier Bids
+  - value: PR_4EFA93697328C287
+    synonyms: 
+    - Creating Credit Memos
+  - value: PR_116C28E3CB64DABB
+    synonyms: 
+    - Creating Free-of-Charge Deliveries
+  - value: PR_46F1987F59003491
+    synonyms: 
+    - Performing Picking
+  - value: PR_9260EAE1055A02A4
+    synonyms: 
+    - Posting Goods Issue
+  - value: PR_AE981B47E55C319E
+    synonyms: 
+    - Maintaining the Batch Master Record Alternative 1
+  - value: PR_C758C55865FA91BA
+    synonyms: 
+    - Creating Debit Memo Requests
+  - value: PR_ACA734167258FAA9
+    synonyms: 
+    - Removing Billing Blocks
+  - value: PR_9FBE3EC79B9B8EBE
+    synonyms: 
+    - Creating Debit Memos
+  - value: PR_9A92EA820E50E7A6
+    synonyms: 
+    - Displaying Goods Receipts on Ariba Network
+  - value: PR_F9893624A5A35691
+    synonyms: 
+    - Approving Purchase Orders
+  - value: PR_69B61BC611B65DB8
+    synonyms: 
+    - Creating Deliveries
+  - value: PR_15625DDA7FA3D19A
+    synonyms: 
+    - Displaying Intrastat Declarations
+  - value: PR_1F5EDBD382C5D8B6
+    synonyms: 
+    - Hiring Job Seekers and Submitting Work Orders
+  - value: PR_9561DDA0C6AE0EB6
+    synonyms: 
+    - Performing Picking
+  - value: PR_CD277C4FED54C0A1
+    synonyms: 
+    - Posting Goods Issues
+  - value: PR_324D310B4ABF67B4
+    synonyms: 
+    - Creating Intercompany Invoices
+  - value: PR_114800504C4A0098
+    synonyms: 
+    - Displaying AP Journal Entries
+  - value: PR_E41373B77802A599
+    synonyms: 
+    - Performing Picking
+  - value: PR_E38782BC4D3D459F
+    synonyms: 
+    - Displaying AP Accounting Documents
+  - value: PR_FE370575F6AC7484
+    synonyms: 
+    - Creating Sales Order
+  - value: PR_D7A827249BE21585
+    synonyms: 
+    - Printing Sales Order
+  - value: PR_B5758200F00628AB
+    synonyms: 
+    - Creating Delivery
+  - value: PR_948D5A7693F3279A
+    synonyms: 
+    - Creating Billing Document
+  - value: PR_6948634C9DE9C9A6
+    synonyms: 
+    - Creating Sales Orders
+  - value: PR_D9690BD5240CFD99
+    synonyms: 
+    - Creating Deliveries
+  - value: PR_7A1031B9D5CA9BB3
+    synonyms: 
+    - Creating a Change Master
+  - value: PR_E1B51FC8F843FBE
+    synonyms: 
+    - Executing Picking
+  - value: PR_31E5A010910C1893
+    synonyms: 
+    - Posting Goods Receipts
+  - value: PR_D1C51A47FFDCE5B4
+    synonyms: 
+    - Displaying Automatically Created Info Records
+  - value: PR_248CF241A21A9C95
+    synonyms: 
+    - Creating Billing Documents
+  - value: PR_6D650EAAE0B3B88F
+    synonyms: 
+    - Creating Intrastat Declarations Automatically (Background Job)
+  - value: PR_F558E44922162787
+    synonyms: 
+    - Releasing Intrastat Declarations and Creating Declaration Files
+  - value: PR_81172A51BAB73BB2
+    synonyms: 
+    - Creating Sales Order with Invoice Lists
+  - value: PR_4CF2E9AE7F4C0DBA
+    synonyms: 
+    - Creating Delivery for Invoice List
+  - value: PR_3CD3A6DC444F31B2
+    synonyms: 
+    - Posting Goods Issues for Invoice List
+  - value: PR_77FDF8C03D00D79B
+    synonyms: 
+    - Creating Delivery for Collective Billing
+  - value: PR_41D106A93A2C8D9E
+    synonyms: 
+    - Posting Goods Receipts for Consignment Material
+  - value: PR_4D1FFFF63845C4B9
+    synonyms: 
+    - Displaying Open Invoices
+  - value: PR_9C128C3AF7BAD6A7
+    synonyms: 
+    - Creating Third-Party Sales Orders
+  - value: PR_CAEF79A91A0E99BD
+    synonyms: 
+    - Creating Billing Documents
+  - value: PR_6267171101BA0183
+    synonyms: 
+    - Performing Picking
+  - value: PR_2A3C747F3D602C8E
+    synonyms: 
+    - Creating F2 Invoices
+  - value: PR_D657632A18AFACB6
+    synonyms: 
+    - Creating Intercompany IV Invoices
+  - value: PR_400CAB9E02095CB1
+    synonyms: 
+    - Maintaining Delivery Schedule
+  - value: PR_60A07D092A62F9A0
+    synonyms: 
+    - Posting Goods Receipt Without Release Document
+  - value: PR_31165EEB8DA289AA
+    synonyms: 
+    - Displaying AP Accounting Documents
+  - value: PR_2B60A98107C5F6AC
+    synonyms: 
+    - Creating Purchase Orders
+  - value: PR_CE00977F7EEC7782
+    synonyms: 
+    - Creating Intercompany Credit Memos
+  - value: PR_2194CBC5BE965BA0
+    synonyms: 
+    - Creating Sales Orders for Non-Stock Material
+  - value: PR_A765DB16FC68BB4
+    synonyms: 
+    - Creating Deliveries for Non-Stock Material
+  - value: PR_266238D2D8BC3EA8
+    synonyms: 
+    - Creating Free of Charge Sales Orders
+  - value: PR_A3F946D198BEFFB7
+    synonyms: 
+    - Performing Picking
+  - value: PR_B47656DA013C4494
+    synonyms: 
+    - Approving Purchase Orders
+  - value: PR_D414F3012DFDE6A2
+    synonyms: 
+    - Posting Goods Issues
+  - value: PR_67A5BDF585B90DB3
+    synonyms: 
+    - Creating F2 Invoices
+  - value: PR_86AB0DB15709EABE
+    synonyms: 
+    - Creating Supplier Invoices
+  - value: PR_CB1B2F94D63C96BF
+    synonyms: 
+    - Creating Intercompany Debit Memos
+  - value: PR_8E67AFEFFA6DC39B
+    synonyms: 
+    - Displaying AP Accounting Documents for Intercompany Debit Memos
+  - value: PR_307BB97B77DEFC87
+    synonyms: 
+    - Creating Sales Orders for Non-Stock Material
+  - value: PR_156547A0B2E496AF
+    synonyms: 
+    - Posting Goods Issues for Non-Stock Material
+  - value: PR_33CEA2AD36543587
+    synonyms: 
+    - Creating Intercompany IV Invoices for Non-Stock Material
+  - value: PR_6D5D2AC33F5BEFAC
+    synonyms: 
+    - Displaying AP Accounting Documents for Non-Stock Material
+  - value: PR_7E3D3D327105F691
+    synonyms: 
+    - Checking Display of Project Details in SAP Jam
+  - value: PR_30832A6D0E146D89
+    synonyms: 
+    - Displaying Supplier Evaluation by Quality Notification
+  - value: PR_1F427E275ABD34A0
+    synonyms: 
+    - Starting Workflows
+  - value: PR_7AFA7B1B5DEB487
+    synonyms: 
+    - Displaying Billing Documents
+  - value: PR_15142B8AB1406A99
+    synonyms: 
+    - Printing Billing Documents
+  - value: PR_E0049782702FA491
+    synonyms: 
+    - Exploring Extensibility Cockpit
+  - value: PR_8C1922D781A72CAF
+    synonyms: 
+    - Informing Project Managers
+  - value: PR_A407129D6166FAB7
+    synonyms: 
+    - Adding Custom Fields
+  - value: PR_FF69C6248F3BC2B9
+    synonyms: 
+    - Creating, Translating and Transporting a Custom Field
+  - value: PR_92605FE2059A2E9F
+    synonyms: 
+    - Uploading Invoices
+  - value: PR_E784C7E36D99018C
+    synonyms: 
+    - Adding Custom Fields to Web GUI for HTML
+  - value: PR_F302A160E125E1B4
+    synonyms: 
+    - Creating, Generating and Assigning Business Object to a Catalog
+  - value: PR_118F8874348C6DB6
+    synonyms: 
+    - Creating Custom Logic
+  - value: PR_E6CC24601EF23B8D
+    synonyms: 
+    - Reviewing Manufacturing Object Pages
+  - value: PR_576CE7EC83732E94
+    synonyms: 
+    - Creating Custom Logic (HTTP)
+  - value: PR_FEE680D922290A81
+    synonyms: 
+    - Performing Material Inspection
+  - value: PR_D64715558F5169F
+    synonyms: 
+    - Creating Purchase Requisition with Multiple Cost Centers
+  - value: PR_60DFBD43F82CC8A0
+    synonyms: 
+    - Performing Mass Changes to Purchase Requisitions
+  - value: PR_CA8E2B0CE264AC
+    synonyms: 
+    - Converting Purchase Requisitions to Purchase Orders
+  - value: PR_A9E7F40EEEA1389B
+    synonyms: 
+    - Creating Job Postings
+  - value: PR_9C5619B26217F497
+    synonyms: 
+    - Approving Job Postings
+  - value: PR_D45525213F1F4394
+    synonyms: 
+    - Submitting Job Seekers
+  - value: PR_9DFC873AB3C00FB3
+    synonyms: 
+    - Shortlisting Job Seekers
+  - value: PR_B647F339472085BF
+    synonyms: 
+    - Approving Purchase Contracts
+  - value: PR_7D06B6BDC35DBF87
+    synonyms: 
+    - Activating Work Orders
+  - value: PR_F3C22BFA5E403587
+    synonyms: 
+    - Registering Workers in SAP Fieldglass
+  - value: PR_7CAA82BF2F13528E
+    synonyms: 
+    - Checking Invoice Status Updates
+  - value: PR_2B213FCE4FACC7BA
+    synonyms: 
+    - Creating Requests for Quotations
+  - value: PR_274AF40652B531B5
+    synonyms: 
+    - Updating Project Status
+  - value: PR_1F1CE14A78472E8F
+  - value: PR_D998BEB992CF21B2
+    synonyms: 
+    - Sending Quote Messages (as a Buyer in Ariba Sourcing)
+  - value: PR_E9C588680A7A70BB
+    synonyms: 
+    - Displaying Automatically Created Info Records from Awards
+  - value: PR_BF6519B9A77021AC
+    synonyms: 
+    - Displaying Purchase Orders
+  - value: PR_2033307BF2BDCCA6
+    synonyms: 
+    - Awarding Quotes
+  - value: PR_ACC001949794DBB8
+    synonyms: 
+    - Creating Follow-on Documents
+  - value: PR_23CE70696836FB8E
+    synonyms: 
+    - Viewing the Overall Status of Legal Content
+  - value: PR_A35BF787511BF997
+    synonyms: 
+    - Maintaining Serial Number Master Data
+  - value: PR_CDBD77FA35982087
+    synonyms: 
+    - Displaying Serial Number Data
+  - value: PR_4925ED146EE1898D
+    synonyms: 
+    - Activating Flexible Workflow for Purchase Orders Approval
+  - value: PR_4E960F9E6C2C79A5
+    synonyms: 
+    - Activating Flexible Workflow for Purchase Contracts Approval
+  - value: PR_BE9A5C17C3A91B3
+    synonyms: 
+    - Creating Purchase Requisitions
+  - value: PR_B6B4C140D4DDA882
+    synonyms: 
+    - Approving Purchase Orders
+  - value: PR_3AE6500C4BD69AA6
+  - value: PR_781AC750C361198D
+  - value: PR_2946132DBCE447A7
+    synonyms: 
+    - Managing Source Lists
+  - value: PR_E1A08E8042D0F38E
+    synonyms: 
+    - Monitoring Contracts
+  - value: PR_83F2F4F9A16035A7
+    synonyms: 
+    - Partially Reversing Goods Receipts
+  - value: PR_2E1595BF09A051B2
+    synonyms: 
+    - Monitoring Notifications
+  - value: PR_34C0B7C52EF92499
+    synonyms: 
+    - Changing Purchase Orders
+  - value: PR_BBEF2EBCFDAC6DAD
+    synonyms: 
+    - Creating Supplier Invoices with PO/GR Relation
+  - value: PR_8706ACC07D7082AE
+    synonyms: 
+    - Creating Purchase Orders Manually
+  - value: PR_952244F3548D51A1
+    synonyms: 
+    - Previewing Purchase Orders
+  - value: PR_5E6786D9C1A19DBF
+    synonyms: 
+    - Displaying Purchase Orders on Ariba Network
+  - value: PR_264B342789DF92B9
+    synonyms: 
+    - Posting Goods Receipts for Purchase Orders
+  - value: PR_78C54F2F41EEAA8B
+    synonyms: 
+    - Creating Supplier Invoices with PO/GR Relations on Ariba Network
+  - value: PR_DDB54ED1F8039E89
+    synonyms: 
+    - Displaying Invoice Status Changes on Ariba Network
+  - value: PR_E860B7568BABC4AA
+    synonyms: 
+    - Printing Scheduling Agreement
+  - value: PR_823C4A757A1F4B3
+    synonyms: 
+    - Displaying Supplier Evaluation by Quantity
+  - value: PR_5A64A17B4BD7909F
+  - value: PR_EEB9913A1BB8F491
+    synonyms: 
+    - Creating Evaluation Questionnaires
+  - value: PR_6B24A9EFAC5278C
+    synonyms: 
+    - Creating Group-Based Evaluation Templates
+  - value: PR_690EDFBF04C3469B
+    synonyms: 
+    - Managing Contexts
+  - value: PR_38BC98A265403597
+    synonyms: 
+    - Requesting Legal Content
+  - value: PR_DD7A28AAD182A999
+    synonyms: 
+    - Printing Scheduling Agreement Releases
+  - value: PR_D0C29037A789EAAE
+    synonyms: 
+    - Remediating Product Master Data
+  - value: PR_3066E59D8278F2A9
+    synonyms: 
+    - Checking Scheduling Agreement Release Documentation
+  - value: PR_4B71DCA11275CBF
+    synonyms: 
+    - Evaluating the Stock/Requirement Situation
+  - value: PR_717E350C3494B086
+    synonyms: 
+    - Printing Scheduling Agreement Without Release Document
+  - value: PR_4F9DCBE0631A3D9D
+    synonyms: 
+    - Approving Service Entry Sheets
+  - value: PR_8EF933FFE3A10EB2
+    synonyms: 
+    - Creating Purchase Orders
+  - value: PR_FD5974288AF98C86
+    synonyms: 
+    - Picking and Posting Goods Issues
+  - value: PR_9E347D3B1C16F7B8
+    synonyms: 
+    - Picking and Posting Goods with Serial Number Management
+  - value: PR_121BF9222EE77A3
+    synonyms: 
+    - Changing Bank Accounts
+  - value: PR_D9949DCECC2655A1
+  - value: PR_DA09533F65941AB9
+    synonyms: 
+    - Creating Supplier Invoices with Serial Number Management
+  - value: PR_3DD794791DCA19AC
+    synonyms: 
+    - Creating Credit Memos
+  - value: PR_C9A4D3D6202146B9
+    synonyms: 
+    - Creating Intercompany Stock Transport Orders
+  - value: PR_C47EC283266B5BB2
+    synonyms: 
+    - Picking and Posting Goods Issues for Deliveries
+  - value: PR_D110269603868FB4
+  - value: PR_589F8A36A72D4DB6
+    synonyms: 
+    - Searching a Batch Alternative 2
+  - value: PR_31A5C8D731CFDEBC
+  - value: PR_6FC292886F3693BD
+    synonyms: 
+    - Creating Inbound Deliveries
+  - value: PR_9F713C779D069082
+    synonyms: 
+    - Performing Material Inspection
+  - value: PR_92E3FF0406DF7FB7
+    synonyms: 
+    - Creating Intercompany Billing Documents
+  - value: PR_4BB01FD2A0504CAE
+    synonyms: 
+    - Creating a Batch
+  - value: PR_3534F65CF30BA483
+    synonyms: 
+    - Batch Information Cockpit - Selecting a Batch
+  - value: PR_D07311EDABF7538F
+    synonyms: 
+    - "Batch Information Cockpit: Top-Down and Bottom-Up Analysis"
+  - value: PR_E4F3A4DAC5569B87
+    synonyms: 
+    - Creating Purchase Orders
+  - value: PR_1EF52C968877099
+    synonyms: 
+    - Approving Purchase Orders
+  - value: PR_C6CAD3FDEE85CFA8
+    synonyms: 
+    - Executing Evaluated Receipts Settlements
+  - value: PR_48E59C8D571D068B
+    synonyms: 
+    - Checking Supplier Invoices
+  - value: PR_DB5C8FEB015E5ABB
+    synonyms: 
+    - Creating New Versions of Documents
+  - value: PR_1737019B72EFF79A
+    synonyms: 
+    - Assigning Object Link Metadata
+  - value: PR_3411C3647EA4D5BD
+    synonyms: 
+    - Downloading Attachments
+  - value: PR_325FD3311B9C23A9
+    synonyms: 
+    - Setting Up Collaboration for Projects
+  - value: PR_5D2106CABF0D97A0
+    synonyms: 
+    - Reviewing Projects
+  - value: PR_3CA2C115D3F250BD
+    synonyms: 
+    - Discussing with Steering Committee
+  - value: PR_E0B2B5567D9129A2
+    synonyms: 
+    - Creating a Bill of Material (BOM)
+  - value: PR_F04D24A5B7A2CBAB
+    synonyms: 
+    - Setting a Change Master Status to Inactive
+  - value: PR_F4A42C237C21F6A0
+    synonyms: 
+    - Copying a BOM
+  - value: PR_45E59EE440EB358F
+    synonyms: 
+    - Creating Attachments for Sales Orders
+  - value: PR_3965FA6002724E90
+    synonyms: 
+    - Discarding a BOM
+  - value: PR_DDFE5F2F72784EB4
+    synonyms: 
+    - Changing a BOM
+  - value: PR_133EBE0788C8EA81
+    synonyms: 
+    - Creating Manufacturing Bills of Material
+  - value: PR_4A90B82D23DC2B5
+    synonyms: 
+    - Creating Templates for Process Route Steps
+  - value: PR_97E6EA865A6B8E8E
+    synonyms: 
+    - Approving Change Requests
+  - value: PR_94745281EC124BA3
+    synonyms: 
+    - Uploading Initial Stock
+  - value: PR_49CE4D40BBC99DBC
+    synonyms: 
+    - Displaying Process Order Confirmation
+  - value: PR_82F8B502F5500284
+    synonyms: 
+    - Rejecting Change Requests
+  - value: PR_DED5C2CE0052048A
+    synonyms: 
+    - Reworking Requests
+  - value: PR_9FCF09078C77E190
+    synonyms: 
+    - Rejecting Change Records
+  - value: PR_7D85462C0D252689
+    synonyms: 
+    - Sending Change Records for Rework
+  - value: PR_C87BFEF1556CB987
+    synonyms: 
+    - Modifying Validity Dates in the Change Master
+  - value: PR_1C46313F009F2793
+    synonyms: 
+    - Performing Design Changes
+  - value: PR_17D469EC251187A5
+    synonyms: 
+    - Performing Material Changes
+  - value: PR_AEC14EE4FE46CFAF
+    synonyms: 
+    - Performing BOM and BOM Item Changes
+  - value: PR_3DDDD6B0F7D678BF
+    synonyms: 
+    - Displaying Where-Used Lists for Change Master-Controlled BOMs
+  - value: PR_E727E171A45CA7B5
+    synonyms: 
+    - Replacing Materials in Change Master-Controlled BOMs
+  - value: PR_50FADCD7E9D117BD
+    synonyms: 
+    - Setting Change Master Status to Inactive
+  - value: PR_6295489F3820B394
+    synonyms: 
+    - Replacing Materials in Versioned Engineering BOMs
+  - value: PR_C4E65C2E815F19A9
+    synonyms: 
+    - Adapting Filters in the Maintain Bill of Materials App
+  - value: PR_B0B253FE3596C3A3
+    synonyms: 
+    - Creating Bills of Material
+  - value: PR_3C86016FF94E87B3
+    synonyms: 
+    - Releasing Versions of Bills of Material
+  - value: PR_BD6DBA65F17DD69F
+    synonyms: 
+    - Creating New Versions of Bills of Material
+  - value: PR_A2E1762AD9300E8F
+    synonyms: 
+    - Creating Header Materials
+  - value: PR_2340B87D181FFB8E
+    synonyms: 
+    - Copying Versioned Bills of Material
+  - value: PR_8FE25AAF396C4DA9
+    synonyms: 
+    - Initial Check
+  - value: PR_5660E8822B33DBBB
+    synonyms: 
+    - Matching
+  - value: PR_2E89576CC6226088
+    synonyms: 
+    - Validate Records
+  - value: PR_8646DF29066825B6
+    synonyms: 
+    - Activate Records
+  - value: PR_7DCF64540A519FAD
+    synonyms: 
+    - Updating Data Records
+  - value: PR_916E400AFD951BC
+    synonyms: 
+    - Checking Replenishment Warehouse Tasks
+  - value: PR_90622128721F598B
+    synonyms: 
+    - Processing Multiple Business Partner Records
+  - value: PR_C91884D6F01ADC83
+    synonyms: 
+    - Validating Data in Consolidation Processes
+  - value: PR_3BFCE0A1AE4582AF
+    synonyms: 
+    - Managing Mass Load Consolidation Processes
+  - value: PR_F5EA34384FE9E795
+    synonyms: 
+    - Defining Scope Fields for Mass Maintenance
+  - value: PR_98038986FE357B83
+    synonyms: 
+    - Selecting Data Records for Mass Maintenance
+  - value: PR_B2BB904AE97344A3
+    synonyms: 
+    - Validating Data in Mass Maintenance
+  - value: PR_FEF3B4818C1F668B
+    synonyms: 
+    - Activating Data in Mass Maintenance
+  - value: PR_8085BA9F3AEF54B3
+    synonyms: 
+    - Confirming Production Orders
+  - value: PR_666138E2E98DA6A4
+    synonyms: 
+    - Managing Banks
+  - value: PR_58652CC6CDBD36BA
+    synonyms: 
+    - Registering Payment Cards in Customer Master Data
+  - value: PR_AFAE994C154B2C92
+    synonyms: 
+    - Creating Planned Independent Requirements
+  - value: PR_CEBC88405066F5B7
+    synonyms: 
+    - Printing Form - Output Management
+  - value: PR_763869952AC2D4A2
+    synonyms: 
+    - Releasing Sales Orders with One-time Payment Cards
+  - value: PR_C6052D97A0E123A9
+    synonyms: 
+    - Creating Planned Independent Requirements
+  - value: PR_11C3F7DA58A89FA1
+    synonyms: 
+    - Setting Report Relevancy
+  - value: PR_33E76AF86EA2A1B8
+    synonyms: 
+    - Managing House Banks
+  - value: PR_26B7CEB916133FB9
+    synonyms: 
+    - Creating Bank Accounts
+  - value: PR_AC328E04BCA2CFAD
+    synonyms: 
+    - Creating Bank Account Change Requests
+  - value: PR_1AF16EC7EB033B9D
+    synonyms: 
+    - Importing Bank Accounts
+  - value: PR_AB4F68DF7628EC92
+    synonyms: 
+    - Changing Bank Accounts
+  - value: PR_4A19E524FE4CF9B3
+    synonyms: 
+    - Managing House Banks
+  - value: PR_95BBA7D1AA91189C
+    synonyms: 
+    - Activating Bank Account Requests
+  - value: PR_75930F880D58F3AA
+    synonyms: 
+    - Activating Bank Account Change Requests
+  - value: PR_EB8D15FC932F1B8
+    synonyms: 
+    - Approving Bank Account Closing Requests
+  - value: PR_5AC4D8CAA2848A99
+    synonyms: 
+    - Managing Banks
+  - value: PR_5C3D06C8905F3B8D
+    synonyms: 
+    - Approving Bank Account Requests
+  - value: PR_E3D476E6D5331DA7
+    synonyms: 
+    - Creating Bank Account Closing Requests
+  - value: PR_EE2D546DC4E9A59C
+    synonyms: 
+    - Performing Material Requirements Planning
+  - value: PR_6E50AC2D9DAB4DB6
+    synonyms: 
+    - Reviewing Process Orders
+  - value: PR_F3D7645C3F2B6E89
+    synonyms: 
+    - Monitoring Order Progress
+  - value: PR_8F3167B6D895EA8D
+    synonyms: 
+    - Posting Goods Receipts for Process Order
+  - value: PR_8C89454972367BA0
+    synonyms: 
+    - Reviewing Scrap Reports
+  - value: PR_909195D4DC343A96
+    synonyms: 
+    - Replenishing Stocks
+  - value: PR_35C0C90F1C11C3B0
+  - value: PR_E6B82C9066EE3386
+  - value: PR_DE7E751DD6E9ECB5
+  - value: PR_54EBB9CCAD5706BD
+  - value: PR_C6FADB33AA91783
+    synonyms: 
+    - Checking Material Documents
+  - value: PR_914077EBD41CEB7
+    synonyms: 
+    - Performing Material Requirements Planning at Plant Level
+  - value: PR_3C765FC165935F9C
+    synonyms: 
+    - Evaluating Stock/Requirements Situations

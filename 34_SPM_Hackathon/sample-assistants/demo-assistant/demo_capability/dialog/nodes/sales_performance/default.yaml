@@ -1,0 +1,14 @@
+type: node
+title: Sales performance for current quarter
+condition: "#sales_performance"
+dialog_functions :
+  - name: sales_performance/show_sales_performance
+    parameters:
+      - name: team
+        value: "00163e03-a070-1ee2-88b8-d35837d54d9b"
+    result_variable: salesChampion
+finally:
+  behavior: jump
+  jump_to:
+    node: sales_performance/ask_for_award
+    execution: responses

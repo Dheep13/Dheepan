@@ -1,0 +1,45 @@
+type: node
+title: help
+condition: "#help"
+response:
+  messages:
+    - type: buttons
+      delay: 0
+      content:
+        title: Here's the list of UI Elements supported by Web Client.
+        buttons:
+          - type: postback
+            title: Text
+            value: text
+          - type: postback
+            title: Card
+            value: card
+          - type: postback
+            title: List
+            value: list
+          - type: postback
+            title: Carousel
+            value: carousel
+          - type: postback
+            title: Buttons
+            value: buttons
+          - type: postback
+            title: Media
+            value: media
+          - type: postback
+            title: Raw
+            value: raw
+          - type: postback
+            title: client data
+            value: client data
+          - type: postback
+            title: enhanced list
+            value: enhanced list
+          - type: postback
+            title: Quick Reply
+            value: quick replies
+          - type: postback
+            title: integration card
+            value: integration card
+finally:
+  behavior: wait

@@ -1,0 +1,171 @@
+parameters:
+  - name: team
+action_groups:
+  - actions:
+      # Fetch access tokens
+      - type: dialog-function
+        name: sales_performance/fetch_access_token
+        result_variable: returned_access_token
+      
+      # Set date variables
+      - type: set-variables
+        variables:
+          - name: startDate
+            value: "2012-01-01"
+          - name: endDate
+            value: "2023-12-31"
+      
+      # Fetching all top deals
+      - type: api-request
+        method: GET
+        system_alias: SalesCloudSystem
+        path: /opportunity-service/opportunities?$filter=salesUnit/id%20eq%20<? team ?>%20and%20status%20ge%203%20and%20closeDate%20ge%20<? startDate ?>%20and%20closeDate%20lt%20<? endDate ?>
+        headers:
+          Content-Type: application/json
+          x-sap-crm-token: <? returned_access_token.access_token ?>
+        result_variable: unsorted_top_deals
+      - type: set-variables
+        scripting_type: handlebars
+        variables:
+          - name: card_information
+            value: "{\"data\":[{{#eachJoin unsorted_top_deals.body.value}} {{#eq status '4'}}{\"opportunity\": \"{{displayId}}\", \"name\": \"{{owner.name}}\", \"revenue\":\"{{expectedRevenueAmount.content}}\", \"customer\":\"{{account.description}}\", \"closing_date\":\"{{closeDate}}\", \"products\":  \"{{#each items}}{{productDescription}}{{/each}}\"} {{/eq}} {{/eachJoin}} ]}"
+      
+      # Sorting Service
+      - type: api-request
+        method: POST
+        system_alias: SortingService
+        path: /kpi-top-deals?filter=revenue
+        headers:
+          Content-Type: application/json
+        body: <? card_information.data ?>
+        result_variable: sorted_top_deals 
+      
+      # Setting quarter and year
+      - type: set-variables
+        variables:
+          - name: currentQuarter
+            value: <? (new Date().getMonth / 3) + 1 ?>  
+      - type: set-variables
+        variables:
+          - name: currentYear
+            value: <? new Date().getYear + 1900?>
+      
+      # Setting top 5 variables
+      - type: set-variables
+        variables:  
+            - name: top5_first
+              value: <? sorted_top_deals.body[0] ?>
+            - name: top5_second
+              value: <? sorted_top_deals.body[1] ?>
+            - name: top5_third
+              value: <? sorted_top_deals.body[2] ?>
+            - name: top5_fourth
+              value: <? sorted_top_deals.body[3] ?>
+            - name: top5_fifth
+              value: <? sorted_top_deals.body[4] ?>
+      
+      # Creating ui5 card
+      - type: message
+        message: >
+          {
+            "type": "ui5integrationCard",
+              "content": {
+                "sap.ui": {
+                  "icons": {
+                    "icon": "sap-icon://list"
+                  },
+                  "technology": "UI5"
+                },
+                "sap.app": {
+                  "id": "card.explorer.numeric.list.card",
+                  "info": "Additional information about this Card",
+                  "tags": {
+                    "keywords": [
+                      "List",
+                      "Numeric",
+                      "Card",
+                      "Sample"
+                    ]
+                  },
+                  "type": "card",
+                  "title": "Sample of a List with Numeric Header",
+                  "subTitle": "Sample of a List with Numeric Header",
+                  "shortTitle": "A short title for this Card",
+                  "description": "A long description for this Card",
+                  "applicationVersion": {
+                    "version": "1.0.0"
+                  }
+                },
+                "sap.card": {
+                  "type": "List",
+                  "header": {
+                    "type": "Numeric",
+                    "title": "Top 5 Deals",
+                    "subTitle": "Q<? currentQuarter ?>, <? currentYear ?>"
+                  },
+                  "content": {
+                    "data": {
+                      "json": [
+                        {
+                          "Name": "<? top5_first.name ?>",
+                          "Sales": "Revenue: {=format.float(<? top5_first.revenue ?>, {decimals:0, style:'short'}, 'us' )}",
+                          "State": "Success",
+                          "Customer": "1. <? top5_first.customer ?>",
+                          "Opportunity": "Opportunity <? top5_first.opportunity ?>"
+                        },
+                        {
+                          "Name": "<? top5_second.name ?>",
+                          "Sales": "Revenue: {=format.float(<? top5_second.revenue ?>, {decimals:0, style:'short'}, 'us' )}",
+                          "State": "Success",
+                          "Customer": "2. <? top5_second.customer ?>",
+                          "Opportunity": "Opportunity <? top5_second.opportunity ?>"
+                        },
+                        {
+                          "Name": "<? top5_third.name ?>",
+                          "Sales": "Revenue: {=format.float(<? top5_third.revenue ?>, {decimals:0, style:'short'}, 'us' )}",
+                          "State": "Success",
+                          "Customer": "3. <? top5_third.customer ?>",
+                          "Opportunity": "Opportunity <? top5_third.opportunity ?>"
+                        },
+                        {
+                          "Name": "<? top5_fourth.name ?>",
+                          "Sales": "Revenue: {=format.float(<? top5_fourth.revenue ?>, {decimals:0, style:'short'}, 'us' )}",
+                          "State": "Success",
+                          "Customer": "4. <? top5_fourth.customer ?>",
+                          "Opportunity": "Opportunity <? top5_fourth.opportunity ?>"
+                        },
+                        {
+                          "Name": "<? top5_fifth.name ?>",
+                          "Sales": "Revenue: {=format.float(<? top5_fifth.revenue ?>, {decimals:0, style:'short'}, 'us' )}",
+                          "State": "Success",
+                          "Customer": "5. <? top5_fifth.customer ?>",
+                          "Opportunity": "Opportunity <? top5_fifth.opportunity ?>"
+                        }
+                      ]
+                    },
+                    "item": {
+                      "info": {
+                        "state": "{State}",
+                        "value": "{Sales}"
+                      },
+                      "title": "{Customer}",
+                      "attributes": [
+                        {
+                          "value": "{Name}",
+                          "visible": true
+                        },
+                        {
+                          "value": "{Opportunity}",
+                          "visible": true
+                        }
+                      ],
+                      "attributesLayoutType": "OneColumn"
+                    }
+                  }
+                }
+              }
+            }
+result:
+  topDealsList: <? sorted_top_deals.body ?>
+  quarter: <? currentQuarter ?>
+  year: <? currentYear ?>

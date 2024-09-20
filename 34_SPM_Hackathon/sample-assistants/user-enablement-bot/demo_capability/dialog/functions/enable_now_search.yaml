@@ -1,0 +1,25 @@
+parameters:
+  - name: projectid
+  - name: projectIdLiteral
+action_groups:
+  - actions: 
+    - type: message
+      scripting_type: handlebars
+      message: >
+        {
+          "type": "buttons",
+          "content": {
+            "title": "Here is what I found for you. Click the button to see a tutorial about {{projectIdLiteral}}:",
+            "buttons": [
+              {
+                "type": "web_url",
+                "title": "Tutorial: {{projectIdLiteral}}",
+                "value": "https://education.hana.ondemand.com/education/pub/s4/index.html?show=project!{{projectid}}"
+              }
+            ]
+          }
+        }
+        
+result:
+  tutorial_result: <? projectid ?>     
+  

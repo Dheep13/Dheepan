@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package orders;
+
+// The order service definition.
+service Order {
+  rpc RecordOrders (stream OrderRequest) returns (OrderSummary) {}
+  rpc GetOrders (OrderRequest) returns (stream OrderReply) {}
+}
+
+// The request message
+message OrderRequest {
+  string symbol = 1;
+  double amount = 2;
+}
+
+// The response message
+message OrderReply {
+    string symbol = 1;
+    double amount = 2;
+    double cost = 3;
+    string date = 4;
+}
+
+// The summary message
+message OrderSummary {
+  int32 created = 1;
+  double elapsed_time = 2;
+}

@@ -1,0 +1,31 @@
+type: node
+title: show card
+condition: "@element_types == 'quick replies'"
+response:
+  messages:
+    - type: quickReplies
+      content:
+        title: 'Quick Reply Title'
+        buttons:
+          - title: Job Title
+            value: handle_quick_reply
+          - title: Employee Class
+            value: handle_quick_reply
+          - title: Regular/Temporary
+            value: handle_quick_reply
+          - title: Pay Grade
+            value: handle_quick_reply
+          - title: Company
+            value: handle_quick_reply
+          - title: Business Unit
+            value: handle_quick_reply
+          - title: Location
+            value: handle_quick_reply
+          - title: Division
+            value: handle_quick_reply
+          - title: Department
+            value: handle_quick_reply
+          - title: Cost Center
+            value: handle_quick_reply
+finally:
+  behavior: wait

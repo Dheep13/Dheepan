@@ -1,0 +1,17 @@
+type: node
+title: send spot award for sales performance champion (full name) - cross_spot_scenario
+condition: ""
+response:
+  context:
+    - variable: "recipientname"
+      value: <? $salesChampion.salesChampionData.firstName ?>
+    - variable: "recipient_last_name"
+      value: <? $salesChampion.salesChampionData.lastName ?>
+  messages:
+    - type: text
+      content: ""
+finally:
+  behavior: jump
+  jump_to: 
+    node: spot_award/1_recipient/get_userinfo_by_name
+    execution: responses

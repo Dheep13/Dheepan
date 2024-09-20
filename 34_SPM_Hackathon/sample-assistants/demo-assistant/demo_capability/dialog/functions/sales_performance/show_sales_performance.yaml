@@ -1,0 +1,196 @@
+parameters:
+  - name: quarter
+    optional: true
+  - name: team
+action_groups:
+  - condition: quarter == null
+    actions:
+    # Default quarter to current quarter
+      - type: set-variables
+        variables:
+          - name: quarter
+            value: Q<? (new Date().getMonth() / 3) + 1 ?>
+  - condition: quarter == "Q1"
+    actions:
+      - type: set-variables
+        variables:
+          - name: startDate
+            value: "2022-01-01"
+          - name: endDate
+            value: "2022-03-31"
+  - condition: quarter == "Q2"
+    actions:
+      - type: set-variables
+        variables:
+          - name: startDate
+            value: "2022-04-01"
+          - name: endDate
+            value: "2022-06-30"
+  - condition: quarter == "Q3"
+    actions:
+      - type: set-variables
+        variables:
+          - name: startDate
+            value: "2022-07-01"
+          - name: endDate
+            value: "2022-09-30"
+  - condition: quarter == "Q4"
+    actions:
+      - type: set-variables
+        variables:
+          - name: startDate
+            value: "2022-10-01"
+          - name: endDate
+            value: "2022-12-31"
+  - actions:
+      # Fetch access tokens
+      - type: dialog-function
+        name: sales_performance/fetch_access_token
+        result_variable: returned_access_token
+
+      # Fetching all opportunities per sales unit (= team) for time frame
+      - type: api-request
+        method: GET
+        system_alias: SalesCloudSystem
+        path: /opportunity-service/opportunities?$filter=salesUnit/id%20eq%20<? team ?>%20and%20status%20ge%203%20and%20closeDate%20ge%20<? startDate ?>%20and%20closeDate%20lt%20<? endDate ?>
+        headers:
+          Content-Type: application/json
+          x-sap-crm-token: <? returned_access_token.access_token ?>
+        result_variable: unsorted_opportunities
+
+      # Sorting post processing
+      - type: api-request
+        method: POST
+        system_alias: SortingService
+        path: /kpi-team-performance-quarter?target=650000
+        headers:
+          Content-Type: application/json
+        body: <? unsorted_opportunities.body.value ?>
+        result_variable: quarter_team_result
+
+      # Employee Service Call
+      - type: api-request
+        method: GET
+        system_alias: SalesCloudSystem
+        path: /employee-service/employees/<? quarter_team_result.body.sales_champion_id ?>?thumbnailSize=M
+        headers:
+          Content-Type: application/json
+          x-sap-crm-token: <? returned_access_token.access_token ?>
+        result_variable: top_seller_quarter
+      - type: message
+        message:
+          type: text
+          content: So far in <? quarter ?>, you have achieved <? quarter_team_result.body.percentage?>% of your personal sales target.
+      - type: message
+        message:
+          type: text
+          content: "Currently, the top performing seller is:"
+
+        # Set variables for prepared employee
+      - type: set-variables
+        scripting_type: handlebars
+        variables:  
+            - name: prepared_employee
+              value: >
+                {
+                  "thumbnail":{{#if top_seller_quarter.body.value.attachments}} {{json top_seller_quarter.body.value.attachments.[0].url}}{{else}} "" {{/if}}, 
+                  "managerFormattedName":"{{top_seller_quarter.body.value.managerFormattedName}}",
+                  "employeeDisplayId":"{{top_seller_quarter.body.value.employeeDisplayId}}",
+                  "firstName":"{{top_seller_quarter.body.value.givenName}}",
+                  "lastName":"{{top_seller_quarter.body.value.familyName}}",
+                  "workplaceAddress": {{#if top_seller_quarter.body.value.workplaceAddress}} {{json top_seller_quarter.body.value.workplaceAddress}}{{else}} "" {{/if}},
+                  "organizationalUnitName":"{{top_seller_quarter.body.value.organizationalUnitName}}"
+                }
+      
+      # creating ui5 card
+      - type: message
+        scripting_type: spel
+        message: >
+          {
+            "type": "ui5integrationCard",
+              "content": {
+                "sap.ui": {
+                  "icons": {
+                    "icon": "sap-icon://switch-classes"
+                  },
+                  "technology": "UI5"
+                },
+                "sap.app": {
+                  "id": "card.explorer.object.card",
+                  "info": "Shows best performing seller",
+                  "tags": {
+                    "keywords": [
+                      "Object",
+                      "Card",
+                      "Sample"
+                    ]
+                  },
+                  "type": "card",
+                  "title": "Best performing seller",
+                  "subTitle": "Show best performing seller",
+                  "shortTitle": "Best performing Seller Information",
+                  "description": "Card that shows the top performing seller of a team",
+                  "applicationVersion": {
+                    "version": "1.0.0"
+                  }
+                },
+                "_version": "1.15.0",
+                "sap.card": {
+                  "type": "Object",
+                  "header": {
+                    "icon": {
+                      "src": "<? prepared_employee.thumbnail ?>"
+                    },
+                    "title": "<? prepared_employee.firstName ?> <? prepared_employee.lastName ?>",
+                    "subTitle": "Sales Representative"
+                  },
+                  "content": {
+                    "groups": [
+                      {
+                        "items": [
+                          {
+                            "label": "Email",
+                            "value": "<? prepared_employee.workplaceAddress.has('eMail')? prepared_employee.workplaceAddress.eMail:'' ?>",
+                            "actions": [
+                              {
+                                "type": "Navigation",
+                                "parameters": {
+                                  "url": "mailto:<? prepared_employee.firstName ?>.<? prepared_employee.lastName ?>"
+                                }
+                              }
+                            ],
+                            "tooltip": "{emailTooltip}"
+                          },
+                          {
+                            "label": "Sales Unit",
+                            "value": "<? prepared_employee.organizationalUnitName ?>"
+                          }
+                        ],
+                        "title": ""
+                      },
+                      {
+                        "items": [
+                          {
+                            "icon": {
+                              "src": "{manager/photo}"
+                            },
+                            "label": "Direct Manager",
+                            "value": "<? prepared_employee.managerFormattedName ?>"
+                          }
+                        ],
+                        "title": ""
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+result:
+  salesChampionData:
+    email: <? prepared_employee.firstName.toLowerCase() ?>.<? prepared_employee.lastName.toLowerCase() ?>
+    lastName: <? prepared_employee.lastName ?>
+    firstName: <? prepared_employee.firstName ?>
+    thumbnail_url: <? prepared_employee.thumbnail ?>
+    employeeDisplayId: <? prepared_employee.employeeDisplayId ?>
+    managerFormattedName: <? prepared_employee.managerFormattedName ?>
+    organizationalUnitName: <? prepared_employee.organizationalUnitName ?>

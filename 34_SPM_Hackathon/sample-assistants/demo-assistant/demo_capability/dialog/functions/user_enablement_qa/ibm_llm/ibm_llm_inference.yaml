@@ -1,0 +1,59 @@
+parameters:
+  - name: input
+action_groups:
+  - actions:
+      - type: api-request
+        method: POST
+        system_alias: Generative_LLM
+        path: "/query"
+        body: 
+         {   
+            "query": "text:<? input ?>" 
+          }
+        result_variable: api_result
+
+      - type: set-variables
+        scripting_type: handlebars
+        variables:
+          - name: prepared_details
+            value: >
+              {
+                "type": "list",
+                "content": {
+                  "title": "Your search results",
+                  "imageUrl": "sap-icon://activate",
+                  "subtitle": "Here's the full list of what I found for you. Check it out. With Open Topic the help topic in SAP Help Portal opens in a new tab:",
+                  "elements": [ 
+                    {{#eachJoin api_result.body.results}}
+                    {{#if this.url }}
+                       {
+                       "title": "{{this.title}}",
+                       "description": "{{this.text.[0]}}",
+                       "buttons": [
+                        {
+                          "title": "Open Topic",
+                          "value": "{{this.url}}",
+                          "type": "web_url"
+                        }
+                       ]
+                      } 
+                    {{/if}}
+                    {{/eachJoin}} 
+                  ]
+               }
+              }
+
+      - type: message
+        message:
+          type: buttons
+          content: 
+            title: "Here's a summary of what I have found for you: \n \n <? api_result.body.results[0].text[0] ?> \n \n Do you want to get more detailed information? Check out the search results."
+            buttons:
+              - title: Show results
+                value: show results
+                type: postback
+
+
+result:
+ prepared_details: "<? prepared_details ?>"
+  

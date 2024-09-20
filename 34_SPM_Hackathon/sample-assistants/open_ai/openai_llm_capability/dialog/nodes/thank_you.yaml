@@ -1,0 +1,11 @@
+title: Thank you node
+type: node
+condition: '#thank_you'
+
+response:
+   messages:
+    - type: text
+      content: You are welcome. Is there anything else I can support you with ?
+
+finally:
+  behavior: wait

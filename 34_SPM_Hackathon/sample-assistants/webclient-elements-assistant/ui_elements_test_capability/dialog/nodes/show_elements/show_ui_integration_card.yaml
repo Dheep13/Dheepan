@@ -1,0 +1,33 @@
+type: node
+title: show card
+condition: "@element_types == 'integration card'"
+response:
+  messages:
+    - type: buttons
+      delay: 0
+      content:
+        title: Adaptive examples
+        buttons:
+          - type: postback
+            title: Analytical
+            value: analytical integration card
+          - type: postback
+            title: Calendar
+            value: calendar integration card
+          - type: postback
+            title: List
+            value: list integration card
+          - type: postback
+            title: Object
+            value: object integration card
+          - type: postback
+            title: Table
+            value: table integration card
+          - type: postback
+            title: TimeLine
+            value: timeline integration card
+          - type: postback
+            title: Adaptive Card
+            value: adaptive integration card
+finally:
+  behavior: wait

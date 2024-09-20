@@ -1,0 +1,5 @@
+metadata:
+  auto_correct: false
+  system_aliases:
+    Generative_LLM:
+      destination: IBM_LLM_S4

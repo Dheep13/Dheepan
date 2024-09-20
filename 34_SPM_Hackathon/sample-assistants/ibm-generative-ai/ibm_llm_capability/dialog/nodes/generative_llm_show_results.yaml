@@ -1,0 +1,13 @@
+title: Generative LLM show detailed results
+type: node
+condition: '#show_llm_search_results'
+
+dialog_functions:
+  - name: ibm_llm/generative_llm_show_results
+    result_variable: result
+    parameters:
+      - name: prepared_results
+        value: <? $llm_result.results ?>
+
+finally:
+  behavior: wait

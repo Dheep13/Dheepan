@@ -1,0 +1,9 @@
+type: node
+title: Welcome
+condition: '#greetings'
+response:
+  messages:
+    - type: text
+      content: Hi there! Welcome to the SAP Help Digital Assistant.
+finally:
+  behavior: wait 

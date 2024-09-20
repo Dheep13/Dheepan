@@ -1,0 +1,19 @@
+type: node
+title: node that will invoke the user enablement q&a process
+condition: '#user_enablement'
+
+dialog_functions:
+  - name: user_enablement_qa/determine_llm
+    result_variable: inference_result
+    parameters:
+      - name: llm
+        value: houdinie
+      - name: input
+        value: <? input.text ?>
+      - name: user_id
+        value: <? $metadata.user_id ?>
+      - name: session_id
+        value: <? $system.session_id ?>
+
+finally:
+  behavior: wait

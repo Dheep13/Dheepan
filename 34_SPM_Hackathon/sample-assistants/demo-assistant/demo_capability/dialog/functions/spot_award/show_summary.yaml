@@ -1,0 +1,61 @@
+parameters:
+  - name: username
+  - name: awardtype
+  - name: awardcategoryname
+    optional: true
+  - name: awardlevelname
+    optional: true
+  - name: awardamount
+    optional: true
+  - name: awardmessage
+action_groups:
+  - condition: awardtype == "Peer Appreciation"
+    actions:
+      - type: message
+        scripting_type: handlebars
+        message:
+          type: text
+          content: "I briefly summarize: You would like to send the award {{awardtype}} Award for the value '{{trim awardcategoryname}}', at the level '{{trim awardlevelname}}' to {{username}}. They will receive {{awardamount}}$ and your message: '{{awardmessage}}'"
+      - type: message
+        message: 
+          type: buttons
+          content:
+            title: "Would you like to send the award now?"
+            buttons:
+              - type: postback
+                title: "Yes, send the award."
+                value: "Yes!"
+              - type: postback
+                title: "Change Message"
+                value: "Change Message"
+              - type: postback
+                title: "Change Award Program"
+                value: "Change Award Program"
+              - type: postback
+                title: "Change Award Value"
+                value: "Change Award Value"
+              - type: postback
+                title: "Change Award Level"
+                value: "Change Award Level"
+
+  - condition: awardtype == "Thank you"
+    actions:
+      - type: message
+        message:
+          type: text
+          content: "I briefly summarize: You would like to send the award <? awardtype ?> Award to <? username ?>. They will receive 0$, and your message: '<? awardmessage ?>'"
+      - type: message
+        message: 
+          type: buttons
+          content:
+            title: "Would you like to send the award now?"
+            buttons:
+              - type: postback
+                title: "Yes, send the award."
+                value: "Yes!"
+              - type: postback
+                title: "Change Message"
+                value: "Change Message"
+              - type: postback
+                title: "Change Award Program"
+                value: "Change Award Program"

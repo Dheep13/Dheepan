@@ -1,0 +1,56 @@
+global:
+  domain: c173af2.kyma.ondemand.com
+  imagePullSecret: 
+    name: container-registry
+srv:
+  bindings:
+    db:
+      fromSecret: cpapp-db
+    auth:
+      serviceInstanceName: xsuaa
+  image:
+    repository: https://index.docker.io/cpapp-srv
+    tag: latest
+  resources:
+    limits:
+      ephemeral-storage: 1G
+      memory: 500M
+    requests:
+      ephemeral-storage: 1G
+      cpu: 500m
+      memory: 500M
+  health_check:
+    liveness:
+      path: /
+    readiness:
+      path: /
+hana_deployer:
+  image:
+    repository: https://index.docker.io/cpapp-hana-deployer
+    tag: latest
+  bindings:
+    hana:
+      fromSecret: cpapp-db
+  resources:
+    limits:
+      cpu: 2000m
+      memory: 1G
+    requests:
+      cpu: 1000m
+      memory: 1G
+xsuaa:
+  serviceOfferingName: xsuaa
+  servicePlanName: application
+  parameters:
+    xsappname: cpapp
+    role-collections:
+      - description: Manage Risks
+        name: RiskManager
+        role-template-references:
+          - '$XSAPPNAME.RiskManager'
+      - description: View Risks
+        name: RiskViewer
+        role-template-references:
+          - '$XSAPPNAME.RiskViewer'
+  config: xs-security.json
+

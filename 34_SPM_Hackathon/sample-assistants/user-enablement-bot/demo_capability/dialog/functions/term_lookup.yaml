@@ -1,0 +1,27 @@
+parameters:
+  - name: term
+action_groups:
+  - actions:
+      - type: api-request
+        method: GET
+        system_alias: termlookup
+        path: "/glossary?language=en-US&pageSize=2&pageNo=1&searchText=<? term.urlEncode() ?>"
+        result_variable: term_result
+      - type: message
+        message: >
+          {
+            "type": "text",
+            "content": "Here is what I have found on the glossary:"
+          }
+      - type: message
+        scripting_type: spel
+        message: >
+          {
+            "type": "text",
+            "content": "<? term_result.body.data.matches.size() >= 1 && term_result.body.data.matches[0].definition != null ? term_result.body.data.matches[0].definition : 'No results were found.' ?>"
+          }       
+        
+result:
+  success: <? term_result.status_code == 200 ?>
+  term: <? term_result.body.data.matches[0].term ?>
+  definition: <? term_result.body.data.matches[0].definition ?>

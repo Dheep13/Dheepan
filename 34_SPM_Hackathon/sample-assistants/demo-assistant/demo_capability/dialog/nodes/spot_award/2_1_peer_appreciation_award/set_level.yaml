@@ -1,0 +1,15 @@
+title: set level  
+type: node
+condition: "$recipientname"
+response:
+  context:
+    - variable: "awardlevelid"
+      value: "<? input.text ?>"
+  messages:
+    - type: text
+      content: ""
+finally:
+  behavior: jump
+  jump_to:
+    node: spot_award/2_1_peer_appreciation_award/get_amount
+    execution: responses

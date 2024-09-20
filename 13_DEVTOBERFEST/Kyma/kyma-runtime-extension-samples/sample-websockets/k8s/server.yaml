@@ -1,0 +1,85 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: websocket-server
+  name: websocket-server
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: websocket-server
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: websocket-server
+    spec:
+      containers:
+      - image: gabbi/sample-kyma-websocket-server:0.0.4
+        name: sample-kyma-websocket-server
+        resources: {}
+        ports:
+        - containerPort: 8888
+status: {}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    app: websocket-server
+  name: websocket-server
+spec:
+  ports:
+  - port: 8888
+    protocol: TCP
+    targetPort: 8888
+  selector:
+    app: websocket-server
+status:
+  loadBalancer: {}
+---
+apiVersion: eventing.kyma-project.io/v1alpha1
+kind: Subscription
+metadata:
+  name: websocket-server
+spec:
+  filter:
+    filters:
+      - eventSource:
+          property: source
+          type: exact
+          value: ''
+        eventType:
+          property: type
+          type: exact
+          value: sap.kyma.custom.mp-gaurav-10-mock-ccv2.order.created.v1
+  protocolsettings: {}
+  sink: http://websocket-server.dev.svc.cluster.local:8888/events
+---
+apiVersion: gateway.kyma-project.io/v1beta1
+kind: APIRule
+metadata:
+  name: websocket-server
+spec:
+  gateway: kyma-gateway.kyma-system.svc.cluster.local
+  host: websocket-server
+  rules:
+  - accessStrategies:
+    - config: {}
+      handler: noop
+    methods:
+    - GET
+    - POST
+    - PUT
+    - PATCH
+    - DELETE
+    - HEAD
+    path: /.*
+    service:
+      name: websocket-server
+      port: 8888
+status: {}

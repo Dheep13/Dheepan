@@ -1,0 +1,10 @@
+type: node
+title: handle quick reply
+condition: "@handlers:handle_postback"
+response:
+  messages:
+    - type: text
+      content: Postback triggered
+finally:
+  behavior: wait
+

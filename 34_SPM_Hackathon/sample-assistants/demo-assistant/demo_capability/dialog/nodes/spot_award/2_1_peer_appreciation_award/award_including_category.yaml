@@ -1,0 +1,15 @@
+title: Peer Appreciation Award for the recipient including category
+type: node
+condition: ""
+dialog_functions:
+  - name: spot_award/ask_for_level
+    parameters:
+      - name: awardtype
+        value: "<? $awardtype ?>"
+      - name: awardcategoryid
+        value: "<? $awardcategoryid ?>"
+      - name: awardcategories
+        value: <? $awardcategories.response_categories ?>
+    result_variable: after_ask_for_level
+finally:
+  behavior: wait 

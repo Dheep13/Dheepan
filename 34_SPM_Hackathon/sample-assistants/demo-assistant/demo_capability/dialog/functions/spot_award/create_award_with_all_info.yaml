@@ -1,0 +1,89 @@
+parameters:
+  - name: userid
+  - name: username
+  - name: awardtype
+  - name: awardmessage
+  - name: awardcategoryid
+    optional: true
+  - name: awardlevelid
+    optional: true
+  - name: awardamount
+
+action_groups:
+  - condition: awardtype == "Peer Appreciation"
+    actions:
+      - type: api-request
+        method: POST
+        system_alias: SFSF_SpotAward
+        path: /SpotAward?&workflowConfirmed=true
+        headers:
+          Content-Type: application/json
+        body:
+          {
+            "level": "<? awardlevelid ?>",
+            "category": "<? awardcategoryid ?>",
+            "currency": "USD",
+            "userIdNav": {
+              "__metadata": {
+                "uri": "User('<? userid ?>')"
+              }
+            },
+            "__metadata": {
+              "uri": "SpotAward"
+            },
+            "awardAmount": "<? awardamount ?>",
+            "nominatorIdNav": {
+              "__metadata": {
+                "uri": "User('cgrante')"
+              }
+            },
+            "spotAwardProgram": "Peer Appreciation Award",
+            "commentForReceiver": "<? awardmessage ?>"
+          }
+        result_variable: spotaward_response
+  - condition: spotaward_response.status_code == 201
+    actions:
+      - type: message
+        message:
+          type: text
+          content: Perfect! I have sent the award to <? username ?>!
+  
+  
+  - condition: awardtype == "Thank you"
+    actions:
+      - type: api-request
+        method: POST
+        system_alias: SFSF_SpotAward
+        path: /SpotAward?&workflowConfirmed=true
+        headers:
+          Content-Type: application/json
+        body:
+          {
+            "level": "1",
+            "category": "1",
+            "currency": "None",
+            "userIdNav": {
+              "__metadata": {
+                "uri": "User('<? userid ?>')"
+              }
+            },
+            "__metadata": {
+              "uri": "SpotAward"
+            },
+            "awardAmount": "0",
+            "nominatorIdNav": {
+              "__metadata": {
+                "uri": "User('cgrante')"
+              }
+            },
+            "guidelineAmount": "0",
+            "spotAwardProgram": "Thanking You",
+            "commentForReceiver": "<? awardmessage ?>"
+          }
+        result_variable: thank_you_award_response
+  - condition: thank_you_award_response.status_code == 201
+    actions:
+      - type: message
+        message:
+          type: text
+          content: Perfect! I have sent the award to <? username ?>!

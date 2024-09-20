@@ -1,0 +1,21 @@
+title: Fetch Weather
+type: node
+condition: "#weather"
+slot_filling:
+  slots:
+    - check_for: "@city"
+      save_as:
+        variable: "weather_city"
+        value: "@city"
+      not_present:
+        prompts:
+          - type: text
+            content: "For which city would you like to see the weather?"
+dialog_functions:
+  - name: weather/fetch_weather_info
+    result_variable: weather_result
+    parameters:
+      - name: city
+        value: "$weather_city"
+finally:
+  behavior: skip

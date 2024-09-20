@@ -1,0 +1,4 @@
+.vscode
+*.daar
+debug-*.json
+.DS_Store

@@ -1,0 +1,64 @@
+@token = xvclM_jSFbyStXmqcGK6ZSgVWVUkNeaRcAlFs0amo00SUhCIbWHYCzw-AxVsZ-tQZkX-DtUZXWk9D2H4KHvY_ISIfrVgK_ujJX3zwAlzXcd8OWdl3fxcIkbrdkwDrYvZyHp_64FEzg5EtE5g64byM9FGvyVqlelypFSrBZ6VKtSjsJBmMPZ99U_JXzDi1TkcQpvaq4yat2XrF-h8ZC1eMkiemquCrtDfj9szPfX2uCsHU5RcoahB1GSjop8bLNWbeRwIy74relTOwMdYHAUo_Beyl6gBs1hHlIs_Qj-W0ob83IIg8AGS8_JiZHy3tMVV7YGKdsBtfhoQfwt7YP0jwM3oU8EZpnSl-rLmK_zHpdJGZ-nN2nTlhdu32cnRoqxhFJwm5JiCnPfnRtZakDF88xPDujc
+@stateful_api=NOWgpgbMZvBTkxBtliXTHL-6VRkJjy7ABbsS4F2UMbQldR4KgWAHT_-5Z9CpJbHYPHTKciN-oPhxfut7wogmq0mrMPE1
+
+@jwt_token = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MzE3NDA3NzksInVzZXJuYW1lIjoiZGVlcGFuLnMiLCJkb21haW4iOiJQUk9GU0VSSU5ESUEifQ.43vu-8mS8FMXUu-POywAqTrXijmt81uVFDa-4knr68A
+
+### bearer token
+
+POST https://sandbox.webcomcpq.com/basic/api/token
+
+grant_type=password&username=deepan.s&password=Msd183$$&domain=PROFSERINDIA
+
+### statefulapi token
+POST https://sandbox.webcomcpq.com/api/rd/v1/Core/LogIn?username=deepan.s&password=Msd183$$&domain=PROFSERINDIA
+
+###
+
+GET https://sandbox.webcomcpq.com/setup/api/v1/admin/auditTrail/AdminAction?offset=0&limit=10
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+
+###
+
+GET https://sandbox.webcomcpq.com/api/v1/Quote/Get?quotenumber=01200023 
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+###Generate JWT token
+
+POST https://sandbox.webcomcpq.com/api/rd/v1/core/GenerateJWT
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+### Create table
+POST https://sandbox.webcomcpq.com/api/custom-table/v1/customTables
+Content-Type: application/json
+Authorization: Bearer {{jwt_token}}
+
+{
+  "tableName": "NewTest",
+  "isHidden": false,
+  "auditTrailLevel": "Row",
+  "columns": [
+    {
+      "columnName": "Status",
+      "dbType": "NVARCHAR",
+      "columnSize": 10,
+      "isNullable": true,
+      "isProtected": true,
+      "isSensitive": true
+    }
+  ]
+}
+
+### GetInitData using stateful api token
+GET https://sandbox.webcomcpq.com/api/rd/v1/CartList/GetInitData
+Content-Type: application/json
+X-CSRF-Token: @{{stateful_api}}
+
+###
+
+GET https://sandbox.webcomcpq.com/api/custom-table/v1/customTables/Quote_Status/entries
+Content-Type: application/json
+Authorization:  Bearer {{jwt_token}}

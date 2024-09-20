@@ -1,0 +1,121 @@
+type: node
+title: show card
+condition: "@element_types == 'carousel'"
+response:
+  messages:
+    - type: carousel
+      delay: 0
+      content:
+        - title: Title (Orginal Display)
+          buttons:
+            - type: web_url
+              title: Button
+              value: https://sap.com
+            - type: postback
+              title: Postback Button
+              value: handle_postback
+            - type: clientdata
+              title: Button (Client Side Only)
+              value: dummy
+              client_data:
+                ItemClientOnly1: Data for item one
+                ItemClientOnly2: data for item 2
+          status: Status
+          imageUrl: >-
+            https://www.sap.com/dam/application/shared/logos/sap-logo-svg.svg.adapt.svg/1493030643828.svg
+          sections:
+            - title: Section Title 1
+              attributes:
+                - url: https://www.sap.com
+                  type: link
+                  label: Item Label Link (Client_data)
+                  value: Testing ClientData
+                  client_data:
+                    Item1: Data for item one
+                    Item2: data for item 2
+                - type: clientdata
+                  label: Item Label ClientSideOnly (Client_data)
+                  value: Testing ClientData
+                  client_data:
+                    ItemClientOnly1: Data for item one
+                    ItemClientOnly2: data for item 2
+          subtitle: Here is the subtitle
+          description: This is a description line here.  (Should have some section data too)
+          statusState: success
+        - title: Title (Hide header in Detail)
+          buttons:
+            - type: web_url
+              title: Button
+              value: https://sap.com
+            - type: postback
+              title: Postback button
+              value: handle_postback
+            - type: clientdata
+              title: Button (Client Side Only)
+              value: https://sap.com
+              client_data:
+                ItemClientOnly1: Data for item one
+                ItemClientOnly2: data for item 2
+          status: Status
+          imageUrl: >-
+            https://www.sap.com/dam/application/shared/logos/sap-logo-svg.svg.adapt.svg/1493030643828.svg
+          sections:
+            - title: Section Title 1
+              attributes:
+                - type: text
+                  label: Item Label 1
+                  value: This is text for item 1
+                - type: text
+                  label: Item Label 2
+                  value: This is text for item 2, wrapping 2 lines
+                - url: https://www.sap.com
+                  type: link
+                  label: Item Label Link (Client_data)
+                  value: Testing ClientData
+                  client_data:
+                    Item1: Data for item one
+                    Item2: data for item 2
+                - type: clientdata
+                  label: Item Label ClientSideOnly (Client_data)
+                  value: Testing ClientData
+                  client_data:
+                    ItemClientOnly1: Data for item one
+                    ItemClientOnly2: data for item 2
+                - label: Item Label 3, This is a longer Lable value (Markdown text)
+                  value: >-
+                    ### Markdown header indicator text here  
+
+                    **This is bold.** This is longer text line to see the wrapping of
+                    the _markdown_ text.  Here is a link [SAP site](www.sap.com)
+                    inline.
+                  markdown: true
+          subtitle: Here is the subtitle
+          description: ' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+          statusState: success
+          hideHeaderInDetailView: false
+        - title: Title 2
+          buttons:
+            - type: postback
+              title: Postback
+              value: handle_postback
+          imageUrl: >-
+            https://www.sap.com/dam/application/shared/logos/sap-logo-svg.svg.adapt.svg/1493030643828.svg
+          subtitle: Subtitle
+          description: >-
+            You can now add a description to the card for more information if needed. 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+            est laborum.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+            est laborum.
+          hideHeaderInDetailView: true
+finally:
+  behavior: wait

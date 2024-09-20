@@ -1,0 +1,9 @@
+title: Ask for award message
+type: node
+condition: "#send_award"
+response:
+  messages:
+    - type: text
+      content: "Please write me your message for <? $award_recipient_info.recipient_username ?> now."
+finally:
+  behavior: wait 

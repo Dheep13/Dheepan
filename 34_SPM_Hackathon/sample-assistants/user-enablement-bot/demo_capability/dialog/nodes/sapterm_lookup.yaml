@@ -1,0 +1,28 @@
+title: Term Lookup
+type: node
+condition: "#term_lookup"
+
+slot_filling:
+  slots:
+    - check_for: "@term"
+      save_as:
+        variable: "user_term"
+        value: "@term"
+      not_present:
+        prompts:
+          - type: text
+            content: "What should I look up for you?"
+    
+dialog_functions:
+  - name: term_lookup
+    result_variable: term_result
+    parameters:
+      - name: term
+        value: $user_term
+
+
+finally:
+  behavior: jump
+  jump_to:
+    node: sapterm_cleanup
+    execution: responses

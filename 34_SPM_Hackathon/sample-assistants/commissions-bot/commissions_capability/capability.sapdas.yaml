@@ -1,0 +1,30 @@
+schema_version: 1.3.0
+
+metadata:
+  display_name: Commissions Capability
+  namespace: namespace
+  name: commissions_capability
+  version: 1.0.0
+  description: Demo capability to fetch the product
+
+system_aliases:
+  CommissionsService:
+    destination: Commissions
+  termlookup:
+    destination: SAPTERMLOOKUP
+  LotteryService:
+    destination: DAS_DEMO_MOCK
+  SalesCloudAuth:
+    destination: DAS_DEMO_MOCK
+  SalesCloudSystem:
+    destination: DAS_DEMO_MOCK
+  CustomCFService:
+    destination: DAS_DEMO_MOCK
+  SFSF_BizX:
+    destination: DAS_DEMO_MOCK
+  WeatherService:
+    destination: WEATHER
+  Generative_LLM:
+    destination: GENERATIVE_LLM
+  chatgpt:
+    destination: WEATHER

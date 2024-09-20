@@ -1,0 +1,8 @@
+schema_version: "1.0"
+project_type: bot
+
+metadata:
+  name: ibm_llm_user_enablement_demo
+  version: 1.0.0
+  display_name: Digital Assistant
+  

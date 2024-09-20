@@ -1,0 +1,89 @@
+type: node
+title: show card
+condition: "@element_types == 'list integration card'"
+response:
+  messages:
+    - type: ui5integrationCard
+      delay: 0
+      content: > 
+             {
+                "sap.ui": {
+                  "icons": {
+                    "icon": "sap-icon://list"
+                  },
+                  "technology": "UI5"
+                },
+                "sap.app": {
+                  "id": "card.explorer.highlight.list.card",
+                  "info": "Additional information about this Card",
+                  "tags": {
+                    "keywords": [
+                      "List",
+                      "Highlight",
+                      "Card",
+                      "Sample"
+                    ]
+                  },
+                  "type": "card",
+                  "title": "Sample of a List with Highlight",
+                  "subTitle": "Sample of a List with Highlight",
+                  "shortTitle": "A short title for this Card",
+                  "description": "A long description for this Card",
+                  "applicationVersion": {
+                    "version": "1.0.0"
+                  }
+                },
+                "_version": "1.14.0",
+                "sap.card": {
+                  "type": "List",
+                  "header": {
+                    "icon": {
+                      "src": "sap-icon://desktop-mobile"
+                    },
+                    "title": "List Card with Top 5 Products",
+                    "status": {
+                      "text": "5 of 20"
+                    },
+                    "subTitle": "These are the top sellers this month"
+                  },
+                  "content": {
+                    "data": {
+                      "json": [
+                        {
+                          "Name": "Comfort Easy",
+                        "icon": "sap-icon://leads",
+                        "url": "/careers"
+                        },
+                        {
+                          "Name": "ITelO Vault",
+                          "Highlight": "Warning",
+                          "Description": "Digital Organizer with State-of-the-Art Storage Encryption"
+                        },
+                        {
+                          "Name": "Notebook Professional 15",
+                          "Highlight": "Success",
+                          "Description": "Notebook Professional 15 with 2,80 GHz quad core, 15\" Multitouch LCD, 8 GB DDR3 RAM, 500 GB SSD - DVD-Writer (DVD-R/+R/-RW/-RAM),Windows 8 Pro"
+                        },
+                        {
+                          "Name": "Ergo Screen E-I",
+                          "Highlight": "Information",
+                          "Description": "Optimum Hi-Resolution max. 1920 x 1080 @ 85Hz, Dot Pitch: 0.27mm"
+                        },
+                        {
+                          "Name": "Laser Professional Eco",
+                          "Highlight": "None",
+                          "Description": "Print 2400 dpi image quality color documents at speeds of up to 32 ppm (color) or 36 ppm (monochrome), letter/A4. Powerful 500 MHz processor, 512MB of memory"
+                        }
+                      ]
+                    },
+                    "item": {
+                      "title": "{Name}",
+                      "highlight": "{Highlight}",
+                      "description": "{Description}"
+                    },
+                    "maxItems": 5
+                  }
+                }
+              }     
+finally:
+  behavior: wait

@@ -1,0 +1,8 @@
+schema_version: 1.3.0
+
+metadata:
+  display_name: UI5 Capability
+  namespace: namespace
+  name: UI5_capability
+  version: 1.0.0
+  description: Demo capability for UI5

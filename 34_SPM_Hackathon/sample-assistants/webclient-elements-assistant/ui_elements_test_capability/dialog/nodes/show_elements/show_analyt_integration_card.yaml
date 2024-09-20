@@ -1,0 +1,128 @@
+type: node
+title: show card
+condition: "@element_types == 'analytical integration card'"
+response:
+  messages:
+    - type: ui5integrationCard
+      delay: 0
+      content: >
+             {
+                "_version": "1.14.0",
+                "sap.card": {
+                  "type": "Analytical",
+                  "header": {
+                    "data": {
+                      "json": {
+                        "unit": "K",
+                        "state": "Error",
+                        "trend": "Down",
+                        "number": "65.34",
+                        "target": {
+                          "unit": "K",
+                          "number": 100
+                        },
+                        "details": "Q1, 2018",
+                        "deviation": {
+                          "number": 34.7
+                        }
+                      }
+                    },
+                    "type": "Numeric",
+                    "title": "Project Cloud Transformation",
+                    "details": "{details}",
+                    "subTitle": "Revenue",
+                    "mainIndicator": {
+                      "unit": "{unit}",
+                      "state": "{state}",
+                      "trend": "{trend}",
+                      "number": "{number}"
+                    },
+                    "sideIndicators": [
+                      {
+                        "unit": "{target/unit}",
+                        "title": "Target",
+                        "number": "{target/number}"
+                      },
+                      {
+                        "unit": "%",
+                        "title": "Deviation",
+                        "number": "{deviation/number}"
+                      }
+                    ],
+                    "unitOfMeasurement": "EUR"
+                  },
+                  "content": {
+                    "data": {
+                      "json": {
+                        "list": [
+                          {
+                            "Cost": 230000,
+                            "Week": "CW14",
+                            "Cost1": 24800.63,
+                            "Cost2": 205199.37,
+                            "Cost3": 199999.37,
+                            "Budget": 210000,
+                            "Target": 500000,
+                            "Revenue": 431000.22
+                          }
+                        ],
+                        "legend": {
+                          "visible": true,
+                          "position": "Bottom",
+                          "alignment": "TopLeft"
+                        },
+                        "measures": {
+                          "costLabel": "Costs",
+                          "revenueLabel": "Revenue"
+                        },
+                        "dimensions": {
+                          "weekLabel": "Weeks"
+                        }
+                      },
+                      "path": "/list"
+                    },
+                    "title": {
+                      "text": "Line chart",
+                      "visible": true,
+                      "alignment": "Left"
+                    },
+                    "legend": {
+                      "visible": "{legend/visible}",
+                      "position": "{legend/position}",
+                      "alignment": "{legend/alignment}"
+                    },
+                    "measures": [
+                      {
+                        "label": "{measures/revenueLabel}",
+                        "value": "{Revenue}"
+                      },
+                      {
+                        "label": "{measures/costLabel}",
+                        "value": "{Cost}"
+                      }
+                    ],
+                    "plotArea": {
+                      "dataLabel": {
+                        "visible": true
+                      },
+                      "valueAxisText": {
+                        "visible": false
+                      },
+                      "categoryAxisText": {
+                        "visible": false
+                      }
+                    },
+                    "chartType": "Line",
+                    "dimensions": [
+                      {
+                        "label": "{dimensions/weekLabel}",
+                        "value": "{Week}"
+                      }
+                    ],
+                    "measureAxis": "valueAxis",
+                    "dimensionAxis": "categoryAxis"
+                  }
+                }
+              }
+finally:
+  behavior: wait

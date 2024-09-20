@@ -1,0 +1,41 @@
+parameters:
+  - name: awardtype
+  - name: awardcategoryid
+  - name: awardcategories
+action_groups:
+  - condition: awardtype == "Peer Appreciation"
+    actions:
+      - type: api-request
+        method: GET
+        system_alias: SFSF_SpotAward
+        path: /SpotAwardLevel?$filter0SpotAwardProgram_externalCode%20eq%20'Peer%20Appreciation'&$format=json
+        result_variable: level_info
+      
+      - type: set-variables
+        scripting_type: handlebars
+        variables:
+          - name: awardcategory
+            value: "{{#each awardcategories}} {{#eq this.externalCode @root.awardcategoryid}}{{this.title_defaultValue}}{{/eq}}{{/each}}"
+
+      - type: message
+        scripting_type: handlebars
+        message: >
+          {
+            "type": "buttons",
+            "content": {
+              "title": "Please select the level of the {{awardcategory}} award now?",
+              "buttons": [
+                {{#eachJoin level_info.body.d.results}}
+                {
+                  "type": "postback",
+                  "value": "{{this.externalCode}}",
+                  "title": "{{this.title_defaultValue}}"
+                }
+                {{/eachJoin}}
+              ]
+            }
+          }
+
+result:
+  categoryname: <? awardcategory ?>
+  response_levels: <? level_info.body.d.results ?>

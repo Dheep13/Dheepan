@@ -1,0 +1,16 @@
+type: node
+title: Sales performance per quarter
+condition: "#sales_performance && @quarter"
+dialog_functions :
+  - name: sales_performance/show_sales_performance
+    parameters:
+      - name: quarter
+        value: "@quarter"
+      - name: team
+        value: "00163e03-a070-1ee2-88b8-d35837d54d9b"
+    result_variable: salesChampion
+finally:
+  behavior: jump
+  jump_to:
+    node: sales_performance/ask_for_award
+    execution: responses

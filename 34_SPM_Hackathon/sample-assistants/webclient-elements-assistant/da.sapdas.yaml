@@ -1,0 +1,14 @@
+# schema_version: "0.1"
+# project_type: bot
+
+# metadata:
+#   name: webclient_elements_assistant
+#   display_name: WebClient Elements
+#   version: 1.0.0
+#   description: Preview WebClient Elements
+
+schema_version: 1.0.0
+name: UI5_capability
+capabilities:
+  - type: local
+    folder: ./ui_elements_test_capability

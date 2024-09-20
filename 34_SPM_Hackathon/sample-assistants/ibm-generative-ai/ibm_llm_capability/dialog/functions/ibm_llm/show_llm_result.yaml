@@ -1,0 +1,9 @@
+parameters:
+  - name: prepared_answer
+  - name: results
+action_groups:
+  - actions:
+      - type: message
+        message: <? prepared_answer ?>
+    
+  

@@ -1,0 +1,13 @@
+type: node
+title: show card
+condition: "@element_types == 'media'"
+response:
+  messages:
+    - type: media
+      delay: 1
+      content: https://youtu.be/UMTEBQIIm_0
+    - type: media
+      delay: 1
+      content: https://imaging.nikon.com/lineup/dslr/df/img/sample/img_02_l.jpg
+finally:
+  behavior: wait

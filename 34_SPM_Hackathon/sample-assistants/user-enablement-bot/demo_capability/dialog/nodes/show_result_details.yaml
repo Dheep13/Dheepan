@@ -1,0 +1,13 @@
+title: Generative LLM show detailed results
+type: node
+condition: '#show_llm_search_results'
+
+dialog_functions:
+  - name: sap_help_show_details
+    result_variable: result
+    parameters:
+      - name: prepared_results
+        value: <? $search_result.prepared_details ?>
+
+finally:
+  behavior: wait

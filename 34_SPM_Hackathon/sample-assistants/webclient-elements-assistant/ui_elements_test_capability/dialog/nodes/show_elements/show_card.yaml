@@ -1,0 +1,77 @@
+type: node
+title: show card
+condition: "@element_types == 'card'"
+response:
+  messages:
+    - type: card
+      content: 
+        title: This is the card title
+        subtitle: This is the subtitle
+        imageUrl: 'sap-icon://product'
+        description:
+          value: >-
+            You can now add a **description** to the card for more information if
+            needed.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+            est laborum.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+            est laborum.
+          markdown: true
+          linesInDetailView: 7
+        status: Product
+        statusState: success
+        hideHeaderInDetailView: false
+        sections:
+          - title: Section 1 Title
+            attributes:
+              - label: Label (Text value)
+                value: >-
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                      minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                      aliquip ex ea commodo consequat. Duis aute irure dolor in
+                      reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                      pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                      culpa qui officia deserunt mollit anim id est laborum.  Lorem ipsum
+                      dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                      occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                      mollit anim id est laborum.
+              - type: link
+                label: Label (Link value)
+                value: 'https://www.sap.com'
+              - label: Markdown Attribute
+                value: >-
+                      **Answer 1:** When transferring within the group, for example from SAP
+                      Germany SE to SAP SE, you need to know the following: You will receive
+                      a new employment contract from the hiring company.  You don't have to
+                      submit a workflow through SuccessMap in case of a National Transfer.
+                      You have to submit a signed (wet signature) resignation letter in
+                      original via inhouse-mail or regular mail to the HR department (SAP
+                      SE, PERS02, Dietmar-Hopp-Allee 16, 69190 Walldorf). Please note that
+                      due to legal regulation for Germany a signed resignation letter in
+                      original has to be sent to the employer. The resignation letter should
+                      include a comment that it is a national transfer.
+                markdown: true
+        buttons:
+          - type: postback
+            title: Post back button
+            value: handle_postback
+            imageUrl: 'sap-icon://travel-request'
+          - type: web_url
+            title: Link button
+            value: 'https://help.sap.com'
+            imageUrl: 'sap-icon://product'
+finally:
+  behavior: wait

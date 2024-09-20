@@ -1,0 +1,9 @@
+type: node
+title: "fallback"
+condition: "anything_else"
+response:
+  messages:
+    - type: text
+      content: I am sorry I did not understand. Can you try to rephrase?
+finally:
+  behavior: wait

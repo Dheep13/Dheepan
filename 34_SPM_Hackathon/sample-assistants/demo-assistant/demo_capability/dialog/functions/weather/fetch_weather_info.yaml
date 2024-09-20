@@ -1,0 +1,36 @@
+parameters:
+  - name: city
+action_groups:
+  - actions:
+      - type: set-variables
+        scripting_type: spel
+        variables:
+          - name: api_key
+            value: "c322ef22435d40bfa2ef22435df0bfbe"
+          - name: unit
+            value: m
+      - type: dialog-function
+        name: weather/lookup_location
+        parameters:
+          - name: city
+            value: "<? city ?>"
+          - name: api_key
+            value: "<? api_key ?>"
+        result_variable: weather_location
+      - type: api-request
+        method: GET
+        system_alias: WeatherService
+        path: /wx/forecast/daily/3day?placeid=<? weather_location.placeid ?>&units=<? unit ?>&language=en-US&format=json&apiKey=<? api_key ?>
+        result_variable: weather_result
+      - type: message
+        scripting_type: handlebars
+        message:
+          type: text
+          content: Weather has been fetched for {{weather_location.postalCodeWalldorf}} {{ weather_location.city }}
+result:
+  success: <? weather_result.status_code == 200 ?>
+  city: <? weather_location.city ?>
+  minTemp: <? weather_result.body.calendarDayTemperatureMin[0] ?>
+  maxTemp: <? weather_result.body.calendarDayTemperatureMax[0] ?>
+  dayOfWeek: <? weather_result.body.dayOfWeek[0] ?>
+  narrative: <? weather_result.body.narrative[0] ?>

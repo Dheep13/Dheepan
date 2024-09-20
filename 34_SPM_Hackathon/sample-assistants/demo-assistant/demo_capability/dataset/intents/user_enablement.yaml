@@ -1,0 +1,96 @@
+# description: The user wants to ask a generic question that will be forwarded to the Houdinie service
+examples:
+  - what is the value of 
+  - How can I solve this
+  - Where can i find 
+  - Who is responsible for 
+  - what is the purpose of
+  - How do I get Information about
+  - explain me what a purchase order is
+  - explain to mean 
+  - How do I find this
+  - What is a purchase order ?
+  - How can I create a purchase order ?
+  - Where can I find a sales order ?
+  - What is procurement ?
+  - How can I use the feature ?
+  - Where can I delete a supplier ?
+  - Where can I evaluate my supplier ?
+  - How can a sales order be approved ?
+  - What is BTP ?
+  - How do I get ready for using Sourcing and Procument within SAP S/4HANA Cloud?
+  - What features does SAP Sourcing and Procument offer?
+  - What integration scenarios are available for SAP S/4HANA Cloud Sourcing and Procurement?
+  - Can I connect my SAP S/4HANA Cloud with external SAP supplier systems? 
+  - What does Central Procument do?
+  - Which tool can I use to adapt the UIs in Sourcing and Procument within SAP S/4HANA Cloud?
+  - How do I use the "Off-Contract Spend" feature?
+  - How can I find the right CSD view for my need?
+  - Where do I find the APIs that are availbe in Sourcing and Procurment?
+  - Where can I create new purchasing categories?
+  - How do I create service entry sheets to record that the ordered services have been performed?
+  - How can I translate purchasing categories and their descriptions?
+  - What does an integration of SAP Ariba offer?
+  - What is the benefit of Sourcing with SAP Ariba Sourcing?
+  - What do I need to know about creating a purchase requisition? 
+  - What are Incoterms?
+  - Where do I work on purchase contracts contracts?
+  - Can I do mass changes to purchase contracts?
+  - Where do I find the overdue purchase order items?
+  - Where can I see all my purchasing documents?
+  - What Analytics are available for purchasing? 
+  - What entails Central Purchasing? 
+  - Are Machine Learning capabilities available in Procurement?
+  - What reporting and monitoring options do I have?
+  - How can I manage purchasing categories?
+  - What is a purchasing requisition?
+  - Which are the key features of the new self-service procurement app?
+  - How can I collaborate in SAP S/4HANA with my suppliers?
+  - Can I evaluate my suppliers?
+  - How can I create, edit or delete source lists?
+  - Which processes are available in the Manage RFQ app?
+  - How can I view the detailed information for my supplier quotations?
+  - How does an end of purpose (EoP) check in Sourcing and Procument work?
+  - How do I use the Enterprise Search to evaluate responses in Supplier Evaluation?
+  - Why does the Procurement Overview does not show anything?
+  - How can I find out the amount that was spent without a contract in place?
+  - What is non-managed spend?
+  - Where can I create a new archiving variant?
+  - What happens with invoicing messages coming from SAP Fieldglass containing errrors?
+  - Can I work with a preferred supplier?
+  - How can I change a purchase order?
+  - How is the consumption percentage calculated?
+  - Where can I schedule an application job?
+  - Can I create a new sourcing project based on a purchase requisition?
+  - What is the Quota arrangement service?
+  - Which Purchase Order apps can you extend according to your business needs?
+  - What fey features does the Contract Expiry app provide?
+  - How can you manage quota arrangements?
+  - How can I manage sources of supply?
+  - How can I change a price relating to a purchase contract? 
+  - Which information is avaiblable on the Purchasing Spend card in the Purchasing overview app?
+  - How can I adapt existing fields in SAP S/4HANA Sourcing and Procurement?
+  - How can I create custom logic for the BAdIs in SAP S/4HANA Sourcing and Procurement?
+  - When do I use static rounding? 
+  - Where do I maintain rounding profiles?
+  - What types of rounding profiles exist? 
+  - What is a purchase contract? 
+  - What is a RQ?
+  - How do I create a quota arrangement?
+  - Where can I find quota arrangements? 
+  - What can I do in the Evaluating Suppliers app in Supplier Evaluation?
+  - What is the Manage Purchasing Info Records app used for?
+  - What is the Off-Contract Spend app used for?
+  - What options are available in Monitor Supplier Confirmations?
+  - I would have a question
+  - I hava a question you could answer me
+  - Can you answer me a question ?
+  - I need an information
+  - Can I ask you something ?
+  - I have a question about
+  - can you answer me a question
+  - I need information about 
+  - Can you search something for me ?
+  - Can you look up information about
+  - Provide me information
+  - I need some information

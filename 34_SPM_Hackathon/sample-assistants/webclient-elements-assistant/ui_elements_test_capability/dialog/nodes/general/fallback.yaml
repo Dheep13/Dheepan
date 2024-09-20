@@ -1,0 +1,10 @@
+type: node
+title: anything_else
+condition: "anything_else"
+response:
+  messages:
+    - type: text
+      delay: 0
+      content: I didn't understand. Please try sending 'help'
+finally:
+  behavior: wait

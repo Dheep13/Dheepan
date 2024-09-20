@@ -1,0 +1,21 @@
+general:
+    groupID: com.sap.das
+    cfAuthenticationUrl: https://das-ibm-eval.authentication.sap.hana.ondemand.com
+    cfApiUrl: https://das-ibm-eval.sapdas-dev.sap.hana.ondemand.com
+    gitSshKeyCredentialsId: 'SSH_github'
+    gitHttpsCredentialsId: 'ml-jenkins-serviceuser'
+    artifactoryRepoUrl: https://int.repositories.cloud.sap/artifactory/cai-compiler-rta
+    vaultHost: vault.ml.only.sap
+    vaultSecretEngine: CAI
+    vaultSecretPath: DAS/tenants/dev/ibm-eval
+    sapPiperDownloadCredentialsId: 'd9e23346-ab04-4c23-add9-409af338fdab'
+    verbose: true
+steps:
+    mailSendNotification:
+      notificationRecipients: distribution list
+    writeInflux:
+      influxServer: jenkins
+setupPipelineEnvironment:
+    storeGithubStatistics: true
+    githubApiUrl: https://github.tools.sap/api/v3
+    gitHttpsUrl: https://github.tools.sap/${githubOrg}/${githubRepo}.git

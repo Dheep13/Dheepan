@@ -1,0 +1,19 @@
+type: node
+title: Thank you award
+condition: "$awardtype == 'Thank you'"
+response:
+  context:
+    - variable: "categoryname"
+      value: null
+    - variable: "levelname"
+      value: null
+    - variable: "awardamount"
+      value: null
+  messages:
+    - type: text
+      content: ""
+finally:
+  behavior: jump
+  jump_to:
+    node: spot_award/3_award_message/ask_award_message
+    execution: responses

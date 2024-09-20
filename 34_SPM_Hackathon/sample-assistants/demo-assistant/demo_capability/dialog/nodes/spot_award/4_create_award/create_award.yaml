@@ -1,0 +1,22 @@
+title: Send the spot award for the recipient with all needed information
+type: node
+condition: ""
+dialog_functions:
+  - name: spot_award/create_award_with_all_info
+    parameters:
+      - name: userid
+        value: <? $award_recipient_info.recipient_userid ?>
+      - name: username
+        value: <? $award_recipient_info.recipient_username ?>
+      - name: awardtype
+        value: "<? $awardtype ?>"
+      - name: awardmessage
+        value: "<? $awardmessage ?>"
+      - name: awardcategoryid
+        value: "<? $awardcategoryid ?>"
+      - name: awardlevelid
+        value: "<? $awardlevelid ?>"
+      - name: awardamount
+        value: <? $awardamount ?>
+finally:
+  behavior: wait 

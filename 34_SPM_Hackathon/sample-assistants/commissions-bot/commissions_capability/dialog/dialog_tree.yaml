@@ -1,0 +1,9 @@
+- welcome:
+   - sappayee_lookup: []
+   - sappayee_cleanup: []
+   - sapterm_cleanup: [] 
+- sap_help: 
+   - show_result_details: []
+- enable_now: []
+- thank_you: []
+- fallback: []

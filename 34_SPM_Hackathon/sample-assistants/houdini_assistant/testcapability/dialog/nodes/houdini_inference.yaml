@@ -1,0 +1,17 @@
+type: node
+title: Sample node
+condition: '#sample_intent'
+
+dialog_functions:
+  - name: houdini_inference
+    result_variable: inference_result
+    parameters:
+      - name: input
+        value: <? input.text ?>
+      - name: userId
+        value: <? $metadata.user_id ?>
+      - name: sessionId
+        value: <? $system.session_id ?>
+
+finally:
+  behavior: wait

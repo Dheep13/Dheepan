@@ -1,0 +1,13 @@
+type: node
+title: send spot award
+condition: "#send_award && @awardrecipient"
+dialog_functions:
+  - name: spot_award/get_recipient_info
+    parameters:
+      - name: first_name
+        value: "$recipientname"
+      - name: last_name
+        value: "<? $recipient_last_name ?>" #last name is only set if coming from sales performance cross_scenario
+    result_variable: award_recipient_info
+finally:
+  behavior: wait

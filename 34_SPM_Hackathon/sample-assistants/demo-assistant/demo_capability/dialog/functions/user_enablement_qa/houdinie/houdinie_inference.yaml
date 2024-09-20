@@ -1,0 +1,115 @@
+parameters:
+  - name: input
+  - name: sessionId
+  - name: userId
+action_groups:
+  - condition: "true"
+    actions:
+      - type: api-request
+        method: POST
+        system_alias: houdini
+        path: "/qna/ask"
+        body: 
+         {
+          "input": {
+            "question": "<? input ?>",
+            "withContext": true,
+            "session": {
+              "sessionId": "<? sessionId ?>",
+              "userId": "<? userId ?>"
+            }
+          }
+        }
+        result_variable: api_result
+
+      - type: set-variables
+        scripting_type: handlebars
+        variables:
+          - name: prepared_details
+            value: > 
+              {
+                "type": "list",
+                "incrementPageSize":5,
+                "initialPageSize":1,
+                "maxNumberOfRowsInList":10,
+                "content": {
+                  "title": "Your search results",
+                  "imageUrl": "sap-icon://detail-view",
+                  "subtitle": "Here's the full list of what I found for you. Click Open Topic to navigate to the source document",
+                  "elements": [ 
+                    {{#eachJoin api_result.body.facts}}
+                    {{#if this.srcUrl }}
+                       {
+                       "title": "{{this.srcName}}",
+                       "description": "{{this.content}}",
+                       "status": "{{#gte this._additional.certainty 0.9 }} Certain {{else}} Not certain {{/gte}}",
+                       "statusState": {{#gte this._additional.certainty 0.9 }} "Success" {{else}} "Warning" {{/gte}},
+                       "sections": [
+                          {
+                            "attributes": [
+                             {
+                                "label":"Source type",
+                                "type":"text",
+                                "value":"{{this.srcType}}",
+                                "markdown": true
+                              },
+                              {
+                                "label": "Fact ID",
+                                "type": "text",
+                                "value":"{{this.factId}}",
+                                "markdown": true
+                              }
+                            ]
+                          }
+                      ],
+                       "buttons": [
+                        {
+                          "title": "Open Topic",
+                          "value": "{{this.srcUrl}}",
+                          "type": "web_url"
+                        }
+                       ]
+                      } 
+                    {{/if}}
+                    {{/eachJoin}} 
+                  ]
+               }
+              }
+      
+      - type: set-variables
+        scripting_type: handlebars
+        variables:
+          - name: prepared_summarization_final
+            value: "{{replace api_result.body.answer '\"' ''}}"
+
+  - condition: "input.toUpperCase().contains('PDF')"
+    actions:
+          - type: message
+            message:
+              type: buttons
+              content: 
+                title: "<? prepared_summarization_final ?> \n \n Do you want to get more detailed information? Check out the search results."
+                buttons:
+                  - title: Show results
+                    value: show results
+                    type: postback
+                  - title: Open Create Sales Orders - Automatic Extraction App
+                    value: https://xjd-100.wdf.sap.corp/ui?help-useABAPHelpTexts=false&edithelp=true&help-enableTextBasedRecognition=false&help-product=SAP_S4HANA_CLOUD&help-version=2302.501&help-showShortDescription=false&help-buttonLocation=head&help-showWhatsNew=true&sap-language=EN&help-noHelpMode=carousel&help-useGlobalHelp=true&help-carouselOrientation=vertical#SalesOrderRequest-autoExtract
+                    type: web_url
+                    
+  - condition: "!input.toUpperCase().contains('PDF')"
+    actions:
+          - type: message
+            message:
+              type: buttons
+              content: 
+                title: "<? prepared_summarization_final ?> \n \n Do you want to get more detailed information? Check out the search results."
+                buttons:
+                  - title: Show results
+                    value: show results
+                    type: postback
+          
+
+result:
+ prepared_details: "<? prepared_details ?>"
+  

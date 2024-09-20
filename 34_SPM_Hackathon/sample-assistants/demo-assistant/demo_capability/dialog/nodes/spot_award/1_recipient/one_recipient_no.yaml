@@ -1,0 +1,9 @@
+type: node
+title: "No"
+condition: "#no"
+response:
+  messages:
+    - type: text
+      content: "Thanks for using the Digital Assistant!"
+finally:
+  behavior: wait

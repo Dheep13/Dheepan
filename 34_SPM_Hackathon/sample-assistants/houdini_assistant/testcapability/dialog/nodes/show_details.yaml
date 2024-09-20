@@ -1,0 +1,13 @@
+type: node
+title: Sample node
+condition: '#show_details'
+
+dialog_functions:
+  - name: show_details
+    result_variable: final
+    parameters:
+      - name: prepared_details
+        value: <? $inference_result.prepared_details ?>
+
+finally:
+  behavior: wait

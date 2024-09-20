@@ -1,0 +1,268 @@
+#!/usr/bin/env groovy
+@Library(['piper-lib', 'piper-lib-os', 'CICD-shared-library', 'cai-ops-libs']) _
+import groovy.transform.Field;
+
+def cliInstallBadge = addEmbeddableBadgeConfiguration(id: "cli", subject: "Install CLI")
+def compileDtaBadge = addEmbeddableBadgeConfiguration(id: "compile", subject: "Compile DTA")
+def deployRtaBadge = addEmbeddableBadgeConfiguration(id: "deploy", subject: "Deploy RTA")
+def publishRtaBadge = addEmbeddableBadgeConfiguration(id: "publish", subject: "Publish RTA")
+def FAILED_STAGE = 'Unknown'
+
+@Field def milestoneNum = 0
+def dasCliCreds = []
+
+def getNextMilestone() {
+  def ans = milestoneNum
+  milestoneNum += 10
+  return ans
+}
+
+pipeline {
+    agent { label 'cai' }
+    options {
+        skipDefaultCheckout()
+        disableConcurrentBuilds()
+    }
+    environment {
+		  EMAIL_RECIPIENTS = ''
+    }
+    /**parameters {
+
+        string(
+            name: 'TENANT_URL',
+            description: 'Tenant api url'
+        )
+       string(
+            name: 'BRANCH_NAME',
+            description: 'Name of the riddler branch for compilation'
+        )
+    }**/
+    stages {
+          stage('Initialize') {
+            steps {
+              script {
+                  currMilestone = getNextMilestone()
+              }
+              lock(resource: "${env.JOB_NAME}/${currMilestone}", inversePrecedence: true) {
+              	milestone (currMilestone)
+                deleteDir();
+                checkout(scm);
+                setupPipelineEnvironment script: this
+		            setupCommonPipelineEnvironment script: this
+              }
+            }
+          }
+          stage('Fetch Secrets from Vault') {
+            steps {
+                script{
+                    def vaultToken
+                    def vaultHost = globalPipelineEnvironment.configuration.general.vaultHost
+		                def vaultSecretEngine = globalPipelineEnvironment.configuration.general.vaultSecretEngine
+                    def vaultSecretPath = globalPipelineEnvironment.configuration.general.vaultSecretPath
+                    withCredentials([usernamePassword(credentialsId: 'cai-vault-approle', usernameVariable: 'JENKINS_ROLE_ID', passwordVariable: 'JENKINS_SECRET_ID')]) {
+                        vaultToken = getVaultToken(script: this,
+                            host: vaultHost,
+                            roleId: JENKINS_ROLE_ID,
+                            secretId: JENKINS_SECRET_ID
+                        )
+                    }
+                    dasCliCreds = readSecretFromVault(script: this,
+                    host: "${vaultHost}",
+                    engineName: "${vaultSecretEngine}",
+                    token: vaultToken,
+                    secretPath: "${vaultSecretPath}"
+                )
+		          }
+            }
+	        }
+          stage('Install CLI') {
+            when {
+              anyOf {
+                  branch 'PR-*'
+                  branch 'main'
+              }
+            }
+            steps {
+              script {
+                durationMeasure(script: this, measurementName: 'install_duration') {
+                    withEnv(["NPM_CONFIG_PREFIX=${WORKSPACE}/.npm-global"]) {
+                      sh """#!/bin/bash -e
+                      npm install -g digitalassistant-cli --registry=https://int.repositories.cloud.sap/artifactory/api/npm/build-releases-npm
+                      ${WORKSPACE}/.npm-global/bin/sapdas --version
+                      """
+                    }
+                  }
+                }
+              }
+              post {
+                always {
+                  script {
+                    FAILED_STAGE = env.STAGE_NAME
+                  }
+                }
+                aborted {
+                  script {
+                    cliInstallBadge.setStatus('aborted')
+                  }
+                }
+                failure {
+                  script {
+                    cliInstallBadge.setStatus('failing')
+                  }
+                }
+                success {
+                  script {
+                    cliInstallBadge.setStatus('passing')
+                  }
+                }
+                unstable {
+                  script {
+                    cliInstallBadge.setStatus('unstable')
+                  }
+                }
+              }
+            }
+            stage('Compile DTA') {
+              when {
+                anyOf {
+                    branch 'PR-*'
+                    branch 'main'
+                }
+              }
+              steps {
+                script {
+                  def authUrl = globalPipelineEnvironment.configuration.general.cfAuthenticationUrl
+                  def apiUrl = globalPipelineEnvironment.configuration.general.cfApiUrl
+                  def secrets = [[var:'AUTH_URL', password: authUrl], [var:'API_URL', password: apiUrl], [var:'CLIENT_ID', password: dasCliCreds.clientId], [var: 'CLIENT_SECRET', password: dasCliCreds.clientSecret], [var: 'USERNAME', password: dasCliCreds.username], [var: 'PASSWORD', password: dasCliCreds.password]]
+                  durationMeasure(script: this, measurementName: 'compile_duration') {
+                    // mask sensitive info
+                    withSecretEnv (secrets) {
+                        sh '''#!/bin/bash -e
+                        ${WORKSPACE}/.npm-global/bin/sapdas login -a "${AUTH_URL}" --apiurl "${API_URL}" -c "${CLIENT_ID}" -s "${CLIENT_SECRET}" -u "${USERNAME}" -p "${PASSWORD}"
+                        ${WORKSPACE}/.npm-global/bin/sapdas compile ${WORKSPACE}/demo-bot
+                        '''
+                    }
+                  }
+                }
+              }
+              post {
+                always {
+                  script {
+                    FAILED_STAGE = env.STAGE_NAME
+                  }
+                }
+                aborted {
+                  script {
+                    compileDtaBadge.setStatus('aborted')
+                  }
+                }
+                failure {
+                  script {
+                    compileDtaBadge.setStatus('failing')
+                  }
+                }
+                success {
+                  script {
+                    compileDtaBadge.setStatus('passing')
+                  }
+                }
+                unstable {
+                  script {
+                    compileDtaBadge.setStatus('unstable')
+                  }
+                }
+              }
+            }
+            stage('Deploy RTA') {
+              when { branch 'main' }
+              steps {
+                script {
+                  durationMeasure(script: this, measurementName: 'compile_duration') {
+                      sh '''#!/bin/bash -e
+                      ${WORKSPACE}/.npm-global/bin/sapdas deploy **.daar
+                      '''
+                  }
+                }
+              }
+              post {
+                always {
+                  script {
+                    FAILED_STAGE = env.STAGE_NAME
+                  }
+                }
+                aborted {
+                  script {
+                    deployRtaBadge.setStatus('aborted')
+                  }
+                }
+                failure {
+                  script {
+                    deployRtaBadge.setStatus('failing')
+                  }
+                }
+                success {
+                  script {
+                    deployRtaBadge.setStatus('passing')
+                  }
+                }
+                unstable {
+                  script {
+                    deployRtaBadge.setStatus('unstable')
+                  }
+                }
+              }
+            }
+            stage('Publish RTA') {
+              when { branch 'main' }
+              steps {
+                script {
+                  durationMeasure(script: this, measurementName: 'publish_duration') {
+                  withCredentials([
+                  usernamePassword(credentialsId: 'artifactory_repo_secret_test', passwordVariable: 'artifactory_repo_pwd', usernameVariable: 'artifactory_repo_usr'),
+                  ]){
+                      sh """#!/bin/bash -e
+                      curl -sSf -u "${artifactory_repo_usr}:${artifactory_repo_pwd}" \
+                      -X PUT \
+                      '${globalPipelineEnvironment.configuration.general.artifactoryRepoUrl}/' \
+                      -T **.daar
+                      """
+                    }
+                  }
+                }
+              }
+              post {
+                always {
+                  script {
+                    FAILED_STAGE = env.STAGE_NAME
+                  }
+                }
+                aborted {
+                  script {
+                    publishRtaBadge.setStatus('aborted')
+                  }
+                }
+                failure {
+                  script {
+                    publishRtaBadge.setStatus('failing')
+                  }
+                }
+                success {
+                  script {
+                    publishRtaBadge.setStatus('passing')
+                  }
+                }
+                unstable {
+                  script {
+                    publishRtaBadge.setStatus('unstable')
+                  }
+                }
+              }
+            }
+          }
+          post {
+        		 always {
+          			mailSendNotification script: this
+          			cleanWs()
+        		}
+        	}
+        }

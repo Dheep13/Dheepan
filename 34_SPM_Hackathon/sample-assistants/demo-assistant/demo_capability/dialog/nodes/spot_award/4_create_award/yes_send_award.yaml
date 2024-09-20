@@ -1,0 +1,8 @@
+type: node
+title: "Yes"
+condition: "#yes"
+finally:
+  behavior: jump
+  jump_to:
+    node: spot_award/4_create_award/create_award
+    execution: responses

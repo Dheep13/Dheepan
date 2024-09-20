@@ -1,0 +1,20 @@
+type: node
+title: "Yes"
+condition: "#yes"
+response:
+  messages:
+    - type: text
+      content: "Showing more top deals..."
+      delay: 2
+dialog_functions:
+  - name: sales_performance/show_more_top_deals
+    parameters:
+      - name: topDeals
+        value: <? $sorted_top_deals ?>
+      - name: currentQuarter
+        value: <? $sorted_top_deals.quarter ?>
+      - name: currentYear
+        value: <? $sorted_top_deals.year ?>
+    result_variable: more_sorted_top_deals
+finally:
+  behavior: wait

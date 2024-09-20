@@ -1,0 +1,8 @@
+schema_version: "0.1"
+project_type: bot
+
+metadata:
+  name: demoassistant
+  version: 1.0.0
+  display_name: Demo Assistant
+  

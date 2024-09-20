@@ -1,0 +1,13 @@
+parameters:
+  - name: recipient_id 
+action_groups:
+  - actions:
+      - type: api-request
+        method: GET
+        system_alias: SFSF_SpotAward
+        path: /User?$select=userId,displayName&$filter=(tolower(displayName)%20eq%20tolower('<? recipient_id ?>')%20or%20tolower(userId)%20eq%20tolower('<? recipient_id ?>')%20or%20tolower(lastName)%20eq%20tolower('<? recipient_id ?>')%20or%20tolower(firstName)%20eq%20tolower('<? recipient_id ?>'))
+        result_variable: userinfo_one_response
+result:
+  recipient_found: <? userinfo_one_response.body.d ?>
+  recipient_userid: <? userinfo_one_response.body.d.results[0].userId ?>
+  recipient_username: <? userinfo_one_response.body.d.results[0].displayName ?>

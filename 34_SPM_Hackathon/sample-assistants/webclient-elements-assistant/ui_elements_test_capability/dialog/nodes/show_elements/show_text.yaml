@@ -1,0 +1,9 @@
+type: node
+title: show card
+condition: "@element_types == 'text'"
+response:
+  messages:
+    - type: text
+      content: Hi, how are you today?
+finally:
+  behavior: wait

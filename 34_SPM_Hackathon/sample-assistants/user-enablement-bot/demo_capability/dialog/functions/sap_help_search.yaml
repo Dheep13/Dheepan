@@ -1,0 +1,13 @@
+parameters:
+  - name: term
+action_groups:
+  - actions:
+      - type: api-request
+        method: GET
+        system_alias: termlookup
+        path: "/elasticsearch?q=<? term.urlEncode() ?>&locale=en-US&transtype=standard,html,pdf,others&area=content&product=SAP_S4HANA_CLOUD&to=2&state=PRODUCTION"
+        result_variable: search_result
+
+result:
+ search_result: <? search_result.body.data.results ?>     
+  

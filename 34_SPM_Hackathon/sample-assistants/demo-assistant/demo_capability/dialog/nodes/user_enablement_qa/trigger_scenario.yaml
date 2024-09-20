@@ -1,0 +1,14 @@
+type: node
+title: trigger the user enablement LLM scenario with a generic intent
+condition: 'anything_else'
+
+response:
+  messages:
+     - type: text
+       content: "Sure, let me see what I can find about this"
+
+finally:
+  behavior: jump
+  jump_to:
+    node: user_enablement_qa/llm_inference
+    execution: responses

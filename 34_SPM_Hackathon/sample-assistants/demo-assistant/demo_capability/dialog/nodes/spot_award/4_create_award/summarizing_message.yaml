@@ -1,0 +1,20 @@
+title: Show summarizing message, what the user has selected, before the spot award is sent 
+type: node
+condition: ""
+dialog_functions:
+  - name: spot_award/show_summary
+    parameters:
+      - name: username
+        value: <? $award_recipient_info.recipient_username ?>
+      - name: awardtype
+        value: "<? $awardtype ?>"
+      - name: awardmessage
+        value: "<? $awardmessage ?>"
+      - name: awardcategoryname
+        value: <? $categoryname ?>
+      - name: awardlevelname
+        value: <? $levelname ?>
+      - name: awardamount
+        value: <? $awardamount ?>
+finally:
+  behavior: wait 

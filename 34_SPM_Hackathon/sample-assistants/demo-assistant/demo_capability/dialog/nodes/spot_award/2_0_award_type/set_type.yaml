@@ -1,0 +1,15 @@
+title: set award type
+type: node
+condition: "#send_award"
+response:
+  context:
+    - variable: "awardtype"
+      value: "<? input.text ?>"
+  messages:
+    - type: text
+      content: ""
+finally:
+  behavior: jump
+  jump_to:
+    node: spot_award/2_0_award_type/award_including_type
+    execution: responses

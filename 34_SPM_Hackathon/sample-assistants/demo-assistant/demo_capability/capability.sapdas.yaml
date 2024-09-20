@@ -1,0 +1,17 @@
+metadata:
+  auto_correct: false
+  system_aliases:
+    SalesCloudAuth:
+      destination: DAS_C4C_TOKEN_PRE_PROD
+    SalesCloudSystem:
+      destination: DAS_C4C_API_PRE_PROD
+    WeatherService:
+      destination: WEATHER
+    SortingService:
+      destination: DAS_C4C_KPI_SORTING_SERVICE    
+    SFSF_SpotAward:
+      destination: SuccessFactors_API
+    houdini:
+      destination: HOUDINI
+    Generative_LLM:
+      destination: IBM_LLM_S4

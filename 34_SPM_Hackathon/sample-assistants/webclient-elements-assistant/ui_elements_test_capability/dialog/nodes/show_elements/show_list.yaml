@@ -1,0 +1,136 @@
+type: node
+title: show card
+condition: "@element_types == 'list'"
+response:
+  messages:
+  - type: list
+    content:
+      title: Header Title
+      total: 13
+      buttons:
+        - type: clientdata
+          title: Button (Client Side Only)
+          value: https://sap.com
+          client_data:
+            ItemClientOnly1: Data for item one
+            ItemClientOnly2: data for item 2
+      elements:
+        - title: Title 1
+          buttons:
+            - type: web_url
+              title: Button 1 (link)
+              value: https://google.com
+            - type: postback
+              title: Button 2 (Postback)
+              value: handle_postback
+            - type: clientdata
+              title: Button (Client Side Only)
+              value: https://sap.com
+              client_data:
+                ItemClientOnly1: Data for item one
+                ItemClientOnly2: data for item 2
+            - type: phone
+              title: Button 3 (Phone)
+              value: '11231231234'
+          subtitle: Subtitle 1
+        - title: Title 2
+          buttons:
+            - type: web_url
+              title: Button 1 (link)
+              value: https://google.com
+          imageUrl: sap-icon://activate
+          subtitle: Subtitle 2
+          description: This is a description line (3 buttons)
+        - title: Title 3
+          status: Status
+          buttons:
+            - type: web_url
+              title: Button 1 (link)
+              value: https://google.com
+            - type: postback
+              title: Button 2 (Postback)
+              value: handle_postback
+          status1: Pending
+          subtitle: Subtitle 3
+          description: Here is the description
+          statusState: Success
+        - title: Title 4
+          status: Out of stock
+          buttons:
+            - type: clientdata
+              title: Button (Client Side Only)
+              value: https://sap.com
+              client_data:
+                ItemClientOnly1: Data for item one
+                ItemClientOnly2: data for item 2
+          status1: Pending
+          sections:
+            - title: Section 1 Title
+              attributes:
+                - label: Label (Text value)
+                  value: Display text
+                - url: https://www.sap.com
+                  type: link
+                  label: Label (Link value)
+                  value: SAP
+                - label: Label 3
+                  value: >-
+                    This is text 3 - 3 (This is longer text to see the wrapping in
+                    the detail page).  
+                - label: Label 4
+                  value: This is text 4
+                - label: Label 5
+                  value: This is text 5
+                - label: Label 6
+                  value: This is text 6
+            - title: Section 2 Title
+              attributes:
+                - label: Label 1 - Section 2
+                  value: Display text 1 - 2
+                - label: Label 2 - Section 2
+                  value: >-
+                    This is a test for item 2 - 2 (This is longer text to see the
+                    wrapping in the detail page)
+                - label: Label 3 - Section 2
+                  value: This is text 3
+          subtitle: Subtitle 4
+          description: Here is the description and there is only one status added to the card
+          statusState: Error
+        - title: Title 6
+          status: Information
+          subtitle: Subtitle 6
+          description: Here is the description and there is only one status added to the card
+          statusState: Information
+        - title: Title 12
+          buttons:
+            - type: web_url
+              title: Buy this is item
+              value: https://google.com
+              imageUrl: sap-icon://alert
+            - type: postback
+              title: Button number 2
+              value: handle_postback
+            - type: postback
+              title: Button number 3
+              value: handle_postback
+            - type: postback
+              title: Button number 4
+              value: overflow
+          status1: Available
+          imageUrl: sap-icon://arobase
+          subtitle: Subtitle 4
+          description: Status and a Button
+        - title: Title 13
+          status1: Pending
+          imageUrl: >-
+            https://i0.wp.com/www.travelspring.de/wp-content/uploads/2019/10/header_rundreise-kalifornien-scaled.jpg?resize=1536%2C864&ssl=1
+          subtitle: Subtitle 13
+          description: Here is the description
+      imageUrl: sap-icon://task
+      subtitle: Subtitle here. (Image added, but not supported yet.)
+      description: >-
+        This is the description line.  A status was added, currently not displayed
+        and Buttons are added to the footer of the list.
+      upperBoundText: Sorry, only 12 items can be shown.
+finally:
+  behavior: wait

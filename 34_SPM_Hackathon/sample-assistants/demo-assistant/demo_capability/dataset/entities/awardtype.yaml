@@ -1,0 +1,12 @@
+fuzzy_matching: true
+values:
+  - value: Thank you
+    synonyms:
+     - Thanking you
+     - Thank you award
+     - Thanks
+  - value: Peer Appreciation 
+    synonyms:
+     - Appreciate Peer
+     - Peer appreciate
+     - appreciate colleague

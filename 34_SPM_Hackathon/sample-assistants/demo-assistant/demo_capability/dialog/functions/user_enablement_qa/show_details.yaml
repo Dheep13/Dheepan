@@ -1,0 +1,6 @@
+parameters:
+  - name: prepared_details
+action_groups:
+  - actions:
+      - type: message
+        message: <? prepared_details ?>

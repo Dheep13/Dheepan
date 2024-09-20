@@ -1,0 +1,25 @@
+title: SAP TERM ELASTIC SEARCH 
+type: node
+condition: "#term_search"
+
+slot_filling:
+  slots:
+    - check_for: "@term"
+      save_as:
+        variable: "user_term"
+        value: "@term"
+      not_present:
+        prompts:
+          - type: text
+            content: "What should I search for?"
+
+dialog_functions:
+  - name: sap_help_summarize_search
+    result_variable: search_result
+    parameters:
+      - name: term
+        value: $user_term
+      - name: user_input
+        value: <? input.text ?>
+finally:
+  behavior: wait

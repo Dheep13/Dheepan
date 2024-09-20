@@ -1,0 +1,20 @@
+type: node
+title: "ask for type"
+condition: "#send_award"
+response:
+  messages:
+    - type: buttons
+      content: 
+        title: "Okay, we're creating an award for <? $award_recipient_info.recipient_username ?>! Which program would you like to continue with?"
+        buttons:
+          - type: postback
+            title: "Thanking you Award"
+            value: "Thank you"
+          - type: postback
+            title: "Peer Appreciation Award"
+            value: "Peer Appreciation"
+          - type: postback
+            title: "BestRun Rewards"
+            value: "BestRun"
+finally:
+  behavior: wait

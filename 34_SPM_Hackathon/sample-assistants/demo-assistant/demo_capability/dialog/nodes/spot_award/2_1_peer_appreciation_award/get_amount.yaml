@@ -1,0 +1,18 @@
+title: Get Award Amount by selected category and level (Peer Appreciation Award)
+type: node
+condition: ""
+dialog_functions:
+  - name: spot_award/show_amount
+    parameters:
+      - name: username
+        value: <? $award_recipient_info.recipient_username ?>
+      - name: awardcategoryid
+        value: "<? $awardcategoryid ?>"
+      - name: awardlevelid
+        value: "<? $awardlevelid ?>"
+      - name: awardlevels
+        value: <? $after_ask_for_level.response_levels ?>
+    result_variable: award_amount
+
+finally:
+  behavior: wait

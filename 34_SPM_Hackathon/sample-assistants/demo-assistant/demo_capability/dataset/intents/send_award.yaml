@@ -1,0 +1,35 @@
+description: send spot award
+examples:
+ - I would like to appreciate [Anna Wulff](awardrecipient).
+ - I would like to appreciate [Ben Miller](awardrecipient).
+ - I would like to appreciate [Finn Schulz](awardrecipient).
+ - I would like to appreciate [Joseph Jones](awardrecipient).
+ - I would like to appreciate [Simon Wagner](awardrecipient).
+ - I would like to create a [Peer Appreciation](awardtype) Award.
+ - I would like to create a [Thanking you](awardtype).
+ - Recognize [Charlotte Williams](awardrecipient) for their work.
+ - Recognize [Elias Rosenbauer](awardrecipient) for their work.
+ - Recognize [John Doe](awardrecipient) for their work.
+ - Recognize [Julia Maier](awardrecipient) for their work.
+ - Recognize [Mia Hoffman](awardrecipient) for their work.
+ - Recognize [Michael Hoffman](awardrecipient) for their work.
+ - Recognize [Mike Steward](awardrecipient) for their work.
+ - Send an award to [Laura Schneider](awardrecipient).
+ - Send an award to [Mary Smith](awardrecipient).
+ - Send an award to [Matthias Schwarzkopf](awardrecipient).
+ - Send an award to [Oliver Brown](awardrecipient).
+ - Send BestRun Rewards to [Emma Schmidt](awardrecipient).
+ - Send BestRun Rewards to [Lena Weber](awardrecipient).
+ - Send BestRun Rewards to [Lukas Fischer](awardrecipient).
+ - Send Peer Appreciation Award to [Lea Bayer](awardrecipient).
+ - Send Peer Appreciation Award to [Tobias Krause](awardrecipient).
+ - Send Peer Appreciation Award to [Tom Mayer](awardrecipient).
+ - Send Peer Appreciation Award to [Verena Meyer](awardrecipient).
+ - Send recognition to [Hannah Kissinger](awardrecipient).
+ - Send recognition to [Hans Müller](awardrecipient).
+ - Send recognition to [Jane Becker](awardrecipient).
+ - Send recognition to [Jonas Zimmermann](awardrecipient).
+ - Send recognition to [Robert Johnson](awardrecipient).
+ - Send Thanking you to [Bill Jones](awardrecipient).
+ - Send Thanking you to [Juan Garcia](awardrecipient).
+ - Send Thanking you to [Michael Schumacher](awardrecipient).

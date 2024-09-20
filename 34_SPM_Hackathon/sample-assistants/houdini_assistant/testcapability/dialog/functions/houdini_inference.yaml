@@ -1,0 +1,100 @@
+parameters:
+  - name: input
+  - name: sessionId
+  - name: userId
+action_groups:
+  - actions:
+      - type: api-request
+        method: POST
+        system_alias: houdini
+        path: "/qna/ask"
+        body: 
+         {
+          "input": {
+            "question": "<? input ?>",
+            "withContext": true,
+            "session": {
+              "sessionId": "<? sessionId ?>",
+              "userId": "<? userId ?>"
+            }
+          }
+        }
+        result_variable: api_result
+
+      - type: set-variables
+        scripting_type: handlebars
+        variables:
+          - name: prepared_details
+            value: > 
+              {
+                "type": "list",
+                "incrementPageSize":5,
+                "initialPageSize":1,
+                "maxNumberOfRowsInList":10,
+                "content": {
+                  "title": "Your search results",
+                  "imageUrl": "sap-icon://inspection",
+                  "subtitle": "Here's the full list of what I found for you. Check it out. With Open Topic the help topic in SAP Help Portal opens in a new tab:",
+                  "elements": [ 
+                    {{#eachJoin api_result.body.facts}}
+                    {{#if this.srcUrl }}
+                       {
+                       "title": "{{this.srcName}}",
+                       "description": "{{this.content}}",
+                       "status": "Certainty: {{this._additional.certainty}}",
+                       "statusState": "success",
+                       "sections": [
+                          {
+                            "attributes": [
+                             {
+                                "label":"Source type",
+                                "type":"text",
+                                "value":"{{this.srcType}}",
+                                "markdown": true
+                              },
+                              {
+                                "label": "Fact ID",
+                                "type": "text",
+                                "value":"{{this.factId}}",
+                                "markdown": true
+                              }
+                            ]
+                          }
+                      ],
+                       "buttons": [
+                        {
+                          "title": "Open Topic",
+                          "value": "{{this.srcUrl}}",
+                          "type": "web_url"
+                        }
+                       ]
+                      } 
+                    {{/if}}
+                    {{/eachJoin}} 
+                  ]
+               }
+              }
+      - type: set-variables
+        scripting_type: handlebars
+        variables:
+          - name: prepared_summarization
+            value: "{{replace api_result.body.answer '\n' '\\n'}}"
+      
+      - type: set-variables
+        scripting_type: handlebars
+        variables:
+          - name: prepared_summarization_final
+            value: "{{replace prepared_summarization '\"' ''}}"
+
+      - type: message
+        message:
+          type: quickReplies
+          content: 
+            title: "Here's a summary of what I have found for you: \\n \\n <? prepared_summarization_final ?> \\n \\n Do you want to get more detailed information? Check out the search results."
+            buttons:
+              - title: show results
+                value: show results
+
+result:
+ prepared_details: "<? prepared_details ?>"
+  

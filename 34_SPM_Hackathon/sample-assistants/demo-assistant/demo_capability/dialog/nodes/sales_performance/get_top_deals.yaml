@@ -1,0 +1,14 @@
+title: Show top deals
+type: node
+condition: "#my_top_deals || #sales_pipeline"
+dialog_functions:
+  - name: sales_performance/show_top_deals
+    parameters:
+      - name: team
+        value: "00163e03-a070-1ee2-88b8-d35837d54d9b"
+    result_variable: sorted_top_deals
+finally:
+  behavior: jump
+  jump_to:
+    node: sales_performance/ask_more_top_deals
+    execution: responses

@@ -1,0 +1,19 @@
+type: node
+title: Default node, after node 'get_amount'
+condition: "$awardtype == 'Peer Appreciation'"
+response:
+  context:
+    - variable: "categoryname"
+      value: <? $after_ask_for_level.categoryname ?>
+    - variable: "levelname"
+      value: <? $award_amount.levelname?>
+    - variable: "awardamount"
+      value: <? $award_amount.amount_info ?>
+  messages:
+    - type: text
+      content: ""
+finally:
+  behavior: jump
+  jump_to:
+    node: spot_award/3_award_message/ask_award_message
+    execution: responses

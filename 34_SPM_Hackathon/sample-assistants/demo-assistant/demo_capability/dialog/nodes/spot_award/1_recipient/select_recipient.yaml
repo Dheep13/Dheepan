@@ -1,0 +1,15 @@
+title: set recipient  
+type: node
+condition: "$recipientname"
+response:
+  context:
+    - variable: "recipientname"
+      value: "<? input.text ?>"
+  messages:
+    - type: text
+      content: ""
+finally:
+  behavior: jump
+  jump_to:
+    node: spot_award/1_recipient/get_userinfo_by_userid
+    execution: responses

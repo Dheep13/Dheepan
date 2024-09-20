@@ -1,0 +1,20 @@
+<!-- Promotion -->
+<div class="new_df">
+    <h3>Promotion</h3>
+    <div id="promotion">
+      <table>
+        <tr>
+          <th>Promo code</th>
+          <td class="scField">
+            <input type="text" class="abbtextbox" style="width: 200px" id="PromoCodeField" value=""/>
+          </td>
+          <td>
+            <a href="#">
+              <xsl:attribute name="onclick">executeCustomScript('AddPromotion', { PromoCode: jQuery("#PromoCodeField").val() }, true); return false;</xsl:attribute>
+              Apply promotion
+            </a>
+           </td>
+         </tr>
+       </table>
+    </div>
+  </div>

@@ -1,0 +1,74 @@
+type: node
+title: show card
+condition: "@element_types == 'enhanced list'"
+response:
+  messages:
+    - type: list
+      delay: 0
+      content:
+        title: Header Title
+        total: 10
+        buttons:
+          - type: clientdata
+            title: Button (Client Side Only)
+            value: https://sap.com
+            client_data:
+              ItemClientOnly1: Data for item one
+              ItemClientOnly2: data for item 2
+        elements:
+          - title:
+              type: markdown
+              title: '###  Card Title Using Markdown'
+            status: Out of stock
+            buttons:
+              - type: postback
+                value: handle_postback
+                title: Postback
+              - type: clientdata
+                title: Button (Client Side Only)
+                client_data:
+                  ItemClientOnly1: Data for item one
+                  ItemClientOnly2: data for item 2
+            imageUrl: >-
+              https://i0.wp.com/www.travelspring.de/wp-content/uploads/2019/10/header_rundreise-kalifornien-scaled.jpg?resize=1536%2C864&ssl=1
+            subtitle:
+              title: '#### Subtitle 4'
+              markdown: true
+            description:
+              value: >-
+                Here is the **description** and there is only one status added to the
+                card.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              markdown: true
+            statusState: error
+          - title: Customer Relations
+            status: 'Confidence: Medium'
+            description: >-
+              *Answer 1:*  When transferring within the group, for example from SAP
+              Germany SE to SAP SE, you need to know the following: You will receive a
+              new employment contract from the hiring company. 
+          - status: This is the status Description NOT markdown
+            description: >-
+              Answer 1:  When transferring within the group, for example from SAP
+              Germany SE to SAP SE.
+            statusState: Error
+          - status: This is the status Description (99) (No Section) is markdown
+            description:
+              title: >-
+                **Answer 1:** When transferring within the group, for example from SAP
+                Germany SE to SAP SE, Here are some links [Integrate Adaptive
+                Cards](https://sapjira.wdf.sap.corp/browse/SAPMLCONV-18521) or [URL
+                resolution and base-URL
+                Path](https://sapjira.wdf.sap.corp/browse/SAPMLCONV-21948) or
+                [Translation and
+                timezone](https://sapjira.wdf.sap.corp/browse/SAPMLCONV-21949) or
+                [Form Submit
+                action](https://sapjira.wdf.sap.corp/browse/SAPMLCONV-21950) you need
+                to know the following.
+              markdown: true
+              linesInDetailView: 99
+            hideHeaderInDetailView: false
+        imageUrl: sap-icon://task
+        initialPageSize: 3
+finally:
+  behavior: wait

@@ -1,0 +1,8 @@
+metadata:
+  description: My first capability
+  auto_correct: true
+  languages:
+    - en
+  system_aliases:
+    houdini:
+      destination: HOUDINI

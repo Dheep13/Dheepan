@@ -1,0 +1,13 @@
+title: Payee Lookup
+type: node
+condition: "#payee_lookup"
+
+response:
+  context:
+   - variable: "user_payee"
+     value: null
+  messages:
+   - type: text
+     content: "Is there anything else I can do for you ?"
+finally:
+  behavior: wait

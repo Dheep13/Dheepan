@@ -1,0 +1,15 @@
+title: set typed-in award message 
+type: node
+condition: "$recipientname"
+response:
+  context:
+    - variable: "awardmessage"
+      value: "<? input.text ?>"
+  messages:
+    - type: text
+      content: "Thank you."
+finally:
+  behavior: jump
+  jump_to:
+    node: spot_award/4_create_award/summarizing_message
+    execution: responses

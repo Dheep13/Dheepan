@@ -1,0 +1,21 @@
+metadata:
+  auto_correct: false
+  system_aliases:
+    chatgpt:
+      destination: OPENAI
+    termlookup:
+      destination: SAPTERMLOOKUP
+    LotteryService:
+      destination: DAS_DEMO_MOCK
+    SalesCloudAuth:
+      destination: DAS_DEMO_MOCK
+    SalesCloudSystem:
+      destination: DAS_DEMO_MOCK
+    CustomCFService:
+      destination: DAS_DEMO_MOCK
+    SFSF_BizX:
+      destination: DAS_DEMO_MOCK
+    WeatherService:
+      destination: WEATHER
+    Generative_LLM:
+      destination: GENERATIVE_LLM
