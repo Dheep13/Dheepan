@@ -1,0 +1,1337 @@
+{
+    "salesTransactions": [
+        {
+            "genericAttribute8": null,
+            "genericBoolean6": null,
+            "reason": null,
+            "genericAttribute7": null,
+            "genericBoolean5": null,
+            "genericAttribute6": null,
+            "genericAttribute5": null,
+            "genericBoolean2": null,
+            "genericBoolean1": null,
+            "genericBoolean4": null,
+            "genericAttribute9": null,
+            "genericBoolean3": null,
+            "channel": null,
+            "compensationDate": "2021-04-01T00:00:00.000-07:00",
+            "productName": null,
+            "genericAttribute27": null,
+            "genericAttribute28": null,
+            "isPurged": null,
+            "genericAttribute25": null,
+            "genericAttribute26": null,
+            "genericAttribute29": null,
+            "genericAttribute20": null,
+            "processingUnit": "38280596832649518",
+            "genericAttribute4": null,
+            "genericAttribute23": null,
+            "preadjustedValue": {
+                "value": 3375.00,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974593",
+                    "name": "USD"
+                }
+            },
+            "genericAttribute3": "CD Sunpharma",
+            "genericAttribute24": null,
+            "productDescription": "LUPRIDE 1MG/0.5ML 1 AMP",
+            "paymentTerms": null,
+            "genericAttribute2": "HUBLI",
+            "genericAttribute21": null,
+            "unitValue": null,
+            "genericAttribute1": "Z063",
+            "genericAttribute22": null,
+            "productId": "30",
+            "eventType": "16607023625932415",
+            "salesOrder": "14355223812265880",
+            "nativeCurrencyAmount": null,
+            "originTypeId": "manual",
+            "genericAttribute30": null,
+            "genericAttribute31": null,
+            "lineNumber": {
+                "value": 206,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974599",
+                    "name": "integer"
+                }
+            },
+            "poNumber": null,
+            "dataSource": null,
+            "genericAttribute32": null,
+            "isRunnable": false,
+            "shipToAddress": null,
+            "otherToAddress": null,
+            "transactionAssignments": {
+                "key": "14636698788982330",
+                "ownedKey": "1"
+            },
+            "billToAddress": null,
+            "salesTransactionSeq": "14636698788982330",
+            "discountType": null,
+            "value": {
+                "value": 3375.00,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974593",
+                    "name": "USD"
+                }
+            },
+            "genericNumber2": null,
+            "genericNumber3": null,
+            "accountingDate": null,
+            "genericDate5": null,
+            "discountPercent": {
+                "value": null,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974598",
+                    "name": "percent"
+                }
+            },
+            "comments": null,
+            "genericNumber1": {
+                "value": 20.00,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974600",
+                    "name": "quantity"
+                }
+            },
+            "genericDate6": null,
+            "genericNumber6": null,
+            "genericNumber4": null,
+            "genericNumber5": null,
+            "modelSeq": "0",
+            "genericAttribute16": null,
+            "subLineNumber": {
+                "value": 206,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974599",
+                    "name": "integer"
+                }
+            },
+            "genericAttribute17": null,
+            "businessUnits": [
+                {
+                    "businessUnitSeq": "22799473113564350",
+                    "name": "t_Pharma"
+                }
+            ],
+            "genericAttribute14": null,
+            "modificationDate": "2022-04-05T13:17:22.879-07:00",
+            "numberOfUnits": null,
+            "genericAttribute15": null,
+            "pipelineRun": "20547673299877888",
+            "nativeCurrency": null,
+            "alternateOrderNumber": null,
+            "genericAttribute18": null,
+            "genericAttribute19": null,
+            "genericAttribute12": null,
+            "genericDate3": null,
+            "genericAttribute13": null,
+            "genericDate4": null,
+            "genericAttribute10": null,
+            "genericDate1": null,
+            "genericAttribute11": null,
+            "genericDate2": null
+        },
+        {
+            "genericAttribute8": null,
+            "genericBoolean6": null,
+            "reason": null,
+            "genericAttribute7": null,
+            "genericBoolean5": null,
+            "genericAttribute6": null,
+            "genericAttribute5": null,
+            "genericBoolean2": null,
+            "genericBoolean1": null,
+            "genericBoolean4": null,
+            "genericAttribute9": null,
+            "genericBoolean3": null,
+            "channel": null,
+            "compensationDate": "2021-04-01T00:00:00.000-07:00",
+            "productName": null,
+            "genericAttribute27": null,
+            "genericAttribute28": null,
+            "isPurged": null,
+            "genericAttribute25": null,
+            "genericAttribute26": null,
+            "genericAttribute29": null,
+            "genericAttribute20": null,
+            "processingUnit": "38280596832649518",
+            "genericAttribute4": null,
+            "genericAttribute23": null,
+            "preadjustedValue": {
+                "value": 33555.00,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974593",
+                    "name": "USD"
+                }
+            },
+            "genericAttribute3": "CD Sunpharma",
+            "genericAttribute24": null,
+            "productDescription": "CABERLIN-0.5 (4 TABS)",
+            "paymentTerms": null,
+            "genericAttribute2": "HUBLI",
+            "genericAttribute21": null,
+            "unitValue": null,
+            "genericAttribute1": "Z063",
+            "genericAttribute22": null,
+            "productId": "94",
+            "eventType": "16607023625932415",
+            "salesOrder": "14355223812265881",
+            "nativeCurrencyAmount": null,
+            "originTypeId": "manual",
+            "genericAttribute30": null,
+            "genericAttribute31": null,
+            "lineNumber": {
+                "value": 207,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974599",
+                    "name": "integer"
+                }
+            },
+            "poNumber": null,
+            "dataSource": null,
+            "genericAttribute32": null,
+            "isRunnable": false,
+            "shipToAddress": null,
+            "otherToAddress": null,
+            "transactionAssignments": {
+                "key": "14636698788982331",
+                "ownedKey": "1"
+            },
+            "billToAddress": null,
+            "salesTransactionSeq": "14636698788982331",
+            "discountType": null,
+            "value": {
+                "value": 33555.00,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974593",
+                    "name": "USD"
+                }
+            },
+            "genericNumber2": null,
+            "genericNumber3": null,
+            "accountingDate": null,
+            "genericDate5": null,
+            "discountPercent": {
+                "value": null,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974598",
+                    "name": "percent"
+                }
+            },
+            "comments": null,
+            "genericNumber1": {
+                "value": 130.00,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974600",
+                    "name": "quantity"
+                }
+            },
+            "genericDate6": null,
+            "genericNumber6": null,
+            "genericNumber4": null,
+            "genericNumber5": null,
+            "modelSeq": "0",
+            "genericAttribute16": null,
+            "subLineNumber": {
+                "value": 207,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974599",
+                    "name": "integer"
+                }
+            },
+            "genericAttribute17": null,
+            "businessUnits": [
+                {
+                    "businessUnitSeq": "22799473113564350",
+                    "name": "t_Pharma"
+                }
+            ],
+            "genericAttribute14": null,
+            "modificationDate": "2022-04-05T13:17:22.981-07:00",
+            "numberOfUnits": null,
+            "genericAttribute15": null,
+            "pipelineRun": "20547673299877888",
+            "nativeCurrency": null,
+            "alternateOrderNumber": null,
+            "genericAttribute18": null,
+            "genericAttribute19": null,
+            "genericAttribute12": null,
+            "genericDate3": null,
+            "genericAttribute13": null,
+            "genericDate4": null,
+            "genericAttribute10": null,
+            "genericDate1": null,
+            "genericAttribute11": null,
+            "genericDate2": null
+        },
+        {
+            "genericAttribute8": null,
+            "genericBoolean6": null,
+            "reason": null,
+            "genericAttribute7": null,
+            "genericBoolean5": null,
+            "genericAttribute6": null,
+            "genericAttribute5": null,
+            "genericBoolean2": null,
+            "genericBoolean1": null,
+            "genericBoolean4": null,
+            "genericAttribute9": null,
+            "genericBoolean3": null,
+            "channel": null,
+            "compensationDate": "2021-04-01T00:00:00.000-07:00",
+            "productName": null,
+            "genericAttribute27": null,
+            "genericAttribute28": null,
+            "isPurged": null,
+            "genericAttribute25": null,
+            "genericAttribute26": null,
+            "genericAttribute29": null,
+            "genericAttribute20": null,
+            "processingUnit": "38280596832649518",
+            "genericAttribute4": null,
+            "genericAttribute23": null,
+            "preadjustedValue": {
+                "value": 0.00,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974593",
+                    "name": "USD"
+                }
+            },
+            "genericAttribute3": "CD Sunpharma",
+            "genericAttribute24": null,
+            "productDescription": "LUPRIDE-4MG/4ML [1 VIAL]",
+            "paymentTerms": null,
+            "genericAttribute2": "HUBLI",
+            "genericAttribute21": null,
+            "unitValue": null,
+            "genericAttribute1": "Z063",
+            "genericAttribute22": null,
+            "productId": "211",
+            "eventType": "16607023625932415",
+            "salesOrder": "14355223812265882",
+            "nativeCurrencyAmount": null,
+            "originTypeId": "manual",
+            "genericAttribute30": null,
+            "genericAttribute31": null,
+            "lineNumber": {
+                "value": 208,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974599",
+                    "name": "integer"
+                }
+            },
+            "poNumber": null,
+            "dataSource": null,
+            "genericAttribute32": null,
+            "isRunnable": false,
+            "shipToAddress": null,
+            "otherToAddress": null,
+            "transactionAssignments": {
+                "key": "14636698788982332",
+                "ownedKey": "1"
+            },
+            "billToAddress": null,
+            "salesTransactionSeq": "14636698788982332",
+            "discountType": null,
+            "value": {
+                "value": 0.00,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974593",
+                    "name": "USD"
+                }
+            },
+            "genericNumber2": null,
+            "genericNumber3": null,
+            "accountingDate": null,
+            "genericDate5": null,
+            "discountPercent": {
+                "value": null,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974598",
+                    "name": "percent"
+                }
+            },
+            "comments": null,
+            "genericNumber1": {
+                "value": 0.00,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974600",
+                    "name": "quantity"
+                }
+            },
+            "genericDate6": null,
+            "genericNumber6": null,
+            "genericNumber4": null,
+            "genericNumber5": null,
+            "modelSeq": "0",
+            "genericAttribute16": null,
+            "subLineNumber": {
+                "value": 208,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974599",
+                    "name": "integer"
+                }
+            },
+            "genericAttribute17": null,
+            "businessUnits": [
+                {
+                    "businessUnitSeq": "22799473113564350",
+                    "name": "t_Pharma"
+                }
+            ],
+            "genericAttribute14": null,
+            "modificationDate": "2022-04-05T13:17:23.074-07:00",
+            "numberOfUnits": null,
+            "genericAttribute15": null,
+            "pipelineRun": "20547673299877888",
+            "nativeCurrency": null,
+            "alternateOrderNumber": null,
+            "genericAttribute18": null,
+            "genericAttribute19": null,
+            "genericAttribute12": null,
+            "genericDate3": null,
+            "genericAttribute13": null,
+            "genericDate4": null,
+            "genericAttribute10": null,
+            "genericDate1": null,
+            "genericAttribute11": null,
+            "genericDate2": null
+        },
+        {
+            "genericAttribute8": null,
+            "genericBoolean6": null,
+            "reason": null,
+            "genericAttribute7": null,
+            "genericBoolean5": null,
+            "genericAttribute6": null,
+            "genericAttribute5": null,
+            "genericBoolean2": null,
+            "genericBoolean1": null,
+            "genericBoolean4": null,
+            "genericAttribute9": null,
+            "genericBoolean3": null,
+            "channel": null,
+            "compensationDate": "2021-04-01T00:00:00.000-07:00",
+            "productName": null,
+            "genericAttribute27": null,
+            "genericAttribute28": null,
+            "isPurged": null,
+            "genericAttribute25": null,
+            "genericAttribute26": null,
+            "genericAttribute29": null,
+            "genericAttribute20": null,
+            "processingUnit": "38280596832649518",
+            "genericAttribute4": null,
+            "genericAttribute23": null,
+            "preadjustedValue": {
+                "value": 557.00,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974593",
+                    "name": "USD"
+                }
+            },
+            "genericAttribute3": "CD Sunpharma",
+            "genericAttribute24": null,
+            "productDescription": "OVARES SR TABLETS",
+            "paymentTerms": null,
+            "genericAttribute2": "HUBLI",
+            "genericAttribute21": null,
+            "unitValue": null,
+            "genericAttribute1": "Z063",
+            "genericAttribute22": null,
+            "productId": "2004",
+            "eventType": "16607023625932415",
+            "salesOrder": "14355223812265883",
+            "nativeCurrencyAmount": null,
+            "originTypeId": "manual",
+            "genericAttribute30": null,
+            "genericAttribute31": null,
+            "lineNumber": {
+                "value": 209,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974599",
+                    "name": "integer"
+                }
+            },
+            "poNumber": null,
+            "dataSource": null,
+            "genericAttribute32": null,
+            "isRunnable": false,
+            "shipToAddress": null,
+            "otherToAddress": null,
+            "transactionAssignments": {
+                "key": "14636698788982333",
+                "ownedKey": "1"
+            },
+            "billToAddress": null,
+            "salesTransactionSeq": "14636698788982333",
+            "discountType": null,
+            "value": {
+                "value": 557.00,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974593",
+                    "name": "USD"
+                }
+            },
+            "genericNumber2": null,
+            "genericNumber3": null,
+            "accountingDate": null,
+            "genericDate5": null,
+            "discountPercent": {
+                "value": null,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974598",
+                    "name": "percent"
+                }
+            },
+            "comments": null,
+            "genericNumber1": {
+                "value": 2.00,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974600",
+                    "name": "quantity"
+                }
+            },
+            "genericDate6": null,
+            "genericNumber6": null,
+            "genericNumber4": null,
+            "genericNumber5": null,
+            "modelSeq": "0",
+            "genericAttribute16": null,
+            "subLineNumber": {
+                "value": 209,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974599",
+                    "name": "integer"
+                }
+            },
+            "genericAttribute17": null,
+            "businessUnits": [
+                {
+                    "businessUnitSeq": "22799473113564350",
+                    "name": "t_Pharma"
+                }
+            ],
+            "genericAttribute14": null,
+            "modificationDate": "2022-04-05T13:17:23.172-07:00",
+            "numberOfUnits": null,
+            "genericAttribute15": null,
+            "pipelineRun": "20547673299877888",
+            "nativeCurrency": null,
+            "alternateOrderNumber": null,
+            "genericAttribute18": null,
+            "genericAttribute19": null,
+            "genericAttribute12": null,
+            "genericDate3": null,
+            "genericAttribute13": null,
+            "genericDate4": null,
+            "genericAttribute10": null,
+            "genericDate1": null,
+            "genericAttribute11": null,
+            "genericDate2": null
+        },
+        {
+            "genericAttribute8": null,
+            "genericBoolean6": null,
+            "reason": null,
+            "genericAttribute7": null,
+            "genericBoolean5": null,
+            "genericAttribute6": null,
+            "genericAttribute5": null,
+            "genericBoolean2": null,
+            "genericBoolean1": null,
+            "genericBoolean4": null,
+            "genericAttribute9": null,
+            "genericBoolean3": null,
+            "channel": null,
+            "compensationDate": "2021-04-01T00:00:00.000-07:00",
+            "productName": null,
+            "genericAttribute27": null,
+            "genericAttribute28": null,
+            "isPurged": null,
+            "genericAttribute25": null,
+            "genericAttribute26": null,
+            "genericAttribute29": null,
+            "genericAttribute20": null,
+            "processingUnit": "38280596832649518",
+            "genericAttribute4": null,
+            "genericAttribute23": null,
+            "preadjustedValue": {
+                "value": -5472.00,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974593",
+                    "name": "USD"
+                }
+            },
+            "genericAttribute3": "CD Sunpharma",
+            "genericAttribute24": null,
+            "productDescription": "OVARES PLUS",
+            "paymentTerms": null,
+            "genericAttribute2": "HUBLI",
+            "genericAttribute21": null,
+            "unitValue": null,
+            "genericAttribute1": "Z063",
+            "genericAttribute22": null,
+            "productId": "2030",
+            "eventType": "16607023625932415",
+            "salesOrder": "14355223812265884",
+            "nativeCurrencyAmount": null,
+            "originTypeId": "manual",
+            "genericAttribute30": null,
+            "genericAttribute31": null,
+            "lineNumber": {
+                "value": 210,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974599",
+                    "name": "integer"
+                }
+            },
+            "poNumber": null,
+            "dataSource": null,
+            "genericAttribute32": null,
+            "isRunnable": false,
+            "shipToAddress": null,
+            "otherToAddress": null,
+            "transactionAssignments": {
+                "key": "14636698788982334",
+                "ownedKey": "1"
+            },
+            "billToAddress": null,
+            "salesTransactionSeq": "14636698788982334",
+            "discountType": null,
+            "value": {
+                "value": -5472.00,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974593",
+                    "name": "USD"
+                }
+            },
+            "genericNumber2": null,
+            "genericNumber3": null,
+            "accountingDate": null,
+            "genericDate5": null,
+            "discountPercent": {
+                "value": null,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974598",
+                    "name": "percent"
+                }
+            },
+            "comments": null,
+            "genericNumber1": {
+                "value": -25.00,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974600",
+                    "name": "quantity"
+                }
+            },
+            "genericDate6": null,
+            "genericNumber6": null,
+            "genericNumber4": null,
+            "genericNumber5": null,
+            "modelSeq": "0",
+            "genericAttribute16": null,
+            "subLineNumber": {
+                "value": 210,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974599",
+                    "name": "integer"
+                }
+            },
+            "genericAttribute17": null,
+            "businessUnits": [
+                {
+                    "businessUnitSeq": "22799473113564350",
+                    "name": "t_Pharma"
+                }
+            ],
+            "genericAttribute14": null,
+            "modificationDate": "2022-04-05T13:17:23.280-07:00",
+            "numberOfUnits": null,
+            "genericAttribute15": null,
+            "pipelineRun": "20547673299877888",
+            "nativeCurrency": null,
+            "alternateOrderNumber": null,
+            "genericAttribute18": null,
+            "genericAttribute19": null,
+            "genericAttribute12": null,
+            "genericDate3": null,
+            "genericAttribute13": null,
+            "genericDate4": null,
+            "genericAttribute10": null,
+            "genericDate1": null,
+            "genericAttribute11": null,
+            "genericDate2": null
+        },
+        {
+            "genericAttribute8": null,
+            "genericBoolean6": null,
+            "reason": null,
+            "genericAttribute7": null,
+            "genericBoolean5": null,
+            "genericAttribute6": null,
+            "genericAttribute5": null,
+            "genericBoolean2": null,
+            "genericBoolean1": null,
+            "genericBoolean4": null,
+            "genericAttribute9": null,
+            "genericBoolean3": null,
+            "channel": null,
+            "compensationDate": "2021-04-01T00:00:00.000-07:00",
+            "productName": null,
+            "genericAttribute27": null,
+            "genericAttribute28": null,
+            "isPurged": null,
+            "genericAttribute25": null,
+            "genericAttribute26": null,
+            "genericAttribute29": null,
+            "genericAttribute20": null,
+            "processingUnit": "38280596832649518",
+            "genericAttribute4": null,
+            "genericAttribute23": null,
+            "preadjustedValue": {
+                "value": 8547.00,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974593",
+                    "name": "USD"
+                }
+            },
+            "genericAttribute3": "CD Sunpharma",
+            "genericAttribute24": null,
+            "productDescription": "DARILONG 7.5",
+            "paymentTerms": null,
+            "genericAttribute2": "HUBLI",
+            "genericAttribute21": null,
+            "unitValue": null,
+            "genericAttribute1": "Z063",
+            "genericAttribute22": null,
+            "productId": "21405",
+            "eventType": "16607023625932415",
+            "salesOrder": "14355223812265885",
+            "nativeCurrencyAmount": null,
+            "originTypeId": "manual",
+            "genericAttribute30": null,
+            "genericAttribute31": null,
+            "lineNumber": {
+                "value": 211,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974599",
+                    "name": "integer"
+                }
+            },
+            "poNumber": null,
+            "dataSource": null,
+            "genericAttribute32": null,
+            "isRunnable": false,
+            "shipToAddress": null,
+            "otherToAddress": null,
+            "transactionAssignments": {
+                "key": "14636698788982335",
+                "ownedKey": "1"
+            },
+            "billToAddress": null,
+            "salesTransactionSeq": "14636698788982335",
+            "discountType": null,
+            "value": {
+                "value": 8547.00,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974593",
+                    "name": "USD"
+                }
+            },
+            "genericNumber2": null,
+            "genericNumber3": null,
+            "accountingDate": null,
+            "genericDate5": null,
+            "discountPercent": {
+                "value": null,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974598",
+                    "name": "percent"
+                }
+            },
+            "comments": null,
+            "genericNumber1": {
+                "value": 44.00,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974600",
+                    "name": "quantity"
+                }
+            },
+            "genericDate6": null,
+            "genericNumber6": null,
+            "genericNumber4": null,
+            "genericNumber5": null,
+            "modelSeq": "0",
+            "genericAttribute16": null,
+            "subLineNumber": {
+                "value": 211,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974599",
+                    "name": "integer"
+                }
+            },
+            "genericAttribute17": null,
+            "businessUnits": [
+                {
+                    "businessUnitSeq": "22799473113564350",
+                    "name": "t_Pharma"
+                }
+            ],
+            "genericAttribute14": null,
+            "modificationDate": "2022-04-05T13:17:23.377-07:00",
+            "numberOfUnits": null,
+            "genericAttribute15": null,
+            "pipelineRun": "20547673299877888",
+            "nativeCurrency": null,
+            "alternateOrderNumber": null,
+            "genericAttribute18": null,
+            "genericAttribute19": null,
+            "genericAttribute12": null,
+            "genericDate3": null,
+            "genericAttribute13": null,
+            "genericDate4": null,
+            "genericAttribute10": null,
+            "genericDate1": null,
+            "genericAttribute11": null,
+            "genericDate2": null
+        },
+        {
+            "genericAttribute8": null,
+            "genericBoolean6": null,
+            "reason": null,
+            "genericAttribute7": null,
+            "genericBoolean5": null,
+            "genericAttribute6": null,
+            "genericAttribute5": null,
+            "genericBoolean2": null,
+            "genericBoolean1": null,
+            "genericBoolean4": null,
+            "genericAttribute9": null,
+            "genericBoolean3": null,
+            "channel": null,
+            "compensationDate": "2021-04-01T00:00:00.000-07:00",
+            "productName": null,
+            "genericAttribute27": null,
+            "genericAttribute28": null,
+            "isPurged": null,
+            "genericAttribute25": null,
+            "genericAttribute26": null,
+            "genericAttribute29": null,
+            "genericAttribute20": null,
+            "processingUnit": "38280596832649518",
+            "genericAttribute4": null,
+            "genericAttribute23": null,
+            "preadjustedValue": {
+                "value": 59679.00,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974593",
+                    "name": "USD"
+                }
+            },
+            "genericAttribute3": "CD Sunpharma",
+            "genericAttribute24": null,
+            "productDescription": "NORMOZ",
+            "paymentTerms": null,
+            "genericAttribute2": "HUBLI",
+            "genericAttribute21": null,
+            "unitValue": null,
+            "genericAttribute1": "Z063",
+            "genericAttribute22": null,
+            "productId": "21698",
+            "eventType": "16607023625932415",
+            "salesOrder": "14355223812265886",
+            "nativeCurrencyAmount": null,
+            "originTypeId": "manual",
+            "genericAttribute30": null,
+            "genericAttribute31": null,
+            "lineNumber": {
+                "value": 212,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974599",
+                    "name": "integer"
+                }
+            },
+            "poNumber": null,
+            "dataSource": null,
+            "genericAttribute32": null,
+            "isRunnable": false,
+            "shipToAddress": null,
+            "otherToAddress": null,
+            "transactionAssignments": {
+                "key": "14636698788982336",
+                "ownedKey": "1"
+            },
+            "billToAddress": null,
+            "salesTransactionSeq": "14636698788982336",
+            "discountType": null,
+            "value": {
+                "value": 59679.00,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974593",
+                    "name": "USD"
+                }
+            },
+            "genericNumber2": null,
+            "genericNumber3": null,
+            "accountingDate": null,
+            "genericDate5": null,
+            "discountPercent": {
+                "value": null,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974598",
+                    "name": "percent"
+                }
+            },
+            "comments": null,
+            "genericNumber1": {
+                "value": 397.00,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974600",
+                    "name": "quantity"
+                }
+            },
+            "genericDate6": null,
+            "genericNumber6": null,
+            "genericNumber4": null,
+            "genericNumber5": null,
+            "modelSeq": "0",
+            "genericAttribute16": null,
+            "subLineNumber": {
+                "value": 212,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974599",
+                    "name": "integer"
+                }
+            },
+            "genericAttribute17": null,
+            "businessUnits": [
+                {
+                    "businessUnitSeq": "22799473113564350",
+                    "name": "t_Pharma"
+                }
+            ],
+            "genericAttribute14": null,
+            "modificationDate": "2022-04-05T13:17:23.471-07:00",
+            "numberOfUnits": null,
+            "genericAttribute15": null,
+            "pipelineRun": "20547673299877888",
+            "nativeCurrency": null,
+            "alternateOrderNumber": null,
+            "genericAttribute18": null,
+            "genericAttribute19": null,
+            "genericAttribute12": null,
+            "genericDate3": null,
+            "genericAttribute13": null,
+            "genericDate4": null,
+            "genericAttribute10": null,
+            "genericDate1": null,
+            "genericAttribute11": null,
+            "genericDate2": null
+        },
+        {
+            "genericAttribute8": null,
+            "genericBoolean6": null,
+            "reason": null,
+            "genericAttribute7": null,
+            "genericBoolean5": null,
+            "genericAttribute6": null,
+            "genericAttribute5": null,
+            "genericBoolean2": null,
+            "genericBoolean1": null,
+            "genericBoolean4": null,
+            "genericAttribute9": null,
+            "genericBoolean3": null,
+            "channel": null,
+            "compensationDate": "2021-04-01T00:00:00.000-07:00",
+            "productName": null,
+            "genericAttribute27": null,
+            "genericAttribute28": null,
+            "isPurged": null,
+            "genericAttribute25": null,
+            "genericAttribute26": null,
+            "genericAttribute29": null,
+            "genericAttribute20": null,
+            "processingUnit": "38280596832649518",
+            "genericAttribute4": null,
+            "genericAttribute23": null,
+            "preadjustedValue": {
+                "value": 261.00,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974593",
+                    "name": "USD"
+                }
+            },
+            "genericAttribute3": "CD Sunpharma",
+            "genericAttribute24": null,
+            "productDescription": "CONSEVEL",
+            "paymentTerms": null,
+            "genericAttribute2": "HUBLI",
+            "genericAttribute21": null,
+            "unitValue": null,
+            "genericAttribute1": "Z063",
+            "genericAttribute22": null,
+            "productId": "21798",
+            "eventType": "16607023625932415",
+            "salesOrder": "14355223812265887",
+            "nativeCurrencyAmount": null,
+            "originTypeId": "manual",
+            "genericAttribute30": null,
+            "genericAttribute31": null,
+            "lineNumber": {
+                "value": 213,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974599",
+                    "name": "integer"
+                }
+            },
+            "poNumber": null,
+            "dataSource": null,
+            "genericAttribute32": null,
+            "isRunnable": false,
+            "shipToAddress": null,
+            "otherToAddress": null,
+            "transactionAssignments": {
+                "key": "14636698788982337",
+                "ownedKey": "1"
+            },
+            "billToAddress": null,
+            "salesTransactionSeq": "14636698788982337",
+            "discountType": null,
+            "value": {
+                "value": 261.00,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974593",
+                    "name": "USD"
+                }
+            },
+            "genericNumber2": null,
+            "genericNumber3": null,
+            "accountingDate": null,
+            "genericDate5": null,
+            "discountPercent": {
+                "value": null,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974598",
+                    "name": "percent"
+                }
+            },
+            "comments": null,
+            "genericNumber1": {
+                "value": 1.00,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974600",
+                    "name": "quantity"
+                }
+            },
+            "genericDate6": null,
+            "genericNumber6": null,
+            "genericNumber4": null,
+            "genericNumber5": null,
+            "modelSeq": "0",
+            "genericAttribute16": null,
+            "subLineNumber": {
+                "value": 213,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974599",
+                    "name": "integer"
+                }
+            },
+            "genericAttribute17": null,
+            "businessUnits": [
+                {
+                    "businessUnitSeq": "22799473113564350",
+                    "name": "t_Pharma"
+                }
+            ],
+            "genericAttribute14": null,
+            "modificationDate": "2022-04-05T13:17:23.606-07:00",
+            "numberOfUnits": null,
+            "genericAttribute15": null,
+            "pipelineRun": "20547673299877888",
+            "nativeCurrency": null,
+            "alternateOrderNumber": null,
+            "genericAttribute18": null,
+            "genericAttribute19": null,
+            "genericAttribute12": null,
+            "genericDate3": null,
+            "genericAttribute13": null,
+            "genericDate4": null,
+            "genericAttribute10": null,
+            "genericDate1": null,
+            "genericAttribute11": null,
+            "genericDate2": null
+        },
+        {
+            "genericAttribute8": null,
+            "genericBoolean6": null,
+            "reason": null,
+            "genericAttribute7": null,
+            "genericBoolean5": null,
+            "genericAttribute6": null,
+            "genericAttribute5": null,
+            "genericBoolean2": null,
+            "genericBoolean1": null,
+            "genericBoolean4": null,
+            "genericAttribute9": null,
+            "genericBoolean3": null,
+            "channel": null,
+            "compensationDate": "2021-04-01T00:00:00.000-07:00",
+            "productName": null,
+            "genericAttribute27": null,
+            "genericAttribute28": null,
+            "isPurged": null,
+            "genericAttribute25": null,
+            "genericAttribute26": null,
+            "genericAttribute29": null,
+            "genericAttribute20": null,
+            "processingUnit": "38280596832649518",
+            "genericAttribute4": null,
+            "genericAttribute23": null,
+            "preadjustedValue": {
+                "value": 296.00,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974593",
+                    "name": "USD"
+                }
+            },
+            "genericAttribute3": "CD Sunpharma",
+            "genericAttribute24": null,
+            "productDescription": "MAXOZA",
+            "paymentTerms": null,
+            "genericAttribute2": "HUBLI",
+            "genericAttribute21": null,
+            "unitValue": null,
+            "genericAttribute1": "Z063",
+            "genericAttribute22": null,
+            "productId": "21800",
+            "eventType": "16607023625932415",
+            "salesOrder": "14355223812265888",
+            "nativeCurrencyAmount": null,
+            "originTypeId": "manual",
+            "genericAttribute30": null,
+            "genericAttribute31": null,
+            "lineNumber": {
+                "value": 214,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974599",
+                    "name": "integer"
+                }
+            },
+            "poNumber": null,
+            "dataSource": null,
+            "genericAttribute32": null,
+            "isRunnable": false,
+            "shipToAddress": null,
+            "otherToAddress": null,
+            "transactionAssignments": {
+                "key": "14636698788982338",
+                "ownedKey": "1"
+            },
+            "billToAddress": null,
+            "salesTransactionSeq": "14636698788982338",
+            "discountType": null,
+            "value": {
+                "value": 296.00,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974593",
+                    "name": "USD"
+                }
+            },
+            "genericNumber2": null,
+            "genericNumber3": null,
+            "accountingDate": null,
+            "genericDate5": null,
+            "discountPercent": {
+                "value": null,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974598",
+                    "name": "percent"
+                }
+            },
+            "comments": null,
+            "genericNumber1": {
+                "value": 10.00,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974600",
+                    "name": "quantity"
+                }
+            },
+            "genericDate6": null,
+            "genericNumber6": null,
+            "genericNumber4": null,
+            "genericNumber5": null,
+            "modelSeq": "0",
+            "genericAttribute16": null,
+            "subLineNumber": {
+                "value": 214,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974599",
+                    "name": "integer"
+                }
+            },
+            "genericAttribute17": null,
+            "businessUnits": [
+                {
+                    "businessUnitSeq": "22799473113564350",
+                    "name": "t_Pharma"
+                }
+            ],
+            "genericAttribute14": null,
+            "modificationDate": "2022-04-05T13:17:23.699-07:00",
+            "numberOfUnits": null,
+            "genericAttribute15": null,
+            "pipelineRun": "20547673299877888",
+            "nativeCurrency": null,
+            "alternateOrderNumber": null,
+            "genericAttribute18": null,
+            "genericAttribute19": null,
+            "genericAttribute12": null,
+            "genericDate3": null,
+            "genericAttribute13": null,
+            "genericDate4": null,
+            "genericAttribute10": null,
+            "genericDate1": null,
+            "genericAttribute11": null,
+            "genericDate2": null
+        },
+        {
+            "genericAttribute8": null,
+            "genericBoolean6": null,
+            "reason": null,
+            "genericAttribute7": null,
+            "genericBoolean5": null,
+            "genericAttribute6": null,
+            "genericAttribute5": null,
+            "genericBoolean2": null,
+            "genericBoolean1": null,
+            "genericBoolean4": null,
+            "genericAttribute9": null,
+            "genericBoolean3": null,
+            "channel": null,
+            "compensationDate": "2021-04-01T00:00:00.000-07:00",
+            "productName": null,
+            "genericAttribute27": null,
+            "genericAttribute28": null,
+            "isPurged": null,
+            "genericAttribute25": null,
+            "genericAttribute26": null,
+            "genericAttribute29": null,
+            "genericAttribute20": null,
+            "processingUnit": "38280596832649518",
+            "genericAttribute4": null,
+            "genericAttribute23": null,
+            "preadjustedValue": {
+                "value": 7122.00,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974593",
+                    "name": "USD"
+                }
+            },
+            "genericAttribute3": "CD Sunpharma",
+            "genericAttribute24": null,
+            "productDescription": "MAXOZA L",
+            "paymentTerms": null,
+            "genericAttribute2": "HUBLI",
+            "genericAttribute21": null,
+            "unitValue": null,
+            "genericAttribute1": "Z063",
+            "genericAttribute22": null,
+            "productId": "21801",
+            "eventType": "16607023625932415",
+            "salesOrder": "14355223812265889",
+            "nativeCurrencyAmount": null,
+            "originTypeId": "manual",
+            "genericAttribute30": null,
+            "genericAttribute31": null,
+            "lineNumber": {
+                "value": 215,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974599",
+                    "name": "integer"
+                }
+            },
+            "poNumber": null,
+            "dataSource": null,
+            "genericAttribute32": null,
+            "isRunnable": false,
+            "shipToAddress": null,
+            "otherToAddress": null,
+            "transactionAssignments": {
+                "key": "14636698788982339",
+                "ownedKey": "1"
+            },
+            "billToAddress": null,
+            "salesTransactionSeq": "14636698788982339",
+            "discountType": null,
+            "value": {
+                "value": 7122.00,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974593",
+                    "name": "USD"
+                }
+            },
+            "genericNumber2": null,
+            "genericNumber3": null,
+            "accountingDate": null,
+            "genericDate5": null,
+            "discountPercent": {
+                "value": null,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974598",
+                    "name": "percent"
+                }
+            },
+            "comments": null,
+            "genericNumber1": {
+                "value": 222.00,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974600",
+                    "name": "quantity"
+                }
+            },
+            "genericDate6": null,
+            "genericNumber6": null,
+            "genericNumber4": null,
+            "genericNumber5": null,
+            "modelSeq": "0",
+            "genericAttribute16": null,
+            "subLineNumber": {
+                "value": 215,
+                "unitType": {
+                    "unitTypeSeq": "1970324836974599",
+                    "name": "integer"
+                }
+            },
+            "genericAttribute17": null,
+            "businessUnits": [
+                {
+                    "businessUnitSeq": "22799473113564350",
+                    "name": "t_Pharma"
+                }
+            ],
+            "genericAttribute14": null,
+            "modificationDate": "2022-04-05T13:17:23.789-07:00",
+            "numberOfUnits": null,
+            "genericAttribute15": null,
+            "pipelineRun": "20547673299877888",
+            "nativeCurrency": null,
+            "alternateOrderNumber": null,
+            "genericAttribute18": null,
+            "genericAttribute19": null,
+            "genericAttribute12": null,
+            "genericDate3": null,
+            "genericAttribute13": null,
+            "genericDate4": null,
+            "genericAttribute10": null,
+            "genericDate1": null,
+            "genericAttribute11": null,
+            "genericDate2": null
+        }
+    ],
+    "skip": 0,
+    "top": 10,
+    "next": "/v2/salesTransactions?$filter=(transactionAssignments/positionName eq \"Z063\") &expand=transactionAssignments&skip=10&top=10"
+}

@@ -1,0 +1,9 @@
+https://blogs.sap.com/2023/06/01/improve-sap-user-experiences-by-using-ibm-watson-assistant-chatbot-with-odata-services/
+https://news.sap.com/2023/05/ibm-watson-artificial-intelligence-in-sap-solutions/
+https://developer.ibm.com/tutorials/migrate-sap-conversational-ai-to-ibm-watson-assistant/
+
+SAP CAI to be removed as a cloud service on July 2023
+IBM Watson to be embedded into SAP solutions 
+Has AI capabilities , you cangain instights, automate tasks etc.
+IBM watson is available as a service in BTP ?? I dont know??
+SAP conversational AI can be migrated to watson

@@ -1,0 +1,7 @@
+
+
+
+1. When adding filters there is no - button for the recently added filter
+2. Is there any plan to offer the incentive management Admin as a service on
+the btp platform? Or is that the long term vision where we are already taking
+baby steps towards that goal of having this as a service on BTP?
