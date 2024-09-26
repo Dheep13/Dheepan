@@ -1,0 +1,55 @@
+name: CI/CD for All Subfolders
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.12'  # Adjust this to your needed Python version
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        for dir in */; do
+          if [ -f "${dir}requirements.txt" ]; then
+            echo "Installing requirements for ${dir}"
+            pip install -r "${dir}requirements.txt"
+          fi
+        done
+
+    - name: Run tests
+      run: |
+        for dir in */; do
+          if [ -d "${dir}tests" ]; then
+            echo "Running tests in ${dir}"
+            cd "$dir"
+            pytest
+            cd ..
+          fi
+        done
+
+    # Add more steps as needed for your specific processes
+    # For example, linting, building, deploying, etc.
+
+    - name: Run specific tasks for 50_CICD
+      run: |
+        if [ -d "50_CICD" ]; then
+          echo "Running specific tasks for 50_CICD"
+          cd 50_CICD
+          # Add your specific commands here
+          # For example:
+          # python your_script.py
+          # or any other commands you need to run
+          cd ..
+        fi
