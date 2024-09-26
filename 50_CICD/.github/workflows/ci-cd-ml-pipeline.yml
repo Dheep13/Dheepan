@@ -1,4 +1,4 @@
-name: CI/CD for ML Pipeline 2
+name: CI/CD for ML Pipeline
 
 on:
   push:
@@ -10,48 +10,39 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
 
     steps:
       # Checkout the repository
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # Download and manually install Python 3.14.0-alpha.0
-      - name: Install Python 3.14.0-alpha.0
-        run: |
-          sudo apt update
-          sudo apt install -y wget build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev curl libsqlite3-dev
-          wget https://www.python.org/ftp/python/3.14.0/Python-3.14.0a0.tgz
-          tar -xvf Python-3.14.0a0.tgz
-          cd Python-3.14.0a0
-          ./configure --enable-optimizations
-          make
-          sudo make altinstall
+      # Set up Python environment
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v3
+        with:
+          python-version: 3.10
 
-      # Verify that Python 3.14.0-alpha.0 is installed
-      - name: Verify Python version
-        run: python3.14 --version
-
-      # Install dependencies using the newly installed Python
+      # Install dependencies
       - name: Install dependencies
         run: |
-          python3.14 -m ensurepip --upgrade
-          python3.14 -m pip install --upgrade pip
-          pip3.14 install -r requirements.txt
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
-      # Run the ML model training script using Python 3.14.0-alpha.0
+      # Run the training script
       - name: Run ML model training
-        run: python3.14 src/train.py
+        run: |
+          python src/train.py
 
-      # Run tests using Python 3.14.0-alpha.0
+      # (Optional) Run tests
       - name: Run tests
-        run: pytest --python=python3.14 tests/
+        run: |
+          pytest tests/
 
-      # (Optional) Upload model artifacts
+      # (Optional) Archive model artifacts
       - name: Upload model artifacts
         if: success()
         uses: actions/upload-artifact@v3
         with:
           name: model-artifacts
-          path: path/to/saved/model  # Adjust to your output path
+          path: path/to/saved/model  # Adjust this to your model output path
