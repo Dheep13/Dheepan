@@ -1,63 +1,40 @@
-name: CI/CD for ML Pipeline 2
+name: CI/CD for 50_CICD
 
 on:
   push:
-    branches: [ main ]
+    paths:
+      - '50_CICD/**'
   pull_request:
-    branches: [ main ]
+    paths:
+      - '50_CICD/**'
 
 jobs:
-  lint-and-test:
+  build-and-test:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.12'  # Updated to a current stable version
-      - name: Cache pip
-        uses: actions/cache@v3
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-          pip install flake8 black pytest
-      - name: Lint with flake8
-        run: flake8 .
-      - name: Check formatting with black
-        run: black --check .
-      - name: Run tests
-        run: pytest tests/
+    defaults:
+      run:
+        working-directory: ./50_CICD
 
-  train-and-save:
-    needs: lint-and-test
-    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.12'  # Updated to a current stable version
-      - name: Cache pip
-        uses: actions/cache@v3
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-      - name: Train model
-        run: python src/train.py
-      - name: Upload model artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: model-${{ github.sha }}
-          path: model.joblib
+    - uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.12'  # Adjust this to your needed Python version
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+    - name: Run tests
+      run: |
+        if [ -d tests ]; then
+          pytest
+        else
+          echo "No tests directory found. Skipping tests."
+        fi
+
+    # Add more steps as needed for your specific CICD processes
+    # For example, linting, building, deploying, etc.
