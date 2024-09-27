@@ -1,4 +1,4 @@
-name: CI/CD for 50_CICD 3
+name: CI/CD for 50_CICD
 
 on:
   push:
@@ -7,9 +7,10 @@ on:
   pull_request:
     paths:
       - '50_CICD/**'
+  workflow_dispatch:
 
 jobs:
-  build-and-test:
+  check-dependencies:
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -21,13 +22,36 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v3
       with:
-        python-version: '3.12'
+        python-version: '3.10'  # Adjust this version as needed
+
+    - name: Install dependency checking tools
+      run: |
+        python -m pip install --upgrade pip
+        pip install pip-tools pipdeptree
+
+    - name: Check dependency compatibility
+      run: |
+        pip-compile requirements.txt --upgrade --no-emit-index-url
+        pipdeptree
+
+  build-and-test:
+    needs: check-dependencies
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./50_CICD
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.10'  # Adjust this version as needed
 
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install setuptools wheel
-        sed -i 's/numpy==1.24.3/numpy==1.26.0/' requirements.txt
         pip install -r requirements.txt
 
     - name: Run tests
@@ -42,6 +66,4 @@ jobs:
     - name: Run specific tasks for 50_CICD
       run: |
         # Add your specific commands here
-        # For example:
-        # python your_script.py
         echo "Running specific tasks for 50_CICD"
