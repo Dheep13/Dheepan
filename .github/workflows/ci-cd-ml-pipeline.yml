@@ -1,4 +1,4 @@
-name: CI/CD for 50_CICD
+name: CI/CD for 50_CICD 2
 
 on:
   push:
@@ -45,4 +45,3 @@ jobs:
         # For example:
         # python your_script.py
         echo "Running specific tasks for 50_CICD"
-        
