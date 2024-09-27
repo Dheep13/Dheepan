@@ -31,7 +31,10 @@ jobs:
 
     - name: Check dependency compatibility
       run: |
-        pip-compile requirements.txt --upgrade --no-emit-index-url
+        pip-compile requirements.txt --upgrade --output-file requirements_lock.txt --no-emit-index-url
+        echo "Updated dependencies in requirements_lock.txt:"
+        cat requirements_lock.txt
+        echo "Dependency tree:"
         pipdeptree
 
   build-and-test:
@@ -52,7 +55,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
+        pip install -r requirements_lock.txt
 
     - name: Run tests
       run: |
