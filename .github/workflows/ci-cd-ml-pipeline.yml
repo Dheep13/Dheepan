@@ -1,4 +1,4 @@
-name: CI/CD for 50_CICD 2
+name: CI/CD for 50_CICD 3
 
 on:
   push:
