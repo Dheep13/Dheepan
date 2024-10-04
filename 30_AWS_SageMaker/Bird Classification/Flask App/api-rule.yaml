@@ -1,0 +1,17 @@
+apiVersion: gateway.kyma-project.io/v1beta1
+kind: APIRule
+metadata:
+  name: bird-classification-api
+spec:
+  gateway: kyma-gateway.kyma-system.svc.cluster.local
+  rules:
+    - accessStrategies:
+        - handler: noop
+      methods:
+        - GET
+        - POST
+      path: /.*
+  service:
+    name: bird-classification-service
+    port: 80
+  host: bird-classification.c-087b199.kyma.ondemand.com

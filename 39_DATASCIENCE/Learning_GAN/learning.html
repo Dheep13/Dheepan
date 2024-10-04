@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAN Breakdown with Technical Terms</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        .tech-details {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>GAN Breakdown with Technical Terms</h1>
+
+    <h2>Generator (Creates fake images)</h2>
+
+    <h3>1. Input: Random Noise Vector</h3>
+    <div class="tech-details">
+        - Size: 100 random numbers
+        - Each number is between -1 and 1
+    </div>
+
+    <h3>2. Dense Layer: Fully Connected Neural Network</h3>
+    <div class="tech-details">
+        - Input: 100 numbers
+        - Output: 7 x 7 x 256 = 12,544 numbers
+        - Reshape the output to a 7x7 image with 256 channels
+    </div>
+
+    <h3>3. Transposed Convolution Layer 1: Upsampling</h3>
+    <div class="tech-details">
+        - Input: 7x7 image with 256 channels
+        - Output: 14x14 image with 128 channels
+        - Uses transposed convolution to increase image size
+    </div>
+
+    <h3>4. Transposed Convolution Layer 2: Further Upsampling</h3>
+    <div class="tech-details">
+        - Input: 14x14 image with 128 channels
+        - Output: 28x28 image with 64 channels
+        - Again uses transposed convolution to increase image size
+    </div>
+
+    <h3>5. Convolution Layer: Image Refinement</h3>
+    <div class="tech-details">
+        - Input: 28x28 image with 64 channels
+        - Output: 28x28 image with 1 channel (grayscale image)
+        - Final convolution to refine the image
+    </div>
+
+    <h2>Discriminator (Detects fake images)</h2>
+
+    <h3>1. Input Layer: Image Intake</h3>
+    <div class="tech-details">
+        - Size: 28x28 pixels (like MNIST digits)
+        - Grayscale: 1 channel
+    </div>
+
+    <h3>2. Convolution Layer 1: Feature Extraction</h3>
+    <div class="tech-details">
+        - Input: 28x28 image with 1 channel
+        - Output: 14x14 image with 64 channels
+        - Extracts basic features using convolution
+    </div>
+
+    <h3>3. Convolution Layer 2: Advanced Feature Analysis</h3>
+    <div class="tech-details">
+        - Input: 14x14 image with 64 channels
+        - Output: 7x7 image with 128 channels
+        - Extracts more complex features using convolution
+    </div>
+
+    <h3>4. Flatten Layer: Dimensionality Reduction</h3>
+    <div class="tech-details">
+        - Takes the 7x7x128 output and turns it into a vector of 6,272 numbers
+    </div>
+
+    <h3>5. Dense Layer: Classification</h3>
+    <div class="tech-details">
+        - Input: 6,272 numbers
+        - Output: 1 number between 0 and 1
+        - Closer to 1 means the Discriminator thinks the image is real
+        - Closer to 0 means it thinks the image is fake
+    </div>
+
+    <h2>Training Process: Adversarial Learning</h2>
+    <ol>
+        <li>Generator creates fake images from random noise vectors</li>
+        <li>Discriminator analyzes both real and generated images</li>
+        <li>Discriminator learns to distinguish between real and fake images</li>
+        <li>Generator improves its image creation to fool the Discriminator</li>
+        <li>Both networks enhance their performance through this adversarial process</li>
+    </ol>
+
+    <h2>End Result: Generative Model</h2>
+    <p>After training, the Generator can produce new, realistic-looking images that are similar to the training data but not exact copies.</p>
+
+</body>
+</html>

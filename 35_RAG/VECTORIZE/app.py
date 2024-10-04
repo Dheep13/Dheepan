@@ -1,0 +1,19 @@
+
+import requests
+
+retrieval_endpoint = "https://client.app.vectorize.io/api/gateways/service/o759-a284a5609deb/p95be3dda/retrieve"
+
+headers = {
+    'Content-Type': 'application/json',
+    'Authorization': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3Mjc4NTkzNzEsImF1ZCI6ImE4OGJiNTFjLTA2MTctNGVmMS05NzU5LWEyODRhNTYwOWRlYiIsInJvbGUiOiJhZG1pbiIsImF1dGhvcml6YXRpb25fZGV0YWlscyI6W3sibmFtZSI6IlJFVFJJRVZBTF9BQ0NFU1NfVE9LRU4iLCJpc1N0YW5kYXJkUm9sZSI6dHJ1ZSwicGVybWlzc2lvbnMiOnsiVmVyc2lvbiI6IjEuMCIsIlN0YXRlbWVudCI6W3siQWN0aW9uIjpbIk9yZzpQaXBlbGluZXM6UmV0cmlldmFsIl0sIlJlc291cmNlIjpbIi9vcmdhbml6YXRpb24vYTg4YmI1MWMtMDYxNy00ZWYxLTk3NTktYTI4NGE1NjA5ZGViIl0sIkVmZmVjdCI6IkFsbG93In1dfX1dLCJleHAiOjE3Mjc5NDU3NzEsInN1YiI6InRlc3RSQUcifQ.jcPv-TZOL4HJYPeYLvd6xLVttaX66Z637R-q4f6WMneCOjof33SkrXDUxJ5DK9liSIWRbOmf8w4ixwZ84n3TfLaYzHq8Q2kmwNEh7Y75FAJJTXoA77DbKjQnH0ml5CObVfCv4jCrmatzLFJwEIpCQwJf5sL14K3Vy7ELfevSnEBS4h1wrEJzTuTsYWyjvR8FawFDBJh2lp5eUu7RFEXdeyrSLDndAHcSoeJqokp9t3CIWSvQwpqEF4SjPswVaH2EF782Cx2fnb8oPnSczLLxmVqd8FC8daA9PdAUoDWW_YA7_IHaY8HEAZnTP-FYrQtPV19RzR9bceGzZ6eZ6yGClA'
+}
+
+data = {
+    "question": "What are attention heads?",
+    "numResults": 5,
+    "rerank": True
+}
+
+response = requests.post(retrieval_endpoint, headers=headers, json=data)
+print(response.json())
+

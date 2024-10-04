@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced RAG Application</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body class="bg-gray-100 min-h-screen">
+    <div class="container mx-auto px-4 py-8">
+        <h1 class="text-3xl font-bold mb-8 text-center text-blue-600">Advanced RAG Application</h1>
+        
+        <div class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+            <h2 class="text-xl font-semibold mb-4">Upload PDF</h2>
+            <form id="upload-form" class="mb-4">
+                <div class="flex items-center justify-between">
+                    <input type="file" id="pdf-file" accept=".pdf" class="w-2/3 p-2 border rounded" required>
+                    <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+                        Upload and Process
+                    </button>
+                </div>
+            </form>
+            <div id="upload-status" class="text-sm italic"></div>
+            <div id="upload-progress" class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700 hidden">
+                <div id="upload-progress-bar" class="bg-blue-600 h-2.5 rounded-full" style="width: 0%"></div>
+            </div>
+        </div>
+
+        <div class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+            <h2 class="text-xl font-semibold mb-4">Ask a Question</h2>
+            <form id="question-form" class="mb-4">
+                <div class="flex items-center justify-between">
+                    <input type="text" id="question" placeholder="Enter your question here" class="w-2/3 p-2 border rounded" required>
+                    <button type="submit" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+                        Ask
+                    </button>
+                </div>
+            </form>
+            <div id="answer" class="mt-4 p-4 bg-gray-100 rounded"></div>
+        </div>
+
+        <div id="file-list" class="bg-white shadow-md rounded px-8 pt-6 pb-8">
+            <h2 class="text-xl font-semibold mb-4">Uploaded Files</h2>
+            <ul id="uploaded-files" class="list-disc pl-5"></ul>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('upload-form').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const file = document.getElementById('pdf-file').files[0];
+            const formData = new FormData();
+            formData.append('file', file);
+            
+            const statusElement = document.getElementById('upload-status');
+            const progressElement = document.getElementById('upload-progress');
+            const progressBarElement = document.getElementById('upload-progress-bar');
+            
+            statusElement.textContent = 'Uploading and processing...';
+            progressElement.classList.remove('hidden');
+            
+            try {
+                const response = await axios.post('/upload', formData, {
+                    headers: { 'Content-Type': 'multipart/form-data' },
+                    onUploadProgress: (progressEvent) => {
+                        const percentCompleted = Math.round((progressEvent.loaded * 100) / progressEvent.total);
+                        progressBarElement.style.width = percentCompleted + '%';
+                    }
+                });
+                statusElement.textContent = response.data.message;
+                addFileToList(response.data.filename);
+            } catch (error) {
+                statusElement.textContent = 'Error: ' + (error.response?.data?.error || error.message);
+            } finally {
+                progressElement.classList.add('hidden');
+            }
+        });
+
+        document.getElementById('question-form').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const question = document.getElementById('question').value;
+            const answerDiv = document.getElementById('answer');
+            
+            answerDiv.textContent = 'Thinking...';
+            
+            try {
+                const response = await axios.post('/ask', { question });
+                answerDiv.textContent = response.data.answer;
+            } catch (error) {
+                answerDiv.textContent = 'Error: ' + (error.response?.data?.error || error.message);
+            }
+        });
+
+        function addFileToList(filename) {
+            const li = document.createElement('li');
+            li.textContent = filename;
+            document.getElementById('uploaded-files').appendChild(li);
+        }
+    </script>
+</body>
+</html>

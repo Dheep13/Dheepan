@@ -1,0 +1,17 @@
+apiVersion: gateway.kyma-project.io/v1beta1
+kind: APIRule
+metadata:
+  name: rag-api
+spec:
+  gateway: kyma-gateway.kyma-system.svc.cluster.local
+  rules:
+    - accessStrategies:
+        - handler: noop
+      methods:
+        - GET
+        - POST
+      path: /.*
+  service:
+    name: rag-service
+    port: 80
+  host: rag-app.c-087b199.kyma.ondemand.com  # Replace with your actual Kyma cluster domain
